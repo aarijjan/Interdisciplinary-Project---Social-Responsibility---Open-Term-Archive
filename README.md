@@ -1,7 +1,7 @@
 # IP - Social Responsibility
 
-Our goal is to extend the Open Terms Archive (OTA) with a Collection of german-language Terms.
-Additionally we will be trialing and implementing a way to track compliance with new Data Act (DA) regulations into the OTA.
+Our goal is to extend the [Open Terms Archive](https://opentermsarchive.org/en/) (OTA) with a Collection of german-language Terms.
+Additionally we will be trialing and implementing a way to track compliance with new [Data Act](https://eur-lex.europa.eu/EN/legal-content/summary/rules-on-fair-access-to-and-use-of-data-data-act.html) (DA) regulations into the OTA.
 
 For ease of communication, a section on important terminology is reproduced below:
 
@@ -14,7 +14,7 @@ For ease of communication, a section on important terminology is reproduced belo
 
 ## Getting started
 
-For getting familiar with the OTA and their methodology you can visit their documentation here:
+To get familiar with the OTA and their methodology you can visit their documentation here:
 
 https://docs.opentermsarchive.org/
 
