@@ -1,0 +1,70 @@
+import { Flex, Button, Heading } from '@chakra-ui/react'
+import { Upload, FileText, Settings } from 'lucide-react'
+
+interface SidebarProps {
+  currentScreen: string
+  setCurrentScreen: (screen: 'upload' | 'view' | 'settings') => void
+}
+
+export default function Sidebar({ currentScreen, setCurrentScreen }: SidebarProps) {
+  return (
+    <Flex 
+      direction="column" 
+      w="64" 
+      bg="white" 
+      p={6} 
+      borderRight="1px"
+      borderColor="gray.100"
+      gap={4}
+    >
+      <Heading size="lg" color="gray.900" fontWeight="semibold" mb={4}>
+        OTA Manager
+      </Heading>
+      
+      <Button 
+        variant="ghost" 
+        justifyContent="flex-start"
+        leftIcon={<Upload size={16} />}
+        color={currentScreen === 'upload' ? 'blue.600' : 'gray.600'}
+        bg={currentScreen === 'upload' ? 'blue.50' : 'transparent'}
+        _hover={{
+          bg: currentScreen === 'upload' ? 'blue.50' : 'gray.50',
+          color: currentScreen === 'upload' ? 'blue.600' : 'gray.700'
+        }}
+        onClick={() => setCurrentScreen('upload')}
+      >
+        Upload
+      </Button>
+      
+      <Button 
+        variant="ghost" 
+        justifyContent="flex-start"
+        leftIcon={<FileText size={16} />}
+        color={currentScreen === 'view' ? 'blue.600' : 'gray.600'}
+        bg={currentScreen === 'view' ? 'blue.50' : 'transparent'}
+        _hover={{
+          bg: currentScreen === 'view' ? 'blue.50' : 'gray.50',
+          color: currentScreen === 'view' ? 'blue.600' : 'gray.700'
+        }}
+        onClick={() => setCurrentScreen('view')}
+      >
+        View Versions
+      </Button>
+      
+      <Button 
+        variant="ghost" 
+        justifyContent="flex-start"
+        leftIcon={<Settings size={16} />}
+        color={currentScreen === 'settings' ? 'blue.600' : 'gray.600'}
+        bg={currentScreen === 'settings' ? 'blue.50' : 'transparent'}
+        _hover={{
+          bg: currentScreen === 'settings' ? 'blue.50' : 'gray.50',
+          color: currentScreen === 'settings' ? 'blue.600' : 'gray.700'
+        }}
+        onClick={() => setCurrentScreen('settings')}
+      >
+        Settings
+      </Button>
+    </Flex>
+  )
+}
