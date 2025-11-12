@@ -1,15 +1,12 @@
 import { Box, Heading, Input, Text, Button, VStack, Flex } from '@chakra-ui/react'
 
-export default function UploadScreen() {
+interface UploadScreenProps {
+  // Add props later
+}
+
+export default function UploadScreen({}: UploadScreenProps) {
   return (
-    <Box 
-      bg="white" 
-      p={6} 
-      borderRadius="lg" 
-      boxShadow="sm"
-      border="1px"
-      borderColor="gray.100"
-    >
+    <Box bg="white" p={6} borderRadius="lg" boxShadow="sm" border="1px" borderColor="gray.100">
       <Heading size="md" color="gray.800" fontWeight="medium" mb={4}>
         Upload new Terms
       </Heading>
