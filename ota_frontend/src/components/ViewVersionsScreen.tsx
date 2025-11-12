@@ -1,8 +1,11 @@
 // components/ViewVersionsScreen.tsx
 import { useState, useMemo } from 'react'
-import { Box, Heading, Input, Text, Button, VStack, Flex, HStack } from '@chakra-ui/react'
+import { Box, Heading, Input, Text, Button, VStack, Flex, HStack, useDisclosure } from '@chakra-ui/react'
 import { Search } from 'lucide-react'
 import Pagination from './Pagination'
+import DocumentModal from './DocumentModal'
+import MarkdownViewer from './MarkdownViewer'
+import { fetchServiceDocuments, fetchGitHubFile, OTARepositories } from '../lib/ota-service'
 
 // Define types locally
 interface Service {
@@ -36,6 +39,15 @@ export default function ViewVersionsScreen({
   onPageChange 
 }: ViewVersionsScreenProps) {
   const [query, setQuery] = useState("")
+  const [selectedService, setSelectedService] = useState<Service | null>(null)
+  const [documents, setDocuments] = useState<Array<{name: string, path: string}>>([])
+  const [selectedDocument, setSelectedDocument] = useState<{name: string, content: string} | null>(null)
+  const [documentsLoading, setDocumentsLoading] = useState(false)
+  const [contentLoading, setContentLoading] = useState(false)
+
+  // Modal controls
+  const { isOpen: isDocumentsOpen, onOpen: onDocumentsOpen, onClose: onDocumentsClose } = useDisclosure()
+  const { isOpen: isContentViewerOpen, onOpen: onContentViewerOpen, onClose: onContentViewerClose } = useDisclosure()
 
   // Filter services based on search query
   const filteredServices = useMemo(() => {
@@ -57,12 +69,46 @@ export default function ViewVersionsScreen({
     onPageChange(1) // Reset to first page
   }
 
-  const handleOpen = (service: Service) => {
-    console.log('Open service:', service)
+  const handleOpen = async (service: Service) => {
+    setSelectedService(service)
+    setDocumentsLoading(true)
+    
+    try {
+      const serviceDocuments = await fetchServiceDocuments(collection.id, service.id)
+      setDocuments(serviceDocuments)
+      onDocumentsOpen()
+    } catch (error) {
+      console.error('Failed to load documents:', error)
+      setDocuments([])
+      onDocumentsOpen()
+    } finally {
+      setDocumentsLoading(false)
+    }
+  }
+
+  const handleDocumentSelect = async (documentPath: string) => {
+    if (!selectedService) return
+    
+    setContentLoading(true)
+    onDocumentsClose()
+    
+    try {
+      const content = await fetchGitHubFile(OTARepositories[collection.id as keyof typeof OTARepositories], documentPath)
+      const documentName = documentPath.split('/').pop() || 'Document'
+      setSelectedDocument({ name: documentName, content })
+      onContentViewerOpen()
+    } catch (error) {
+      console.error('Failed to load document content:', error)
+      setSelectedDocument({ name: 'Error', content: 'Failed to load document' })
+      onContentViewerOpen()
+    } finally {
+      setContentLoading(false)
+    }
   }
 
   const handleCompare = (service: Service) => {
     console.log('Compare versions for:', service)
+    // TODO: Implement compare functionality
   }
 
   return (
@@ -155,6 +201,25 @@ export default function ViewVersionsScreen({
           </>
         )}
       </Box>
+
+      {/* Document Selection Modal */}
+      <DocumentModal
+        isOpen={isDocumentsOpen}
+        onClose={onDocumentsClose}
+        serviceName={selectedService?.name || ''}
+        documents={documents}
+        onDocumentSelect={handleDocumentSelect}
+        isLoading={documentsLoading}
+      />
+
+      {/* Markdown Content Viewer Modal */}
+      <MarkdownViewer
+        isOpen={isContentViewerOpen}
+        onClose={onContentViewerClose}
+        documentName={selectedDocument?.name || ''}
+        content={selectedDocument?.content || null}
+        isLoading={contentLoading}
+      />
     </Box>
   )
 }
