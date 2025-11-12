@@ -5,12 +5,19 @@ import Sidebar from './components/Sidebar'
 import UploadScreen from './components/UploadScreen'
 import ViewVersionsScreen from './components/ViewVersionsScreen'
 import SettingsScreen from './components/SettingsScreen'
-import { useRegion } from './hooks/useRegion'
+import { useCollections } from './hooks/useCollections'
 
 export default function App() {
   const [currentScreen, setCurrentScreen] = useState<'upload' | 'view' | 'settings'>('upload')
   
-  const { currentRegion, regions, services, changeRegion } = useRegion()
+  const { 
+    currentCollection, 
+    collections, 
+    services, 
+    changeCollection, 
+    pagination, 
+    changePage 
+  } = useCollections()
 
   return (
     <Flex minH="100vh" bg="gray.50">
@@ -19,21 +26,22 @@ export default function App() {
       <Box flex="1" p={10}>
         <Flex justify="space-between" align="center" mb={8}>
           <Heading size="xl" color="gray.800" fontWeight="semibold">
-            Open Terms Archive - {currentRegion.name}
+            Open Terms Archive - {currentCollection.name}
           </Heading>
           
           <Flex gap={3} align="center">
+            {/* Collection selector */}
             <Select 
-              value={currentRegion.id}
-              onChange={(e) => changeRegion(e.target.value)}
-              width="180px"
+              value={currentCollection.id}
+              onChange={(e) => changeCollection(e.target.value)}
+              width="300px"
               bg="white"
               borderColor="gray.200"
               borderRadius="lg"
             >
-              {regions.map(region => (
-                <option key={region.id} value={region.id}>
-                  {region.name}
+              {collections.map(collection => (
+                <option key={collection.id} value={collection.id}>
+                  {collection.name}
                 </option>
               ))}
             </Select>
@@ -51,7 +59,14 @@ export default function App() {
         </Flex>
 
         {currentScreen === 'upload' && <UploadScreen />}
-        {currentScreen === 'view' && <ViewVersionsScreen services={services} region={currentRegion} />}
+        {currentScreen === 'view' && (
+          <ViewVersionsScreen 
+            services={services} 
+            collection={currentCollection} 
+            pagination={pagination}
+            onPageChange={changePage}
+          />
+        )}
         {currentScreen === 'settings' && <SettingsScreen />}
       </Box>
     </Flex>

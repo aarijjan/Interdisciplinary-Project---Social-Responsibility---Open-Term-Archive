@@ -1,11 +1,14 @@
-export type ServiceType = {
+export interface Service {
   id: string
   name: string
-  country: string
+  collection: string
 }
 
-export type RegionType = {
+export interface Collection {
   id: string
   name: string
-  repository: string
+  description: string
+  serviceCount: number
+  language: string
+  jurisdiction: string
 }

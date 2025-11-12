@@ -1,4 +1,5 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
+import { fetchOTAServices } from '../lib/ota-service'
 
 interface Service {
   id: string
@@ -14,23 +15,14 @@ interface Region {
 
 // Mock data for regions
 const mockRegions: Region[] = [
-  { id: 'global', name: 'Global', repository: 'global-versions' },
-  { id: 'europe', name: 'Europe', repository: 'europe-versions' },
-  { id: 'france', name: 'France', repository: 'france-versions' },
-  { id: 'germany', name: 'Germany', repository: 'germany-versions' },
+  { id: 'global', name: 'Global', repository: 'global-declarations' },
+  { id: 'europe', name: 'Europe', repository: 'europe-declarations' },
+  { id: 'france', name: 'France', repository: 'france-declarations' },
+  { id: 'germany', name: 'Germany', repository: 'germany-declarations' },
 ]
 
-// Mock services for each region
+// Mock services for non-global regions
 const mockServicesByRegion: Record<string, Service[]> = {
-  global: [
-    { id: 'google', name: 'Google', country: 'global' },
-    { id: 'facebook', name: 'Facebook', country: 'global' },
-    { id: 'amazon', name: 'Amazon', country: 'global' },
-    { id: 'apple', name: 'Apple', country: 'global' },
-    { id: 'microsoft', name: 'Microsoft', country: 'global' },
-    { id: 'netflix', name: 'Netflix', country: 'global' },
-    { id: 'spotify', name: 'Spotify', country: 'global' },
-  ],
   europe: [
     { id: 'deutsche-bank', name: 'Deutsche Bank', country: 'europe' },
     { id: 'bnp-paribas', name: 'BNP Paribas', country: 'europe' },
@@ -51,22 +43,63 @@ const mockServicesByRegion: Record<string, Service[]> = {
     { id: 'deutsche-bank-de', name: 'Deutsche Bank Germany', country: 'germany' },
     { id: 'commerzbank', name: 'Commerzbank', country: 'germany' },
     { id: 'lidl-de', name: 'Lidl Germany', country: 'germany' },
-    { id: 'aldi-de', name: 'Aldi Germany', country: 'germany' },
-    { id: 'bmw', name: 'BMW', country: 'germany' },
-    { id: 'volkswagen', name: 'Volkswagen', country: 'germany' },
   ]
 }
 
 export const useRegion = () => {
   const [currentRegion, setCurrentRegion] = useState<Region>(mockRegions[0])
-  const [services, setServices] = useState<Service[]>(mockServicesByRegion.global)
+  const [services, setServices] = useState<Service[]>([])
+  const [loading, setLoading] = useState(false)
+
+  // Load services when region changes
+  useEffect(() => {
+    loadServices(currentRegion.id)
+  }, [currentRegion.id])
+
+  const loadServices = async (regionId: string) => {
+    setLoading(true)
+    
+    try {
+      if (regionId === 'global') {
+        // Use real OTA data for Global region
+        console.log('Loading REAL services for Global region...')
+        const realServices = await fetchOTAServices('global')
+        
+        if (realServices.length > 0) {
+          console.log(`Loaded ${realServices.length} real services from OTA`)
+          setServices(realServices)
+        } else {
+          // Fallback to mock if real data fails
+          console.log('Real data failed, using mock data for Global')
+          setServices(getMockServicesForRegion(regionId))
+        }
+      } else {
+        // Use mock data for all other regions
+        console.log(`Using MOCK data for ${regionId} region`)
+        setServices(getMockServicesForRegion(regionId))
+      }
+    } catch (error) {
+      console.error(`Failed to load services for ${regionId}:`, error)
+      // Fallback to mock data on error
+      setServices(getMockServicesForRegion(regionId))
+    } finally {
+      setLoading(false)
+    }
+  }
+
+  // Helper function to get mock services for a region
+  const getMockServicesForRegion = (regionId: string): Service[] => {
+    return mockServicesByRegion[regionId] || [
+      { id: 'default-1', name: 'Default Service 1', country: regionId },
+      { id: 'default-2', name: 'Default Service 2', country: regionId },
+    ]
+  }
 
   const changeRegion = (regionId: string) => {
     const newRegion = mockRegions.find(r => r.id === regionId)
     if (newRegion) {
       setCurrentRegion(newRegion)
-      // Load services for the selected region
-      setServices(mockServicesByRegion[regionId] || [])
+      // Services will be loaded via useEffect
     }
   }
 
@@ -74,6 +107,7 @@ export const useRegion = () => {
     currentRegion,
     regions: mockRegions,
     services,
+    loading,
     changeRegion
   }
 }
