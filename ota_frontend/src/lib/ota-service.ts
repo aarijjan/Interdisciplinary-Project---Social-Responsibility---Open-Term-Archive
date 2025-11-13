@@ -1,5 +1,5 @@
 // lib/ota-service.ts
-import { fetchGitHubDirectory } from './github-api'
+import { fetchGitHubDirectory, fetchGitHubFile } from './github-api'
 
 // OTA repository mapping for all collections
 export const OTARepositories = {
@@ -102,3 +102,78 @@ export const fetchServiceDocuments = async (collectionId: string, serviceId: str
 
 // Re-export GitHub API functions
 export { fetchGitHubFile } from './github-api'
+
+// Fetch commit history for a specific file
+export const fetchFileHistory = async (repo: string, filePath: string): Promise<Array<{
+  sha: string
+  date: string
+  message: string
+  author: string
+}>> => {
+  try {
+    console.log(`🔍 Fetching commit history for: ${filePath} in ${repo}`)
+    
+    const response = await fetch(`https://api.github.com/repos/${repo}/commits?path=${filePath}`)
+    
+    if (!response.ok) {
+      throw new Error(`GitHub API error: ${response.status}`)
+    }
+    
+    const commits = await response.json()
+    console.log(`📜 Found ${commits.length} commits for ${filePath}`)
+    
+    return commits.map((commit: any) => ({
+      sha: commit.sha,
+      date: new Date(commit.commit.author.date).toLocaleDateString(),
+      message: commit.commit.message,
+      author: commit.commit.author.name
+    }))
+    
+  } catch (error) {
+    console.error(`❌ Failed to fetch commit history for ${filePath}:`, error)
+    return []
+  }
+}
+
+export const normalizeText = (text: string): string => {
+  return text
+    .normalize('NFKC')
+    .replace(/\r\n/g, '\n')
+    .replace(/\r/g, '\n')
+    .replace(/[ââ]/g, '"')
+    .replace(/[ââ]/g, "'")
+    .replace(/â¦/g, '...')
+    .replace(/â/g, '-')
+    .trim()
+}
+
+// Get file content from specific commit
+export const getFileFromCommit = async (repo: string, filePath: string, commitSha?: string): Promise<string> => {
+  try {
+    const url = commitSha 
+      ? `https://api.github.com/repos/${repo}/contents/${filePath}?ref=${commitSha}`
+      : `https://api.github.com/repos/${repo}/contents/${filePath}`
+    
+    console.log(`🔍 Fetching file from: ${url}`)
+    
+    const response = await fetch(url)
+    
+    if (!response.ok) {
+      throw new Error(`GitHub API error: ${response.status}`)
+    }
+    
+    const data = await response.json()
+    
+    if (data.content && data.encoding === 'base64') {
+      const content = atob(data.content)
+      console.log(`✅ Successfully loaded file, ${content.length} characters`)
+      return normalizeText(content)
+    }
+    
+    return normalizeText(data.content || '')
+    
+  } catch (error) {
+    console.error(`❌ Failed to get file from commit ${commitSha}:`, error)
+    return ''
+  }
+}

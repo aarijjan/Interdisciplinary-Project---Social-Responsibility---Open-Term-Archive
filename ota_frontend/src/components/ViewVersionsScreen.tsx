@@ -5,7 +5,9 @@ import { Search } from 'lucide-react'
 import Pagination from './Pagination'
 import DocumentModal from './DocumentModal'
 import MarkdownViewer from './MarkdownViewer'
-import { fetchServiceDocuments, fetchGitHubFile, OTARepositories } from '../lib/ota-service'
+import VersionSelector from './VersionSelector'
+import DiffViewer from './DiffViewer'
+import { fetchServiceDocuments, fetchGitHubFile, OTARepositories, fetchFileHistory, getFileFromCommit, normalizeText } from '../lib/ota-service'
 
 // Define types locally
 interface Service {
@@ -32,26 +34,35 @@ interface ViewVersionsScreenProps {
   onPageChange: (page: number) => void
 }
 
-export default function ViewVersionsScreen({ 
-  services, 
-  collection, 
+export default function ViewVersionsScreen({
+  services,
+  collection,
   pagination,
-  onPageChange 
+  onPageChange
 }: ViewVersionsScreenProps) {
   const [query, setQuery] = useState("")
   const [selectedService, setSelectedService] = useState<Service | null>(null)
-  const [documents, setDocuments] = useState<Array<{name: string, path: string}>>([])
-  const [selectedDocument, setSelectedDocument] = useState<{name: string, content: string} | null>(null)
+  const [documents, setDocuments] = useState<Array<{ name: string, path: string }>>([])
+  const [selectedDocument, setSelectedDocument] = useState<{ name: string, content: string } | null>(null)
+  const [selectedDocumentForCompare, setSelectedDocumentForCompare] = useState<{ name: string, path: string } | null>(null)
+  const [versions, setVersions] = useState<Array<{ sha: string, date: string, message: string, author: string }>>([])
+  const [oldVersion, setOldVersion] = useState<{ content: string, date: string, sha: string } | null>(null)
+  const [newVersion, setNewVersion] = useState<{ content: string, date: string, sha: string } | null>(null)
   const [documentsLoading, setDocumentsLoading] = useState(false)
   const [contentLoading, setContentLoading] = useState(false)
+  const [versionsLoading, setVersionsLoading] = useState(false)
+  const [diffLoading, setDiffLoading] = useState(false)
 
   // Modal controls
   const { isOpen: isDocumentsOpen, onOpen: onDocumentsOpen, onClose: onDocumentsClose } = useDisclosure()
   const { isOpen: isContentViewerOpen, onOpen: onContentViewerOpen, onClose: onContentViewerClose } = useDisclosure()
+  const { isOpen: isVersionsOpen, onOpen: onVersionsOpen, onClose: onVersionsClose } = useDisclosure()
+  const { isOpen: isDiffOpen, onOpen: onDiffOpen, onClose: onDiffClose } = useDisclosure()
+  const [currentMode, setCurrentMode] = useState<'open' | 'compare'>('open')
 
   // Filter services based on search query
   const filteredServices = useMemo(() => {
-    return services.filter(service => 
+    return services.filter(service =>
       service.name.toLowerCase().includes(query.toLowerCase())
     )
   }, [services, query])
@@ -69,10 +80,12 @@ export default function ViewVersionsScreen({
     onPageChange(1) // Reset to first page
   }
 
+  // Open functionality
   const handleOpen = async (service: Service) => {
+    setCurrentMode('open')
     setSelectedService(service)
     setDocumentsLoading(true)
-    
+
     try {
       const serviceDocuments = await fetchServiceDocuments(collection.id, service.id)
       setDocuments(serviceDocuments)
@@ -88,14 +101,15 @@ export default function ViewVersionsScreen({
 
   const handleDocumentSelect = async (documentPath: string) => {
     if (!selectedService) return
-    
+
     setContentLoading(true)
     onDocumentsClose()
-    
+
     try {
       const content = await fetchGitHubFile(OTARepositories[collection.id as keyof typeof OTARepositories], documentPath)
       const documentName = documentPath.split('/').pop() || 'Document'
-      setSelectedDocument({ name: documentName, content })
+      const normalizedContent = normalizeText(content)
+      setSelectedDocument({ name: documentName, content: normalizedContent })
       onContentViewerOpen()
     } catch (error) {
       console.error('Failed to load document content:', error)
@@ -106,9 +120,84 @@ export default function ViewVersionsScreen({
     }
   }
 
-  const handleCompare = (service: Service) => {
-    console.log('Compare versions for:', service)
-    // TODO: Implement compare functionality
+  // Compare functionality
+  const handleCompare = async (service: Service) => {
+    setCurrentMode('compare')
+    setSelectedService(service)
+    setDocumentsLoading(true)
+
+    try {
+      const serviceDocuments = await fetchServiceDocuments(collection.id, service.id)
+      setDocuments(serviceDocuments)
+      onDocumentsOpen()
+    } catch (error) {
+      console.error('Failed to load documents:', error)
+      setDocuments([])
+      onDocumentsOpen()
+    } finally {
+      setDocumentsLoading(false)
+    }
+  }
+
+  const handleCompareDocumentSelect = async (documentPath: string) => {
+    if (!selectedService) return
+
+    setSelectedDocumentForCompare({
+      name: documentPath.split('/').pop() || 'Document',
+      path: documentPath
+    })
+
+    setVersionsLoading(true)
+    onDocumentsClose()
+
+    try {
+      const repo = OTARepositories[collection.id as keyof typeof OTARepositories]
+      const fileVersions = await fetchFileHistory(repo, documentPath)
+      setVersions(fileVersions)
+      onVersionsOpen()
+    } catch (error) {
+      console.error('Failed to load versions:', error)
+      setVersions([])
+      onVersionsOpen()
+    } finally {
+      setVersionsLoading(false)
+    }
+  }
+
+  const handleVersionSelect = async (commitSha: string, commitDate: string) => {
+    if (!selectedDocumentForCompare) return
+
+    setDiffLoading(true)
+    onVersionsClose()
+
+    try {
+      const repo = OTARepositories[collection.id as keyof typeof OTARepositories]
+
+      const [oldContent, newContent] = await Promise.all([
+        getFileFromCommit(repo, selectedDocumentForCompare.path, commitSha),
+        getFileFromCommit(repo, selectedDocumentForCompare.path) // HEAD версия
+      ])
+
+      setOldVersion({
+        content: oldContent,
+        date: commitDate,
+        sha: commitSha
+      })
+      setNewVersion({
+        content: newContent,
+        date: 'Current',
+        sha: 'HEAD'
+      })
+
+      onDiffOpen()
+    } catch (error) {
+      console.error('Failed to load versions for comparison:', error)
+      setOldVersion(null)
+      setNewVersion(null)
+      onDiffOpen()
+    } finally {
+      setDiffLoading(false)
+    }
   }
 
   return (
@@ -128,7 +217,7 @@ export default function ViewVersionsScreen({
             {services.length} services • {filteredServices.length} shown
           </Text>
         </Box>
-        
+
         <Input
           placeholder="Search services..."
           value={query}
@@ -150,13 +239,13 @@ export default function ViewVersionsScreen({
           <>
             <VStack gap={3} align="stretch">
               {paginatedServices.map(service => (
-                <Flex 
-                  key={service.id} 
-                  justify="space-between" 
+                <Flex
+                  key={service.id}
+                  justify="space-between"
                   align="center"
-                  p={4} 
-                  borderRadius="md" 
-                  _hover={{ bg: "gray.50" }} 
+                  p={4}
+                  borderRadius="md"
+                  _hover={{ bg: "gray.50" }}
                   border="1px"
                   borderColor="gray.100"
                   transition="all 0.2s"
@@ -166,8 +255,8 @@ export default function ViewVersionsScreen({
                     <Text fontSize="sm" color="gray.500">Collection: {service.collection}</Text>
                   </Box>
                   <Flex gap={2}>
-                    <Button 
-                      variant="outline" 
+                    <Button
+                      variant="outline"
                       size="sm"
                       borderColor="gray.200"
                       color="gray.700"
@@ -177,8 +266,8 @@ export default function ViewVersionsScreen({
                     >
                       Open
                     </Button>
-                    <Button 
-                      colorScheme="blue" 
+                    <Button
+                      colorScheme="blue"
                       size="sm"
                       bg="blue.600"
                       _hover={{ bg: 'blue.700' }}
@@ -202,15 +291,24 @@ export default function ViewVersionsScreen({
         )}
       </Box>
 
-      {/* Document Selection Modal */}
+      {/* Document Selection Modal - for both Open and Compare */}
       <DocumentModal
         isOpen={isDocumentsOpen}
         onClose={onDocumentsClose}
         serviceName={selectedService?.name || ''}
         documents={documents}
-        onDocumentSelect={handleDocumentSelect}
+        onDocumentSelect={(documentPath) => {
+          // Determine if this is for Open or Compare based on which button was clicked
+          if (currentMode === 'compare') {
+            handleCompareDocumentSelect(documentPath)
+          } else {
+            handleDocumentSelect(documentPath)
+          }
+        }}
         isLoading={documentsLoading}
+        mode={currentMode}
       />
+
 
       {/* Markdown Content Viewer Modal */}
       <MarkdownViewer
@@ -219,6 +317,31 @@ export default function ViewVersionsScreen({
         documentName={selectedDocument?.name || ''}
         content={selectedDocument?.content || null}
         isLoading={contentLoading}
+      />
+
+      {/* Version Selector Modal */}
+      <VersionSelector
+        isOpen={isVersionsOpen}
+        onClose={onVersionsClose}
+        documentName={selectedDocumentForCompare?.name || ''}
+        versions={versions}
+        onVersionSelect={(sha) => {
+          const version = versions.find(v => v.sha === sha)
+          if (version) {
+            handleVersionSelect(sha, version.date)
+          }
+        }}
+        isLoading={versionsLoading}
+      />
+
+      {/* Diff Viewer Modal */}
+      <DiffViewer
+        isOpen={isDiffOpen}
+        onClose={onDiffClose}
+        documentName={selectedDocumentForCompare?.name || ''}
+        oldVersion={oldVersion || { content: '', date: '', sha: '' }}
+        newVersion={newVersion || { content: '', date: '', sha: '' }}
+        isLoading={diffLoading}
       />
     </Box>
   )

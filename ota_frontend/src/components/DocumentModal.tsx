@@ -10,6 +10,7 @@ interface DocumentModalProps {
   }>
   onDocumentSelect: (documentPath: string) => void
   isLoading?: boolean
+  mode?: 'open' | 'compare'
 }
 
 export default function DocumentModal({ 
@@ -18,7 +19,8 @@ export default function DocumentModal({
   serviceName, 
   documents, 
   onDocumentSelect,
-  isLoading = false 
+  isLoading = false, 
+  mode = 'open'
 }: DocumentModalProps) {
   // Format filename for display (remove .md extension)
   const formatFileName = (filename: string): string => {
@@ -54,7 +56,7 @@ export default function DocumentModal({
                     colorScheme="blue"
                     onClick={() => onDocumentSelect(doc.path)}
                   >
-                    View Document
+                    {mode === 'compare' ? 'Select for Comparison' : 'View Document'}
                   </Button>
                 </Box>
               ))}
