@@ -24,7 +24,7 @@ export const mockCollections: Collection[] = [
     id: 'contrib',
     name: 'Contrib',
     description: 'Collection open to all contributions',
-    serviceCount: 0, // Will be dynamic now
+    serviceCount: 0,
     language: 'English, French',
     jurisdiction: 'European Union, United States'
   },
@@ -91,6 +91,14 @@ export const mockCollections: Collection[] = [
     serviceCount: 0,
     language: 'French',
     jurisdiction: 'France'
+  },
+  {
+    id: 'demo',
+    name: 'Demo',
+    description: 'Services used by Open Terms Archive',
+    serviceCount: 0,
+    language: 'English',
+    jurisdiction: 'European Union'
   }
 ]
 

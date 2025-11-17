@@ -11,7 +11,8 @@ export const OTARepositories = {
   'dating': 'OpenTermsArchive/dating-versions',
   'kenya': 'OpenTermsArchive/kenya-versions',
   'france-public': 'iroco-co/france-public-versions',
-  'france-elections': 'OpenTermsArchive/france-elections-versions'
+  'france-elections': 'OpenTermsArchive/france-elections-versions',
+  'demo': 'OpenTermsArchive/demo-versions'
 } as const
 
 // Format service name from folder name
