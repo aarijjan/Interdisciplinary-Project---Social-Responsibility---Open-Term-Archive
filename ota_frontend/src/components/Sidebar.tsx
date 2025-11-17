@@ -3,7 +3,7 @@ import { Upload, FileText, Settings } from 'lucide-react'
 
 interface SidebarProps {
   currentScreen: string
-  setCurrentScreen: (screen: 'upload' | 'view' | 'settings') => void
+  setCurrentScreen: (screen: 'home' | 'upload' | 'view' | 'settings') => void
 }
 
 export default function Sidebar({ currentScreen, setCurrentScreen }: SidebarProps) {
