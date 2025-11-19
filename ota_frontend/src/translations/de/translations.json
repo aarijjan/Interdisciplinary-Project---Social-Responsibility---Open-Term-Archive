@@ -1,0 +1,25 @@
+{
+  "no-comparison-data": "Keine Vergleichsdaten verfügbar.",
+  "home": {
+    "page-title": "Open Terms Archive Manager",
+    "sub-title": "Verfolgen und archivieren Sie Änderungen der Nutzungsbedingungen und Datenschutzrichtlinien. Überwachen Sie, wie Online-Dienste ihre rechtlichen Dokumente im Laufe der Zeit ändern.",
+    "document-tracking-title": "Dokumentenverfolgung",
+    "document-tracking-description": "Verfolgen und archivieren Sie automatisch Versionen von Nutzungsbedingungen, Datenschutzrichtlinien und anderen rechtlichen Dokumenten von Online-Diensten.",
+    "version-history-title": "Versionsverlauf",
+    "version-history-description": "Sehen Sie den vollständigen Versionsverlauf mit detaillierten Differenzen, die genau zeigen, was sich zwischen den Versionen geändert hat.",
+    "change-detection-title": "Änderungserkennung",
+    "change-detection-description": "Erhalten Sie Benachrichtigungen, wenn Dienste ihre Bedingungen aktualisieren. Verpassen Sie keine wichtigen Änderungen, die Ihre Rechte betreffen könnten.",
+    "transparency-title": "Transparenz",
+    "transparency-description": "Fördern Sie Transparenz und Verantwortlichkeit, indem Änderungen der Nutzungsbedingungen öffentlich zugänglich und überprüfbar gemacht werden.",
+    "about-section-title": "Über Open Terms Archive",
+    "about-section-description-1": "Open Terms Archive ist eine Open-Source-Initiative, die Änderungen der Nutzungsbedingungen und Datenschutzrichtlinien großer Online-Plattformen verfolgt. Durch das Archivieren dieser Dokumente im Laufe der Zeit ermöglichen wir Forschern, Journalisten und Nutzern, die Entwicklung digitaler Rechte nachzuvollziehen.",
+    "about-section-description-2": "Diese Verwaltungsoberfläche ermöglicht es Ihnen, neue Dokumente hochzuladen, Versionsverläufe anzusehen, Änderungen zwischen Versionen zu vergleichen und Sammlungen verfolgter Dienste zu verwalten.",
+    "getting-started-title": "Erste Schritte",
+    "upload-documents-title": "Dokumente hochladen",
+    "upload-documents-description": "Verwenden Sie die Upload-Registerkarte, um neue Nutzungsbedingungen oder Datenschutzrichtliniendokumente per URL oder Datei hochzuladen.",
+    "view-versions-title": "Versionen ansehen",
+    "view-versions-description": "Durchsuchen Sie die Registerkarte Versionen ansehen, um alle verfolgten Dokumente und deren vollständigen Versionsverlauf zu sehen.",
+    "compare-changes-title": "Änderungen vergleichen",
+    "compare-changes-description": "Klicken Sie auf eine beliebige Version, um detaillierte Unterschiede anzuzeigen, die hervorheben, was sich zwischen den Versionen geändert hat."
+  }
+}

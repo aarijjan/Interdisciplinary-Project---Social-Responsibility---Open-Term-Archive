@@ -1,32 +1,44 @@
-import { Modal, ModalOverlay, ModalContent, ModalHeader, ModalBody, ModalCloseButton, Box, Text, HStack, Badge, Spinner } from '@chakra-ui/react'
-import ReactDiffViewer from 'react-diff-viewer'
-
+import {
+  Modal,
+  ModalOverlay,
+  ModalContent,
+  ModalHeader,
+  ModalBody,
+  ModalCloseButton,
+  Box,
+  Text,
+  HStack,
+  Badge,
+  Spinner,
+} from "@chakra-ui/react";
+import ReactDiffViewer from "react-diff-viewer";
+import { useTranslation } from "react-i18next";
 interface DiffViewerProps {
-  isOpen: boolean
-  onClose: () => void
-  documentName: string
+  isOpen: boolean;
+  onClose: () => void;
+  documentName: string;
   oldVersion: {
-    content: string
-    date: string
-    sha: string
-  }
+    content: string;
+    date: string;
+    sha: string;
+  };
   newVersion: {
-    content: string
-    date: string  
-    sha: string
-  }
-  isLoading: boolean
+    content: string;
+    date: string;
+    sha: string;
+  };
+  isLoading: boolean;
 }
 
-export default function DiffViewer({ 
-  isOpen, 
-  onClose, 
-  documentName, 
-  oldVersion, 
-  newVersion, 
-  isLoading 
+export default function DiffViewer({
+  isOpen,
+  onClose,
+  documentName,
+  oldVersion,
+  newVersion,
+  isLoading,
 }: DiffViewerProps) {
-  
+  const { t } = useTranslation();
   return (
     <Modal isOpen={isOpen} onClose={onClose} size="full">
       <ModalOverlay />
@@ -41,15 +53,22 @@ export default function DiffViewer({
         <ModalCloseButton />
         <ModalBody pb={6} display="flex" flexDirection="column" minH="70vh">
           {isLoading ? (
-            <Box textAlign="center" py={8} flex="1" display="flex" alignItems="center" justifyContent="center">
+            <Box
+              textAlign="center"
+              py={8}
+              flex="1"
+              display="flex"
+              alignItems="center"
+              justifyContent="center"
+            >
               <Spinner size="xl" />
               <Text mt={4}>Loading comparison...</Text>
             </Box>
           ) : oldVersion.content && newVersion.content ? (
-            <Box 
+            <Box
               flex="1"
-              bg="white" 
-              borderRadius="md" 
+              bg="white"
+              borderRadius="md"
               overflow="auto"
               border="1px"
               borderColor="gray.200"
@@ -64,37 +83,42 @@ export default function DiffViewer({
                 rightTitle="Current Version"
                 styles={{
                   diffContainer: {
-                    fontSize: '14px',
-                    fontFamily: 'monospace',
-                    height: '100%',
-                    overflow: 'auto'
+                    fontSize: "14px",
+                    fontFamily: "monospace",
+                    height: "100%",
+                    overflow: "auto",
                   },
                   diffRemoved: {
-                    overflow: 'auto'
+                    overflow: "auto",
                   },
                   diffAdded: {
-                    overflow: 'auto'
+                    overflow: "auto",
                   },
                   line: {
-                    fontSize: '14px',
-                    fontFamily: 'monospace',
-                    wordBreak: 'break-all'
+                    fontSize: "14px",
+                    fontFamily: "monospace",
+                    wordBreak: "break-all",
                   },
                   gutter: {
-                    minWidth: '50px'
-                  }
+                    minWidth: "50px",
+                  },
                 }}
               />
             </Box>
           ) : (
-            <Box flex="1" display="flex" alignItems="center" justifyContent="center">
+            <Box
+              flex="1"
+              display="flex"
+              alignItems="center"
+              justifyContent="center"
+            >
               <Text color="gray.500" textAlign="center" py={4}>
-                No comparison data available
+                {t("no-comparison-data")}
               </Text>
             </Box>
           )}
         </ModalBody>
       </ModalContent>
     </Modal>
-  )
+  );
 }

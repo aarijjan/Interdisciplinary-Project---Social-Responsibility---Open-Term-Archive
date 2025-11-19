@@ -1,0 +1,25 @@
+{
+  "no-comparison-data": "Aucune donnée de comparaison disponible.",
+  "home": {
+    "page-title": "Gestionnaire Open Terms Archive",
+    "sub-title": "Suivez et archivez les modifications des conditions d'utilisation et des politiques de confidentialité. Surveillez comment les services en ligne font évoluer leurs documents légaux au fil du temps.",
+    "document-tracking-title": "Suivi des documents",
+    "document-tracking-description": "Suivez automatiquement et archivez les versions des conditions d'utilisation, politiques de confidentialité et autres documents légaux des services en ligne.",
+    "version-history-title": "Historique des versions",
+    "version-history-description": "Consultez l'historique complet des versions avec des différences détaillées montrant exactement ce qui a changé entre les versions de documents.",
+    "change-detection-title": "Détection des changements",
+    "change-detection-description": "Soyez notifié lorsque les services mettent à jour leurs conditions. Ne manquez jamais les changements importants pouvant affecter vos droits.",
+    "transparency-title": "Transparence",
+    "transparency-description": "Favorisez la transparence et la responsabilité en rendant accessibles publiquement et vérifiables les modifications des conditions d'utilisation.",
+    "about-section-title": "À propos d'Open Terms Archive",
+    "about-section-description-1": "Open Terms Archive est une initiative open-source qui suit les changements des conditions d'utilisation et des politiques de confidentialité des principales plateformes en ligne. En archivant ces documents au fil du temps, nous permettons aux chercheurs, journalistes et utilisateurs de comprendre l'évolution des droits numériques.",
+    "about-section-description-2": "Cette interface de gestion vous permet de télécharger de nouveaux documents, de consulter l'historique des versions, de comparer les modifications entre les versions et de gérer des collections de services suivis.",
+    "getting-started-title": "Commencer",
+    "upload-documents-title": "Téléverser des documents",
+    "upload-documents-description": "Utilisez l'onglet Téléversement pour ajouter de nouveaux documents des conditions d'utilisation ou de la politique de confidentialité via URL ou fichier.",
+    "view-versions-title": "Voir les versions",
+    "view-versions-description": "Parcourez l'onglet Voir les versions pour consulter tous les documents suivis et leur historique complet.",
+    "compare-changes-title": "Comparer les modifications",
+    "compare-changes-description": "Cliquez sur n'importe quelle version pour voir les différences détaillées mettant en évidence ce qui a changé entre les versions de documents."
+  }
+}
