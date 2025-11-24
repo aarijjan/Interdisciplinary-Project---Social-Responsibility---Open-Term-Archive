@@ -1,20 +1,32 @@
-import { Modal, ModalOverlay, ModalContent, ModalHeader, ModalBody, ModalCloseButton, Box, Spinner, Text } from '@chakra-ui/react'
+import {
+  Modal,
+  ModalOverlay,
+  ModalContent,
+  ModalHeader,
+  ModalBody,
+  ModalCloseButton,
+  Box,
+  Spinner,
+  Text,
+} from "@chakra-ui/react";
+import { useTranslation } from "react-i18next";
 
 interface MarkdownViewerProps {
-  isOpen: boolean
-  onClose: () => void
-  documentName: string
-  content: string | null
-  isLoading: boolean
+  isOpen: boolean;
+  onClose: () => void;
+  documentName: string;
+  content: string | null;
+  isLoading: boolean;
 }
 
-export default function MarkdownViewer({ 
-  isOpen, 
-  onClose, 
-  documentName, 
-  content, 
-  isLoading 
+export default function MarkdownViewer({
+  isOpen,
+  onClose,
+  documentName,
+  content,
+  isLoading,
 }: MarkdownViewerProps) {
+  const { t } = useTranslation();
   return (
     <Modal isOpen={isOpen} onClose={onClose} size="4xl">
       <ModalOverlay />
@@ -25,14 +37,14 @@ export default function MarkdownViewer({
           {isLoading ? (
             <Box textAlign="center" py={8}>
               <Spinner size="xl" />
-              <Text mt={4}>Loading document...</Text>
+              <Text mt={4}>{t("loading-doc")}</Text>
             </Box>
           ) : content ? (
-            <Box 
-              bg="gray.50" 
-              p={4} 
-              borderRadius="md" 
-              maxH="70vh" 
+            <Box
+              bg="gray.50"
+              p={4}
+              borderRadius="md"
+              maxH="70vh"
               overflowY="auto"
               whiteSpace="pre-wrap"
               fontFamily="monospace"
@@ -42,11 +54,11 @@ export default function MarkdownViewer({
             </Box>
           ) : (
             <Text color="gray.500" textAlign="center" py={4}>
-              No content available
+              {t("no-content")}
             </Text>
           )}
         </ModalBody>
       </ModalContent>
     </Modal>
-  )
+  );
 }
