@@ -1,5 +1,9 @@
 {
   "no-comparison-data": "No comparison data available.",
+  "app": {
+    "home": "Home",
+    "check-update-btn": "Check Updates"
+  },
   "home": {
     "page-title": "Open Terms Archive Manager",
     "sub-title": "Track and archive changes to Terms of Service and Privacy Policies. Monitor how online services evolve their legal documents over time.",
@@ -21,5 +25,75 @@
     "view-versions-description": "Browse the View Versions tab to see all tracked documents and their complete version history.",
     "compare-changes-title": "Compare Changes",
     "compare-changes-description": "Click on any version to see detailed diffs highlighting what changed between document versions."
+  },
+  "documents-modal": {
+    "modal-header": "Documents for {{serviceName}}",
+    "no-documents": "No documents found",
+    "select-comparison": "Select for Comparison",
+    "view-document": "View Document"
+  },
+  "diff-viewer": {
+    "title": "Comparison for {{documentName}}",
+    "old": "Old: {{date}}",
+    "new": "New: {{date}}",
+    "loading": "Loading comparison...",
+    "old-title": "Old Version",
+    "current-title": "Current Version"
+  },
+
+  "loading-doc": "Loading document...",
+  "no-content": "No content available",
+  "previous": "Previous",
+  "next": "Next",
+  "pages-shown": " Showing {{startingItem}} to {{endingItem}} of {{totalItems}} services",
+  "settings": "Settings",
+  "settings-description": "Application settings and preferences will appear here.",
+
+  "ota-manager": "OTA Manager",
+  "upload": "Upload",
+  "view-versions": "View Versions",
+
+  "upload-screen": {
+    "title": "Upload new Terms",
+    "description": "Paste URL or upload file.",
+    "save-draft": "Save draft",
+    "upload-btn": "Upload to repo",
+    "service-field-placeholder": "Service name",
+    "url-field-placeholder": "Document URL"
+  },
+
+  "view-version-screen": {
+    "title": "Services in {{collectionName}}",
+    "services-shown": "{{totalServices}} services • {{filteredServices}} shown",
+    "no-services": "No services found",
+    "collection": "Collection:",
+    "open": "Open",
+    "compare": "Compare",
+    "search-placeholder": "Search services...",
+    "current": "CURRENT",
+    "collection-description": {
+      "contrib": "Collection open to all contributions",
+      "p2b-compliance": "Online intermediation services for businesses in Europe",
+      "france": "Largest digital services used in France",
+      "generative-ai": "Most popular generative AI services",
+      "platform-governance": "Major global social media services",
+      "dating": "Online dating services",
+      "kenya": "Largest digital services used in Kenya",
+      "france-public": "French public services",
+      "france-elections": "French election services",
+      "demo": "Services used by Open Terms Archive"
+    }
+  },
+
+  "version-selector": {
+    "title": "Select version to compare for",
+    "loading": "Loading versions...",
+    "no-version": "No versions found",
+    "version": "Version",
+    "date": "Date:",
+    "message": "Message:",
+    "author": "Author:",
+    "current": "Current Version",
+    "compare": "Compare with Current"
   }
 }

@@ -1,49 +1,63 @@
-import { HStack, Button, Text } from '@chakra-ui/react'
-import { ChevronLeft, ChevronRight } from 'lucide-react'
+import { HStack, Button, Text } from "@chakra-ui/react";
+import { ChevronLeft, ChevronRight } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
 interface PaginationProps {
-  currentPage: number
-  totalItems: number
-  pageSize: number
-  onPageChange: (page: number) => void
+  currentPage: number;
+  totalItems: number;
+  pageSize: number;
+  onPageChange: (page: number) => void;
 }
 
-export default function Pagination({ 
-  currentPage, 
-  totalItems, 
-  pageSize, 
-  onPageChange 
+export default function Pagination({
+  currentPage,
+  totalItems,
+  pageSize,
+  onPageChange,
 }: PaginationProps) {
-  const totalPages = Math.ceil(totalItems / pageSize)
-  
+  const totalPages = Math.ceil(totalItems / pageSize);
+  const { t } = useTranslation();
+
   // Generate page numbers to display
   const getPageNumbers = () => {
-    const pages = []
-    const maxVisiblePages = 5
-    
-    let startPage = Math.max(1, currentPage - Math.floor(maxVisiblePages / 2))
-    let endPage = Math.min(totalPages, startPage + maxVisiblePages - 1)
-    
+    const pages = [];
+    const maxVisiblePages = 5;
+
+    let startPage = Math.max(1, currentPage - Math.floor(maxVisiblePages / 2));
+    let endPage = Math.min(totalPages, startPage + maxVisiblePages - 1);
+
     // Adjust start page if we're near the end
     if (endPage - startPage + 1 < maxVisiblePages) {
-      startPage = Math.max(1, endPage - maxVisiblePages + 1)
+      startPage = Math.max(1, endPage - maxVisiblePages + 1);
     }
-    
-    for (let i = startPage; i <= endPage; i++) {
-      pages.push(i)
-    }
-    
-    return pages
-  }
 
-  if (totalPages <= 1) return null
+    for (let i = startPage; i <= endPage; i++) {
+      pages.push(i);
+    }
+
+    return pages;
+  };
+
+  if (totalPages <= 1) return null;
 
   return (
-    <HStack justify="space-between" align="center" w="100%" mt={6} p={4} borderTop="1px" borderColor="gray.200">
+    <HStack
+      justify="space-between"
+      align="center"
+      w="100%"
+      mt={6}
+      p={4}
+      borderTop="1px"
+      borderColor="gray.200"
+    >
       <Text fontSize="sm" color="gray.600">
-        Showing {(currentPage - 1) * pageSize + 1} to {Math.min(currentPage * pageSize, totalItems)} of {totalItems} services
+        {t("pages-shown", {
+          startingItem: (currentPage - 1) * pageSize + 1,
+          endingItem: Math.min(currentPage * pageSize, totalItems),
+          totalItems: totalItems,
+        })}
       </Text>
-      
+
       <HStack gap={2}>
         <Button
           size="sm"
@@ -52,10 +66,10 @@ export default function Pagination({
           isDisabled={currentPage === 1}
           onClick={() => onPageChange(currentPage - 1)}
         >
-          Previous
+          {t("previous")}
         </Button>
-        
-        {getPageNumbers().map(page => (
+
+        {getPageNumbers().map((page) => (
           <Button
             key={page}
             size="sm"
@@ -66,7 +80,7 @@ export default function Pagination({
             {page}
           </Button>
         ))}
-        
+
         <Button
           size="sm"
           variant="outline"
@@ -74,9 +88,9 @@ export default function Pagination({
           isDisabled={currentPage === totalPages}
           onClick={() => onPageChange(currentPage + 1)}
         >
-          Next
+          {t("next")}
         </Button>
       </HStack>
     </HStack>
-  )
+  );
 }

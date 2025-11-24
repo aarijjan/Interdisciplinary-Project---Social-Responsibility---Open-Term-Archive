@@ -13,6 +13,7 @@ import {
 } from "@chakra-ui/react";
 import ReactDiffViewer from "react-diff-viewer";
 import { useTranslation } from "react-i18next";
+
 interface DiffViewerProps {
   isOpen: boolean;
   onClose: () => void;
@@ -38,16 +39,21 @@ export default function DiffViewer({
   newVersion,
   isLoading,
 }: DiffViewerProps) {
-  const { t } = useTranslation();
+  const { t } = useTranslation("translation", { keyPrefix: "diff-viewer" });
+
   return (
     <Modal isOpen={isOpen} onClose={onClose} size="full">
       <ModalOverlay />
       <ModalContent maxH="95vh" maxW="95vw" m={4}>
         <ModalHeader>
-          Comparison for {documentName}
+          {t("title", { documentName: documentName })}
           <HStack mt={2} spacing={3}>
-            <Badge colorScheme="blue">Old: {oldVersion.date}</Badge>
-            <Badge colorScheme="green">New: {newVersion.date}</Badge>
+            <Badge colorScheme="blue">
+              {t("old", { date: oldVersion.date })}
+            </Badge>
+            <Badge colorScheme="green">
+              {t("new", { date: newVersion.date })}
+            </Badge>
           </HStack>
         </ModalHeader>
         <ModalCloseButton />
@@ -62,7 +68,7 @@ export default function DiffViewer({
               justifyContent="center"
             >
               <Spinner size="xl" />
-              <Text mt={4}>Loading comparison...</Text>
+              <Text mt={4}>{t("loading")}</Text>
             </Box>
           ) : oldVersion.content && newVersion.content ? (
             <Box
@@ -79,8 +85,8 @@ export default function DiffViewer({
                 newValue={newVersion.content}
                 splitView={true}
                 showDiffOnly={false}
-                leftTitle="Old Version"
-                rightTitle="Current Version"
+                leftTitle={t("old-title")}
+                rightTitle={t("current-title")}
                 styles={{
                   diffContainer: {
                     fontSize: "14px",

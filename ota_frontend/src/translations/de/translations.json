@@ -1,5 +1,9 @@
 {
   "no-comparison-data": "Keine Vergleichsdaten verfügbar.",
+  "app": {
+    "home": "Startseite",
+    "check-update-btn": "Auf Updates prüfen"
+  },
   "home": {
     "page-title": "Open Terms Archive Manager",
     "sub-title": "Verfolgen und archivieren Sie Änderungen der Nutzungsbedingungen und Datenschutzrichtlinien. Überwachen Sie, wie Online-Dienste ihre rechtlichen Dokumente im Laufe der Zeit ändern.",
@@ -21,5 +25,76 @@
     "view-versions-description": "Durchsuchen Sie die Registerkarte Versionen ansehen, um alle verfolgten Dokumente und deren vollständigen Versionsverlauf zu sehen.",
     "compare-changes-title": "Änderungen vergleichen",
     "compare-changes-description": "Klicken Sie auf eine beliebige Version, um detaillierte Unterschiede anzuzeigen, die hervorheben, was sich zwischen den Versionen geändert hat."
+  },
+  "documents-modal": {
+    "modal-header": "Dokumente für {{serviceName}}",
+    "no-documents": "Keine Dokumente gefunden",
+    "select-comparison": "Zum Vergleich auswählen",
+    "view-document": "Dokument ansehen"
+  },
+
+  "diff-viewer": {
+    "title": "Vergleich für {{documentName}}",
+    "old": "Alt: {{date}}",
+    "new": "Neu: {{date}}",
+    "loading": "Vergleich wird geladen...",
+    "old-title": "Alte Version",
+    "current-title": "Aktuelle Version"
+  },
+
+  "loading-doc": "Dokument wird geladen...",
+  "no-content": "Kein Inhalt verfügbar",
+  "previous": "Zurück",
+  "next": "Weiter",
+  "pages-shown": "Anzeige von {{startingItem}} bis {{endingItem}} von insgesamt {{totalItems}} Diensten",
+  "settings": "Einstellungen",
+  "settings-description": "Hier werden die Anwendungseinstellungen und -präferenzen angezeigt.",
+
+  "ota-manager": "OTA-Manager",
+  "upload": "Hochladen",
+  "view-versions": "Versionen ansehen",
+
+  "upload-screen": {
+    "title": "Neue Bedingungen hochladen",
+    "description": "URL einfügen oder Datei hochladen.",
+    "save-draft": "Entwurf speichern",
+    "upload-btn": "In das Repository hochladen",
+    "service-field-placeholder": "Service-Name",
+    "url-field-placeholder": "Dokument-URL"
+  },
+
+  "view-version-screen": {
+    "title": "Dienste in {{collectionName}}",
+    "services-shown": "{{totalServices}} Dienste • {{filteredServices}} angezeigt",
+    "no-services": "Keine Dienste gefunden",
+    "collection": "Sammlung:",
+    "open": "Öffnen",
+    "compare": "Vergleichen",
+    "search-placeholder": "Suchdienste...",
+    "current": "AKTUELL",
+    "collection-description": {
+      "contrib": "Für alle Beiträge offene Sammlung",
+      "p2b-compliance": "Online-Vermittlungsdienste für Unternehmen in Europa",
+      "france": "Meistgenutzte digitale Dienste in Frankreich",
+      "generative-ai": "Beliebteste generative KI-Dienste",
+      "platform-governance": "Wichtigste globale Social-Media-Dienste",
+      "dating": "Online-Dating-Dienste",
+      "kenya": "Meistgenutzte digitale Dienste in Kenia",
+      "france-public": "Französische öffentliche Dienste",
+      "france-elections": "Französische Wahldienste",
+      "demo": "Von Open Terms Archive genutzte Dienste"
+    }
+  },
+
+  "version-selector": {
+    "title": "Version zum Vergleichen auswählen",
+    "loading": "Versionen werden geladen...",
+    "no-version": "Keine Versionen gefunden",
+    "version": "Version",
+    "date": "Datum:",
+    "message": "Nachricht:",
+    "author": "Autor:",
+    "current": "Aktuelle Version",
+    "compare": "Mit aktueller Version vergleichen"
   }
 }

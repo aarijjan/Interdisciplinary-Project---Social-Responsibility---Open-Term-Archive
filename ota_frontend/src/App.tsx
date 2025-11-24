@@ -17,11 +17,14 @@ import ViewVersionsScreen from "./components/ViewVersionsScreen";
 import SettingsScreen from "./components/SettingsScreen";
 import { useCollections } from "./hooks/useCollections";
 import LanguageSwitcher from "./components/LanguageSwitcher";
+import { useTranslation } from "react-i18next";
 
 export default function App() {
   const [currentScreen, setCurrentScreen] = useState<
     "home" | "upload" | "view" | "settings"
   >("home");
+
+  const { t } = useTranslation("translation", { keyPrefix: "app" });
 
   const {
     currentCollection,
@@ -59,7 +62,7 @@ export default function App() {
                 _hover={{ color: "blue.500" }}
                 onClick={() => setCurrentScreen("home")}
               >
-                Home
+                {t("home")}
               </Tab>
             </TabList>
           </Tabs>
@@ -95,7 +98,7 @@ export default function App() {
                 shadow="sm"
                 leftIcon={<GitPullRequest size={16} />}
               >
-                Check Updates
+                {t("check-update-btn")}
               </Button>
             </Flex>
           </Flex>

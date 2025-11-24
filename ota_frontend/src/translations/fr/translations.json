@@ -1,5 +1,9 @@
 {
-  "no-comparison-data": "Aucune donnée de comparaison disponible.",
+  "no-comparison-data": "Aucune donnée comparative disponible.",
+  "app": {
+    "home": "Accueil",
+    "check-update-btn": "Vérifier les mises à jour"
+  },
   "home": {
     "page-title": "Gestionnaire Open Terms Archive",
     "sub-title": "Suivez et archivez les modifications des conditions d'utilisation et des politiques de confidentialité. Surveillez comment les services en ligne font évoluer leurs documents légaux au fil du temps.",
@@ -21,5 +25,78 @@
     "view-versions-description": "Parcourez l'onglet Voir les versions pour consulter tous les documents suivis et leur historique complet.",
     "compare-changes-title": "Comparer les modifications",
     "compare-changes-description": "Cliquez sur n'importe quelle version pour voir les différences détaillées mettant en évidence ce qui a changé entre les versions de documents."
+  },
+
+  "documents-modal": {
+    "modal-header": "Documents pour {{serviceName}}",
+    "no-documents": "Aucun document trouvé",
+    "select-comparison": "Sélectionner pour comparaison",
+    "view-document": "Voir le document"
+  },
+
+  "diff-viewer": {
+    "title": "Comparaison pour {{documentName}}",
+    "old": "Ancien : {{date}}",
+    "new": "Nouveau : {{date}}",
+    "loading": "Chargement de la comparaison...",
+    "old-title": "Version précédente",
+    "current-title": "Version actuelle",
+    "no-comparison-data": "Aucune donnée de comparaison disponible."
+  },
+
+  "loading-doc": "Chargement du document...",
+  "no-content": "Aucun contenu disponible",
+  "previous": "Précédent",
+  "next": "Suivant",
+  "pages-shown": "Affichage de {{startingItem}} à {{endingItem}} sur {{totalItems}} services",
+  "settings": "Paramètres",
+  "settings-description": "Les paramètres et préférences de l'application apparaîtront ici.",
+
+  "ota-manager": "Gestionnaire OTA",
+  "upload": "Téléverser",
+  "view-versions": "Voir les versions",
+
+  "upload-screen": {
+    "title": "Téléverser de nouveaux termes",
+    "description": "Collez l'URL ou téléversez un fichier.",
+    "save-draft": "Enregistrer le brouillon",
+    "upload-btn": "Téléverser dans le dépôt",
+    "service-field-placeholder": "Nom du service",
+    "url-field-placeholder": "URL du document"
+  },
+
+  "view-version-screen": {
+    "title": "Services dans {{collectionName}}",
+    "services-shown": "{{totalServices}} services • {{filteredServices}} affichés",
+    "no-services": "Aucun service trouvé",
+    "collection": "Collection :",
+    "open": "Ouvrir",
+    "compare": "Comparer",
+    "search-placeholder": "Services de recherche...",
+    "current": "ACTUELLE",
+    "collection-description": {
+      "contrib": "Collection ouverte à toutes les contributions",
+      "p2b-compliance": "Services d’intermédiation en ligne pour les entreprises en Europe",
+      "france": "Principaux services numériques utilisés en France",
+      "generative-ai": "Services d’IA générative les plus populaires",
+      "platform-governance": "Principaux services mondiaux de réseaux sociaux",
+      "dating": "Services de rencontre en ligne",
+      "kenya": "Principaux services numériques utilisés au Kenya",
+      "france-public": "Services publics français",
+      "france-elections": "Services liés aux élections françaises",
+      "demo": "Services utilisés par Open Terms Archive"
+    }
+  },
+
+  "version-selector": {
+    "title": "Sélectionner une version à comparer",
+    "loading": "Chargement des versions...",
+    "no-version": "Aucune version trouvée",
+    "version": "Version",
+    "date": "Date :",
+    "message": "Message :",
+    "author": "Auteur :",
+    "current": "Version actuelle",
+    "compare": "Comparer avec l’actuelle"
   }
 }
