@@ -1,0 +1,102 @@
+{
+  "no-comparison-data": "Aucune donnée comparative disponible.",
+  "app": {
+    "home": "Accueil",
+    "check-update-btn": "Vérifier les mises à jour"
+  },
+  "home": {
+    "page-title": "Gestionnaire Open Terms Archive",
+    "sub-title": "Suivez et archivez les modifications des conditions d'utilisation et des politiques de confidentialité. Surveillez comment les services en ligne font évoluer leurs documents légaux au fil du temps.",
+    "document-tracking-title": "Suivi des documents",
+    "document-tracking-description": "Suivez automatiquement et archivez les versions des conditions d'utilisation, politiques de confidentialité et autres documents légaux des services en ligne.",
+    "version-history-title": "Historique des versions",
+    "version-history-description": "Consultez l'historique complet des versions avec des différences détaillées montrant exactement ce qui a changé entre les versions de documents.",
+    "change-detection-title": "Détection des changements",
+    "change-detection-description": "Soyez notifié lorsque les services mettent à jour leurs conditions. Ne manquez jamais les changements importants pouvant affecter vos droits.",
+    "transparency-title": "Transparence",
+    "transparency-description": "Favorisez la transparence et la responsabilité en rendant accessibles publiquement et vérifiables les modifications des conditions d'utilisation.",
+    "about-section-title": "À propos d'Open Terms Archive",
+    "about-section-description-1": "Open Terms Archive est une initiative open-source qui suit les changements des conditions d'utilisation et des politiques de confidentialité des principales plateformes en ligne. En archivant ces documents au fil du temps, nous permettons aux chercheurs, journalistes et utilisateurs de comprendre l'évolution des droits numériques.",
+    "about-section-description-2": "Cette interface de gestion vous permet de télécharger de nouveaux documents, de consulter l'historique des versions, de comparer les modifications entre les versions et de gérer des collections de services suivis.",
+    "getting-started-title": "Commencer",
+    "upload-documents-title": "Téléverser des documents",
+    "upload-documents-description": "Utilisez l'onglet Téléversement pour ajouter de nouveaux documents des conditions d'utilisation ou de la politique de confidentialité via URL ou fichier.",
+    "view-versions-title": "Voir les versions",
+    "view-versions-description": "Parcourez l'onglet Voir les versions pour consulter tous les documents suivis et leur historique complet.",
+    "compare-changes-title": "Comparer les modifications",
+    "compare-changes-description": "Cliquez sur n'importe quelle version pour voir les différences détaillées mettant en évidence ce qui a changé entre les versions de documents."
+  },
+
+  "documents-modal": {
+    "modal-header": "Documents pour {{serviceName}}",
+    "no-documents": "Aucun document trouvé",
+    "select-comparison": "Sélectionner pour comparaison",
+    "view-document": "Voir le document"
+  },
+
+  "diff-viewer": {
+    "title": "Comparaison pour {{documentName}}",
+    "old": "Ancien : {{date}}",
+    "new": "Nouveau : {{date}}",
+    "loading": "Chargement de la comparaison...",
+    "old-title": "Version précédente",
+    "current-title": "Version actuelle",
+    "no-comparison-data": "Aucune donnée de comparaison disponible."
+  },
+
+  "loading-doc": "Chargement du document...",
+  "no-content": "Aucun contenu disponible",
+  "previous": "Précédent",
+  "next": "Suivant",
+  "pages-shown": "Affichage de {{startingItem}} à {{endingItem}} sur {{totalItems}} services",
+  "settings": "Paramètres",
+  "settings-description": "Les paramètres et préférences de l'application apparaîtront ici.",
+
+  "ota-manager": "Gestionnaire OTA",
+  "upload": "Téléverser",
+  "view-versions": "Voir les versions",
+
+  "upload-screen": {
+    "title": "Téléverser de nouveaux termes",
+    "description": "Collez l'URL ou téléversez un fichier.",
+    "save-draft": "Enregistrer le brouillon",
+    "upload-btn": "Téléverser dans le dépôt",
+    "service-field-placeholder": "Nom du service",
+    "url-field-placeholder": "URL du document"
+  },
+
+  "view-version-screen": {
+    "title": "Services dans {{collectionName}}",
+    "services-shown": "{{totalServices}} services • {{filteredServices}} affichés",
+    "no-services": "Aucun service trouvé",
+    "collection": "Collection :",
+    "open": "Ouvrir",
+    "compare": "Comparer",
+    "search-placeholder": "Services de recherche...",
+    "current": "ACTUELLE",
+    "collection-description": {
+      "contrib": "Collection ouverte à toutes les contributions",
+      "p2b-compliance": "Services d’intermédiation en ligne pour les entreprises en Europe",
+      "france": "Principaux services numériques utilisés en France",
+      "generative-ai": "Services d’IA générative les plus populaires",
+      "platform-governance": "Principaux services mondiaux de réseaux sociaux",
+      "dating": "Services de rencontre en ligne",
+      "kenya": "Principaux services numériques utilisés au Kenya",
+      "france-public": "Services publics français",
+      "france-elections": "Services liés aux élections françaises",
+      "demo": "Services utilisés par Open Terms Archive"
+    }
+  },
+
+  "version-selector": {
+    "title": "Sélectionner une version à comparer",
+    "loading": "Chargement des versions...",
+    "no-version": "Aucune version trouvée",
+    "version": "Version",
+    "date": "Date :",
+    "message": "Message :",
+    "author": "Auteur :",
+    "current": "Version actuelle",
+    "compare": "Comparer avec l’actuelle"
+  }
+}

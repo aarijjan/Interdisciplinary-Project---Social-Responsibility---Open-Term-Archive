@@ -1,29 +1,33 @@
-import { Box, Heading, Text, VStack, Container, SimpleGrid, Flex } from '@chakra-ui/react'
-import { FileText, GitBranch, Shield, Clock } from 'lucide-react'
+import {
+  Box,
+  Heading,
+  Text,
+  VStack,
+  Container,
+  SimpleGrid,
+  Flex,
+} from "@chakra-ui/react";
+import { FileText, GitBranch, Shield, Clock } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
 export default function HomeScreen() {
+  const { t } = useTranslation("translation", { keyPrefix: "home" });
   return (
     <Container maxW="container.xl" py={8}>
       <VStack spacing={12} align="stretch">
         {/* Hero Section */}
         <Box textAlign="center" py={8}>
-          <Heading 
-            size="2xl" 
-            color="gray.900" 
-            fontWeight="bold" 
-            mb={4}
-          >
-            Open Terms Archive Manager
+          <Heading size="2xl" color="gray.900" fontWeight="bold" mb={4}>
+            {t("page-title")}
           </Heading>
-          <Text 
-            fontSize="xl" 
-            color="gray.600" 
-            maxW="3xl" 
+          <Text
+            fontSize="xl"
+            color="gray.600"
+            maxW="3xl"
             mx="auto"
             lineHeight="tall"
           >
-            Track and archive changes to Terms of Service and Privacy Policies. 
-            Monitor how online services evolve their legal documents over time.
+            {t("sub-title")}
           </Text>
         </Box>
 
@@ -31,47 +35,43 @@ export default function HomeScreen() {
         <SimpleGrid columns={{ base: 1, md: 2 }} spacing={8}>
           <FeatureCard
             icon={<FileText size={32} />}
-            title="Document Tracking"
-            description="Automatically track and archive versions of Terms of Service, Privacy Policies, and other legal documents from online services."
+            title={t("document-tracking-title")}
+            description={t("document-tracking-description")}
           />
           <FeatureCard
             icon={<GitBranch size={32} />}
-            title="Version History"
-            description="View complete version history with detailed diffs showing exactly what changed between document versions."
+            title={t("version-history-title")}
+            description={t("version-history-description")}
           />
           <FeatureCard
             icon={<Clock size={32} />}
-            title="Change Detection"
-            description="Get notified when services update their terms. Never miss important changes that might affect your rights."
+            title={t("change-detection-title")}
+            description={t("change-detection-description")}
           />
           <FeatureCard
             icon={<Shield size={32} />}
-            title="Transparency"
-            description="Promote transparency and accountability by making terms of service changes publicly accessible and verifiable."
+            title={t("transparency-title")}
+            description={t("transparency-description")}
           />
         </SimpleGrid>
 
         {/* About Section */}
-        <Box 
-          bg="blue.50" 
-          p={8} 
-          borderRadius="lg" 
-          border="1px" 
+        <Box
+          bg="blue.50"
+          p={8}
+          borderRadius="lg"
+          border="1px"
           borderColor="blue.100"
         >
           <Heading size="lg" color="gray.900" mb={4}>
-            About Open Terms Archive
+            {t("about-section-title")}
           </Heading>
           <VStack spacing={4} align="stretch">
             <Text color="gray.700" lineHeight="tall">
-              Open Terms Archive is an open-source initiative that tracks changes in the terms of 
-              service and privacy policies of major online platforms. By archiving these documents 
-              over time, we enable researchers, journalists, and users to understand how digital 
-              rights evolve.
+              {t("about-section-description-1")}
             </Text>
             <Text color="gray.700" lineHeight="tall">
-              This manager interface allows you to upload new documents, view version histories, 
-              compare changes between versions, and manage collections of tracked services.
+              {t("about-section-description-2")}
             </Text>
           </VStack>
         </Box>
@@ -79,50 +79,50 @@ export default function HomeScreen() {
         {/* Getting Started */}
         <Box>
           <Heading size="lg" color="gray.900" mb={6}>
-            Getting Started
+            {t("getting-started-title")}
           </Heading>
           <VStack spacing={4} align="stretch">
             <StepCard
               number="1"
-              title="Upload Documents"
-              description="Use the Upload tab to add new Terms of Service or Privacy Policy documents by URL or file upload."
+              title={t("upload-documents-title")}
+              description={t("upload-documents-description")}
             />
             <StepCard
               number="2"
-              title="View Versions"
-              description="Browse the View Versions tab to see all tracked documents and their complete version history."
+              title={t("view-versions-title")}
+              description={t("view-versions-description")}
             />
             <StepCard
               number="3"
-              title="Compare Changes"
-              description="Click on any version to see detailed diffs highlighting what changed between document versions."
+              title={t("compare-changes-title")}
+              description={t("compare-changes-description")}
             />
           </VStack>
         </Box>
       </VStack>
     </Container>
-  )
+  );
 }
 
 interface FeatureCardProps {
-  icon: React.ReactNode
-  title: string
-  description: string
+  icon: React.ReactNode;
+  title: string;
+  description: string;
 }
 
 function FeatureCard({ icon, title, description }: FeatureCardProps) {
   return (
-    <Box 
-      bg="white" 
-      p={6} 
-      borderRadius="lg" 
-      border="1px" 
+    <Box
+      bg="white"
+      p={6}
+      borderRadius="lg"
+      border="1px"
       borderColor="gray.200"
-      _hover={{ 
-        borderColor: 'blue.300',
-        shadow: 'md',
-        transform: 'translateY(-2px)',
-        transition: 'all 0.2s'
+      _hover={{
+        borderColor: "blue.300",
+        shadow: "md",
+        transform: "translateY(-2px)",
+        transition: "all 0.2s",
       }}
     >
       <Flex color="blue.600" mb={4}>
@@ -135,22 +135,22 @@ function FeatureCard({ icon, title, description }: FeatureCardProps) {
         {description}
       </Text>
     </Box>
-  )
+  );
 }
 
 interface StepCardProps {
-  number: string
-  title: string
-  description: string
+  number: string;
+  title: string;
+  description: string;
 }
 
 function StepCard({ number, title, description }: StepCardProps) {
   return (
-    <Flex 
-      bg="white" 
-      p={5} 
-      borderRadius="lg" 
-      border="1px" 
+    <Flex
+      bg="white"
+      p={5}
+      borderRadius="lg"
+      border="1px"
       borderColor="gray.200"
       gap={4}
       align="start"
@@ -177,5 +177,5 @@ function StepCard({ number, title, description }: StepCardProps) {
         </Text>
       </Box>
     </Flex>
-  )
+  );
 }
