@@ -1,5 +1,4 @@
 {
-  "no-comparison-data": "No comparison data available.",
   "app": {
     "home": "Home",
     "check-update-btn": "Check Updates"
@@ -38,7 +37,8 @@
     "new": "New: {{date}}",
     "loading": "Loading comparison...",
     "old-title": "Old Version",
-    "current-title": "Current Version"
+    "current-title": "Current Version",
+    "no-comparison-data": "No comparison data available."
   },
 
   "loading-doc": "Loading document...",
@@ -81,7 +81,8 @@
       "kenya": "Largest digital services used in Kenya",
       "france-public": "French public services",
       "france-elections": "French election services",
-      "demo": "Services used by Open Terms Archive"
+      "demo": "Services used by Open Terms Archive",
+      "germany": "Largest digital services used in Germany"
     }
   },
 

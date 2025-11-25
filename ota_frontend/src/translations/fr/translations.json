@@ -1,5 +1,4 @@
 {
-  "no-comparison-data": "Aucune donnée comparative disponible.",
   "app": {
     "home": "Accueil",
     "check-update-btn": "Vérifier les mises à jour"
@@ -84,7 +83,8 @@
       "kenya": "Principaux services numériques utilisés au Kenya",
       "france-public": "Services publics français",
       "france-elections": "Services liés aux élections françaises",
-      "demo": "Services utilisés par Open Terms Archive"
+      "demo": "Services utilisés par Open Terms Archive",
+      "germany": "Les principaux services numériques utilisés en Allemagne"
     }
   },
 

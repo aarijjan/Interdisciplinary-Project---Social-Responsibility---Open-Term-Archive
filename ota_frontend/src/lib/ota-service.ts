@@ -13,6 +13,7 @@ export const OTARepositories = {
   "france-public": "iroco-co/france-public-versions",
   "france-elections": "OpenTermsArchive/france-elections-versions",
   demo: "OpenTermsArchive/demo-versions",
+  germany: "cloudresiliencelab/german-versions",
 } as const;
 
 // Format service name from folder name
