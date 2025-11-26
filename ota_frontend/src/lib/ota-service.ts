@@ -185,9 +185,9 @@ export const getFileFromCommit = async (
     const data = await response.json();
 
     if (data.content && data.encoding === "base64") {
-      const content = atob(data.content);
-      console.log(`✅ Successfully loaded file, ${content.length} characters`);
-      return normalizeText(content);
+      const bytes = Uint8Array.from(atob(data.content), (c) => c.charCodeAt(0));
+
+      return new TextDecoder("utf-8").decode(bytes);
     }
 
     return normalizeText(data.content || "");
