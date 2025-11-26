@@ -1,5 +1,5 @@
 import { Flex, Button, Heading } from "@chakra-ui/react";
-import { Upload, FileText, Settings } from "lucide-react";
+import { Upload, FileText, Settings, Home } from "lucide-react";
 import { useTranslation } from "react-i18next";
 
 interface SidebarProps {
@@ -25,6 +25,21 @@ export default function Sidebar({
       <Heading size="lg" color="gray.900" fontWeight="semibold" mb={4}>
         {t("ota-manager")}
       </Heading>
+
+      <Button
+        variant="ghost"
+        justifyContent="flex-start"
+        leftIcon={<Home size={16} />}
+        color={currentScreen === "home" ? "blue.600" : "gray.600"}
+        bg={currentScreen === "home" ? "blue.50" : "transparent"}
+        _hover={{
+          bg: currentScreen === "home" ? "blue.50" : "gray.50",
+          color: currentScreen === "home" ? "blue.600" : "gray.700",
+        }}
+        onClick={() => setCurrentScreen("home")}
+      >
+        {t("app.home")}
+      </Button>
 
       <Button
         variant="ghost"

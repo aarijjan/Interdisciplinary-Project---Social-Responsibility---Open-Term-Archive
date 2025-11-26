@@ -5,9 +5,6 @@ import {
   Heading,
   Button,
   Select,
-  Tabs,
-  TabList,
-  Tab,
 } from "@chakra-ui/react";
 import { GitPullRequest } from "lucide-react";
 import Sidebar from "./components/Sidebar";
@@ -43,29 +40,11 @@ export default function App() {
       />
 
       <Box flex="1" p={10}>
-        {/* Top Navigation Tabs */}
+        {/* Top Navigation */}
         <Box sx={{ display: "flex", flexDirection: "column" }}>
-          <Box sx={{ alignSelf: "flex-end" }}>
+          <Box sx={{ alignSelf: "flex-end", mb: 6 }}>
             <LanguageSwitcher />
           </Box>
-
-          <Tabs
-            index={currentScreen === "home" ? 0 : -1}
-            onChange={(index) => index === 0 && setCurrentScreen("home")}
-            mb={6}
-          >
-            <TabList borderBottom="2px" borderColor="gray.200">
-              <Tab
-                fontWeight="medium"
-                color={currentScreen === "home" ? "blue.600" : "gray.600"}
-                _selected={{ color: "blue.600", borderColor: "blue.600" }}
-                _hover={{ color: "blue.500" }}
-                onClick={() => setCurrentScreen("home")}
-              >
-                {t("home")}
-              </Tab>
-            </TabList>
-          </Tabs>
         </Box>
 
         {currentScreen !== "home" && (
