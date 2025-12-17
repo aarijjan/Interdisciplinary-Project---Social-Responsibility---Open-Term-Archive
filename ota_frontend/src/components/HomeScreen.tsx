@@ -6,30 +6,75 @@ import {
   Container,
   SimpleGrid,
   Flex,
+  Link,
 } from "@chakra-ui/react";
 import { FileText, GitBranch, Shield, Clock } from "lucide-react";
 import { useTranslation } from "react-i18next";
 
-export default function HomeScreen() {
+interface HomeScreenProps {
+  onNavigateToViewVersions?: () => void;
+}
+
+export default function HomeScreen({ onNavigateToViewVersions }: HomeScreenProps) {
   const { t } = useTranslation("translation", { keyPrefix: "home" });
   return (
-    <Container maxW="container.xl" py={8}>
-      <VStack spacing={12} align="stretch">
-        {/* Hero Section */}
-        <Box textAlign="center" py={8}>
-          <Heading size="2xl" color="gray.900" fontWeight="bold" mb={4}>
-            {t("page-title")}
+    <Box>
+      {/*Full Width*/}
+      <Box 
+        py={16} 
+        bg="black"
+        mx={-10}
+        mb={12}
+      >
+        <Container maxW="container.xl" pl={8}> 
+          <Heading size="2xl" color="white" fontWeight="normal" mb={12} textAlign="left" whiteSpace="pre-line" lineHeight="1.3">
+            {(() => {
+              const text = t("page-title");
+              const patterns = [
+                "'Accept'",
+                "\u201EAkzeptieren\u201C", // German quotes
+                "\u00AB Accepter \u00BB"  // French quotes
+              ];
+              
+              for (const pattern of patterns) {
+                if (text.includes(pattern)) {
+                  return text.split(pattern).map((part, index, array) => (
+                    <span key={index}>
+                      {part}
+                      {index < array.length - 1 && <strong>{pattern}</strong>}
+                    </span>
+                  ));
+                }
+              }
+              
+              // Fallback if no pattern matches
+              return text;
+            })()}
           </Heading>
           <Text
             fontSize="xl"
-            color="gray.600"
-            maxW="3xl"
-            mx="auto"
+            color="white"
+            maxW="5.5xl"
             lineHeight="tall"
+            textAlign="left"
           >
-            {t("sub-title")}
+            {t("sub-title")}{" "}
+            <Link
+              color="blue.500"
+              _hover={{ color: "blue.300" }}
+              cursor="pointer"
+              fontStyle="italic"
+              onClick={onNavigateToViewVersions}
+            >
+              {t("start-comparing-now")}
+            </Link>
           </Text>
-        </Box>
+        </Container>
+      </Box>
+
+      {/* Rest of Content */}
+      <Container maxW="container.xl">
+        <VStack spacing={12} align="stretch">
 
         {/* Features Grid */}
         <SimpleGrid columns={{ base: 1, md: 2 }} spacing={8}>
@@ -99,8 +144,9 @@ export default function HomeScreen() {
             />
           </VStack>
         </Box>
-      </VStack>
-    </Container>
+        </VStack>
+      </Container>
+    </Box>
   );
 }
 

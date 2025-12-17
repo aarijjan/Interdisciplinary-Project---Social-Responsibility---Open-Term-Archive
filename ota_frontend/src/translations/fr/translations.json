@@ -4,8 +4,9 @@
     "check-update-btn": "Vérifier les mises à jour"
   },
   "home": {
-    "page-title": "Gestionnaire Open Terms Archive",
-    "sub-title": "Suivez et archivez les modifications des conditions d'utilisation et des politiques de confidentialité. Surveillez comment les services en ligne font évoluer leurs documents légaux au fil du temps.",
+    "page-title": "Comprenez les règles \navant de cliquer sur « Accepter ».",
+    "sub-title": "Open Terms Archive Manager permet aux utilisateurs de consulter et de comparer les versions des conditions d’utilisation des services numériques, afin qu’ils sachent toujours à quoi ils consentent.",
+    "start-comparing-now": "Commencer à comparer maintenant!",
     "document-tracking-title": "Suivi des documents",
     "document-tracking-description": "Suivez automatiquement et archivez les versions des conditions d'utilisation, politiques de confidentialité et autres documents légaux des services en ligne.",
     "version-history-title": "Historique des versions",

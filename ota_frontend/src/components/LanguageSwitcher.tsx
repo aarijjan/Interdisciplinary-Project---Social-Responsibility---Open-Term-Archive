@@ -4,7 +4,11 @@ import mastodonIcon from "../assets/mastodon.svg";
 import githubIcon from "../assets/github.svg";
 import linkedinIcon from "../assets/linkedin.svg";
 
-const LanguageSwitcher = () => {
+interface LanguageSwitcherProps {
+  showSocialIcons?: boolean;
+}
+
+const LanguageSwitcher = ({ showSocialIcons = false }: LanguageSwitcherProps) => {
   const languages = ["en", "de", "fr"];
   const { i18n } = useTranslation();
   const currentLang = i18n.language;
@@ -52,7 +56,7 @@ const LanguageSwitcher = () => {
         </MenuList>
       </Menu>
       
-      {socialLinks.map((social) => (
+      {showSocialIcons && socialLinks.map((social) => (
         <Link key={social.name} href={social.url} isExternal>
           <IconButton
             aria-label={social.name}

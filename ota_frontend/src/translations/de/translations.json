@@ -4,8 +4,9 @@
     "check-update-btn": "Auf Updates prüfen"
   },
   "home": {
-    "page-title": "Open Terms Archive Manager",
-    "sub-title": "Verfolgen und archivieren Sie Änderungen der Nutzungsbedingungen und Datenschutzrichtlinien. Überwachen Sie, wie Online-Dienste ihre rechtlichen Dokumente im Laufe der Zeit ändern.",
+    "page-title": "Kenne die Regeln, \nbevor du auf „Akzeptieren“ klickst.",
+    "sub-title": "Der Open Terms Archive Manager ermöglicht es Nutzern, Versionen digitaler Nutzungsbedingungen einzusehen und zu vergleichen, damit sie immer wissen, worauf sie sich einlassen.",
+    "start-comparing-now": "Jetzt vergleichen!",
     "document-tracking-title": "Dokumentenverfolgung",
     "document-tracking-description": "Verfolgen und archivieren Sie automatisch Versionen von Nutzungsbedingungen, Datenschutzrichtlinien und anderen rechtlichen Dokumenten von Online-Diensten.",
     "version-history-title": "Versionsverlauf",

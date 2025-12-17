@@ -5,6 +5,7 @@ import {
   Heading,
   Button,
   Select,
+  Image,
 } from "@chakra-ui/react";
 import { GitPullRequest } from "lucide-react";
 import Sidebar from "./components/Sidebar";
@@ -15,6 +16,7 @@ import SettingsScreen from "./components/SettingsScreen";
 import { useCollections } from "./hooks/useCollections";
 import LanguageSwitcher from "./components/LanguageSwitcher";
 import { useTranslation } from "react-i18next";
+import otaLogo from "./assets/ota.svg";
 
 export default function App() {
   const [currentScreen, setCurrentScreen] = useState<
@@ -41,11 +43,20 @@ export default function App() {
 
       <Box flex="1" p={10}>
         {/* Top Navigation */}
-        <Box sx={{ display: "flex", flexDirection: "column" }}>
-          <Box sx={{ alignSelf: "flex-end", mb: 6 }}>
-            <LanguageSwitcher />
+        <Flex justify="space-between" align="center" mb={6}>
+          {currentScreen === "home" && (
+            <Image 
+              src={otaLogo} 
+              alt="OTA Logo"
+              height="40px"
+              width="auto"
+              ml={-3}
+            />
+          )}
+          <Box ml={currentScreen !== "home" ? 0 : "auto"}>
+            <LanguageSwitcher showSocialIcons={currentScreen === "home"} />
           </Box>
-        </Box>
+        </Flex>
 
         {currentScreen !== "home" && (
           <Flex justify="space-between" align="center" mb={8}>
@@ -83,7 +94,9 @@ export default function App() {
           </Flex>
         )}
 
-        {currentScreen === "home" && <HomeScreen />}
+        {currentScreen === "home" && (
+          <HomeScreen onNavigateToViewVersions={() => setCurrentScreen("view")} />
+        )}
         {currentScreen === "upload" && <UploadScreen />}
         {currentScreen === "view" && (
           <ViewVersionsScreen

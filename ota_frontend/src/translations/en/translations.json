@@ -4,8 +4,9 @@
     "check-update-btn": "Check Updates"
   },
   "home": {
-    "page-title": "Open Terms Archive Manager",
-    "sub-title": "Track and archive changes to Terms of Service and Privacy Policies. Monitor how online services evolve their legal documents over time.",
+    "page-title": "Know the rules,\nbefore you click 'Accept'.",
+    "start-comparing-now": "Start comparing now!",
+    "sub-title": "Open Terms Archive Manager lets users view and compare versions of digital service agreements, so they always know what they are agreeing upon.",
     "document-tracking-title": "Document Tracking",
     "document-tracking-description": "Automatically track and archive versions of Terms of Service, Privacy Policies, and other legal documents from online services.",
     "version-history-title": "Version History",
