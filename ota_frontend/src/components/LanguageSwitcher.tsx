@@ -1,4 +1,4 @@
-import { Button, HStack } from "@chakra-ui/react";
+import { Menu, MenuButton, MenuList, MenuItem, Button } from "@chakra-ui/react";
 import { useTranslation } from "react-i18next";
 
 const LanguageSwitcher = () => {
@@ -12,19 +12,23 @@ const LanguageSwitcher = () => {
   };
 
   return (
-    <HStack spacing={4}>
-      {languages.map((lang) => (
-        <Button
-          key={lang}
-          variant="link"
-          colorScheme={currentLang === lang ? "blue" : "gray"}
-          fontWeight={currentLang === lang ? "bold" : "normal"}
-          onClick={() => changeLanguage(lang)}
-        >
-          {lang.toUpperCase()}
-        </Button>
-      ))}
-    </HStack>
+    <Menu>
+      <MenuButton as={Button} variant="outline">
+        {currentLang.toUpperCase()} ▼
+      </MenuButton>
+      <MenuList>
+        {languages.map((lang) => (
+          <MenuItem
+            key={lang}
+            onClick={() => changeLanguage(lang)}
+            fontWeight={currentLang === lang ? "bold" : "normal"}
+            bg={currentLang === lang ? "blue.50" : "transparent"}
+          >
+            {lang.toUpperCase()}
+          </MenuItem>
+        ))}
+      </MenuList>
+    </Menu>
   );
 };
 

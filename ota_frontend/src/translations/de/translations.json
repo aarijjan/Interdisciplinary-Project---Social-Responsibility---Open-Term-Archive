@@ -49,6 +49,8 @@
   "pages-shown": "Anzeige von {{startingItem}} bis {{endingItem}} von insgesamt {{totalItems}} Diensten",
   "settings": "Einstellungen",
   "settings-description": "Hier werden die Anwendungseinstellungen und -präferenzen angezeigt.",
+  "dark-mode": "Dunkler Modus",
+  "dark-mode-description": "Zwischen hellem und dunklem Design wechseln",
 
   "ota-manager": "OTA-Manager",
   "upload": "Hochladen",

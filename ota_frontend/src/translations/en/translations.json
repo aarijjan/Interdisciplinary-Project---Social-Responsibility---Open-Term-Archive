@@ -48,6 +48,8 @@
   "pages-shown": " Showing {{startingItem}} to {{endingItem}} of {{totalItems}} services",
   "settings": "Settings",
   "settings-description": "Application settings and preferences will appear here.",
+  "dark-mode": "Dark Mode",
+  "dark-mode-description": "Toggle between light and dark theme",
 
   "ota-manager": "OTA Manager",
   "upload": "Upload",

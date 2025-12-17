@@ -50,6 +50,8 @@
   "pages-shown": "Affichage de {{startingItem}} à {{endingItem}} sur {{totalItems}} services",
   "settings": "Paramètres",
   "settings-description": "Les paramètres et préférences de l'application apparaîtront ici.",
+  "dark-mode": "Mode sombre",
+  "dark-mode-description": "Basculer entre le thème clair et sombre",
 
   "ota-manager": "Gestionnaire OTA",
   "upload": "Téléverser",

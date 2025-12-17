@@ -41,7 +41,7 @@ export default function Sidebar({
         {t("app.home")}
       </Button>
 
-      <Button
+      {/*<Button
         variant="ghost"
         justifyContent="flex-start"
         leftIcon={<Upload size={16} />}
@@ -54,7 +54,7 @@ export default function Sidebar({
         onClick={() => setCurrentScreen("upload")}
       >
         {t("upload")}
-      </Button>
+      </Button>*/}
 
       <Button
         variant="ghost"
