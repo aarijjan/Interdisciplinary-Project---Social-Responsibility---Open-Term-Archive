@@ -10,16 +10,12 @@ import {
   HStack,
   Badge,
   Spinner,
-  Alert,
-  AlertIcon,
-  Button,
   VStack,
   Tabs,
   TabList,
   TabPanels,
   Tab,
   TabPanel,
-  useDisclosure,
   Progress,
   Flex,
   Code,
@@ -27,28 +23,10 @@ import {
 } from "@chakra-ui/react";
 import { useState, useEffect, useMemo } from "react";
 import { useTranslation } from "react-i18next";
-import { Check, AlertTriangle, FileText, ChevronDown, ChevronUp } from "lucide-react";
-import * as Diff from 'diff';
+import { Check } from "lucide-react";
+import * as Diff from "diff";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
-
-const forceFixEncoding = (text: string): string => {
-  return text
-    .replace(/Â/g, '')
-    .replace(/Ã©/g, 'é')
-    .replace(/Ã¨/g, 'è')
-    .replace(/Ã /g, 'à')
-    .replace(/Ã§/g, 'ç')
-    .replace(/Ãª/g, 'ê')
-    .replace(/Ã®/g, 'î')
-    .replace(/Ã´/g, 'ô')
-    .replace(/Ã»/g, 'û')
-    .replace(/â/g, "'")
-    .replace(/\n=+\n/g, '\n')
-    .replace(/\n-+\n/g, '\n')
-    .replace(/\*\*\*/g, '')
-    .trim();
-};
 
 interface DiffViewerProps {
   isOpen: boolean;
@@ -68,84 +46,112 @@ interface DiffViewerProps {
 }
 
 interface DiffChange {
-  type: 'added' | 'removed';
+  type: "added" | "removed";
   lines: string[];
   lineNumber: number;
   content: string;
 }
 
-// Clean content - basic sanitization
-const sanitizeContent = (content: string): string => {
-  if (!content) return "";
-  return content.replace(/\r\n/g, '\n').replace(/\r/g, '\n').replace(/\0/g, '');
-};
-
 // Optimized diff calculation using the 'diff' library
 const calculateDiff = (oldText: string, newText: string) => {
   const diff = Diff.diffLines(oldText, newText);
-  
+
   const changes: DiffChange[] = [];
   let lineNumber = 1;
-  
-  diff.forEach(part => {
-    const lines = part.value.split('\n').filter(line => line !== '');
-    
+
+  diff.forEach((part) => {
+    const lines = part.value.split("\n").filter((line) => line !== "");
+
     if (part.added) {
       changes.push({
-        type: 'added',
+        type: "added",
         lines,
         lineNumber,
-        content: part.value
+        content: part.value,
       });
     } else if (part.removed) {
       changes.push({
-        type: 'removed',
+        type: "removed",
         lines,
         lineNumber,
-        content: part.value
+        content: part.value,
       });
     } else {
       // Unchanged text, just advance line number
       lineNumber += lines.length;
     }
   });
-  
+
   return {
     diff,
     changes,
-    totalChanges: changes.length
+    totalChanges: changes.length,
   };
 };
 
 // Markdown renderer for diff view
-const MarkdownDiffRenderer = ({ text, type }: { text: string; type: string }) => {
+const MarkdownDiffRenderer = ({
+  text,
+  type,
+}: {
+  text: string;
+  type: string;
+}) => {
   if (!text.trim()) return null;
-  
-  const textColor = type === 'removed' ? 'red.700' : 
-                   type === 'added' ? 'green.700' : 'gray.800';
-  const bgColor = type === 'removed' ? 'red.50' : 
-                 type === 'added' ? 'green.50' : 'transparent';
-  
+
+  const textColor =
+    type === "removed"
+      ? "red.700"
+      : type === "added"
+      ? "green.700"
+      : "gray.800";
+  const bgColor =
+    type === "removed"
+      ? "red.50"
+      : type === "added"
+      ? "green.50"
+      : "transparent";
+
   const markdownComponents = {
     h1: ({ node, ...props }: any) => (
       <Text as="div" fontSize="sm" fontWeight="bold" mt={1} mb={1} {...props} />
     ),
     h2: ({ node, ...props }: any) => (
-      <Text as="div" fontSize="sm" fontWeight="semibold" mt={1} mb={1} {...props} />
+      <Text
+        as="div"
+        fontSize="sm"
+        fontWeight="semibold"
+        mt={1}
+        mb={1}
+        {...props}
+      />
     ),
     h3: ({ node, ...props }: any) => (
-      <Text as="div" fontSize="xs" fontWeight="medium" mt={1} mb={1} {...props} />
+      <Text
+        as="div"
+        fontSize="xs"
+        fontWeight="medium"
+        mt={1}
+        mb={1}
+        {...props}
+      />
     ),
     p: ({ node, ...props }: any) => (
       <Text as="div" fontSize="xs" mb={1} {...props} />
     ),
     a: ({ node, ...props }: any) => (
-      <Link 
-        color={type === 'removed' ? 'red.600' : type === 'added' ? 'green.600' : 'blue.500'} 
-        textDecoration="underline" 
+      <Link
+        color={
+          type === "removed"
+            ? "red.600"
+            : type === "added"
+            ? "green.600"
+            : "blue.500"
+        }
+        textDecoration="underline"
         fontSize="xs"
         _hover={{ opacity: 0.8 }}
-        {...props} 
+        {...props}
       />
     ),
     ul: ({ node, ...props }: any) => (
@@ -154,9 +160,7 @@ const MarkdownDiffRenderer = ({ text, type }: { text: string; type: string }) =>
     ol: ({ node, ...props }: any) => (
       <Box as="div" pl={3} mb={1} fontSize="xs" {...props} />
     ),
-    li: ({ node, ...props }: any) => (
-      <Box as="div" fontSize="xs" {...props} />
-    ),
+    li: ({ node, ...props }: any) => <Box as="div" fontSize="xs" {...props} />,
     code: ({ node, inline, ...props }: any) => {
       if (inline) {
         return (
@@ -213,105 +217,117 @@ const MarkdownDiffRenderer = ({ text, type }: { text: string; type: string }) =>
 };
 
 // Compact side-by-side diff with markdown rendering
-const CompactVisualDiff = ({ oldContent, newContent }: {
+const CompactVisualDiff = ({
+  oldContent,
+  newContent,
+}: {
   oldContent: string;
   newContent: string;
 }) => {
-  const { diff } = useMemo(() => 
-    calculateDiff(oldContent, newContent),
+  const { diff } = useMemo(
+    () => calculateDiff(oldContent, newContent),
     [oldContent, newContent]
   );
-  
+
   // Prepare for side-by-side display with alignment
   const displayLines = useMemo(() => {
     const result: Array<{
-      left: { text: string; type: 'removed' | 'unchanged' | 'empty' };
-      right: { text: string; type: 'added' | 'unchanged' | 'empty' };
+      left: { text: string; type: "removed" | "unchanged" | "empty" };
+      right: { text: string; type: "added" | "unchanged" | "empty" };
       lineNumber: number;
     }> = [];
-    
+
     let lineNum = 1;
     let i = 0;
-    
+
     while (i < diff.length) {
       const part = diff[i];
-      
+
       if (part.removed && i + 1 < diff.length && diff[i + 1].added) {
         // Changed block: removed + added
-        const removedLines = part.value.split('\n').filter(l => l !== '');
-        const addedLines = diff[i + 1].value.split('\n').filter(l => l !== '');
+        const removedLines = part.value.split("\n").filter((l) => l !== "");
+        const addedLines = diff[i + 1].value
+          .split("\n")
+          .filter((l) => l !== "");
         const maxLines = Math.max(removedLines.length, addedLines.length);
-        
+
         for (let j = 0; j < maxLines; j++) {
           result.push({
             left: {
-              text: removedLines[j] || '',
-              type: 'removed'
+              text: removedLines[j] || "",
+              type: "removed",
             },
             right: {
-              text: addedLines[j] || '',
-              type: 'added'
+              text: addedLines[j] || "",
+              type: "added",
             },
-            lineNumber: lineNum + j
+            lineNumber: lineNum + j,
           });
         }
-        
+
         lineNum += maxLines;
         i += 2;
       } else if (part.removed) {
         // Only removed
-        const lines = part.value.split('\n').filter(l => l !== '');
-        lines.forEach(line => {
+        const lines = part.value.split("\n").filter((l) => l !== "");
+        lines.forEach((line) => {
           result.push({
-            left: { text: line, type: 'removed' },
-            right: { text: '', type: 'empty' },
-            lineNumber: lineNum++
+            left: { text: line, type: "removed" },
+            right: { text: "", type: "empty" },
+            lineNumber: lineNum++,
           });
         });
         i++;
       } else if (part.added) {
         // Only added
-        const lines = part.value.split('\n').filter(l => l !== '');
-        lines.forEach(line => {
+        const lines = part.value.split("\n").filter((l) => l !== "");
+        lines.forEach((line) => {
           result.push({
-            left: { text: '', type: 'empty' },
-            right: { text: line, type: 'added' },
-            lineNumber: lineNum++
+            left: { text: "", type: "empty" },
+            right: { text: line, type: "added" },
+            lineNumber: lineNum++,
           });
         });
         i++;
       } else {
         // Unchanged - SHOW THEM ALL (this is what you wanted)
-        const lines = part.value.split('\n').filter(l => l !== '');
-        lines.forEach(line => {
+        const lines = part.value.split("\n").filter((l) => l !== "");
+        lines.forEach((line) => {
           result.push({
-            left: { text: line, type: 'unchanged' },
-            right: { text: line, type: 'unchanged' },
-            lineNumber: lineNum++
+            left: { text: line, type: "unchanged" },
+            right: { text: line, type: "unchanged" },
+            lineNumber: lineNum++,
           });
         });
         i++;
       }
     }
-    
+
     return result;
   }, [diff]);
-  
+
   const displayLimit = 300;
   const displayData = displayLines.slice(0, displayLimit);
   const hasMoreLines = displayLines.length > displayLimit;
-  
+
   // Count changes for statistics
   const changeCount = useMemo(() => {
-    return displayLines.filter(line => 
-      line.left.type === 'removed' || line.right.type === 'added'
+    return displayLines.filter(
+      (line) => line.left.type === "removed" || line.right.type === "added"
     ).length;
   }, [displayLines]);
-  
+
   return (
     <Box>
       {/* Statistics header */}
-      <Flex justify="space-between" align="center" mb={3} p={2} bg="gray.50" borderRadius="md">
+      <Flex
+        justify="space-between"
+        align="center"
+        mb={3}
+        p={2}
+        bg="gray.50"
+        borderRadius="md"
+      >
         <Text fontSize="xs" color="gray.600">
           {displayLines.length} total lines • {changeCount} changed lines
         </Text>
@@ -319,7 +335,7 @@ const CompactVisualDiff = ({ oldContent, newContent }: {
           {changeCount > 0 ? `${changeCount} changes` : "No changes"}
         </Badge>
       </Flex>
-      
+
       <Flex
         maxH="500px"
         overflowY="auto"
@@ -333,19 +349,21 @@ const CompactVisualDiff = ({ oldContent, newContent }: {
       >
         {/* Left column - Old Version */}
         <Box flex={1} borderRight="1px" borderColor="gray.200">
-          <Box 
-            bg="blue.50" 
-            p={2} 
-            borderBottom="1px" 
+          <Box
+            bg="blue.50"
+            p={2}
+            borderBottom="1px"
             borderColor="gray.200"
             textAlign="center"
             position="sticky"
             top={0}
             zIndex={1}
           >
-            <Badge colorScheme="blue" size="sm">Old Version</Badge>
+            <Badge colorScheme="blue" size="sm">
+              Old Version
+            </Badge>
           </Box>
-          
+
           <Box>
             {displayData.map((line, index) => (
               <Flex
@@ -353,7 +371,7 @@ const CompactVisualDiff = ({ oldContent, newContent }: {
                 borderBottom="1px"
                 borderColor="gray.100"
                 _last={{ borderBottom: "none" }}
-                _hover={{ bg: 'gray.50' }}
+                _hover={{ bg: "gray.50" }}
                 minH="24px"
               >
                 <Box
@@ -368,36 +386,37 @@ const CompactVisualDiff = ({ oldContent, newContent }: {
                   borderRight="1px"
                   borderColor="gray.200"
                 >
-                  {line.left.type !== 'empty' ? line.lineNumber : ''}
+                  {line.left.type !== "empty" ? line.lineNumber : ""}
                 </Box>
-                
-                <Box
-                  flex={1}
-                  p="2px"
-                  minH="24px"
-                >
-                  <MarkdownDiffRenderer text={line.left.text} type={line.left.type} />
+
+                <Box flex={1} p="2px" minH="24px">
+                  <MarkdownDiffRenderer
+                    text={line.left.text}
+                    type={line.left.type}
+                  />
                 </Box>
               </Flex>
             ))}
           </Box>
         </Box>
-        
+
         {/* Right column - Current Version */}
         <Box flex={1}>
-          <Box 
-            bg="green.50" 
-            p={2} 
-            borderBottom="1px" 
+          <Box
+            bg="green.50"
+            p={2}
+            borderBottom="1px"
             borderColor="gray.200"
             textAlign="center"
             position="sticky"
             top={0}
             zIndex={1}
           >
-            <Badge colorScheme="green" size="sm">Current Version</Badge>
+            <Badge colorScheme="green" size="sm">
+              Current Version
+            </Badge>
           </Box>
-          
+
           <Box>
             {displayData.map((line, index) => (
               <Flex
@@ -405,7 +424,7 @@ const CompactVisualDiff = ({ oldContent, newContent }: {
                 borderBottom="1px"
                 borderColor="gray.100"
                 _last={{ borderBottom: "none" }}
-                _hover={{ bg: 'gray.50' }}
+                _hover={{ bg: "gray.50" }}
                 minH="24px"
               >
                 <Box
@@ -420,22 +439,21 @@ const CompactVisualDiff = ({ oldContent, newContent }: {
                   borderRight="1px"
                   borderColor="gray.200"
                 >
-                  {line.right.type !== 'empty' ? line.lineNumber : ''}
+                  {line.right.type !== "empty" ? line.lineNumber : ""}
                 </Box>
-                
-                <Box
-                  flex={1}
-                  p="2px"
-                  minH="24px"
-                >
-                  <MarkdownDiffRenderer text={line.right.text} type={line.right.type} />
+
+                <Box flex={1} p="2px" minH="24px">
+                  <MarkdownDiffRenderer
+                    text={line.right.text}
+                    type={line.right.type}
+                  />
                 </Box>
               </Flex>
             ))}
           </Box>
         </Box>
       </Flex>
-      
+
       {hasMoreLines && (
         <Box textAlign="center" p={2} bg="gray.50" borderRadius="md" mt={2}>
           <Text fontSize="xs" color="gray.600">
@@ -448,25 +466,28 @@ const CompactVisualDiff = ({ oldContent, newContent }: {
 };
 
 // Text Summary Component
-const TextSummaryComponent = ({ oldContent, newContent }: {
+const TextSummaryComponent = ({
+  oldContent,
+  newContent,
+}: {
   oldContent: string;
   newContent: string;
 }) => {
-  const { diff } = useMemo(() => 
-    calculateDiff(oldContent, newContent),
+  const { diff } = useMemo(
+    () => calculateDiff(oldContent, newContent),
     [oldContent, newContent]
   );
-  
+
   // Filter to show only changes (added or removed)
-  const changesOnly = useMemo(() => 
-    diff.filter(part => part.added || part.removed),
+  const changesOnly = useMemo(
+    () => diff.filter((part) => part.added || part.removed),
     [diff]
   );
-  
-  const addedLines = diff.filter(part => part.added).length;
-  const removedLines = diff.filter(part => part.removed).length;
+
+  const addedLines = diff.filter((part) => part.added).length;
+  const removedLines = diff.filter((part) => part.removed).length;
   const totalChanges = addedLines + removedLines;
-  
+
   return (
     <VStack align="stretch" spacing={4}>
       <Flex
@@ -482,48 +503,47 @@ const TextSummaryComponent = ({ oldContent, newContent }: {
           <Text fontSize="2xl" fontWeight="bold" color="green.600">
             +{addedLines}
           </Text>
-          <Text fontSize="sm" color="gray.600">Lines Added</Text>
+          <Text fontSize="sm" color="gray.600">
+            Lines Added
+          </Text>
         </Box>
         <Box>
           <Text fontSize="2xl" fontWeight="bold" color="red.600">
             -{removedLines}
           </Text>
-          <Text fontSize="sm" color="gray.600">Lines Removed</Text>
+          <Text fontSize="sm" color="gray.600">
+            Lines Removed
+          </Text>
         </Box>
         <Box>
           <Text fontSize="2xl" fontWeight="bold" color="blue.600">
             {totalChanges}
           </Text>
-          <Text fontSize="sm" color="gray.600">Total Changes</Text>
+          <Text fontSize="sm" color="gray.600">
+            Total Changes
+          </Text>
         </Box>
       </Flex>
-      
+
       {totalChanges === 0 ? (
-        <Box
-          bg="gray.50"
-          p={6}
-          borderRadius="md"
-          textAlign="center"
-        >
+        <Box bg="gray.50" p={6} borderRadius="md" textAlign="center">
           <Check size={32} color="#38A169" />
-          <Text mt={3} color="gray.600">No changes found between versions</Text>
-          <Text fontSize="sm" color="gray.500" mt={1}>The documents are identical</Text>
+          <Text mt={3} color="gray.600">
+            No changes found between versions
+          </Text>
+          <Text fontSize="sm" color="gray.500" mt={1}>
+            The documents are identical
+          </Text>
         </Box>
       ) : (
-        <Box
-          bg="gray.50"
-          p={4}
-          borderRadius="md"
-          maxH="400px"
-          overflowY="auto"
-        >
+        <Box bg="gray.50" p={4} borderRadius="md" maxH="400px" overflowY="auto">
           <Flex justify="space-between" align="center" mb={2}>
-            <Text fontSize="sm" fontWeight="medium">Change Summary:</Text>
-            <Badge colorScheme="blue">
-              {changesOnly.length} change blocks
-            </Badge>
+            <Text fontSize="sm" fontWeight="medium">
+              Change Summary:
+            </Text>
+            <Badge colorScheme="blue">{changesOnly.length} change blocks</Badge>
           </Flex>
-          
+
           {changesOnly.slice(0, 100).map((part, index) => (
             <Box
               key={index}
@@ -541,7 +561,8 @@ const TextSummaryComponent = ({ oldContent, newContent }: {
                   {part.added ? "ADDED" : "REMOVED"}
                 </Badge>
                 <Text fontSize="xs" color="gray.600">
-                  {part.value.split('\n').filter(l => l !== '').length} line(s)
+                  {part.value.split("\n").filter((l) => l !== "").length}{" "}
+                  line(s)
                 </Text>
               </Flex>
               <Text
@@ -559,7 +580,7 @@ const TextSummaryComponent = ({ oldContent, newContent }: {
               </Text>
             </Box>
           ))}
-          
+
           {changesOnly.length > 100 && (
             <Box textAlign="center" p={2} mt={2}>
               <Text color="gray.500" fontSize="sm">
@@ -574,22 +595,22 @@ const TextSummaryComponent = ({ oldContent, newContent }: {
 };
 
 // File Info Panel
-const FileInfoPanel = ({ 
-  oldVersion, 
-  newVersion 
-}: { 
+const FileInfoPanel = ({
+  oldVersion,
+  newVersion,
+}: {
   oldVersion: { content: string; date: string; sha: string };
   newVersion: { content: string; date: string; sha: string };
 }) => {
   const { t } = useTranslation("translation", { keyPrefix: "diff-viewer" });
-  
+
   return (
-    <Flex 
-      justify="space-between" 
-      align="center" 
-      bg="gray.50" 
-      p={3} 
-      borderRadius="md" 
+    <Flex
+      justify="space-between"
+      align="center"
+      bg="gray.50"
+      p={3}
+      borderRadius="md"
       mb={4}
     >
       <VStack align="start" spacing={1}>
@@ -610,7 +631,7 @@ const FileInfoPanel = ({
           </Code>
         </HStack>
       </VStack>
-      
+
       <VStack align="end" spacing={1}>
         <Text fontSize="xs" color="gray.600">
           Old: {(oldVersion.content.length / 1024).toFixed(1)} KB
@@ -643,21 +664,24 @@ export default function DiffViewer({
       console.log("Calculating diff for:", documentName);
       console.log("Old:", oldVersion.content.length, "chars");
       console.log("New:", newVersion.content.length, "chars");
-      
+
       setIsProcessing(true);
-      
+
       // Simulate processing time based on file size
       const processTime = Math.min(
         2000,
-        Math.max(500, (oldVersion.content.length + newVersion.content.length) / 100)
+        Math.max(
+          500,
+          (oldVersion.content.length + newVersion.content.length) / 100
+        )
       );
-      
+
       const steps = 10;
       const stepTime = processTime / steps;
-      
+
       const interval = setInterval(() => {
-        setProgress(prev => {
-          const next = prev + (100 / steps);
+        setProgress((prev) => {
+          const next = prev + 100 / steps;
           if (next >= 100) {
             clearInterval(interval);
             setIsProcessing(false);
@@ -666,7 +690,7 @@ export default function DiffViewer({
           return next;
         });
       }, stepTime);
-      
+
       return () => clearInterval(interval);
     }
   }, [isOpen, isLoading, oldVersion.content, newVersion.content, documentName]);
@@ -680,20 +704,14 @@ export default function DiffViewer({
   }, [isOpen]);
 
   // Sanitized content
-  const sanitizedOld = useMemo(() => 
-    forceFixEncoding(oldVersion.content),
-    [oldVersion.content]
-  );
-  
-  const sanitizedNew = useMemo(() => 
-    forceFixEncoding(newVersion.content),
-    [newVersion.content]
-  );
+  const sanitizedOld = useMemo(() => oldVersion.content, [oldVersion.content]);
+
+  const sanitizedNew = useMemo(() => newVersion.content, [newVersion.content]);
 
   return (
-    <Modal 
-      isOpen={isOpen} 
-      onClose={onClose} 
+    <Modal
+      isOpen={isOpen}
+      onClose={onClose}
       size="full"
       closeOnOverlayClick={!isProcessing}
     >
@@ -704,10 +722,7 @@ export default function DiffViewer({
             {t("title", { documentName: documentName })}
           </Text>
           {!isLoading && oldVersion.content && newVersion.content && (
-            <FileInfoPanel 
-              oldVersion={oldVersion}
-              newVersion={newVersion}
-            />
+            <FileInfoPanel oldVersion={oldVersion} newVersion={newVersion} />
           )}
         </ModalHeader>
         <ModalCloseButton isDisabled={isProcessing} />
@@ -726,11 +741,11 @@ export default function DiffViewer({
               <Text mb={2}>Calculating differences...</Text>
               {isProcessing && (
                 <>
-                  <Progress 
-                    value={progress} 
-                    width="300px" 
-                    size="sm" 
-                    colorScheme="blue" 
+                  <Progress
+                    value={progress}
+                    width="300px"
+                    size="sm"
+                    colorScheme="blue"
                     mb={2}
                     borderRadius="full"
                   />
@@ -753,9 +768,11 @@ export default function DiffViewer({
             </Box>
           ) : (
             <>
-              <Tabs 
-                index={viewMode === "visual" ? 0 : 1} 
-                onChange={(index) => setViewMode(index === 0 ? "visual" : "summary")}
+              <Tabs
+                index={viewMode === "visual" ? 0 : 1}
+                onChange={(index) =>
+                  setViewMode(index === 0 ? "visual" : "summary")
+                }
                 variant="enclosed"
                 mb={4}
               >
@@ -775,27 +792,31 @@ export default function DiffViewer({
                 </TabList>
                 <TabPanels>
                   <TabPanel p={0} pt={4}>
-                    <CompactVisualDiff 
+                    <CompactVisualDiff
                       oldContent={sanitizedOld}
                       newContent={sanitizedNew}
                     />
                   </TabPanel>
                   <TabPanel p={0} pt={4}>
-                    <TextSummaryComponent 
+                    <TextSummaryComponent
                       oldContent={sanitizedOld}
                       newContent={sanitizedNew}
                     />
                   </TabPanel>
                 </TabPanels>
               </Tabs>
-              
+
               {/* Statistics */}
               <Box mt={6} pt={4} borderTop="1px" borderColor="gray.200">
                 <Flex justify="space-between" fontSize="sm" color="gray.600">
                   <VStack align="start" spacing={1}>
                     <Text fontWeight="medium">File Statistics</Text>
-                    <Text>Old: {oldVersion.content.length.toLocaleString()} chars</Text>
-                    <Text>New: {newVersion.content.length.toLocaleString()} chars</Text>
+                    <Text>
+                      Old: {oldVersion.content.length.toLocaleString()} chars
+                    </Text>
+                    <Text>
+                      New: {newVersion.content.length.toLocaleString()} chars
+                    </Text>
                   </VStack>
                   <VStack align="end" spacing={1}>
                     <Text fontWeight="medium">Comparison</Text>
