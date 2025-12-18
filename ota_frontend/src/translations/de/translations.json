@@ -4,9 +4,10 @@
     "check-update-btn": "Auf Updates prüfen"
   },
   "home": {
-    "page-title": "Kenne die Regeln, \nbevor du auf „Akzeptieren“ klickst.",
+    "page-title": "Kenne die Geschäftsbedingungen, \nbevor du auf „Akzeptieren“ klickst.",
     "sub-title": "Der Open Terms Archive Manager ermöglicht es Nutzern, Versionen digitaler Nutzungsbedingungen einzusehen und zu vergleichen, damit sie immer wissen, worauf sie sich einlassen.",
     "start-comparing-now": "Jetzt vergleichen!",
+    "center-text": "Sammlungen sind organisierte Gruppen von Unternehmen, geordnet nach Branche, Land oder Sprache, und erleichtern die Auswahl eines bestimmten Unternehmens-Nischenbereichs sowie die Einsicht in deren digitale Nutzungsbedingungen.",
     "document-tracking-title": "Dokumentenverfolgung",
     "document-tracking-description": "Verfolgen und archivieren Sie automatisch Versionen von Nutzungsbedingungen, Datenschutzrichtlinien und anderen rechtlichen Dokumenten von Online-Diensten.",
     "version-history-title": "Versionsverlauf",

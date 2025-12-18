@@ -4,9 +4,10 @@
     "check-update-btn": "Vérifier les mises à jour"
   },
   "home": {
-    "page-title": "Comprenez les règles \navant de cliquer sur « Accepter ».",
+    "page-title": "Comprenez les Conditions \navant de cliquer sur « Accepter ».",
     "sub-title": "Open Terms Archive Manager permet aux utilisateurs de consulter et de comparer les versions des conditions d’utilisation des services numériques, afin qu’ils sachent toujours à quoi ils consentent.",
     "start-comparing-now": "Commencer à comparer maintenant!",
+    "center-text": "Les collections sont des groupes organisés d’entreprises, classées par secteur, pays ou langue, facilitant le choix d’une niche spécifique d’entreprises et l’exploration de leurs conditions d’utilisation numériques.",
     "document-tracking-title": "Suivi des documents",
     "document-tracking-description": "Suivez automatiquement et archivez les versions des conditions d'utilisation, politiques de confidentialité et autres documents légaux des services en ligne.",
     "version-history-title": "Historique des versions",

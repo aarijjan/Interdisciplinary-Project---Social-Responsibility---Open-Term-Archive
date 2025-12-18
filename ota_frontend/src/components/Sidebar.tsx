@@ -5,11 +5,13 @@ import { useTranslation } from "react-i18next";
 interface SidebarProps {
   currentScreen: string;
   setCurrentScreen: (screen: "home" | "upload" | "view" | "settings") => void;
+  onNavigate?: () => void;
 }
 
 export default function Sidebar({
   currentScreen,
   setCurrentScreen,
+  onNavigate,
 }: SidebarProps) {
   const { t } = useTranslation();
   return (
@@ -36,7 +38,10 @@ export default function Sidebar({
           bg: currentScreen === "home" ? "blue.50" : "gray.50",
           color: currentScreen === "home" ? "blue.600" : "gray.700",
         }}
-        onClick={() => setCurrentScreen("home")}
+        onClick={() => {
+          setCurrentScreen("home");
+          onNavigate?.();
+        }}
       >
         {t("app.home")}
       </Button>
@@ -66,7 +71,10 @@ export default function Sidebar({
           bg: currentScreen === "view" ? "blue.50" : "gray.50",
           color: currentScreen === "view" ? "blue.600" : "gray.700",
         }}
-        onClick={() => setCurrentScreen("view")}
+        onClick={() => {
+          setCurrentScreen("view");
+          onNavigate?.();
+        }}
       >
         {t("view-versions")}
       </Button>
@@ -81,7 +89,10 @@ export default function Sidebar({
           bg: currentScreen === "settings" ? "blue.50" : "gray.50",
           color: currentScreen === "settings" ? "blue.600" : "gray.700",
         }}
-        onClick={() => setCurrentScreen("settings")}
+        onClick={() => {
+          setCurrentScreen("settings");
+          onNavigate?.();
+        }}
       >
         {t("settings")}
       </Button>

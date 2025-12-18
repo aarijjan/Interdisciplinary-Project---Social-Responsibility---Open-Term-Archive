@@ -6,8 +6,9 @@ import {
   Button,
   Select,
   Image,
+  IconButton,
 } from "@chakra-ui/react";
-import { GitPullRequest } from "lucide-react";
+import { GitPullRequest, Menu } from "lucide-react";
 import Sidebar from "./components/Sidebar";
 import HomeScreen from "./components/HomeScreen";
 import UploadScreen from "./components/UploadScreen";
@@ -22,6 +23,7 @@ export default function App() {
   const [currentScreen, setCurrentScreen] = useState<
     "home" | "upload" | "view" | "settings"
   >("home");
+  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
   const { t } = useTranslation("translation", { keyPrefix: "app" });
 
@@ -35,25 +37,36 @@ export default function App() {
   } = useCollections();
 
   return (
-    <Flex minH="100vh" bg="gray.50">
-      <Sidebar
-        currentScreen={currentScreen}
-        setCurrentScreen={setCurrentScreen}
-      />
+    <Flex minH="100vh" bg={currentScreen === "home" ? "rgba(241, 241, 241, 1)" : "gray.50"}>
+      {isSidebarOpen && (
+        <Sidebar
+          currentScreen={currentScreen}
+          setCurrentScreen={setCurrentScreen}
+          onNavigate={() => setIsSidebarOpen(false)}
+        />
+      )}
 
       <Box flex="1" p={10}>
         {/* Top Navigation */}
-        <Flex justify="space-between" align="center" mb={6}>
-          {currentScreen === "home" && (
-            <Image 
-              src={otaLogo} 
-              alt="OTA Logo"
-              height="40px"
-              width="auto"
-              ml={-3}
+        <Flex justify="space-between" align="center" mb={-2} bg="white" py={10} mx={-10} mt={-10} px={10}>
+          <Flex align="center" gap={4}>
+            <IconButton
+              aria-label="Toggle sidebar"
+              icon={<Menu size={20} />}
+              variant="ghost"
+              onClick={() => setIsSidebarOpen(!isSidebarOpen)}
+              _hover={{ bg: "gray.100" }}
             />
-          )}
-          <Box ml={currentScreen !== "home" ? 0 : "auto"}>
+            {currentScreen === "home" && (
+              <Image 
+                src={otaLogo} 
+                alt="OTA Logo"
+                height="40px"
+                width="auto"
+              />
+            )}
+          </Flex>
+          <Box>
             <LanguageSwitcher showSocialIcons={currentScreen === "home"} />
           </Box>
         </Flex>

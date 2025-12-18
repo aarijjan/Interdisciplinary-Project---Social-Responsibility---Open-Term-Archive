@@ -7,9 +7,25 @@ import {
   SimpleGrid,
   Flex,
   Link,
+  Image,
+  Circle,
 } from "@chakra-ui/react";
 import { FileText, GitBranch, Shield, Clock } from "lucide-react";
 import { useTranslation } from "react-i18next";
+
+// Import all PNG images
+import contribImg from "../assets/contrib.png";
+import datingImg from "../assets/dating.png";
+import demoImg from "../assets/demo.png";
+import franceImg from "../assets/france.png";
+import franceelecImg from "../assets/franceelec.png";
+import francepublicImg from "../assets/Francepublicser.png";
+import genaiImg from "../assets/GenAI.png";
+import germanImg from "../assets/german.png";
+import healthfranceImg from "../assets/healthfrance.png";
+import kenyaImg from "../assets/kenya.png";
+import p2bImg from "../assets/P2B.png";
+import platformgovImg from "../assets/PlatformGov.png";
 
 interface HomeScreenProps {
   onNavigateToViewVersions?: () => void;
@@ -18,7 +34,7 @@ interface HomeScreenProps {
 export default function HomeScreen({ onNavigateToViewVersions }: HomeScreenProps) {
   const { t } = useTranslation("translation", { keyPrefix: "home" });
   return (
-    <Box>
+    <Box bg="rgb(241, 241, 241, 1)" minH="100vh">
       {/*Full Width*/}
       <Box 
         py={16} 
@@ -72,32 +88,38 @@ export default function HomeScreen({ onNavigateToViewVersions }: HomeScreenProps
         </Container>
       </Box>
 
+      {/* Center Text */}
+      <Box textAlign="center" py={8}>
+        <Text 
+          fontSize="2xl" 
+          color="black" 
+          fontWeight="medium"
+          maxW="4xl"
+          mx="auto"
+          lineHeight="tall"
+        >
+          {t("center-text")}
+        </Text>
+      </Box>
+
       {/* Rest of Content */}
       <Container maxW="container.xl">
         <VStack spacing={12} align="stretch">
 
-        {/* Features Grid */}
-        <SimpleGrid columns={{ base: 1, md: 2 }} spacing={8}>
-          <FeatureCard
-            icon={<FileText size={32} />}
-            title={t("document-tracking-title")}
-            description={t("document-tracking-description")}
-          />
-          <FeatureCard
-            icon={<GitBranch size={32} />}
-            title={t("version-history-title")}
-            description={t("version-history-description")}
-          />
-          <FeatureCard
-            icon={<Clock size={32} />}
-            title={t("change-detection-title")}
-            description={t("change-detection-description")}
-          />
-          <FeatureCard
-            icon={<Shield size={32} />}
-            title={t("transparency-title")}
-            description={t("transparency-description")}
-          />
+        {/* Image Cards Grid */}
+        <SimpleGrid columns={{ base: 1, md: 3, lg: 4 }} spacing={6}>
+          <ImageCard image={contribImg} title="Contrib" description="Collection open to all contributions" />
+          <ImageCard image={datingImg} title="Dating" description="Online dating services" />
+          <ImageCard image={demoImg} title="Demo" description="Services used by Open Terms Archive" />
+          <ImageCard image={franceImg} title="France" description="Largest digital services used in France" />
+          <ImageCard image={franceelecImg} title="France Élections" description="French election services" />
+          <ImageCard image={francepublicImg} title="France Public Services" description="French public services" />
+          <ImageCard image={genaiImg} title="Generative AI Contrib" description="Most popular generative AI services" />
+          <ImageCard image={germanImg} title="Germany" description="Largest digital services used in Germany" />
+          <ImageCard image={healthfranceImg} title="Numérique en santé France" description="French health services" />
+          <ImageCard image={kenyaImg} title="Kenya" description="Largest digital services used in Kenya" />
+          <ImageCard image={p2bImg} title="P2B Compliance" description="Online intermediation services for businesses in Europe" />
+          <ImageCard image={platformgovImg} title="Platform Governance Archive" description="Major global social media services" />
         </SimpleGrid>
 
         {/* About Section */}
@@ -150,13 +172,13 @@ export default function HomeScreen({ onNavigateToViewVersions }: HomeScreenProps
   );
 }
 
-interface FeatureCardProps {
-  icon: React.ReactNode;
+interface ImageCardProps {
+  image: string;
   title: string;
   description: string;
 }
 
-function FeatureCard({ icon, title, description }: FeatureCardProps) {
+function ImageCard({ image, title, description }: ImageCardProps) {
   return (
     <Box
       bg="white"
@@ -170,14 +192,20 @@ function FeatureCard({ icon, title, description }: FeatureCardProps) {
         transform: "translateY(-2px)",
         transition: "all 0.2s",
       }}
+      textAlign="center"
     >
-      <Flex color="blue.600" mb={4}>
-        {icon}
-      </Flex>
-      <Heading size="md" color="gray.900" mb={3}>
+      <Circle size="80px" bg="gray.100" mb={4} mx="auto">
+        <Image 
+          src={image} 
+          alt={title}
+          boxSize="50px"
+          objectFit="contain"
+        />
+      </Circle>
+      <Heading size="sm" color="gray.900" mb={2}>
         {title}
       </Heading>
-      <Text color="gray.600" lineHeight="tall">
+      <Text color="gray.600" fontSize="sm" lineHeight="tall">
         {description}
       </Text>
     </Box>
