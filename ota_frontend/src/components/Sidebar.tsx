@@ -1,5 +1,5 @@
 import { Flex, Button, Heading } from "@chakra-ui/react";
-import { Upload, FileText, Settings, Home } from "lucide-react";
+import { FileText, Settings, Home } from "lucide-react";
 import { useTranslation } from "react-i18next";
 
 interface SidebarProps {

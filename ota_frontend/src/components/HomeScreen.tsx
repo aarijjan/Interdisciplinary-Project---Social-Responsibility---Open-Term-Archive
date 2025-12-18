@@ -10,7 +10,7 @@ import {
   Image,
   Circle,
 } from "@chakra-ui/react";
-import { FileText, GitBranch, Shield, Clock } from "lucide-react";
+// import { FileText, GitBranch, Shield, Clock } from "lucide-react";
 import { useTranslation } from "react-i18next";
 
 // Import all PNG images
@@ -108,18 +108,18 @@ export default function HomeScreen({ onNavigateToViewVersions }: HomeScreenProps
 
         {/* Image Cards Grid */}
         <SimpleGrid columns={{ base: 1, md: 3, lg: 4 }} spacing={6}>
-          <ImageCard image={contribImg} title="Contrib" description="Collection open to all contributions" />
-          <ImageCard image={datingImg} title="Dating" description="Online dating services" />
-          <ImageCard image={demoImg} title="Demo" description="Services used by Open Terms Archive" />
-          <ImageCard image={franceImg} title="France" description="Largest digital services used in France" />
-          <ImageCard image={franceelecImg} title="France Élections" description="French election services" />
-          <ImageCard image={francepublicImg} title="France Public Services" description="French public services" />
-          <ImageCard image={genaiImg} title="Generative AI Contrib" description="Most popular generative AI services" />
-          <ImageCard image={germanImg} title="Germany" description="Largest digital services used in Germany" />
-          <ImageCard image={healthfranceImg} title="Numérique en santé France" description="French health services" />
-          <ImageCard image={kenyaImg} title="Kenya" description="Largest digital services used in Kenya" />
-          <ImageCard image={p2bImg} title="P2B Compliance" description="Online intermediation services for businesses in Europe" />
-          <ImageCard image={platformgovImg} title="Platform Governance Archive" description="Major global social media services" />
+          <ImageCard image={contribImg} title={t("card-title1")} description={t("card-description1")} />
+          <ImageCard image={datingImg} title={t("card-title2")} description={t("card-description2")} />
+          <ImageCard image={demoImg} title={t("card-title3")} description={t("card-description3")} />
+          <ImageCard image={franceImg} title={t("card-title4")} description={t("card-description4")} />
+          <ImageCard image={franceelecImg} title={t("card-title5")} description={t("card-description5")} />
+          <ImageCard image={francepublicImg} title={t("card-title6")} description={t("card-description6")} />
+          <ImageCard image={genaiImg} title={t("card-title7")} description={t("card-description7")} />
+          <ImageCard image={germanImg} title={t("card-title8")} description={t("card-description8")} />
+          <ImageCard image={healthfranceImg} title={t("card-title9")} description={t("card-description9")} />
+          <ImageCard image={kenyaImg} title={t("card-title10")} description={t("card-description10")} />
+          <ImageCard image={p2bImg} title={t("card-title11")} description={t("card-description11")} />
+          <ImageCard image={platformgovImg} title={t("card-title12")} description={t("card-description12")} />
         </SimpleGrid>
 
         {/* About Section */}

@@ -9,13 +9,22 @@ interface LanguageSwitcherProps {
 }
 
 const LanguageSwitcher = ({ showSocialIcons = false }: LanguageSwitcherProps) => {
-  const languages = ["en", "de", "fr"];
+  const languages = [
+    { code: "en", name: "English", short: "EN" },
+    { code: "de", name: "Deutsch", short: "DE" },
+    { code: "fr", name: "Français", short: "FR" }
+  ];
   const { i18n } = useTranslation();
   const currentLang = i18n.language;
 
   const changeLanguage = (lang: string) => {
     i18n.changeLanguage(lang);
     localStorage.setItem("i18nextLng", lang);
+  };
+
+  const getCurrentLanguageShort = () => {
+    const lang = languages.find(l => l.code === currentLang);
+    return lang ? lang.short : currentLang.toUpperCase();
   };
 
   const socialLinks = [
@@ -40,17 +49,17 @@ const LanguageSwitcher = ({ showSocialIcons = false }: LanguageSwitcherProps) =>
     <HStack spacing={3}>
       <Menu>
         <MenuButton as={Button} variant="outline">
-          {currentLang.toUpperCase()} ▼
+          {getCurrentLanguageShort()} ▼
         </MenuButton>
         <MenuList>
           {languages.map((lang) => (
             <MenuItem
-              key={lang}
-              onClick={() => changeLanguage(lang)}
-              fontWeight={currentLang === lang ? "bold" : "normal"}
-              bg={currentLang === lang ? "blue.50" : "transparent"}
+              key={lang.code}
+              onClick={() => changeLanguage(lang.code)}
+              fontWeight={currentLang === lang.code ? "bold" : "normal"}
+              bg={currentLang === lang.code ? "blue.50" : "transparent"}
             >
-              {lang.toUpperCase()}
+              {lang.name}
             </MenuItem>
           ))}
         </MenuList>
