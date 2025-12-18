@@ -9,9 +9,12 @@ import {
   Link,
   Image,
   Circle,
+  IconButton,
+  Collapse,
 } from "@chakra-ui/react";
-// import { FileText, GitBranch, Shield, Clock } from "lucide-react";
+import { ArrowUp, ChevronDown } from "lucide-react";
 import { useTranslation } from "react-i18next";
+import { useState, useEffect } from "react";
 
 // Import all PNG images
 import contribImg from "../assets/contrib.png";
@@ -33,6 +36,23 @@ interface HomeScreenProps {
 
 export default function HomeScreen({ onNavigateToViewVersions }: HomeScreenProps) {
   const { t } = useTranslation("translation", { keyPrefix: "home" });
+  const [showScrollTop, setShowScrollTop] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setShowScrollTop(window.scrollY > 300);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  };
   return (
     <Box bg="rgb(241, 241, 241, 1)" minH="100vh">
       {/*Full Width*/}
@@ -108,18 +128,18 @@ export default function HomeScreen({ onNavigateToViewVersions }: HomeScreenProps
 
         {/* Image Cards Grid */}
         <SimpleGrid columns={{ base: 1, md: 3, lg: 4 }} spacing={6}>
-          <ImageCard image={contribImg} title={t("card-title1")} description={t("card-description1")} />
-          <ImageCard image={datingImg} title={t("card-title2")} description={t("card-description2")} />
-          <ImageCard image={demoImg} title={t("card-title3")} description={t("card-description3")} />
-          <ImageCard image={franceImg} title={t("card-title4")} description={t("card-description4")} />
-          <ImageCard image={franceelecImg} title={t("card-title5")} description={t("card-description5")} />
-          <ImageCard image={francepublicImg} title={t("card-title6")} description={t("card-description6")} />
-          <ImageCard image={genaiImg} title={t("card-title7")} description={t("card-description7")} />
-          <ImageCard image={germanImg} title={t("card-title8")} description={t("card-description8")} />
-          <ImageCard image={healthfranceImg} title={t("card-title9")} description={t("card-description9")} />
-          <ImageCard image={kenyaImg} title={t("card-title10")} description={t("card-description10")} />
-          <ImageCard image={p2bImg} title={t("card-title11")} description={t("card-description11")} />
-          <ImageCard image={platformgovImg} title={t("card-title12")} description={t("card-description12")} />
+          <ImageCard image={contribImg} title={t("card-title1")} description={t("card-description1")} extendedKey="card-extended1" />
+          <ImageCard image={datingImg} title={t("card-title2")} description={t("card-description2")} extendedKey="card-extended2" />
+          <ImageCard image={demoImg} title={t("card-title3")} description={t("card-description3")} extendedKey="card-extended3" />
+          <ImageCard image={franceImg} title={t("card-title4")} description={t("card-description4")} extendedKey="card-extended4" />
+          <ImageCard image={franceelecImg} title={t("card-title5")} description={t("card-description5")} extendedKey="card-extended5" />
+          <ImageCard image={francepublicImg} title={t("card-title6")} description={t("card-description6")} extendedKey="card-extended6" />
+          <ImageCard image={genaiImg} title={t("card-title7")} description={t("card-description7")} extendedKey="card-extended7" />
+          <ImageCard image={germanImg} title={t("card-title8")} description={t("card-description8")} extendedKey="card-extended8" />
+          <ImageCard image={healthfranceImg} title={t("card-title9")} description={t("card-description9")} extendedKey="card-extended9" />
+          <ImageCard image={kenyaImg} title={t("card-title10")} description={t("card-description10")} extendedKey="card-extended10" />
+          <ImageCard image={p2bImg} title={t("card-title11")} description={t("card-description11")} extendedKey="card-extended11" />
+          <ImageCard image={platformgovImg} title={t("card-title12")} description={t("card-description12")} extendedKey="card-extended12" />
         </SimpleGrid>
 
         {/* About Section */}
@@ -168,6 +188,24 @@ export default function HomeScreen({ onNavigateToViewVersions }: HomeScreenProps
         </Box>
         </VStack>
       </Container>
+
+      {/* Scroll to Top Button */}
+      {showScrollTop && (
+        <IconButton
+          aria-label="Scroll to top"
+          icon={<ArrowUp size={20} />}
+          position="fixed"
+          bottom={8}
+          right={8}
+          bg="black"
+          color="white"
+          borderRadius="full"
+          size="lg"
+          zIndex={20}
+          _hover={{ bg: "gray.800" }}
+          onClick={scrollToTop}
+        />
+      )}
     </Box>
   );
 }
@@ -176,9 +214,13 @@ interface ImageCardProps {
   image: string;
   title: string;
   description: string;
+  extendedKey: string;
 }
 
-function ImageCard({ image, title, description }: ImageCardProps) {
+function ImageCard({ image, title, description, extendedKey }: ImageCardProps) {
+  const { t } = useTranslation("translation", { keyPrefix: "home" });
+  const [isExpanded, setIsExpanded] = useState(false);
+
   return (
     <Box
       bg="white"
@@ -205,9 +247,34 @@ function ImageCard({ image, title, description }: ImageCardProps) {
       <Heading size="sm" color="gray.900" mb={2}>
         {title}
       </Heading>
-      <Text color="gray.600" fontSize="sm" lineHeight="tall">
+      <Text color="gray.600" fontSize="sm" lineHeight="tall" mb={3}>
         {description}
       </Text>
+      
+      <Collapse in={isExpanded} animateOpacity>
+        <Box bg="gray.50" p={3} borderRadius="md" mb={3}>
+          <Text color="gray.700" fontSize="xs" lineHeight="tall" whiteSpace="pre-line">
+            {t(extendedKey)}
+          </Text>
+        </Box>
+      </Collapse>
+      
+      <IconButton
+        aria-label={isExpanded ? "Collapse" : "Expand"}
+        icon={
+          <ChevronDown 
+            size={16} 
+            style={{ 
+              transform: isExpanded ? 'rotate(180deg)' : 'rotate(0deg)',
+              transition: 'transform 0.2s'
+            }} 
+          />
+        }
+        size="sm"
+        variant="ghost"
+        onClick={() => setIsExpanded(!isExpanded)}
+        _hover={{ bg: "gray.100" }}
+      />
     </Box>
   );
 }

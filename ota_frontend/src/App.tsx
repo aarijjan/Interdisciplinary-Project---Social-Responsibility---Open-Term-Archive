@@ -46,7 +46,7 @@ export default function App() {
         />
       )}
 
-      <Box flex="1" p={10}>
+      <Box flex="1" p={10} ml={isSidebarOpen ? "256px" : 0} transition="margin-left 0.3s">
         {/* Top Navigation */}
         <Flex justify="space-between" align="center" mb={-2} bg="white" py={10} mx={-10} mt={-10} px={10}>
           <Flex align="center" gap={4}>

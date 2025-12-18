@@ -23,6 +23,11 @@ export default function Sidebar({
       borderRight="1px"
       borderColor="gray.100"
       gap={4}
+      position="fixed"
+      top={0}
+      left={0}
+      h="100vh"
+      zIndex={10}
     >
       <Heading size="lg" color="gray.900" fontWeight="semibold" mb={4}>
         {t("ota-manager")}
