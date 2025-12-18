@@ -219,7 +219,7 @@ interface ImageCardProps {
 
 function ImageCard({ image, title, description, extendedKey }: ImageCardProps) {
   const { t } = useTranslation("translation", { keyPrefix: "home" });
-  const [isExpanded, setIsExpanded] = useState(false);
+  const [isHovered, setIsHovered] = useState(false);
 
   return (
     <Box
@@ -228,53 +228,45 @@ function ImageCard({ image, title, description, extendedKey }: ImageCardProps) {
       borderRadius="lg"
       border="1px"
       borderColor="gray.200"
+      textAlign="center"
+      transition="all 0.2s"
       _hover={{
         borderColor: "blue.300",
         shadow: "md",
         transform: "translateY(-2px)",
-        transition: "all 0.2s",
       }}
-      textAlign="center"
+      onMouseEnter={() => setIsHovered(true)}
+      onMouseLeave={() => setIsHovered(false)}
     >
       <Circle size="80px" bg="gray.100" mb={4} mx="auto">
-        <Image 
-          src={image} 
+        <Image
+          src={image}
           alt={title}
           boxSize="50px"
           objectFit="contain"
         />
       </Circle>
+
       <Heading size="sm" color="gray.900" mb={2}>
         {title}
       </Heading>
-      <Text color="gray.600" fontSize="sm" lineHeight="tall" mb={3}>
+
+      <Text color="gray.600" fontSize="sm" lineHeight="tall">
         {description}
       </Text>
-      
-      <Collapse in={isExpanded} animateOpacity>
-        <Box bg="gray.50" p={3} borderRadius="md" mb={3}>
-          <Text color="gray.700" fontSize="xs" lineHeight="tall" whiteSpace="pre-line">
+
+      <Collapse in={isHovered} animateOpacity>
+        <Box mt={3} bg="gray.50" p={3} borderRadius="md">
+          <Text
+            color="gray.700"
+            fontSize="xs"
+            lineHeight="tall"
+            whiteSpace="pre-line"
+          >
             {t(extendedKey)}
           </Text>
         </Box>
       </Collapse>
-      
-      <IconButton
-        aria-label={isExpanded ? "Collapse" : "Expand"}
-        icon={
-          <ChevronDown 
-            size={16} 
-            style={{ 
-              transform: isExpanded ? 'rotate(180deg)' : 'rotate(0deg)',
-              transition: 'transform 0.2s'
-            }} 
-          />
-        }
-        size="sm"
-        variant="ghost"
-        onClick={() => setIsExpanded(!isExpanded)}
-        _hover={{ bg: "gray.100" }}
-      />
     </Box>
   );
 }
