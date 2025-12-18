@@ -6,53 +6,140 @@ import {
   Container,
   SimpleGrid,
   Flex,
+  Link,
+  Image,
+  Circle,
+  IconButton,
+  Collapse,
 } from "@chakra-ui/react";
-import { FileText, GitBranch, Shield, Clock } from "lucide-react";
+import { ArrowUp, ChevronDown } from "lucide-react";
 import { useTranslation } from "react-i18next";
+import { useState, useEffect } from "react";
 
-export default function HomeScreen() {
+// Import all PNG images
+import contribImg from "../assets/contrib.png";
+import datingImg from "../assets/dating.png";
+import demoImg from "../assets/demo.png";
+import franceImg from "../assets/france.png";
+import franceelecImg from "../assets/franceelec.png";
+import francepublicImg from "../assets/Francepublicser.png";
+import genaiImg from "../assets/GenAI.png";
+import germanImg from "../assets/german.png";
+import healthfranceImg from "../assets/healthfrance.png";
+import kenyaImg from "../assets/kenya.png";
+import p2bImg from "../assets/P2B.png";
+import platformgovImg from "../assets/PlatformGov.png";
+
+interface HomeScreenProps {
+  onNavigateToViewVersions?: () => void;
+}
+
+export default function HomeScreen({ onNavigateToViewVersions }: HomeScreenProps) {
   const { t } = useTranslation("translation", { keyPrefix: "home" });
+  const [showScrollTop, setShowScrollTop] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setShowScrollTop(window.scrollY > 300);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  };
   return (
-    <Container maxW="container.xl" py={8}>
-      <VStack spacing={12} align="stretch">
-        {/* Hero Section */}
-        <Box textAlign="center" py={8}>
-          <Heading size="2xl" color="gray.900" fontWeight="bold" mb={4}>
-            {t("page-title")}
+    <Box bg="rgb(241, 241, 241, 1)" minH="100vh">
+      {/*Full Width*/}
+      <Box 
+        py={16} 
+        bg="black"
+        mx={-10}
+        mb={12}
+      >
+        <Container maxW="container.xl" pl={8}> 
+          <Heading size="2xl" color="white" fontWeight="normal" mb={12} textAlign="left" whiteSpace="pre-line" lineHeight="1.3">
+            {(() => {
+              const text = t("page-title");
+              const patterns = [
+                "'Accept'",
+                "\u201EAkzeptieren\u201C", // German quotes
+                "\u00AB Accepter \u00BB"  // French quotes
+              ];
+              
+              for (const pattern of patterns) {
+                if (text.includes(pattern)) {
+                  return text.split(pattern).map((part, index, array) => (
+                    <span key={index}>
+                      {part}
+                      {index < array.length - 1 && <strong>{pattern}</strong>}
+                    </span>
+                  ));
+                }
+              }
+              
+              // Fallback if no pattern matches
+              return text;
+            })()}
           </Heading>
           <Text
             fontSize="xl"
-            color="gray.600"
-            maxW="3xl"
-            mx="auto"
+            color="white"
+            maxW="5.5xl"
             lineHeight="tall"
+            textAlign="left"
           >
-            {t("sub-title")}
+            {t("sub-title")}{" "}
+            <Link
+              color="blue.500"
+              _hover={{ color: "blue.300" }}
+              cursor="pointer"
+              fontStyle="italic"
+              onClick={onNavigateToViewVersions}
+            >
+              {t("start-comparing-now")}
+            </Link>
           </Text>
-        </Box>
+        </Container>
+      </Box>
 
-        {/* Features Grid */}
-        <SimpleGrid columns={{ base: 1, md: 2 }} spacing={8}>
-          <FeatureCard
-            icon={<FileText size={32} />}
-            title={t("document-tracking-title")}
-            description={t("document-tracking-description")}
-          />
-          <FeatureCard
-            icon={<GitBranch size={32} />}
-            title={t("version-history-title")}
-            description={t("version-history-description")}
-          />
-          <FeatureCard
-            icon={<Clock size={32} />}
-            title={t("change-detection-title")}
-            description={t("change-detection-description")}
-          />
-          <FeatureCard
-            icon={<Shield size={32} />}
-            title={t("transparency-title")}
-            description={t("transparency-description")}
-          />
+      {/* Center Text */}
+      <Box textAlign="center" py={8}>
+        <Text 
+          fontSize="2xl" 
+          color="black" 
+          fontWeight="medium"
+          maxW="4xl"
+          mx="auto"
+          lineHeight="tall"
+        >
+          {t("center-text")}
+        </Text>
+      </Box>
+
+      {/* Rest of Content */}
+      <Container maxW="container.xl">
+        <VStack spacing={12} align="stretch">
+
+        {/* Image Cards Grid */}
+        <SimpleGrid columns={{ base: 1, md: 3, lg: 4 }} spacing={6}>
+          <ImageCard image={contribImg} title={t("card-title1")} description={t("card-description1")} extendedKey="card-extended1" />
+          <ImageCard image={datingImg} title={t("card-title2")} description={t("card-description2")} extendedKey="card-extended2" />
+          <ImageCard image={demoImg} title={t("card-title3")} description={t("card-description3")} extendedKey="card-extended3" />
+          <ImageCard image={franceImg} title={t("card-title4")} description={t("card-description4")} extendedKey="card-extended4" />
+          <ImageCard image={franceelecImg} title={t("card-title5")} description={t("card-description5")} extendedKey="card-extended5" />
+          <ImageCard image={francepublicImg} title={t("card-title6")} description={t("card-description6")} extendedKey="card-extended6" />
+          <ImageCard image={genaiImg} title={t("card-title7")} description={t("card-description7")} extendedKey="card-extended7" />
+          <ImageCard image={germanImg} title={t("card-title8")} description={t("card-description8")} extendedKey="card-extended8" />
+          <ImageCard image={healthfranceImg} title={t("card-title9")} description={t("card-description9")} extendedKey="card-extended9" />
+          <ImageCard image={kenyaImg} title={t("card-title10")} description={t("card-description10")} extendedKey="card-extended10" />
+          <ImageCard image={p2bImg} title={t("card-title11")} description={t("card-description11")} extendedKey="card-extended11" />
+          <ImageCard image={platformgovImg} title={t("card-title12")} description={t("card-description12")} extendedKey="card-extended12" />
         </SimpleGrid>
 
         {/* About Section */}
@@ -99,18 +186,41 @@ export default function HomeScreen() {
             />
           </VStack>
         </Box>
-      </VStack>
-    </Container>
+        </VStack>
+      </Container>
+
+      {/* Scroll to Top Button */}
+      {showScrollTop && (
+        <IconButton
+          aria-label="Scroll to top"
+          icon={<ArrowUp size={20} />}
+          position="fixed"
+          bottom={8}
+          right={8}
+          bg="black"
+          color="white"
+          borderRadius="full"
+          size="lg"
+          zIndex={20}
+          _hover={{ bg: "gray.800" }}
+          onClick={scrollToTop}
+        />
+      )}
+    </Box>
   );
 }
 
-interface FeatureCardProps {
-  icon: React.ReactNode;
+interface ImageCardProps {
+  image: string;
   title: string;
   description: string;
+  extendedKey: string;
 }
 
-function FeatureCard({ icon, title, description }: FeatureCardProps) {
+function ImageCard({ image, title, description, extendedKey }: ImageCardProps) {
+  const { t } = useTranslation("translation", { keyPrefix: "home" });
+  const [isHovered, setIsHovered] = useState(false);
+
   return (
     <Box
       bg="white"
@@ -118,22 +228,45 @@ function FeatureCard({ icon, title, description }: FeatureCardProps) {
       borderRadius="lg"
       border="1px"
       borderColor="gray.200"
+      textAlign="center"
+      transition="all 0.2s"
       _hover={{
         borderColor: "blue.300",
         shadow: "md",
         transform: "translateY(-2px)",
-        transition: "all 0.2s",
       }}
+      onMouseEnter={() => setIsHovered(true)}
+      onMouseLeave={() => setIsHovered(false)}
     >
-      <Flex color="blue.600" mb={4}>
-        {icon}
-      </Flex>
-      <Heading size="md" color="gray.900" mb={3}>
+      <Circle size="80px" bg="gray.100" mb={4} mx="auto">
+        <Image
+          src={image}
+          alt={title}
+          boxSize="50px"
+          objectFit="contain"
+        />
+      </Circle>
+
+      <Heading size="sm" color="gray.900" mb={2}>
         {title}
       </Heading>
-      <Text color="gray.600" lineHeight="tall">
+
+      <Text color="gray.600" fontSize="sm" lineHeight="tall">
         {description}
       </Text>
+
+      <Collapse in={isHovered} animateOpacity>
+        <Box mt={3} bg="gray.50" p={3} borderRadius="md">
+          <Text
+            color="gray.700"
+            fontSize="xs"
+            lineHeight="tall"
+            whiteSpace="pre-line"
+          >
+            {t(extendedKey)}
+          </Text>
+        </Box>
+      </Collapse>
     </Box>
   );
 }

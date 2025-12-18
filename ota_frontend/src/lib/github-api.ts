@@ -1,7 +1,12 @@
 // GitHub API service for OTA repositories
 const GITHUB_API_BASE = "https://api.github.com/repos";
+const GITHUB_API_BASE = "https://api.github.com/repos";
 
 export interface GitHubFile {
+  name: string;
+  path: string;
+  type: "file" | "dir";
+  download_url: string | null;
   name: string;
   path: string;
   type: "file" | "dir";
@@ -14,13 +19,20 @@ export interface GitHubFile {
 export const fetchGitHubDirectory = async (
   repo: string,
   path: string = ""
+  path: string = ""
 ): Promise<GitHubFile[]> => {
   try {
     const response = await fetch(`${GITHUB_API_BASE}/${repo}/contents/${path}`);
 
+    const response = await fetch(`${GITHUB_API_BASE}/${repo}/contents/${path}`);
+
     if (!response.ok) {
       throw new Error(`GitHub API error: ${response.status}`);
+      throw new Error(`GitHub API error: ${response.status}`);
     }
+
+    const data = await response.json();
+    return data;
 
     const data = await response.json();
     return data;
@@ -35,6 +47,7 @@ export const decodeText = (data: any) => {
     const bytes = Uint8Array.from(atob(data.content), (c) => c.charCodeAt(0));
     return new TextDecoder("utf-8").decode(bytes);
   }
+};
 };
 
 /**
@@ -123,4 +136,6 @@ export const fetchGitHubFile = async (
     // Return empty string instead of throwing to prevent app crashes
     return "";
   }
+};
+
 };

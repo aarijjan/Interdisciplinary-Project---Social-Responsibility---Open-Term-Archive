@@ -5,11 +5,10 @@ import {
   Heading,
   Button,
   Select,
-  Tabs,
-  TabList,
-  Tab,
+  Image,
+  IconButton,
 } from "@chakra-ui/react";
-import { GitPullRequest } from "lucide-react";
+import { GitPullRequest, Menu } from "lucide-react";
 import Sidebar from "./components/Sidebar";
 import HomeScreen from "./components/HomeScreen";
 import UploadScreen from "./components/UploadScreen";
@@ -18,11 +17,13 @@ import SettingsScreen from "./components/SettingsScreen";
 import { useCollections } from "./hooks/useCollections";
 import LanguageSwitcher from "./components/LanguageSwitcher";
 import { useTranslation } from "react-i18next";
+import otaLogo from "./assets/ota.svg";
 
 export default function App() {
   const [currentScreen, setCurrentScreen] = useState<
     "home" | "upload" | "view" | "settings"
   >("home");
+  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
   const { t } = useTranslation("translation", { keyPrefix: "app" });
 
@@ -36,37 +37,39 @@ export default function App() {
   } = useCollections();
 
   return (
-    <Flex minH="100vh" bg="gray.50">
-      <Sidebar
-        currentScreen={currentScreen}
-        setCurrentScreen={setCurrentScreen}
-      />
+    <Flex minH="100vh" bg={currentScreen === "home" ? "rgba(241, 241, 241, 1)" : "gray.50"}>
+      {isSidebarOpen && (
+        <Sidebar
+          currentScreen={currentScreen}
+          setCurrentScreen={setCurrentScreen}
+          onNavigate={() => setIsSidebarOpen(false)}
+        />
+      )}
 
-      <Box flex="1" p={10}>
-        {/* Top Navigation Tabs */}
-        <Box sx={{ display: "flex", flexDirection: "column" }}>
-          <Box sx={{ alignSelf: "flex-end" }}>
-            <LanguageSwitcher />
+      <Box flex="1" p={10} ml={isSidebarOpen ? "256px" : 0} transition="margin-left 0.3s">
+        {/* Top Navigation */}
+        <Flex justify="space-between" align="center" mb={-2} bg="white" py={10} mx={-10} mt={-10} px={10}>
+          <Flex align="center" gap={4}>
+            <IconButton
+              aria-label="Toggle sidebar"
+              icon={<Menu size={20} />}
+              variant="ghost"
+              onClick={() => setIsSidebarOpen(!isSidebarOpen)}
+              _hover={{ bg: "gray.100" }}
+            />
+            {currentScreen === "home" && (
+              <Image 
+                src={otaLogo} 
+                alt="OTA Logo"
+                height="40px"
+                width="auto"
+              />
+            )}
+          </Flex>
+          <Box>
+            <LanguageSwitcher showSocialIcons={currentScreen === "home"} />
           </Box>
-
-          <Tabs
-            index={currentScreen === "home" ? 0 : -1}
-            onChange={(index) => index === 0 && setCurrentScreen("home")}
-            mb={6}
-          >
-            <TabList borderBottom="2px" borderColor="gray.200">
-              <Tab
-                fontWeight="medium"
-                color={currentScreen === "home" ? "blue.600" : "gray.600"}
-                _selected={{ color: "blue.600", borderColor: "blue.600" }}
-                _hover={{ color: "blue.500" }}
-                onClick={() => setCurrentScreen("home")}
-              >
-                {t("home")}
-              </Tab>
-            </TabList>
-          </Tabs>
-        </Box>
+        </Flex>
 
         {currentScreen !== "home" && (
           <Flex justify="space-between" align="center" mb={8}>
@@ -104,7 +107,9 @@ export default function App() {
           </Flex>
         )}
 
-        {currentScreen === "home" && <HomeScreen />}
+        {currentScreen === "home" && (
+          <HomeScreen onNavigateToViewVersions={() => setCurrentScreen("view")} />
+        )}
         {currentScreen === "upload" && <UploadScreen />}
         {currentScreen === "view" && (
           <ViewVersionsScreen

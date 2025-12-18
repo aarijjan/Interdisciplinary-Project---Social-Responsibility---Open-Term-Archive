@@ -101,6 +101,14 @@ export const mockCollections: Collection[] = [
     language: "English",
     jurisdiction: "European Union",
   },
+  {
+    id: "germany",
+    name: "Germany",
+    description: "Largest digital services used in Germany",
+    serviceCount: 0,
+    language: "English, German",
+    jurisdiction: "European Union",
+  },
 ];
 
 // Mock services for each collection
