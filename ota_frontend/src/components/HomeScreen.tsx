@@ -56,13 +56,13 @@ export default function HomeScreen({ onNavigateToViewVersions }: HomeScreenProps
   return (
     <Box bg="rgb(241, 241, 241, 1)" minH="100vh">
       {/*Full Width*/}
-      <Box 
-        py={16} 
+      <Box
+        py={16}
         bg="black"
         mx={-10}
         mb={12}
       >
-        <Container maxW="container.xl" pl={8}> 
+        <Container maxW="container.xl" pl={8}>
           <Heading size="2xl" color="white" fontWeight="normal" mb={12} textAlign="left" whiteSpace="pre-line" lineHeight="1.3">
             {(() => {
               const text = t("page-title");
@@ -71,7 +71,7 @@ export default function HomeScreen({ onNavigateToViewVersions }: HomeScreenProps
                 "\u201EAkzeptieren\u201C", // German quotes
                 "\u00AB Accepter \u00BB"  // French quotes
               ];
-              
+
               for (const pattern of patterns) {
                 if (text.includes(pattern)) {
                   return text.split(pattern).map((part, index, array) => (
@@ -82,7 +82,7 @@ export default function HomeScreen({ onNavigateToViewVersions }: HomeScreenProps
                   ));
                 }
               }
-              
+
               // Fallback if no pattern matches
               return text;
             })()}
@@ -110,9 +110,9 @@ export default function HomeScreen({ onNavigateToViewVersions }: HomeScreenProps
 
       {/* Center Text */}
       <Box textAlign="center" py={8}>
-        <Text 
-          fontSize="2xl" 
-          color="black" 
+        <Text
+          fontSize="2xl"
+          color="black"
           fontWeight="medium"
           maxW="4xl"
           mx="auto"
@@ -126,66 +126,66 @@ export default function HomeScreen({ onNavigateToViewVersions }: HomeScreenProps
       <Container maxW="container.xl">
         <VStack spacing={12} align="stretch">
 
-        {/* Image Cards Grid */}
-        <SimpleGrid columns={{ base: 1, md: 3, lg: 4 }} spacing={6}>
-          <ImageCard image={contribImg} title={t("card-title1")} description={t("card-description1")} extendedKey="card-extended1" />
-          <ImageCard image={datingImg} title={t("card-title2")} description={t("card-description2")} extendedKey="card-extended2" />
-          <ImageCard image={demoImg} title={t("card-title3")} description={t("card-description3")} extendedKey="card-extended3" />
-          <ImageCard image={franceImg} title={t("card-title4")} description={t("card-description4")} extendedKey="card-extended4" />
-          <ImageCard image={franceelecImg} title={t("card-title5")} description={t("card-description5")} extendedKey="card-extended5" />
-          <ImageCard image={francepublicImg} title={t("card-title6")} description={t("card-description6")} extendedKey="card-extended6" />
-          <ImageCard image={genaiImg} title={t("card-title7")} description={t("card-description7")} extendedKey="card-extended7" />
-          <ImageCard image={germanImg} title={t("card-title8")} description={t("card-description8")} extendedKey="card-extended8" />
-          <ImageCard image={healthfranceImg} title={t("card-title9")} description={t("card-description9")} extendedKey="card-extended9" />
-          <ImageCard image={kenyaImg} title={t("card-title10")} description={t("card-description10")} extendedKey="card-extended10" />
-          <ImageCard image={p2bImg} title={t("card-title11")} description={t("card-description11")} extendedKey="card-extended11" />
-          <ImageCard image={platformgovImg} title={t("card-title12")} description={t("card-description12")} extendedKey="card-extended12" />
-        </SimpleGrid>
+          {/* Image Cards Grid */}
+          <SimpleGrid columns={{ base: 1, md: 3, lg: 4 }} spacing={6} alignItems="start">
+            <ImageCard image={contribImg} title={t("card-title1")} description={t("card-description1")} extendedKey="card-extended1" />
+            <ImageCard image={datingImg} title={t("card-title2")} description={t("card-description2")} extendedKey="card-extended2" />
+            <ImageCard image={demoImg} title={t("card-title3")} description={t("card-description3")} extendedKey="card-extended3" />
+            <ImageCard image={franceImg} title={t("card-title4")} description={t("card-description4")} extendedKey="card-extended4" />
+            <ImageCard image={franceelecImg} title={t("card-title5")} description={t("card-description5")} extendedKey="card-extended5" />
+            <ImageCard image={francepublicImg} title={t("card-title6")} description={t("card-description6")} extendedKey="card-extended6" />
+            <ImageCard image={genaiImg} title={t("card-title7")} description={t("card-description7")} extendedKey="card-extended7" />
+            <ImageCard image={germanImg} title={t("card-title8")} description={t("card-description8")} extendedKey="card-extended8" />
+            <ImageCard image={healthfranceImg} title={t("card-title9")} description={t("card-description9")} extendedKey="card-extended9" />
+            <ImageCard image={kenyaImg} title={t("card-title10")} description={t("card-description10")} extendedKey="card-extended10" />
+            <ImageCard image={p2bImg} title={t("card-title11")} description={t("card-description11")} extendedKey="card-extended11" />
+            <ImageCard image={platformgovImg} title={t("card-title12")} description={t("card-description12")} extendedKey="card-extended12" />
+          </SimpleGrid>
 
-        {/* About Section */}
-        <Box
-          bg="blue.50"
-          p={8}
-          borderRadius="lg"
-          border="1px"
-          borderColor="blue.100"
-        >
-          <Heading size="lg" color="gray.900" mb={4}>
-            {t("about-section-title")}
-          </Heading>
-          <VStack spacing={4} align="stretch">
-            <Text color="gray.700" lineHeight="tall">
-              {t("about-section-description-1")}
-            </Text>
-            <Text color="gray.700" lineHeight="tall">
-              {t("about-section-description-2")}
-            </Text>
-          </VStack>
-        </Box>
+          {/* About Section */}
+          <Box
+            bg="blue.50"
+            p={8}
+            borderRadius="lg"
+            border="1px"
+            borderColor="blue.100"
+          >
+            <Heading size="lg" color="gray.900" mb={4}>
+              {t("about-section-title")}
+            </Heading>
+            <VStack spacing={4} align="stretch">
+              <Text color="gray.700" lineHeight="tall">
+                {t("about-section-description-1")}
+              </Text>
+              <Text color="gray.700" lineHeight="tall">
+                {t("about-section-description-2")}
+              </Text>
+            </VStack>
+          </Box>
 
-        {/* Getting Started */}
-        <Box>
-          <Heading size="lg" color="gray.900" mb={6}>
-            {t("getting-started-title")}
-          </Heading>
-          <VStack spacing={4} align="stretch">
-            <StepCard
-              number="1"
-              title={t("upload-documents-title")}
-              description={t("upload-documents-description")}
-            />
-            <StepCard
-              number="2"
-              title={t("view-versions-title")}
-              description={t("view-versions-description")}
-            />
-            <StepCard
-              number="3"
-              title={t("compare-changes-title")}
-              description={t("compare-changes-description")}
-            />
-          </VStack>
-        </Box>
+          {/* Getting Started */}
+          <Box>
+            <Heading size="lg" color="gray.900" mb={6}>
+              {t("getting-started-title")}
+            </Heading>
+            <VStack spacing={4} align="stretch">
+              <StepCard
+                number="1"
+                title={t("upload-documents-title")}
+                description={t("upload-documents-description")}
+              />
+              <StepCard
+                number="2"
+                title={t("view-versions-title")}
+                description={t("view-versions-description")}
+              />
+              <StepCard
+                number="3"
+                title={t("compare-changes-title")}
+                description={t("compare-changes-description")}
+              />
+            </VStack>
+          </Box>
         </VStack>
       </Container>
 
