@@ -56,12 +56,15 @@
     "about-section-description-1": "Open Terms Archive is an open-source initiative that tracks changes in the terms of service and privacy policies of major  online platforms. By archiving these documents over time, we enable researchers, journalists, and users to understand how digital rights evolve.",
     "about-section-description-2": "This manager interface allows you to upload new documents, view version histories, compare changes between versions, and manage collections of tracked services.",
     "getting-started-title": "Getting Started",
-    "upload-documents-title": "Upload Documents",
-    "upload-documents-description": "Use the Upload tab to add new Terms of Service or Privacy Policy documents by URL or file upload.",
-    "view-versions-title": "View Versions",
-    "view-versions-description": "Browse the View Versions tab to see all tracked documents and their complete version history.",
-    "compare-changes-title": "Compare Changes",
-    "compare-changes-description": "Click on any version to see detailed diffs highlighting what changed between document versions."
+    "upload-documents-title": "Target & Track",
+    "upload-documents-description": "Contributors select the terms of use to monitor, and our robots regularly download and publicly archive these documents.",
+    "view-versions-title": "Detect & Analyse",
+    "view-versions-description": "When changes are identified, they are recorded and made available for review by human analysts.",
+    "compare-changes-title": "Publish & Share",
+    "compare-changes-description": "All versions are published as open datasets, enabling reuse, transparency, and research.",
+    "follow-section-description": "Stay updated with the latest findings and highlights from Open Terms Archive and its ecosystem, including tracked changes and community contributions.",
+    "follow-social-media": "Follow our social media",
+    "we-work-in-steps": "DISCOVER OUR 3 STEP RECIPE!"
   },
   "documents-modal": {
     "modal-header": "Documents for {{serviceName}}",
@@ -103,6 +106,7 @@
   },
 
   "view-version-screen": {
+    "collection-of": "Collection of",
     "title": "Services in {{collectionName}}",
     "services-shown": "{{totalServices}} services • {{filteredServices}} shown",
     "no-services": "No services found",
@@ -122,7 +126,8 @@
       "france-public": "French public services",
       "france-elections": "French election services",
       "demo": "Services used by Open Terms Archive",
-      "germany": "Largest digital services used in Germany"
+      "germany": "Largest digital services used in Germany",
+      "collection-of": "Collection of"
     }
   },
 

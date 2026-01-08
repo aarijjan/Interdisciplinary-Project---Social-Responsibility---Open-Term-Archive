@@ -9,9 +9,11 @@ import {
   VStack,
   Flex,
   HStack,
+  Select,
+  Image,
   useDisclosure,
 } from "@chakra-ui/react";
-import { Search } from "lucide-react";
+import { Search, FileText, GitCompare } from "lucide-react";
 import Pagination from "./Pagination";
 import DocumentModal from "./DocumentModal";
 import MarkdownViewer from "./MarkdownViewer";
@@ -26,6 +28,7 @@ import {
   normalizeText,
 } from "../lib/ota-service";
 import { useTranslation } from "react-i18next";
+import otaLogo from "../assets/ota.svg";
 
 // Define types locally
 interface Service {
@@ -44,6 +47,8 @@ interface Collection {
 interface ViewVersionsScreenProps {
   services: Service[];
   collection: Collection;
+  collections: Collection[];
+  onCollectionChange: (collectionId: string) => void;
   pagination: {
     page: number;
     pageSize: number;
@@ -55,6 +60,8 @@ interface ViewVersionsScreenProps {
 export default function ViewVersionsScreen({
   services,
   collection,
+  collections,
+  onCollectionChange,
   pagination,
   onPageChange,
 }: ViewVersionsScreenProps) {
@@ -270,14 +277,51 @@ export default function ViewVersionsScreen({
   };
 
   return (
-    <Box
-      bg="white"
-      p={6}
-      borderRadius="lg"
-      boxShadow="sm"
-      border="1px"
-      borderColor="gray.100"
-    >
+    <>
+      {/* Black Header Bar */}
+      <Box
+        bg="black"
+        color="white"
+        py={6}
+        px={8}
+        mx={-10}
+        mt={-3}
+        mb={8}
+      >
+        <Flex justify="space-between" align="center">
+          <Heading size="lg" fontWeight="semibold">
+            {t("collection-of")} {collection.name}
+          </Heading>
+          
+          <Flex gap={3} align="center">
+            {/* Collection selector */}
+            <Select
+              value={collection.id}
+              onChange={(e) => onCollectionChange(e.target.value)}
+              width="300px"
+              bg="white"
+              color="black"
+              borderColor="gray.200"
+              borderRadius="lg"
+            >
+              {collections.map((col) => (
+                <option key={col.id} value={col.id}>
+                  {col.name}
+                </option>
+              ))}
+            </Select>
+          </Flex>
+        </Flex>
+      </Box>
+
+      <Box
+        bg="white"
+        p={8}
+        borderRadius="xl"
+        boxShadow="md"
+        border="1px"
+        borderColor="gray.200"
+      >
       <Flex
         mb={6}
         align="start"
@@ -286,9 +330,11 @@ export default function ViewVersionsScreen({
         gap={4}
       >
         <Box>
-          <HStack gap={3} mb={2}>
-            <Search size={16} color="#64748b" />
-            <Heading size="md" color="gray.800" fontWeight="medium">
+          <HStack gap={3} mb={3}>
+            <Box p={2} bg="blue.50" borderRadius="md" color="blue.600">
+              <Search size={20} />
+            </Box>
+            <Heading size="lg" color="gray.900" fontWeight="bold">
               {t("title", { collectionName: collection.name })}
             </Heading>
           </HStack>
@@ -307,36 +353,63 @@ export default function ViewVersionsScreen({
           placeholder={t("search-placeholder")}
           value={query}
           onChange={handleSearchChange}
-          width={["100%", "300px"]}
-          bg="white"
+          width={["100%", "320px"]}
+          size="lg"
+          bg="gray.50"
+          border="1px"
           borderColor="gray.200"
-          _hover={{ borderColor: "gray.300" }}
-          _focus={{ borderColor: "blue.500", boxShadow: "0 0 0 1px blue.500" }}
+          _hover={{ borderColor: "gray.300", bg: "white" }}
+          _focus={{
+            borderColor: "blue.500",
+            boxShadow: "0 0 0 1px var(--chakra-colors-blue-500)",
+            bg: "white",
+          }}
+          borderRadius="md"
         />
       </Flex>
 
       <Box>
         {filteredServices.length === 0 ? (
-          <Text color="gray.500" fontSize="sm" textAlign="center" py={8}>
-            {t("no-services")}
-          </Text>
+          <Flex
+            direction="column"
+            align="center"
+            justify="center"
+            py={16}
+            bg="gray.50"
+            borderRadius="lg"
+            border="1px dashed"
+            borderColor="gray.300"
+          >
+            <Search size={48} color="#CBD5E1" strokeWidth={1.5} />
+            <Text color="gray.500" fontSize="lg" mt={4} fontWeight="medium">
+              {t("no-services")}
+            </Text>
+            <Text color="gray.400" fontSize="sm" mt={1}>
+              {t("try-adjusting-search")}
+            </Text>
+          </Flex>
         ) : (
           <>
-            <VStack gap={3} align="stretch">
+            <VStack gap={4} align="stretch">
               {paginatedServices.map((service) => (
                 <Flex
                   key={service.id}
                   justify="space-between"
                   align="center"
-                  p={4}
-                  borderRadius="md"
-                  _hover={{ bg: "gray.50" }}
+                  p={6}
+                  bg="white"
+                  borderRadius="lg"
                   border="1px"
-                  borderColor="gray.100"
+                  borderColor="gray.200"
                   transition="all 0.2s"
+                  _hover={{
+                    borderColor: "blue.300",
+                    shadow: "md",
+                    transform: "translateY(-2px)",
+                  }}
                 >
                   <Box>
-                    <Text fontWeight="medium" color="gray.800">
+                    <Text fontWeight="bold" fontSize="lg" color="gray.900" mb={1}>
                       {service.name}
                     </Text>
                     <Text fontSize="sm" color="gray.500">
@@ -351,6 +424,7 @@ export default function ViewVersionsScreen({
                       color="gray.700"
                       bg="white"
                       _hover={{ bg: "gray.50", borderColor: "gray.300" }}
+                      leftIcon={<FileText size={16} />}
                       onClick={() => handleOpen(service)}
                     >
                       {t("open")}
@@ -360,6 +434,7 @@ export default function ViewVersionsScreen({
                       size="sm"
                       bg="blue.600"
                       _hover={{ bg: "blue.700" }}
+                      leftIcon={<GitCompare size={16} />}
                       onClick={() => handleCompare(service)}
                     >
                       {t("compare")}
@@ -432,5 +507,6 @@ export default function ViewVersionsScreen({
         isLoading={diffLoading}
       />
     </Box>
+    </>
   );
 }

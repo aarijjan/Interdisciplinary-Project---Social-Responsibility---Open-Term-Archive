@@ -1,10 +1,10 @@
 import { Flex, Button, Heading } from "@chakra-ui/react";
-import { FileText, Settings, Home } from "lucide-react";
+import { FileText, Home } from "lucide-react";
 import { useTranslation } from "react-i18next";
 
 interface SidebarProps {
   currentScreen: string;
-  setCurrentScreen: (screen: "home" | "upload" | "view" | "settings") => void;
+  setCurrentScreen: (screen: "home" | "upload" | "view") => void;
   onNavigate?: () => void;
 }
 
@@ -82,24 +82,6 @@ export default function Sidebar({
         }}
       >
         {t("view-versions")}
-      </Button>
-
-      <Button
-        variant="ghost"
-        justifyContent="flex-start"
-        leftIcon={<Settings size={16} />}
-        color={currentScreen === "settings" ? "blue.600" : "gray.600"}
-        bg={currentScreen === "settings" ? "blue.50" : "transparent"}
-        _hover={{
-          bg: currentScreen === "settings" ? "blue.50" : "gray.50",
-          color: currentScreen === "settings" ? "blue.600" : "gray.700",
-        }}
-        onClick={() => {
-          setCurrentScreen("settings");
-          onNavigate?.();
-        }}
-      >
-        {t("settings")}
       </Button>
     </Flex>
   );

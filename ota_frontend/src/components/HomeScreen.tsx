@@ -11,8 +11,9 @@ import {
   Circle,
   IconButton,
   Collapse,
+  Button,
 } from "@chakra-ui/react";
-import { ArrowUp, ChevronDown } from "lucide-react";
+import { ArrowUp } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import { useState, useEffect } from "react";
 
@@ -30,11 +31,17 @@ import kenyaImg from "../assets/kenya.png";
 import p2bImg from "../assets/P2B.png";
 import platformgovImg from "../assets/PlatformGov.png";
 
+// Import SVG icons
+import githubIcon from "../assets/github.svg";
+import linkedinIcon from "../assets/linkedin.svg";
+import mastodonIcon from "../assets/mastodon.svg";
+
 interface HomeScreenProps {
   onNavigateToViewVersions?: () => void;
+  onCardClick?: (collectionId: string) => void;
 }
 
-export default function HomeScreen({ onNavigateToViewVersions }: HomeScreenProps) {
+export default function HomeScreen({ onNavigateToViewVersions, onCardClick }: HomeScreenProps) {
   const { t } = useTranslation("translation", { keyPrefix: "home" });
   const [showScrollTop, setShowScrollTop] = useState(false);
 
@@ -128,64 +135,152 @@ export default function HomeScreen({ onNavigateToViewVersions }: HomeScreenProps
 
           {/* Image Cards Grid */}
           <SimpleGrid columns={{ base: 1, md: 3, lg: 4 }} spacing={6} alignItems="start">
-            <ImageCard image={contribImg} title={t("card-title1")} description={t("card-description1")} extendedKey="card-extended1" />
-            <ImageCard image={datingImg} title={t("card-title2")} description={t("card-description2")} extendedKey="card-extended2" />
-            <ImageCard image={demoImg} title={t("card-title3")} description={t("card-description3")} extendedKey="card-extended3" />
-            <ImageCard image={franceImg} title={t("card-title4")} description={t("card-description4")} extendedKey="card-extended4" />
-            <ImageCard image={franceelecImg} title={t("card-title5")} description={t("card-description5")} extendedKey="card-extended5" />
-            <ImageCard image={francepublicImg} title={t("card-title6")} description={t("card-description6")} extendedKey="card-extended6" />
-            <ImageCard image={genaiImg} title={t("card-title7")} description={t("card-description7")} extendedKey="card-extended7" />
-            <ImageCard image={germanImg} title={t("card-title8")} description={t("card-description8")} extendedKey="card-extended8" />
-            <ImageCard image={healthfranceImg} title={t("card-title9")} description={t("card-description9")} extendedKey="card-extended9" />
-            <ImageCard image={kenyaImg} title={t("card-title10")} description={t("card-description10")} extendedKey="card-extended10" />
-            <ImageCard image={p2bImg} title={t("card-title11")} description={t("card-description11")} extendedKey="card-extended11" />
-            <ImageCard image={platformgovImg} title={t("card-title12")} description={t("card-description12")} extendedKey="card-extended12" />
+            <ImageCard image={contribImg} title={t("card-title1")} description={t("card-description1")} extendedKey="card-extended1" collectionId="contrib" onClick={onCardClick} />
+            <ImageCard image={datingImg} title={t("card-title2")} description={t("card-description2")} extendedKey="card-extended2" collectionId="dating" onClick={onCardClick} />
+            <ImageCard image={demoImg} title={t("card-title3")} description={t("card-description3")} extendedKey="card-extended3" collectionId="demo" onClick={onCardClick} />
+            <ImageCard image={franceImg} title={t("card-title4")} description={t("card-description4")} extendedKey="card-extended4" collectionId="france" onClick={onCardClick} />
+            <ImageCard image={franceelecImg} title={t("card-title5")} description={t("card-description5")} extendedKey="card-extended5" collectionId="france-elections" onClick={onCardClick} />
+            <ImageCard image={p2bImg} title={t("card-title11")} description={t("card-description11")} extendedKey="card-extended11" collectionId="p2b-compliance" onClick={onCardClick} />
+            <ImageCard image={genaiImg} title={t("card-title7")} description={t("card-description7")} extendedKey="card-extended7" collectionId="generative-ai" onClick={onCardClick} />
+            <ImageCard image={germanImg} title={t("card-title8")} description={t("card-description8")} extendedKey="card-extended8" collectionId="germany" onClick={onCardClick} />
+            <ImageCard image={healthfranceImg} title={t("card-title9")} description={t("card-description9")} extendedKey="card-extended9" collectionId="france" onClick={onCardClick} />
+            <ImageCard image={kenyaImg} title={t("card-title10")} description={t("card-description10")} extendedKey="card-extended10" collectionId="kenya" onClick={onCardClick} />
+            <ImageCard image={francepublicImg} title={t("card-title6")} description={t("card-description6")} extendedKey="card-extended6" collectionId="france-public" onClick={onCardClick} />
+            <ImageCard image={platformgovImg} title={t("card-title12")} description={t("card-description12")} extendedKey="card-extended12" collectionId="platform-governance" onClick={onCardClick} />
           </SimpleGrid>
+        </VStack>
+      </Container>
 
-          {/* About Section */}
-          <Box
-            bg="blue.50"
-            p={8}
-            borderRadius="lg"
-            border="1px"
-            borderColor="blue.100"
+      {/* Follow Section - Full Width */}
+      <Box
+        bg="black"
+        py={12}
+        mx={-10}
+        mt={12}
+        textAlign="center"
+        color="white"
+      >
+        <Container maxW="container.xl" pl={8}>
+          <Flex
+            direction={{ base: "column", md: "row" }}
+            align="center"
+            justify="flex-start"
+            gap={8}
           >
-            <Heading size="lg" color="gray.900" mb={4}>
-              {t("about-section-title")}
-            </Heading>
-            <VStack spacing={4} align="stretch">
-              <Text color="gray.700" lineHeight="tall">
-                {t("about-section-description-1")}
-              </Text>
-              <Text color="gray.700" lineHeight="tall">
-                {t("about-section-description-2")}
-              </Text>
-            </VStack>
-          </Box>
+            {/* Hashtag Symbol */}
+            <Box fontSize="9xl" fontWeight="bold" color="gray.400">
+              #
+            </Box>
+            
+            {/* Content */}
+            <Flex
+              direction={{ base: "column", md: "row" }}
+              align={{ base: "center", md: "flex-start" }}
+              justify="space-between"
+              gap={8}
+              w="full"
+            >
+              {/* Left side - Text content */}
+              <VStack spacing={6} align="center" textAlign="center" flex={1}>
+                <Heading size="xl" fontWeight="semibold">
+                  {t("follow-social-media")}
+                </Heading>
+                
+                <Text fontSize="lg" maxW="md" lineHeight="tall">
+                  {t("follow-section-description")}
+                </Text>
+              </VStack>
+              
+              {/* Right side - Social Media Links */}
+              <VStack spacing={3} align="stretch" w={{ base: "full", md: "200px" }} flexShrink={0}>
+                <Link href="https://github.com/OpenTermsArchive" isExternal>
+                  <Button
+                    bg="gray.400"
+                    color="black"
+                    _hover={{ bg: "gray.300" }}
+                    size="lg"
+                    p={4}
+                    w="full"
+                    h="50px"
+                    justifyContent="flex-start"
+                    leftIcon={<Image src={githubIcon} alt="GitHub" boxSize="20px" />}
+                  >
+                    GitHub
+                  </Button>
+                </Link>
+                
+                <Link href="https://www.linkedin.com/company/opentermsarchive" isExternal>
+                  <Button
+                    bg="gray.400"
+                    color="black"
+                    _hover={{ bg: "gray.300" }}
+                    size="lg"
+                    p={4}
+                    w="full"
+                    h="50px"
+                    justifyContent="flex-start"
+                    leftIcon={<Image src={linkedinIcon} alt="LinkedIn" boxSize="20px" />}
+                  >
+                    LinkedIn
+                  </Button>
+                </Link>
+                
+                <Link href="https://mastodon.social/@OpenTermsArchive" isExternal>
+                  <Button
+                    bg="gray.400"
+                    color="black"
+                    _hover={{ bg: "gray.300" }}
+                    size="lg"
+                    p={4}
+                    w="full"
+                    h="50px"
+                    justifyContent="flex-start"
+                    leftIcon={<Image src={mastodonIcon} alt="Mastodon" boxSize="20px" />}
+                  >
+                    Mastodon
+                  </Button>
+                </Link>
+              </VStack>
+            </Flex>
+          </Flex>
+        </Container>
+      </Box>
 
-          {/* Getting Started */}
-          <Box>
-            <Heading size="lg" color="gray.900" mb={6}>
-              {t("getting-started-title")}
-            </Heading>
-            <VStack spacing={4} align="stretch">
-              <StepCard
-                number="1"
-                title={t("upload-documents-title")}
-                description={t("upload-documents-description")}
-              />
-              <StepCard
-                number="2"
-                title={t("view-versions-title")}
-                description={t("view-versions-description")}
-              />
-              <StepCard
-                number="3"
-                title={t("compare-changes-title")}
-                description={t("compare-changes-description")}
-              />
-            </VStack>
+      <Container maxW="container.xl">
+        <VStack spacing={12} align="stretch">
+
+          {/* We work in 3 steps */}
+          <Box textAlign="center" py={16}>
+            <Text
+              fontSize="2xl"
+              color="black"
+              fontWeight="medium"
+              maxW="4xl"
+              mx="auto"
+              lineHeight="tall"
+              mb={-16}
+            >
+              {t("we-work-in-steps")}
+            </Text>
           </Box>
+          
+          <VStack spacing={6} align="stretch" mt={-8}>
+            <StepCard
+              number="1"
+              title={t("upload-documents-title")}
+              description={t("upload-documents-description")}
+            />
+            <StepCard
+              number="2"
+              title={t("view-versions-title")}
+              description={t("view-versions-description")}
+            />
+            <StepCard
+              number="3"
+              title={t("compare-changes-title")}
+              description={t("compare-changes-description")}
+            />
+          </VStack>
         </VStack>
       </Container>
 
@@ -215,9 +310,11 @@ interface ImageCardProps {
   title: string;
   description: string;
   extendedKey: string;
+  collectionId: string;
+  onClick?: (collectionId: string) => void;
 }
 
-function ImageCard({ image, title, description, extendedKey }: ImageCardProps) {
+function ImageCard({ image, title, description, extendedKey, collectionId, onClick }: ImageCardProps) {
   const { t } = useTranslation("translation", { keyPrefix: "home" });
   const [isHovered, setIsHovered] = useState(false);
 
@@ -234,9 +331,11 @@ function ImageCard({ image, title, description, extendedKey }: ImageCardProps) {
         borderColor: "blue.300",
         shadow: "md",
         transform: "translateY(-2px)",
+        cursor: "pointer",
       }}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
+      onClick={() => onClick?.(collectionId)}
     >
       <Circle size="80px" bg="gray.100" mb={4} mx="auto">
         <Image
