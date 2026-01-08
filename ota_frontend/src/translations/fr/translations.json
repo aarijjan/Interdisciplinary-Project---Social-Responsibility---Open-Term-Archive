@@ -56,12 +56,15 @@
     "about-section-description-1": "Open Terms Archive est une initiative open-source qui suit les changements des conditions d'utilisation et des politiques de confidentialité des principales plateformes en ligne. En archivant ces documents au fil du temps, nous permettons aux chercheurs, journalistes et utilisateurs de comprendre l'évolution des droits numériques.",
     "about-section-description-2": "Cette interface de gestion vous permet de télécharger de nouveaux documents, de consulter l'historique des versions, de comparer les modifications entre les versions et de gérer des collections de services suivis.",
     "getting-started-title": "Commencer",
-    "upload-documents-title": "Téléverser des documents",
-    "upload-documents-description": "Utilisez l'onglet Téléversement pour ajouter de nouveaux documents des conditions d'utilisation ou de la politique de confidentialité via URL ou fichier.",
-    "view-versions-title": "Voir les versions",
-    "view-versions-description": "Parcourez l'onglet Voir les versions pour consulter tous les documents suivis et leur historique complet.",
-    "compare-changes-title": "Comparer les modifications",
-    "compare-changes-description": "Cliquez sur n'importe quelle version pour voir les différences détaillées mettant en évidence ce qui a changé entre les versions de documents."
+    "upload-documents-title": "Cibler & Suivre",
+    "upload-documents-description": "Les contributeurs sélectionnent les conditions d’utilisation à surveiller. Nos systèmes téléchargent régulièrement ces documents et les archivent publiquement.",
+    "view-versions-title": "Détecter & Analyser",
+    "view-versions-description": "Lorsque des changements sont identifiés, ils sont enregistrés et mis à disposition pour analyse par des experts humains.",
+    "compare-changes-title": "Publier & Partager",
+    "compare-changes-description": "Toutes les versions sont publiées sous forme de jeux de données ouverts, permettant la réutilisation, la transparence et la recherche.",
+    "follow-section-description": "Restez informé des dernières découvertes et points forts d'Open Terms Archive et de son écosystème, y compris les changements suivis et les contributions de la communauté.",
+    "follow-social-media": "Suivez nos réseaux sociaux",
+    "we-work-in-steps": "DÉCOUVREZ NOTRE RECETTE EN 3 ÉTAPES!"
   },
 
   "documents-modal": {
@@ -109,6 +112,7 @@
   },
 
   "view-version-screen": {
+    "collection-of": "Collection de",
     "title": "Services dans {{collectionName}}",
     "services-shown": "{{totalServices}} services • {{filteredServices}} affichés",
     "no-services": "Aucun service trouvé",
@@ -128,7 +132,8 @@
       "france-public": "Services publics français",
       "france-elections": "Services liés aux élections françaises",
       "demo": "Services utilisés par Open Terms Archive",
-      "germany": "Les principaux services numériques utilisés en Allemagne"
+      "germany": "Les principaux services numériques utilisés en Allemagne",
+      "collection-of": "Collecte de"
     }
   },
 

@@ -13,7 +13,6 @@ import Sidebar from "./components/Sidebar";
 import HomeScreen from "./components/HomeScreen";
 import UploadScreen from "./components/UploadScreen";
 import ViewVersionsScreen from "./components/ViewVersionsScreen";
-import SettingsScreen from "./components/SettingsScreen";
 import { useCollections } from "./hooks/useCollections";
 import LanguageSwitcher from "./components/LanguageSwitcher";
 import { useTranslation } from "react-i18next";
@@ -21,7 +20,7 @@ import otaLogo from "./assets/ota.svg";
 
 export default function App() {
   const [currentScreen, setCurrentScreen] = useState<
-    "home" | "upload" | "view" | "settings"
+    "home" | "upload" | "view"
   >("home");
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
@@ -36,8 +35,15 @@ export default function App() {
     changePage,
   } = useCollections();
 
+  const handleCardClick = (collectionId: string) => {
+    changeCollection(collectionId);
+    setCurrentScreen("view");
+    // Jump to top instantly when navigating to view versions
+    window.scrollTo(0, 0);
+  };
+
   return (
-    <Flex minH="100vh" bg={currentScreen === "home" ? "rgba(241, 241, 241, 1)" : "gray.50"}>
+    <Flex minH="100vh" bg={currentScreen === "home" || currentScreen === "view" ? "rgba(241, 241, 241, 1)" : "gray.50"}>
       {isSidebarOpen && (
         <Sidebar
           currentScreen={currentScreen}
@@ -57,12 +63,15 @@ export default function App() {
               onClick={() => setIsSidebarOpen(!isSidebarOpen)}
               _hover={{ bg: "gray.100" }}
             />
-            {currentScreen === "home" && (
+            {(currentScreen === "home" || currentScreen === "view") && (
               <Image 
                 src={otaLogo} 
                 alt="OTA Logo"
                 height="40px"
                 width="auto"
+                cursor="pointer"
+                onClick={() => setCurrentScreen("home")}
+                _hover={{ opacity: 0.8 }}
               />
             )}
           </Flex>
@@ -71,55 +80,23 @@ export default function App() {
           </Box>
         </Flex>
 
-        {currentScreen !== "home" && (
-          <Flex justify="space-between" align="center" mb={8}>
-            <Heading size="xl" color="gray.800" fontWeight="semibold">
-              Open Terms Archive - {currentCollection.name}
-            </Heading>
-
-            <Flex gap={3} align="center">
-              {/* Collection selector */}
-              <Select
-                value={currentCollection.id}
-                onChange={(e) => changeCollection(e.target.value)}
-                width="300px"
-                bg="white"
-                borderColor="gray.200"
-                borderRadius="lg"
-              >
-                {collections.map((collection) => (
-                  <option key={collection.id} value={collection.id}>
-                    {collection.name}
-                  </option>
-                ))}
-              </Select>
-
-              <Button
-                colorScheme="blue"
-                bg="blue.600"
-                _hover={{ bg: "blue.700" }}
-                shadow="sm"
-                leftIcon={<GitPullRequest size={16} />}
-              >
-                {t("check-update-btn")}
-              </Button>
-            </Flex>
-          </Flex>
-        )}
-
         {currentScreen === "home" && (
-          <HomeScreen onNavigateToViewVersions={() => setCurrentScreen("view")} />
+          <HomeScreen 
+            onNavigateToViewVersions={() => setCurrentScreen("view")} 
+            onCardClick={handleCardClick}
+          />
         )}
         {currentScreen === "upload" && <UploadScreen />}
         {currentScreen === "view" && (
           <ViewVersionsScreen
             services={services}
             collection={currentCollection}
+            collections={collections}
+            onCollectionChange={changeCollection}
             pagination={pagination}
             onPageChange={changePage}
           />
         )}
-        {currentScreen === "settings" && <SettingsScreen />}
       </Box>
     </Flex>
   );
