@@ -2,14 +2,9 @@ import { useState } from "react";
 import {
   Flex,
   Box,
-  Heading,
   Button,
-  Select,
   Image,
-  IconButton,
 } from "@chakra-ui/react";
-import { GitPullRequest, Menu } from "lucide-react";
-import Sidebar from "./components/Sidebar";
 import HomeScreen from "./components/HomeScreen";
 import UploadScreen from "./components/UploadScreen";
 import ViewVersionsScreen from "./components/ViewVersionsScreen";
@@ -22,7 +17,6 @@ export default function App() {
   const [currentScreen, setCurrentScreen] = useState<
     "home" | "upload" | "view"
   >("home");
-  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
   const { t } = useTranslation("translation", { keyPrefix: "app" });
 
@@ -44,25 +38,10 @@ export default function App() {
 
   return (
     <Flex minH="100vh" bg={currentScreen === "home" || currentScreen === "view" ? "rgba(241, 241, 241, 1)" : "gray.50"}>
-      {isSidebarOpen && (
-        <Sidebar
-          currentScreen={currentScreen}
-          setCurrentScreen={setCurrentScreen}
-          onNavigate={() => setIsSidebarOpen(false)}
-        />
-      )}
-
-      <Box flex="1" p={10} ml={isSidebarOpen ? "256px" : 0} transition="margin-left 0.3s">
+      <Box flex="1" p={10}>
         {/* Top Navigation */}
         <Flex justify="space-between" align="center" mb={-2} bg="white" py={10} mx={-10} mt={-10} px={10}>
-          <Flex align="center" gap={4}>
-            <IconButton
-              aria-label="Toggle sidebar"
-              icon={<Menu size={20} />}
-              variant="ghost"
-              onClick={() => setIsSidebarOpen(!isSidebarOpen)}
-              _hover={{ bg: "gray.100" }}
-            />
+          <Flex align="center" gap={8}>
             {(currentScreen === "home" || currentScreen === "view") && (
               <Image 
                 src={otaLogo} 
@@ -75,9 +54,31 @@ export default function App() {
               />
             )}
           </Flex>
-          <Box>
-            <LanguageSwitcher showSocialIcons={currentScreen === "home"} />
-          </Box>
+          
+          <Flex align="center" gap={0}>
+            {/* Navigation Links */}
+            <Button
+              variant="ghost"
+              color={currentScreen === "home" ? "blue.600" : "gray.600"}
+              fontWeight={currentScreen === "home" ? "semibold" : "normal"}
+              _hover={{ color: "blue.600" }}
+              onClick={() => setCurrentScreen("home")}
+            >
+              {t("home")}
+            </Button>
+            
+            <Button
+              variant="ghost"
+              color={currentScreen === "view" ? "blue.600" : "gray.600"}
+              fontWeight={currentScreen === "view" ? "semibold" : "normal"}
+              _hover={{ color: "blue.600" }}
+              onClick={() => setCurrentScreen("view")}
+            >
+              Collections
+            </Button>
+            
+            <LanguageSwitcher showSocialIcons={currentScreen === "home" || currentScreen === "view"} />
+          </Flex>
         </Flex>
 
         {currentScreen === "home" && (

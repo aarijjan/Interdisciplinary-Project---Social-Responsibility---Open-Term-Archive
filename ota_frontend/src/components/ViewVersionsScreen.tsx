@@ -1,5 +1,5 @@
 // components/ViewVersionsScreen.tsx
-import { useState, useMemo } from "react";
+import { useState, useMemo, useEffect } from "react";
 import {
   Box,
   Heading,
@@ -11,9 +11,10 @@ import {
   HStack,
   Select,
   Image,
+  IconButton,
   useDisclosure,
 } from "@chakra-ui/react";
-import { Search, FileText, GitCompare } from "lucide-react";
+import { Search, FileText, GitCompare, ArrowUp } from "lucide-react";
 import Pagination from "./Pagination";
 import DocumentModal from "./DocumentModal";
 import MarkdownViewer from "./MarkdownViewer";
@@ -98,6 +99,23 @@ export default function ViewVersionsScreen({
   const [contentLoading, setContentLoading] = useState(false);
   const [versionsLoading, setVersionsLoading] = useState(false);
   const [diffLoading, setDiffLoading] = useState(false);
+  const [showScrollTop, setShowScrollTop] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setShowScrollTop(window.scrollY > 300);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  };
 
   // Modal controls
   const {
@@ -506,6 +524,24 @@ export default function ViewVersionsScreen({
         newVersion={newVersion || { content: "", date: "", sha: "" }}
         isLoading={diffLoading}
       />
+
+      {/* Scroll to Top Button */}
+      {showScrollTop && (
+        <IconButton
+          aria-label="Scroll to top"
+          icon={<ArrowUp size={20} />}
+          position="fixed"
+          bottom={8}
+          right={8}
+          bg="black"
+          color="white"
+          borderRadius="full"
+          size="lg"
+          zIndex={20}
+          _hover={{ bg: "gray.800" }}
+          onClick={scrollToTop}
+        />
+      )}
     </Box>
     </>
   );
