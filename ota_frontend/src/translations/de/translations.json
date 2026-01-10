@@ -80,7 +80,11 @@
     "loading": "Vergleich wird geladen...",
     "old-title": "Alte Version",
     "current-title": "Aktuelle Version",
-    "no-comparison-data": "Keine Vergleichsdaten verfügbar."
+    "no-comparison-data": "Keine Vergleichsdaten verfügbar.",
+    "large-file-warning": "Große Datei erkannt. Visueller Vergleich kann langsam sein.",
+    "use-text-mode": "Textmodus verwenden",
+    "use-visual-mode": "Visuellen Modus verwenden",
+    "processing": "Wird verarbeitet..."
   },
 
   "loading-doc": "Dokument wird geladen...",

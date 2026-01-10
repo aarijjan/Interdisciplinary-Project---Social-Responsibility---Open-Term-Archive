@@ -81,7 +81,11 @@
     "loading": "Chargement de la comparaison...",
     "old-title": "Version précédente",
     "current-title": "Version actuelle",
-    "no-comparison-data": "Aucune donnée de comparaison disponible."
+    "no-comparison-data": "Aucune donnée de comparaison disponible.",
+    "large-file-warning": "Fichier volumineux détecté. La comparaison visuelle peut être lente.",
+    "use-text-mode": "Utiliser le mode texte",
+    "use-visual-mode": "Utiliser le mode visuel",
+    "processing": "Traitement en cours..."
   },
 
   "loading-doc": "Chargement du document...",

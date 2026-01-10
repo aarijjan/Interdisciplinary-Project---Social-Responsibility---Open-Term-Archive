@@ -1,5 +1,5 @@
 // lib/ota-service.ts
-import { fetchGitHubDirectory } from "./github-api";
+import { decodeText, fetchGitHubDirectory } from "./github-api";
 
 // OTA repository mapping for all collections
 export const OTARepositories = {
@@ -22,6 +22,7 @@ const formatServiceName = (folderName: string): string => {
 };
 
 // Fetch real services from OTA repository
+
 export const fetchOTAServices = async (
   collectionId: string
 ): Promise<Service[]> => {
@@ -118,6 +119,7 @@ export const fetchServiceDocuments = async (
 export { fetchGitHubFile } from "./github-api";
 
 // Fetch commit history for a specific file
+
 export const fetchFileHistory = async (
   repo: string,
   filePath: string
@@ -164,6 +166,7 @@ export const normalizeText = (text: string): string => {
 };
 
 // Get file content from specific commit
+
 export const getFileFromCommit = async (
   repo: string,
   filePath: string,
@@ -184,13 +187,7 @@ export const getFileFromCommit = async (
 
     const data = await response.json();
 
-    if (data.content && data.encoding === "base64") {
-      const bytes = Uint8Array.from(atob(data.content), (c) => c.charCodeAt(0));
-
-      return new TextDecoder("utf-8").decode(bytes);
-    }
-
-    return normalizeText(data.content || "");
+    return decodeText(data) || "";
   } catch (error) {
     console.error(`❌ Failed to get file from commit ${commitSha}:`, error);
     return "";

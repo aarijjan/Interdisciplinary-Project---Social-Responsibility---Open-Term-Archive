@@ -189,13 +189,28 @@ export default function ViewVersionsScreen({
     onDocumentsClose();
 
     try {
+      console.log("Fetching document:", documentPath);
+      
       const content = await fetchGitHubFile(
         OTARepositories[collection.id as keyof typeof OTARepositories],
         documentPath
       );
+      
+      console.log("Document content length:", content.length);
+      console.log("First 500 chars:", content.substring(0, 500));
+      
       const documentName = documentPath.split("/").pop() || "Document";
       const normalizedContent = normalizeText(content);
-      setSelectedDocument({ name: documentName, content: normalizedContent });
+      
+      if (content.length === 0) {
+        console.warn("Empty content received, might be a submodule or symlink");
+        setSelectedDocument({ 
+          name: documentName, 
+          content: "⚠️ This file appears to be a submodule or symlink.\n\nDirect content fetching is not available.\n\nPlease check the GitHub repository directly." 
+        });
+      } else {
+        setSelectedDocument({ name: documentName, content: normalizedContent });
+      }
       onContentViewerOpen();
     } catch (error) {
       console.error("Failed to load document content:", error);
@@ -269,16 +284,19 @@ export default function ViewVersionsScreen({
 
       const [oldContent, newContent] = await Promise.all([
         getFileFromCommit(repo, selectedDocumentForCompare.path, commitSha),
-        getFileFromCommit(repo, selectedDocumentForCompare.path), // HEAD версия
+        getFileFromCommit(repo, selectedDocumentForCompare.path),
       ]);
 
+      const normalizedOldContent = normalizeText(oldContent);
+      const normalizedNewContent = normalizeText(newContent);
+
       setOldVersion({
-        content: oldContent,
+        content: normalizedOldContent,
         date: commitDate,
         sha: commitSha,
       });
       setNewVersion({
-        content: newContent,
+        content: normalizedNewContent,
         date: t("current"),
         sha: "HEAD",
       });

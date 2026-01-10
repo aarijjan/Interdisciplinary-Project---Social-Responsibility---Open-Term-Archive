@@ -79,7 +79,11 @@
     "loading": "Loading comparison...",
     "old-title": "Old Version",
     "current-title": "Current Version",
-    "no-comparison-data": "No comparison data available."
+    "no-comparison-data": "No comparison data available.",
+    "large-file-warning": "Large file detected. Visual comparison may be slow.",
+    "use-text-mode": "Use text mode",
+    "use-visual-mode": "Use visual mode",
+    "processing": "Processing..."
   },
 
   "loading-doc": "Loading document...",
