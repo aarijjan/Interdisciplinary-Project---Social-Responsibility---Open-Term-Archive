@@ -1,10 +1,5 @@
 import { useState } from "react";
-import {
-  Flex,
-  Box,
-  Button,
-  Image,
-} from "@chakra-ui/react";
+import { Flex, Box, Button, Image } from "@chakra-ui/react";
 import HomeScreen from "./components/HomeScreen";
 import UploadScreen from "./components/UploadScreen";
 import ViewVersionsScreen from "./components/ViewVersionsScreen";
@@ -37,14 +32,30 @@ export default function App() {
   };
 
   return (
-    <Flex minH="100vh" bg={currentScreen === "home" || currentScreen === "view" ? "rgba(241, 241, 241, 1)" : "gray.50"}>
+    <Flex
+      minH="100vh"
+      bg={
+        currentScreen === "home" || currentScreen === "view"
+          ? "rgba(241, 241, 241, 1)"
+          : "gray.50"
+      }
+    >
       <Box flex="1" p={10}>
         {/* Top Navigation */}
-        <Flex justify="space-between" align="center" mb={-2} bg="white" py={10} mx={-10} mt={-10} px={10}>
+        <Flex
+          justify="space-between"
+          align="center"
+          mb={-2}
+          bg="white"
+          py={10}
+          mx={-10}
+          mt={-10}
+          px={10}
+        >
           <Flex align="center" gap={8}>
             {(currentScreen === "home" || currentScreen === "view") && (
-              <Image 
-                src={otaLogo} 
+              <Image
+                src={otaLogo}
                 alt="OTA Logo"
                 height="40px"
                 width="auto"
@@ -54,7 +65,7 @@ export default function App() {
               />
             )}
           </Flex>
-          
+
           <Flex align="center" gap={0}>
             {/* Navigation Links */}
             <Button
@@ -66,7 +77,7 @@ export default function App() {
             >
               {t("home")}
             </Button>
-            
+
             <Button
               variant="ghost"
               color={currentScreen === "view" ? "blue.600" : "gray.600"}
@@ -74,16 +85,20 @@ export default function App() {
               _hover={{ color: "blue.600" }}
               onClick={() => setCurrentScreen("view")}
             >
-              Collections
+              {t("collections")}
             </Button>
-            
-            <LanguageSwitcher showSocialIcons={currentScreen === "home" || currentScreen === "view"} />
+
+            <LanguageSwitcher
+              showSocialIcons={
+                currentScreen === "home" || currentScreen === "view"
+              }
+            />
           </Flex>
         </Flex>
 
         {currentScreen === "home" && (
-          <HomeScreen 
-            onNavigateToViewVersions={() => setCurrentScreen("view")} 
+          <HomeScreen
+            onNavigateToViewVersions={() => setCurrentScreen("view")}
             onCardClick={handleCardClick}
           />
         )}

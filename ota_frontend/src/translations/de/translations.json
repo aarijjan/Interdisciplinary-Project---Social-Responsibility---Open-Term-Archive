@@ -1,7 +1,8 @@
 {
   "app": {
     "home": "Startseite",
-    "check-update-btn": "Auf Updates prüfen"
+    "check-update-btn": "Auf Updates prüfen",
+    "collections": "Sammlungen"
   },
   "home": {
     "page-title": "Kenne die Geschäftsbedingungen, \nbevor du auf „Akzeptieren“ klickst.",
@@ -64,7 +65,9 @@
     "compare-changes-description": "Alle Versionen werden als offene Datensätze veröffentlicht und ermöglichen Wiederverwendung, Transparenz und Forschung.",
     "follow-section-description": "Bleiben Sie auf dem Laufenden über die neuesten Erkenntnisse und Highlights von Open Terms Archive und seinem Ökosystem, einschließlich verfolgter Änderungen und Community-Beiträge.",
     "follow-social-media": "Folge unseren sozialen Medien",
-    "we-work-in-steps": "ENTDECKE UNSER 3-SCHRITT-REZEPT!"
+    "we-work-in-steps": "ENTDECKE UNSER 3-SCHRITT-REZEPT!",
+    "demo-description": "Wir bieten eine Demo, die Datenschutzrichtlinien verständlicher und benutzerfreundlicher macht, indem wichtige Aspekte unserer Datenschutzrichtlinien durch klare Symbole hervorgehoben werden. Anhand dieser Symbole können Sie schnell erkennen, wie Daten erfasst, verwendet und geschützt werden, ohne lange Rechtstexte lesen zu müssen.",
+    "demo-button-content": "Demo zur Datenschutzerklärung öffnen"
   },
   "documents-modal": {
     "modal-header": "Dokumente für {{serviceName}}",

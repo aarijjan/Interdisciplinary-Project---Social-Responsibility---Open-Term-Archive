@@ -1,7 +1,8 @@
 {
   "app": {
     "home": "Accueil",
-    "check-update-btn": "Vérifier les mises à jour"
+    "check-update-btn": "Vérifier les mises à jour",
+    "collections": "Collections"
   },
   "home": {
     "page-title": "Comprenez les Conditions \navant de cliquer sur « Accepter ».",
@@ -64,7 +65,9 @@
     "compare-changes-description": "Toutes les versions sont publiées sous forme de jeux de données ouverts, permettant la réutilisation, la transparence et la recherche.",
     "follow-section-description": "Restez informé des dernières découvertes et points forts d'Open Terms Archive et de son écosystème, y compris les changements suivis et les contributions de la communauté.",
     "follow-social-media": "Suivez nos réseaux sociaux",
-    "we-work-in-steps": "DÉCOUVREZ NOTRE RECETTE EN 3 ÉTAPES!"
+    "we-work-in-steps": "DÉCOUVREZ NOTRE RECETTE EN 3 ÉTAPES!",
+    "demo-description": "Nous proposons une démonstration qui rend les politiques de confidentialité plus pratiques et plus compréhensibles grâce à l'utilisation de symboles clairs qui mettent en évidence les aspects essentiels de nos politiques de confidentialité. Ces symboles vous aident à identifier rapidement comment les données sont collectées, utilisées et protégées sans avoir à lire de longs textes juridiques.",
+    "demo-button-content": "Ouvrir la démo de la politique de confidentialité"
   },
 
   "documents-modal": {
