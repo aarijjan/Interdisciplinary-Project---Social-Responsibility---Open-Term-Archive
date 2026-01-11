@@ -654,8 +654,8 @@ const FileInfoPanel = ({
           })}
         </Text>
         <Text fontSize="xs" color="gray.600">
-          {t("oldSize", {
-            oldVersionSize: (newVersion.content.length / 1024).toFixed(1),
+          {t("newSize", {
+            newVersionSize: (newVersion.content.length / 1024).toFixed(1),
           })}
         </Text>
       </VStack>
@@ -837,7 +837,7 @@ export default function DiffViewer({
                       })}
                     </Text>
                     <Text>
-                      {t("oldChars", {
+                      {t("newChars", {
                         newVersionChars:
                           newVersion.content.length.toLocaleString(),
                       })}
