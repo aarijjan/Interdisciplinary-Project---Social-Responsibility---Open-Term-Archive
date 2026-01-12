@@ -1,7 +1,8 @@
 {
   "app": {
     "home": "Home",
-    "check-update-btn": "Check Updates"
+    "check-update-btn": "Check Updates",
+    "collections": "Collections"
   },
   "home": {
     "page-title": "Know the conditions,\nbefore you click 'Accept'.",
@@ -64,7 +65,9 @@
     "compare-changes-description": "All versions are published as open datasets, enabling reuse, transparency, and research.",
     "follow-section-description": "Stay updated with the latest findings and highlights from Open Terms Archive and its ecosystem, including tracked changes and community contributions.",
     "follow-social-media": "Follow our social media",
-    "we-work-in-steps": "DISCOVER OUR 3 STEP RECIPE!"
+    "we-work-in-steps": "DISCOVER OUR 3 STEP RECIPE!",
+    "demo-description": "We provide a demo that makes privacy policies more convenient and understandable by using clear symbols to highlight key aspects of our privacy policies. These symbols help you quickly identify how data is collected, used, and protected without having to read long legal text.",
+    "demo-button-content": "Open Privacy Policy Demo"
   },
   "documents-modal": {
     "modal-header": "Documents for {{serviceName}}",
@@ -83,7 +86,31 @@
     "large-file-warning": "Large file detected. Visual comparison may be slow.",
     "use-text-mode": "Use text mode",
     "use-visual-mode": "Use visual mode",
-    "processing": "Processing..."
+    "processing": "Processing...",
+    "lines-added": "Lines Added",
+    "lines-removed": "Lines Removed",
+    "total-changes": "Total Changes",
+    "no-version-changes": "No changes found between versions",
+    "identical": "The documents are identical",
+    "change-summary": "Change Summary:",
+    "change-blocks": "change blocks",
+    "lines": "line(s)",
+    "more-change-blocks": "... and {{changesOnlyLength}} more change blocks",
+    "current-changes": "{{displayLinesLength}} total lines • {{changeCount}} changed lines",
+    "changes": "{{changeCount}} changes",
+    "no-changes": "No changes",
+    "lines-shown": "Showing first {{displayLimit}} of {{displayLines}} lines",
+    "oldSize": "Old: {{oldVersionSize}} KB",
+    "newSize": "New: {{newVersionSize}} KB",
+    "calculatingDiff": "Calculating differences...",
+    "lineByLineDiff": "Line-by-Line Difference",
+    "detailed": "Detailed",
+    "overview": "Overview",
+    "fileStats": "File Statistics",
+    "oldChars": "Old: {{oldVersionChars}} chars",
+    "newChars": "New: {{newVersionChars}} chars",
+    "comparison": "Comparison",
+    "splitView": "Split view with side-by-side changes"
   },
 
   "loading-doc": "Loading document...",
