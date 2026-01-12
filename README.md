@@ -1,15 +1,15 @@
 # IP - Social Responsibility
 
-Our goal is to extend the [Open Terms Archive](https://opentermsarchive.org/en/) (OTA) with a Collection of german-language Terms.
+<!-- Our goal is to extend the [Open Terms Archive](https://opentermsarchive.org/en/) (OTA) with a Collection of german-language Terms.
 Additionally we will be trialing and implementing a way to track compliance with new [Data Act](https://eur-lex.europa.eu/EN/legal-content/summary/rules-on-fair-access-to-and-use-of-data-data-act.html) (DA) regulations into the OTA.
 
 For ease of communication, a section on important terminology is reproduced below:
 
-- **Terms:** the contractual documents published by services (such as Terms of Service, Privacy Policy, Community Guidelines…) that users agree to.
-- **Collection:** a set of tracked terms grouped by a specific scope (such as language, jurisdiction, industry…).
-- **Declaration:** a JSON file that defines which terms to track for a service and how to track them.
-- **Snapshot:** the original source document (HTML, PDF…) from which the terms will be extracted.
-- **Version:** the textual content of the terms after filtering out irrelevant content (navigation menu, advertisements…) from a snapshot.
+- *Terms:* the contractual documents published by services (such as Terms of Service, Privacy Policy, Community Guidelines…) that users agree to.
+- *Collection:* a set of tracked terms grouped by a specific scope (such as language, jurisdiction, industry…).
+- *Declaration:* a JSON file that defines which terms to track for a service and how to track them.
+- *Snapshot:* the original source document (HTML, PDF…) from which the terms will be extracted.
+- *Version:* the textual content of the terms after filtering out irrelevant content (navigation menu, advertisements…) from a snapshot.
 
 
 ## Getting started
@@ -20,5 +20,88 @@ https://docs.opentermsarchive.org/
 
 ## Future Work
 
-After the planning phase has concluded more information will be gathered and made available here.
+After the planning phase has concluded more information will be gathered and made available here. -->
 
+## Overview
+
+This project contains the *OTA Frontend* application. Follow the instructions below to set up the development environment and run the project locally.
+
+---
+
+## Prerequisites
+
+Ensure the following are installed on your system:
+
+- *Node.js* – You can download it from: [https://nodejs.org/en/download](https://nodejs.org/en/download)
+- *npm* (comes with Node.js)
+
+Verify the installations by running:
+
+bash
+node -v
+npm -v
+
+
+Expected versions:
+
+- node -v → *v24.12.0*
+- npm -v → *11.6.2*
+
+---
+
+## Setup Instructions
+
+### 1. Clone the Repository
+
+bash
+git clone https://gitlab.hsrw.eu/31627/ip-social-responsibility.git
+
+
+### 2. Navigate to the Frontend Folder
+
+bash
+cd ota_frontend
+
+
+Make sure you are inside the ota_frontend directory before proceeding.
+
+---
+
+## Install Dependencies
+
+Run the following command to install all required dependencies:
+
+bash
+npm install --legacy-peer-deps
+
+
+> *Note:* The --legacy-peer-deps flag is required to avoid dependency resolution issues.
+
+---
+
+## Run the Development Server
+
+Start the development server with:
+
+bash
+npm run dev
+
+
+The application will start in development mode. Open your browser and navigate to the URL shown in the terminal (commonly http://localhost:5173).
+
+---
+
+## Troubleshooting
+
+- Ensure the correct Node.js and npm versions are installed.
+- If you encounter dependency errors, delete node_modules and package-lock.json, then rerun:
+
+  bash
+  npm install --legacy-peer-deps
+  
+
+---
+
+## License
+
+Specify the project license here if applicable.
