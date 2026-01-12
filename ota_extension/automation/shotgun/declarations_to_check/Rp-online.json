@@ -1,0 +1,8 @@
+{
+  "name": "rp-online.de",
+  "terms": {
+    "Privacy Policy": {
+      "fetch": "https://www.pinpoll.com/pdf/de/datenschutzerkl%C3%A4rung.pdf"
+    }
+  }
+}

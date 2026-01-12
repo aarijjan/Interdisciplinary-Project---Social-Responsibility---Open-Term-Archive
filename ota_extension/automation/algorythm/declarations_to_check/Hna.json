@@ -1,0 +1,19 @@
+{
+  "name": "hna.de",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://www.hna.de/ueber-uns/agb/",
+      "select": "div.id-Container",
+      "remove": [
+        "article#id-js-Story > meta"
+      ]
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.hna.de/ueber-uns/datenschutz/",
+      "select": "article#id-js-Story",
+      "remove": [
+        "div.id-Article-dateActionboxCombo-date > meta"
+      ]
+    }
+  }
+}

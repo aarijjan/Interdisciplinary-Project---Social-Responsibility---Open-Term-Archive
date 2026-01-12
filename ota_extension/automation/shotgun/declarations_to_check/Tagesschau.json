@@ -1,0 +1,20 @@
+{
+  "name": "tagesschau.de",
+  "terms": {
+    "Privacy Policy": {
+      "fetch": "https://tagesschau.de/datenschutz",
+      "select": "article.container",
+      "remove": [
+        "nav.socialbuttons",
+        "svg.icon",
+        "h2#7-Einsatz-von-Cookies",
+        "h2#9-metatagesschau-Social-Media",
+        "ul.socialbuttons__list",
+        "li.socialbuttons__list__item",
+        "span.socialbuttons__icon",
+        "span.socialbuttons__subline",
+        "span.socialbuttons__icon--functional"
+      ]
+    }
+  }
+}

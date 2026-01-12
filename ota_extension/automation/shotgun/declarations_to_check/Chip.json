@@ -1,0 +1,45 @@
+{
+  "name": "chip.de",
+  "terms": {
+    "Privacy Policy": {
+      "fetch": "https://www.chip.de/intern/datenschutzerklaerung-chip_c7c1fa99-0613-448e-9dbd-6ebbeb5a0277.html",
+      "select": "body",
+      "remove": [
+        "script",
+        "script#vike_pageContext",
+        "script#vike_globalContext",
+        "nav.Header-Navigation",
+        "nav.Footer-Nav-Container",
+        "nav.Sub-Footer-Navigation",
+        "footer.Footer",
+        "header.Header",
+        "meta#icon-set-name",
+        "svg.RUC-Button-Icon",
+        "svg.Header-Logo",
+        "svg",
+        "svg.Autocomplete-Search-Clear",
+        "svg.Header-Navigation-Icon",
+        "svg.Header-Navigation-Anchor-Arrow-Icon",
+        "svg.Footer-Logo",
+        "svg.Shop-Icon",
+        "svg.Footer-Social-Icon",
+        "ul.Header-Navigation-List",
+        "li.Header-Navigation-First-Level",
+        "ul.Header-Navigation-Main",
+        "li.Header-Navigation-Second-Level",
+        "a.Header-Navigation-Anchor-Block",
+        "ul.Header-Navigation-Block",
+        "li.Header-Social-Container",
+        "ul.Header-Social-List",
+        "li.Header-Social-List-Element",
+        "li.Header-Navigation-Home",
+        "a.Header-Navigation-Anchor-List",
+        "div.Header-Navigation-Anchor-List-Wrapper",
+        "div.Header-Social-Container",
+        "div.Footer-Social-Container",
+        "ul.Footer-Social-List",
+        "ul.Sub-Footer-Navigation-List"
+      ]
+    }
+  }
+}

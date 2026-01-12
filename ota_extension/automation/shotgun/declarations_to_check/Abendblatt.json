@@ -1,0 +1,14 @@
+{
+  "name": "abendblatt.de",
+  "terms": {
+    "Privacy Policy": {
+      "fetch": "https://abendblatt.de/service/datenschutzerklaerung/",
+      "select": ".article-body",
+      "remove": [
+        "script",
+        "style",
+        "aside.w-full"
+      ]
+    }
+  }
+}

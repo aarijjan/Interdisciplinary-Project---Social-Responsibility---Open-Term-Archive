@@ -1,0 +1,11 @@
+{
+  "name": "zeit.de",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://www.zeit.de/administratives/muster-widerrufsformular.pdf"
+    },
+    "Privacy Policy": {
+      "fetch": "https://datenschutz.zeit.de/zon/1.5/zon.pdf"
+    }
+  }
+}

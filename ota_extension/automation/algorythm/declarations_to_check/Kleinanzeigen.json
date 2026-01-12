@@ -1,0 +1,10 @@
+{
+  "name": "kleinanzeigen.de",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://themen.kleinanzeigen.de/nutzungsbedingungen/",
+      "select": "div.main",
+      "remove": []
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "fu-berlin.de",
+  "terms": {
+    "Privacy Policy": {
+      "fetch": "https://fu-berlin.de/redaktion/impressum/datenschutzhinweise/index.html",
+      "select": "main",
+      "remove": [
+        "noscript"
+      ]
+    }
+  }
+}

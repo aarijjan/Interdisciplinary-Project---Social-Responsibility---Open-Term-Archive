@@ -1,0 +1,13 @@
+{
+  "name": "wetteronline.de",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://wetteronline.de/agb",
+      "select": "#content",
+      "remove": []
+    },
+    "Privacy Policy": {
+      "fetch": "https://en.betweenx.com/pdata.pdf"
+    }
+  }
+}

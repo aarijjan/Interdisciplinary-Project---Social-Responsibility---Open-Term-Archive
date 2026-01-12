@@ -1,0 +1,15 @@
+{
+  "name": "amazon.de",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://amazon.de/gp/help/customer/display.html?nodeId=201909000&ref_=footer_cou",
+      "select": ".help-service-content",
+      "remove": []
+    },
+    "Privacy Policy": {
+      "fetch": "https://amazon.de/gp/help/customer/display.html?nodeId=201909010&ref_=footer_privacy",
+      "select": ".help-service-content",
+      "remove": []
+    }
+  }
+}

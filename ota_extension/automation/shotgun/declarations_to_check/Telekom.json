@@ -1,0 +1,11 @@
+{
+  "name": "telekom.de",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://www.telekom.de/datenschutzhinweise/download/051.pdf"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.telekom.de/datenschutzhinweise/download/051.pdf"
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "name": "sportschau.de",
+  "terms": {
+    "Privacy Policy": {
+      "fetch": "https://sportschau.de/service/app/informationen-zum-datenschutz,datenschutz-app-100.html",
+      "select": "div.global-wrapper",
+      "remove": [
+        "div.global-wrapper > script",
+        "svg.icon > style",
+        "nav#burgernav",
+        "nav.burger-navi-nav__sublevel",
+        "nav.horizontal-nav",
+        "div.meldungsfooter > nav",
+        "nav#footer",
+        "footer.footer",
+        "header.header",
+        "svg.icon",
+        "svg.icon-ard",
+        "div#content > aside",
+        "summary.burger-button-animated",
+        "h2.meldung__subhead",
+        "div.burger-navi > div",
+        "ul.burger-panel > li > a",
+        "li.burger-panel-divider > a",
+        "a.burger-panel__pagelink",
+        "ul#burgernav-0-6 > li > a",
+        "ul#burgernav-0-7 > li > a",
+        "ul#burgernav-0-9 > li > a",
+        "ul#burgernav-0-13 > li > a",
+        "ul#burgernav-0-15 > li > a",
+        "div.columns > div",
+        "div.meldungsfooter > nav > ul",
+        "div.meldungsfooter > nav > ul > li",
+        "a.tabfocus > span",
+        "button.tabfocus > span",
+        "div.columns > dl",
+        "details.accordion > ul",
+        "li.--service-item",
+        "div.columns > ul",
+        "div.columns > ul > li"
+      ]
+    }
+  }
+}

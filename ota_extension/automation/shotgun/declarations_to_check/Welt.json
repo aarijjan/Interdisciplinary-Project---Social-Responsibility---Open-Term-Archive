@@ -1,0 +1,11 @@
+{
+  "name": "welt.de",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://www.welt.de/bin/190129_WeltN24_AGB-Honorarregelungen_01-2019.pdf_bn-188589821.pdf"
+    },
+    "Privacy Policy": {
+      "fetch": "https://ec.europa.eu/info/sites/default/files/1_de_annexe_acte_autonome_cp_part1_v3.pdf"
+    }
+  }
+}

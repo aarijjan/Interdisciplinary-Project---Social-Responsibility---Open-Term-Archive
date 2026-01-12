@@ -1,0 +1,19 @@
+{
+  "name": "fr.de",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://www.fr.de/ueber-uns/agb/",
+      "select": "div.id-Container",
+      "remove": [
+        "article#id-js-Story > meta"
+      ]
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.fr.de/ueber-uns/datenschutz/",
+      "select": "article#id-js-Story",
+      "remove": [
+        "article#id-js-Story > meta"
+      ]
+    }
+  }
+}

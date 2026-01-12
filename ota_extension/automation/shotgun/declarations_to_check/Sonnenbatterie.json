@@ -1,0 +1,8 @@
+{
+  "name": "sonnenbatterie.de",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://www.gstatic.com/policies/terms/pdf/20240522/ks8shls0/google_terms_of_service_de_de.pdf"
+    }
+  }
+}

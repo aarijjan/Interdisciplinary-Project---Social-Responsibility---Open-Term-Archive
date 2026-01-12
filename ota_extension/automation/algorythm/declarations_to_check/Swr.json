@@ -1,0 +1,29 @@
+{
+  "name": "swr.de",
+  "terms": {
+    "Privacy Policy": {
+      "fetch": "https://swr.de/datenschutz/index.html",
+      "select": "div#accordion-2913",
+      "remove": [
+        "svg.icon-external-link",
+        "aside#panel-5448",
+        "aside#panel-684",
+        "aside#panel-2490",
+        "aside#panel-6635",
+        "aside#panel-8965",
+        "aside#panel-1970",
+        "aside#panel-6369",
+        "aside#panel-3003",
+        "aside#panel-1646",
+        "aside#panel-9892",
+        "aside#panel-9057",
+        "aside#panel-7950",
+        "aside#panel-5532",
+        "aside#panel-1862",
+        "aside#panel-3446",
+        "aside#panel-5270",
+        "aside#panel-1553"
+      ]
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "rwth-aachen.de",
+  "terms": {
+    "Privacy Policy": {
+      "fetch": "https://rwth-aachen.de/cms/root/Footer/Services/~cesv/Datenschutzerklaerung/",
+      "select": "div.text",
+      "remove": []
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "otto.de",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://d.otto.de/files/20250901_Widerrufsbelehrung_OTTO.pdf"
+    },
+    "Privacy Policy": {
+      "fetch": "https://d.otto.de/files/anfrageformular_ottopayments_otto.de.pdf"
+    }
+  }
+}

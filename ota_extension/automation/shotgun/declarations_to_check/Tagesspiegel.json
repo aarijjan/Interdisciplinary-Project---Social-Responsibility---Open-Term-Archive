@@ -1,0 +1,20 @@
+{
+  "name": "tagesspiegel.de",
+  "terms": {
+    "Privacy Policy": {
+      "fetch": "https://tagesspiegel.de/verlag-der-tagesspiegel-datenschutzerklarung-383383.html",
+      "select": "#main-content",
+      "remove": [
+        "nav.tspMbl",
+        "header.tspAi",
+        "meta",
+        "svg.tspMbk",
+        "svg.tspPb5",
+        "svg.tspPb6",
+        "svg.tspPb7",
+        "svg.tspPb8",
+        "svg.tspPb4"
+      ]
+    }
+  }
+}

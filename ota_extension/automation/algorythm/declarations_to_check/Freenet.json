@@ -1,0 +1,11 @@
+{
+  "name": "freenet.de",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://www.freenet.de/binaries/_ts_1763540052353/content/assets/freenet/agb-freenet-de.pdf"
+    },
+    "Privacy Policy": {
+      "fetch": "https://iabeurope.eu/wp-content/uploads/2021/09/TransparencyConsentFramework-_Policies_version_TCF-v2.0-2021-06-22.3.4.docx.pdf"
+    }
+  }
+}

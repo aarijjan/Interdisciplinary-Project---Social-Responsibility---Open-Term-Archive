@@ -1,0 +1,25 @@
+{
+  "name": "hessen.de",
+  "terms": {
+    "Privacy Policy": {
+      "fetch": "https://hessen.de/datenschutz",
+      "select": "#main-content",
+      "remove": [
+        "nav.nav-breadcrumb",
+        "header.page__header",
+        "svg#icon_time",
+        "svg",
+        "svg#icon_link_extern",
+        "aside",
+        "desc#social-sharing-button-fb",
+        "desc#social-sharing-button-twitter",
+        "desc#social-sharing-button-linkedin",
+        "desc#social-sharing-button-xing",
+        "desc#social-sharing-button-email",
+        "desc#social-sharing-button-print_link",
+        "div.social-sharing-buttons",
+        "a.social-sharing-buttons__button"
+      ]
+    }
+  }
+}

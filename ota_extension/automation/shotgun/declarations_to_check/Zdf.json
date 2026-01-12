@@ -1,0 +1,18 @@
+{
+  "name": "zdf.de",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://zdf.de/nutzungsbedingungen",
+      "select": "main",
+      "remove": []
+    },
+    "Privacy Policy": {
+      "fetch": "https://zdf.de/datenschutz",
+      "select": "main",
+      "remove": [
+        "svg",
+        "svg.external"
+      ]
+    }
+  }
+}

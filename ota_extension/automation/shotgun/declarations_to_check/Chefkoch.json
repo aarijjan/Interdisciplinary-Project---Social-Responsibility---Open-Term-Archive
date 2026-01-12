@@ -1,0 +1,23 @@
+{
+  "name": "chefkoch.de",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://chefkoch.de/agb",
+      "select": "main",
+      "remove": []
+    },
+    "Privacy Policy": {
+      "fetch": "https://chefkoch.de/datenschutz",
+      "select": "main",
+      "remove": [
+        "li#cookie-basierte-funktionalitaten",
+        "summary#accordion-button-cookie-basierte-funktionalitaten",
+        "div#accordion-content-cookie-basierte-funktionalitaten",
+        "div#b-eingebundene-plug-ins-widgets-dritter-social-media",
+        "li#einbindung-von-social-media-inhalten",
+        "summary#accordion-button-einbindung-von-social-media-inhalten",
+        "div#accordion-content-einbindung-von-social-media-inhalten"
+      ]
+    }
+  }
+}

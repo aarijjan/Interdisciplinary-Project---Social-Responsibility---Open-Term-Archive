@@ -1,0 +1,10 @@
+{
+  "name": "infonline.de",
+  "terms": {
+    "Privacy Policy": {
+      "fetch": "https://www.INFOnline.de/datenschutz",
+      "select": "div.elementor-widget-wrap",
+      "remove": []
+    }
+  }
+}

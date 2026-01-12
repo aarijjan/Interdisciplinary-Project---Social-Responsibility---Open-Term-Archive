@@ -1,0 +1,8 @@
+{
+  "name": "berlin.de",
+  "terms": {
+    "Privacy Policy": {
+      "fetch": "https://www.berlin.de/rbmskzl/_assets/datenschutzhinweise_202304.pdf"
+    }
+  }
+}

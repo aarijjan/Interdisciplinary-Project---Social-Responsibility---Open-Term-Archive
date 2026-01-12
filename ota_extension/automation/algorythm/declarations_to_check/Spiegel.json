@@ -1,0 +1,29 @@
+{
+  "name": "spiegel.de",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://www.spiegel.de/nutzungsbedingungen",
+      "select": "div.RichText",
+      "remove": [
+        "svg#spon-mm-flag-l",
+        "svg#spon-11f-flag-l",
+        "svg.align-middle",
+        "svg#spon-external-flag-l",
+        "svg#spon-end-mark-l"
+      ]
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.spiegel.de/datenschutz-spiegel",
+      "select": "div.lg:mt-32 > div",
+      "remove": [
+        "svg#spon-chevron-up-f-m",
+        "svg#spon-chevron-down-f-m",
+        "span.shrink-0 > span > svg",
+        "span.leading-none > svg",
+        "svg#spon-external-flag-m",
+        "svg.align-middle",
+        "svg#spon-end-mark-l"
+      ]
+    }
+  }
+}

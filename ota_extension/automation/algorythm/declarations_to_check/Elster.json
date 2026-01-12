@@ -1,0 +1,8 @@
+{
+  "name": "elster.de",
+  "terms": {
+    "Privacy Policy": {
+      "fetch": "https://www.finanzamt.bayern.de/Informationen/download.php?url=Informationen/Datenschutz/21_05_14_Allgemeines-Informationsschreiben-Steuerverwaltung.pdf"
+    }
+  }
+}

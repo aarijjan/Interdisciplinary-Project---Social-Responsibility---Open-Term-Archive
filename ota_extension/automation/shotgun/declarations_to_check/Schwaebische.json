@@ -1,0 +1,15 @@
+{
+  "name": "schwaebische.de",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://d3bprg0wt4ienz.cloudfront.net/2025/06/11/0f91dbce-6e6e-4b53-b7ee-f8baa0fa7177.pdf"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.schwaebische.de/datenschutz",
+      "select": "main",
+      "remove": [
+        "svg.tw-fill-primary-40"
+      ]
+    }
+  }
+}

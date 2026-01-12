@@ -1,0 +1,25 @@
+{
+  "name": "t-online.de",
+  "terms": {
+    "Privacy Policy": {
+      "fetch": "https://t-online.de/#datenschutz-manager",
+      "select": "main",
+      "remove": [
+        "script",
+        "nav.grid",
+        "header.grid",
+        "header",
+        "svg",
+        "svg.w-full",
+        "aside.shrink-0",
+        "aside",
+        "aside.p-12",
+        "aside.px-24",
+        "aside.py-16",
+        "div.z-teaser-hero-slider-navigation",
+        "ul.absolute",
+        "div.style_slidingContainer__TJT9f"
+      ]
+    }
+  }
+}

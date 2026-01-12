@@ -1,0 +1,26 @@
+{
+  "name": "taz.de",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://taz.de/Abonnementvertraege-der-taz/!vn5957307/",
+      "select": "main",
+      "remove": [
+        "script",
+        "header.is-flex",
+        "noscript",
+        "meta",
+        "aside#modal-of0z68elc",
+        "button.mgl-auto",
+        "span.icon",
+        "div.modal-background",
+        "div.modal-card",
+        "section.modal-card-body",
+        "p.typo-teaser-text-bold",
+        "div.column"
+      ]
+    },
+    "Privacy Policy": {
+      "fetch": "http://download.taz.de/taz-Satzung-tazPanterStiftung.pdf"
+    }
+  }
+}

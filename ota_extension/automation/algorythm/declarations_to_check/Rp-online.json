@@ -1,0 +1,34 @@
+{
+  "name": "rp-online.de",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://rp-online.de/#",
+      "select": "main#park-main",
+      "remove": [
+        "script#trm-ad-banderol-SaXiJbSUv9Dltge4cF6LzHZKBHr4ovkHIYlLo5uD",
+        "script#trm-widget-8e684111b2fc8d46098a7f6ecaef2f5a",
+        "aside.park-html > script",
+        "div.pt-6 > style",
+        "div.block > header",
+        "div.contents > header",
+        "header.overflow-hidden",
+        "header.top-current-header",
+        "header.self-center",
+        "div.text-white-solid > header",
+        "article.relative > div > header",
+        "div.text-black-solid > header",
+        "div.mt-6 > header",
+        "svg.block",
+        "svg.park-play-media__play-pause-svg",
+        "aside.portal-top",
+        "aside.mt-4",
+        "aside.portal",
+        "aside.park-html",
+        "div.inline-flex"
+      ]
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.pinpoll.com/pdf/de/datenschutzerkl%C3%A4rung.pdf"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "fraunhofer.de",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://fraunhofer.de/content/dam/zv/de/Fraunhofer-AGB.pdf"
+    },
+    "Privacy Policy": {
+      "fetch": "https://fraunhofer.de/de/datenschutzerklaerung.html",
+      "select": "div.fhg-content",
+      "remove": []
+    }
+  }
+}

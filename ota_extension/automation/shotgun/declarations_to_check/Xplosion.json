@@ -1,0 +1,53 @@
+{
+  "name": "xplosion.de",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://www.emetriq.com/agb/",
+      "select": ".container",
+      "remove": [
+        "style",
+        "nav",
+        "svg#Ebene_1",
+        "ul#avia-menu",
+        "li#menu-item-77",
+        "li#menu-item-80",
+        "li#menu-item-78",
+        "li#menu-item-19859",
+        "li#menu-item-21750",
+        "li#menu-item-79",
+        "div.fv-responsive-main-menu",
+        "a.menu-item-toggle",
+        "ul.sub-menu",
+        "li.av-burger-menu-main",
+        "div.fv-responsive-sub-menu",
+        "span.avia-menu-text",
+        "span.avia-menu-fx",
+        "div.fv-socials-nav"
+      ]
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.emetriq.com/datenschutz/",
+      "select": ".container",
+      "remove": [
+        "style",
+        "nav",
+        "svg#Ebene_1",
+        "ul#avia-menu",
+        "li#menu-item-77",
+        "li#menu-item-80",
+        "li#menu-item-78",
+        "li#menu-item-19859",
+        "li#menu-item-21750",
+        "li#menu-item-79",
+        "div.fv-responsive-main-menu",
+        "a.menu-item-toggle",
+        "ul.sub-menu",
+        "li.av-burger-menu-main",
+        "div.fv-responsive-sub-menu",
+        "span.avia-menu-text",
+        "span.avia-menu-fx",
+        "div.fv-socials-nav"
+      ]
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "bild.de",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://www.bild.de/corporate-site/agb/bild-de/artikel-agb-2952414.bild.html",
+      "select": ".article-body",
+      "remove": []
+    },
+    "Privacy Policy": {
+      "fetch": "https://cdn.klarna.com/1.0/shared/content/policy/data/de_de/data_protection.pdf"
+    }
+  }
+}

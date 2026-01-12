@@ -1,0 +1,37 @@
+{
+  "name": "dhl.de",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://dhl.de/de/toolbar/footer/agb.html",
+      "select": "body",
+      "remove": [
+        "form#searchslot > script",
+        "div.scripts > script",
+        "body > script",
+        "header.header > nav",
+        "footer.footer > div > nav",
+        "nav.footer__row-legal",
+        "footer.footer",
+        "header.header",
+        "body > noscript",
+        "svg.icon",
+        "p.h4 > svg",
+        "header.header > nav > ul",
+        "header.header > nav > ul > li",
+        "header.header > nav > ul > li > a",
+        "header.header > nav > div",
+        "a.searchslot__link",
+        "a.searchslot__link > div",
+        "li.has-dropdown > a",
+        "div.d-lg-none",
+        "div.d-lg-none > div",
+        "div.d-lg-none > div > a > div",
+        "div.col-sm-6 > ul",
+        "div.col > ul"
+      ]
+    },
+    "Privacy Policy": {
+      "fetch": "https://dhl.de/dam/jcr:68d3d6a0-b49a-4afd-9cd2-ccbc704f4b5b/dhlgroup-kurzfassung-konzerndatenschutzrichtlinie_01072023.pdf"
+    }
+  }
+}

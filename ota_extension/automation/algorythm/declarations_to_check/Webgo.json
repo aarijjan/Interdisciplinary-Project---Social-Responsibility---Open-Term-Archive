@@ -1,0 +1,31 @@
+{
+  "name": "webgo.de",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://webgo.de/agb",
+      "select": "body",
+      "remove": [
+        "body > script",
+        "body > noscript > style",
+        "nav.z-header",
+        "nav.hidden",
+        "nav.md:hidden",
+        "nav.flex",
+        "nav.text-tertiary-label",
+        "footer.pt-4",
+        "header.header",
+        "body > noscript",
+        "li.flex > meta",
+        "svg.w-3",
+        "svg.w-full",
+        "svg.fill-current",
+        "svg.w-6",
+        "svg.w-4",
+        "svg.ml-2",
+        "svg.w-5",
+        "svg.overflow-visible",
+        "svg.transform"
+      ]
+    }
+  }
+}

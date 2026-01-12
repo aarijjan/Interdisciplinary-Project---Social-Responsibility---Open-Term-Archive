@@ -1,0 +1,14 @@
+{
+  "name": "tum.de",
+  "terms": {
+    "Privacy Policy": {
+      "fetch": "https://tum.de/spezialseiten/datenschutz",
+      "select": "#main-content",
+      "remove": [
+        "header",
+        "svg.in2template-accordion__icon-open",
+        "svg.in2template-accordion__icon-close"
+      ]
+    }
+  }
+}

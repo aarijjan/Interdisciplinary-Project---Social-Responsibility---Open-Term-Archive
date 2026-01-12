@@ -1,0 +1,14 @@
+{
+  "name": "ndr.de",
+  "terms": {
+    "Privacy Policy": {
+      "fetch": "https://ndr.de/service/datenschutz",
+      "select": "article",
+      "remove": [
+        "header.articlehead",
+        "h2#4-Einsatz-von-Cookies",
+        "h2#6-Social-Media-und-Inhalte-von-Drittanbietern"
+      ]
+    }
+  }
+}

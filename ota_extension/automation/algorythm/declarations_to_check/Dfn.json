@@ -1,0 +1,8 @@
+{
+  "name": "dfn.de",
+  "terms": {
+    "Privacy Policy": {
+      "fetch": "https://www.dfn.de/wp-content/uploads/2025/11/Infobrief_Recht_12-2025.pdf"
+    }
+  }
+}

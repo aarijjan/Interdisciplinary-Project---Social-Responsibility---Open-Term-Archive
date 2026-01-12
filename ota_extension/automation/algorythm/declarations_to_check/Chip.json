@@ -1,0 +1,42 @@
+{
+  "name": "chip.de",
+  "terms": {
+    "Privacy Policy": {
+      "fetch": "https://www.chip.de/intern/datenschutzerklaerung-chip_c7c1fa99-0613-448e-9dbd-6ebbeb5a0277.html",
+      "select": "div#isl-0-Header",
+      "remove": [
+        "div.Header-Wrapper > nav",
+        "header.Header",
+        "svg.RUC-Button-Icon",
+        "svg.Header-Logo",
+        "button.Autocomplete-Search-Button > svg",
+        "svg.Autocomplete-Search-Clear",
+        "div.Tags > a > svg",
+        "ul.Grid-Container > li > button > svg",
+        "ul.Grid-Container > li > ul > li > a > svg",
+        "ul.Grid-Container > li > ul > li > ul > li > a > svg",
+        "ul.Grid-Container > li > div > svg",
+        "div.Header-Wrapper > nav > div > ul > li > a > svg",
+        "ul.Grid-Container",
+        "ul.Grid-Container > li",
+        "ul.Grid-Container > li > ul",
+        "ul.Grid-Container > li > ul > li",
+        "ul.Grid-Container > li > ul > li > a",
+        "ul.Grid-Container > li > ul > li > ul",
+        "ul.Grid-Container > li > ul > li > ul > a",
+        "ul.Grid-Container > li > ul > li > ul > li",
+        "ul.Grid-Container > li > ul > li > ul > li > a",
+        "ul.Grid-Container > li > ul > li > ul > li > ul",
+        "ul.Grid-Container > li > ul > li > ul > li > ul > a",
+        "ul.Grid-Container > li > ul > li > ul > li > ul > li",
+        "ul.Grid-Container > li > ul > li > ul > li > ul > li > a",
+        "ul.Grid-Container > li > a",
+        "ul.Grid-Container > li > div",
+        "ul.Grid-Container > li > div > a",
+        "div.Header-Wrapper > nav > div",
+        "div.Header-Wrapper > nav > div > ul",
+        "div.Header-Wrapper > nav > div > ul > li"
+      ]
+    }
+  }
+}

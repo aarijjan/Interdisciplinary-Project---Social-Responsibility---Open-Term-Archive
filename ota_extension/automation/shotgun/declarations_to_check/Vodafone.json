@@ -1,0 +1,11 @@
+{
+  "name": "vodafone.de",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://www.vodafone.de/media/downloads/pdf/900271_KA_21677_screen.pdf"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.vodafone.de/media/downloads/pdf/GA_00951_C_00_VertraglicheDatenschutzhinweise.pdf"
+    }
+  }
+}

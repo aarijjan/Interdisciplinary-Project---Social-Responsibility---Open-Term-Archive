@@ -1,0 +1,8 @@
+{
+  "name": "adac.de",
+  "terms": {
+    "Privacy Policy": {
+      "fetch": "https://assets.adac.de/image/upload/v1709293938/ADAC-eV/KOR/Text/PDF/Datenschutz_ADAC_Berlin_Brandenburg_cbzlw8.pdf"
+    }
+  }
+}

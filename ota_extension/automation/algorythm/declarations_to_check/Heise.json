@@ -1,0 +1,17 @@
+{
+  "name": "heise.de",
+  "terms": {
+    "Privacy Policy": {
+      "fetch": "https://heise.de/hintergrund/Auslegungssache-Jahresrueckblick-Datenschutz-unter-Beschuss-11113304.html",
+      "select": "div.article-content",
+      "remove": [
+        "a-lightbox.a-u-inline-right > figure > div > a > noscript",
+        "div.opt-in__content-container > noscript",
+        "figure.branding > a > noscript",
+        "svg.curtain__logo",
+        "div.curtain__lead-image > svg",
+        "aside.curtain__gift-container"
+      ]
+    }
+  }
+}

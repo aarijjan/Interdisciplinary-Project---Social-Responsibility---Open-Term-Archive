@@ -1,0 +1,13 @@
+{
+  "name": "dhl.de",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://dhl.de/de/toolbar/footer/agb.html",
+      "select": "main",
+      "remove": []
+    },
+    "Privacy Policy": {
+      "fetch": "https://dhl.de/dam/jcr:68d3d6a0-b49a-4afd-9cd2-ccbc704f4b5b/dhlgroup-kurzfassung-konzerndatenschutzrichtlinie_01072023.pdf"
+    }
+  }
+}

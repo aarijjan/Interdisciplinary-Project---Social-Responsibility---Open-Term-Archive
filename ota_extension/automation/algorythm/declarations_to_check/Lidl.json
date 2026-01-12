@@ -1,0 +1,8 @@
+{
+  "name": "lidl.de",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://lidl.de/static/assets/AGB-Stand-Dezember-2025-1926121.pdf"
+    }
+  }
+}

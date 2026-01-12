@@ -1,0 +1,17 @@
+{
+  "name": "tvspielfilm.de",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://www.tvspielfilm.de/services/nutzungsbedingungen/",
+      "select": ".article-body",
+      "remove": [
+        "script"
+      ]
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.tvspielfilm.de/datenschutz/",
+      "select": "body",
+      "remove": []
+    }
+  }
+}

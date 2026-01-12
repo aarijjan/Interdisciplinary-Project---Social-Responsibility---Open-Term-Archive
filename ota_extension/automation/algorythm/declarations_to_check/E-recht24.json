@@ -1,0 +1,17 @@
+{
+  "name": "e-recht24.de",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://e-recht24.de/agb/",
+      "select": "section.article-content",
+      "remove": []
+    },
+    "Privacy Policy": {
+      "fetch": "https://e-recht24.de/muster-datenschutzerklaerung.html",
+      "select": "section.article-content",
+      "remove": [
+        "section.article-content > style"
+      ]
+    }
+  }
+}

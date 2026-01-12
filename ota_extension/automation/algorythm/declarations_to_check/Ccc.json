@@ -1,0 +1,10 @@
+{
+  "name": "ccc.de",
+  "terms": {
+    "Privacy Policy": {
+      "fetch": "https://ccc.de/de/datenschutz",
+      "select": "div.article",
+      "remove": []
+    }
+  }
+}

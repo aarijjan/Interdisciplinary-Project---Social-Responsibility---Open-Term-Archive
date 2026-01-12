@@ -1,0 +1,54 @@
+{
+  "name": "spiegel.de",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://www.spiegel.de/nutzungsbedingungen",
+      "select": "main",
+      "remove": [
+        "footer",
+        "header",
+        "svg#spon-twitter-xl",
+        "svg#spon-facebook-xl",
+        "svg#spon-mail-xl",
+        "svg#spon-copylink-xl",
+        "svg#spon-share-xl",
+        "svg#spon-twitter-l",
+        "svg#spon-facebook-l",
+        "svg#spon-mail-l",
+        "svg#spon-messenger-l",
+        "svg#spon-whatsapp-l",
+        "svg#spon-copylink-l",
+        "svg#spon-mm-flag-l",
+        "svg#spon-11f-flag-l",
+        "svg.align-middle",
+        "svg#spon-external-flag-l",
+        "svg#spon-end-mark-l"
+      ]
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.spiegel.de/datenschutz-spiegel",
+      "select": "main",
+      "remove": [
+        "footer",
+        "header",
+        "svg#spon-twitter-xl",
+        "svg#spon-facebook-xl",
+        "svg#spon-mail-xl",
+        "svg#spon-copylink-xl",
+        "svg#spon-share-xl",
+        "svg#spon-twitter-l",
+        "svg#spon-facebook-l",
+        "svg#spon-mail-l",
+        "svg#spon-messenger-l",
+        "svg#spon-whatsapp-l",
+        "svg#spon-copylink-l",
+        "svg#spon-chevron-up-f-m",
+        "svg#spon-chevron-down-f-m",
+        "svg",
+        "svg#spon-external-flag-m",
+        "svg.align-middle",
+        "svg#spon-end-mark-l"
+      ]
+    }
+  }
+}

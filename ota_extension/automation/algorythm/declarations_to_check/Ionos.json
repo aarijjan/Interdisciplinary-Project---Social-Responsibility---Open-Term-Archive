@@ -1,0 +1,21 @@
+{
+  "name": "ionos.de",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://www.digicert.com/content/dam/digicert/pdfs/legal/master-services-agreement-de.pdf"
+    },
+    "Privacy Policy": {
+      "fetch": "https://ionos.de/datenschutzerklaerung",
+      "select": "div#__next",
+      "remove": [
+        "div.tw-container > script",
+        "nav.tw-relative",
+        "div.tw-shadow-gray-500 > nav",
+        "footer.tw-bg-ionos-blue-700",
+        "div#burger-button > svg",
+        "svg#ICON",
+        "div.hover:tw-cursor-pointer"
+      ]
+    }
+  }
+}

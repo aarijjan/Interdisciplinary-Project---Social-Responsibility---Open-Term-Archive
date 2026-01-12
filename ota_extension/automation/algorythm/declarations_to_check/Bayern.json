@@ -1,0 +1,8 @@
+{
+  "name": "bayern.de",
+  "terms": {
+    "Privacy Policy": {
+      "fetch": "https://bayern.de/wp-content/uploads/2020/09/InstallationsanleitungPGP10.0.2.pdf"
+    }
+  }
+}

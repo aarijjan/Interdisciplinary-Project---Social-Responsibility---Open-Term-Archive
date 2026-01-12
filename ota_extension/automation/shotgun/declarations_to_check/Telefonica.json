@@ -1,0 +1,31 @@
+{
+  "name": "telefonica.de",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://telefonica.de/file/public/465/Telefonica-Germany-Einkaufs-AGB-01-2018.pdf?attachment=1"
+    },
+    "Privacy Policy": {
+      "fetch": "https://telefonica.de/datenschutz-portal",
+      "select": "body",
+      "remove": [
+        "script",
+        "style",
+        "nav",
+        "footer",
+        "header",
+        "svg",
+        "div#page-navmenu",
+        "div#page-navigation",
+        "ul#page-nav-topmenu",
+        "div#scp-header-content",
+        "button.page-sitemenu-button",
+        "div.par-path-bar-social",
+        "ul.par-path-bar-social-icons",
+        "div#sp1",
+        "button.page-nav-label",
+        "div#",
+        "div.par-logo-carpet-social-media"
+      ]
+    }
+  }
+}

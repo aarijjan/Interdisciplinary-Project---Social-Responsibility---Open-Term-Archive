@@ -1,0 +1,39 @@
+{
+  "name": "siemens.de",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://www.siemens.com/de/de/general/nutzungsbedingungen.html",
+      "select": "div.fluidPage__wrapper",
+      "remove": [
+        "div.responsiveLayout > nav",
+        "header.header > div > nav",
+        "header.header",
+        "div.responsiveLayout > ul > div > button",
+        "div.responsiveLayout",
+        "div.responsiveLayout > a",
+        "div.responsiveLayout > nav > ul",
+        "div.responsiveLayout > nav > ul > li > a",
+        "div.header__iconsWrapper > div",
+        "header.header > div",
+        "div.responsiveLayout > ul > div"
+      ]
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.siemens.com/de/de/general/datenschutz.html",
+      "select": "div.fluidPage__wrapper",
+      "remove": [
+        "div.responsiveLayout > nav",
+        "header.header > div > nav",
+        "header.header",
+        "div.responsiveLayout > ul > div > button",
+        "div.responsiveLayout",
+        "div.responsiveLayout > a",
+        "div.responsiveLayout > nav > ul",
+        "div.responsiveLayout > nav > ul > li > a",
+        "div.header__iconsWrapper > div",
+        "header.header > div",
+        "div.responsiveLayout > ul > div"
+      ]
+    }
+  }
+}

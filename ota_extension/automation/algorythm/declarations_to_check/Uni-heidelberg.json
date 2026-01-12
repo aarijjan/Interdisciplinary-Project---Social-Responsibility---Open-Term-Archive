@@ -1,0 +1,13 @@
+{
+  "name": "uni-heidelberg.de",
+  "terms": {
+    "Privacy Policy": {
+      "fetch": "https://uni-heidelberg.de/de/datenschutzerklaerung",
+      "select": "div#mainContent",
+      "remove": [
+        "div.ColumnMobileHide_Az4Y5 > nav",
+        "svg.Home_2R9ct"
+      ]
+    }
+  }
+}

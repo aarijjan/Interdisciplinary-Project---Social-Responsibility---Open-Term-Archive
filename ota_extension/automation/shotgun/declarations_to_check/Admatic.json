@@ -1,0 +1,10 @@
+{
+  "name": "admatic.de",
+  "terms": {
+    "Privacy Policy": {
+      "fetch": "https://admatic.de/privacy-policy",
+      "select": "#main-content",
+      "remove": []
+    }
+  }
+}

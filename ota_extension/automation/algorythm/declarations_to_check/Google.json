@@ -1,0 +1,15 @@
+{
+  "name": "google.de",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://google.de/intl/de/policies/terms/",
+      "select": "body",
+      "remove": []
+    },
+    "Privacy Policy": {
+      "fetch": "https://google.de/intl/de/policies/privacy/",
+      "select": "body",
+      "remove": []
+    }
+  }
+}

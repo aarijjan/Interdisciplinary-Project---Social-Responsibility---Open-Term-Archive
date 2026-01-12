@@ -1,0 +1,11 @@
+{
+  "name": "goethe.de",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://goethe.de/resources/files/pdf275/goethe-institut-muster-widerrufsformular.pdf"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.goethe.de/resources/files/pdf307/datenschutzerklaerung_odp-v2.pdf"
+    }
+  }
+}

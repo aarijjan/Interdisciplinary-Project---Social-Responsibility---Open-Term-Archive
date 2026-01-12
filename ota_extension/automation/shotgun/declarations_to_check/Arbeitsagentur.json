@@ -1,0 +1,8 @@
+{
+  "name": "arbeitsagentur.de",
+  "terms": {
+    "Privacy Policy": {
+      "fetch": "https://www.arbeitsagentur.de/datei/kundeninformation_sozialdatenschutz_ba041480.pdf"
+    }
+  }
+}

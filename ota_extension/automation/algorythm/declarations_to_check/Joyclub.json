@@ -1,0 +1,15 @@
+{
+  "name": "joyclub.de",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://www.joyclub.de/nutzungsbedingungen/",
+      "select": "div#cwide",
+      "remove": []
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.joyclub.de/datenschutzerklaerung/",
+      "select": "div#cwide",
+      "remove": []
+    }
+  }
+}

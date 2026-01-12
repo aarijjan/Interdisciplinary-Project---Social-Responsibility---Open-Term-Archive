@@ -1,0 +1,20 @@
+{
+  "name": "rtl.de",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://rtl.de/nutzungsbedingungen/",
+      "select": ".article-body",
+      "remove": [
+        "svg"
+      ]
+    },
+    "Privacy Policy": {
+      "fetch": "https://rtl.de/datenschutz/",
+      "select": ".article-body",
+      "remove": [
+        "script",
+        "style"
+      ]
+    }
+  }
+}

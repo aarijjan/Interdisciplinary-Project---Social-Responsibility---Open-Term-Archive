@@ -1,0 +1,11 @@
+{
+  "name": "ebay.de",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://ir.ebaystatic.com/cr/v/c01/help/policy/policy/AGB_DE_2024.pdf"
+    },
+    "Privacy Policy": {
+      "fetch": "https://static.ebayinc.com/assets/Uploads/Documents/Responsible-AI-Policy.pdf"
+    }
+  }
+}

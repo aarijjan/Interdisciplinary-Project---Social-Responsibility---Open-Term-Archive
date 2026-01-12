@@ -1,0 +1,10 @@
+{
+  "name": "uni-hamburg.de",
+  "terms": {
+    "Privacy Policy": {
+      "fetch": "https://uni-hamburg.de/datenschutz.html",
+      "select": "div.standard",
+      "remove": []
+    }
+  }
+}

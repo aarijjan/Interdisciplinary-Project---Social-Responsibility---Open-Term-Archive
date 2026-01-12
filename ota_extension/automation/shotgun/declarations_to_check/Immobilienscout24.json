@@ -1,0 +1,19 @@
+{
+  "name": "immobilienscout24.de",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://www.immobilienscout24.de/agb.html",
+      "select": "main",
+      "remove": [
+        "script"
+      ]
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.immobilienscout24.de/agb/datenschutz.html",
+      "select": "main",
+      "remove": [
+        "script"
+      ]
+    }
+  }
+}

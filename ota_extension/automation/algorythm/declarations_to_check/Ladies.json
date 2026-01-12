@@ -1,0 +1,14 @@
+{
+  "name": "ladies.de",
+  "terms": {
+    "Privacy Policy": {
+      "fetch": "https://ladies.de/nojs/datenschutz",
+      "select": "div.elementor-widget-container",
+      "remove": [
+        "div.elementor-widget-container > header",
+        "div.elementor-widget-container > header > header",
+        "div.elementor-widget-container > header > section > a"
+      ]
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "ddnss.de",
+  "terms": {
+    "Privacy Policy": {
+      "fetch": "https://ddnss.de/#",
+      "select": "body",
+      "remove": [
+        "body > div > script",
+        "nav.collapse",
+        "body > div > footer",
+        "body > header",
+        "li.dropdown > ul",
+        "body > div > div"
+      ]
+    }
+  }
+}

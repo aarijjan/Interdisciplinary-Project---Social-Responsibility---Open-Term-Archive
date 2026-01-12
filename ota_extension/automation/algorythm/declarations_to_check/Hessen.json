@@ -1,0 +1,13 @@
+{
+  "name": "hessen.de",
+  "terms": {
+    "Privacy Policy": {
+      "fetch": "https://hessen.de/datenschutz",
+      "select": "div.cp-richtext__field-richtext",
+      "remove": [
+        "svg#icon_link_extern",
+        "i.icon > svg"
+      ]
+    }
+  }
+}

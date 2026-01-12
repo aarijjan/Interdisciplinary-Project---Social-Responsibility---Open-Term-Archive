@@ -1,0 +1,33 @@
+{
+  "name": "joyclub.de",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://www.joyclub.de/nutzungsbedingungen/",
+      "select": ".container",
+      "remove": [
+        "div.open_menu_wrapper",
+        "div.main_navigation_top_area_logo",
+        "button.menu_toggle",
+        "div.menu_toggle_burger",
+        "div.container",
+        "div.user_navigation_group",
+        "ul.main_navigation_menu",
+        "li.menu_title"
+      ]
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.joyclub.de/datenschutzerklaerung/",
+      "select": ".container",
+      "remove": [
+        "div.open_menu_wrapper",
+        "div.main_navigation_top_area_logo",
+        "button.menu_toggle",
+        "div.menu_toggle_burger",
+        "div.container",
+        "div.user_navigation_group",
+        "ul.main_navigation_menu",
+        "li.menu_title"
+      ]
+    }
+  }
+}

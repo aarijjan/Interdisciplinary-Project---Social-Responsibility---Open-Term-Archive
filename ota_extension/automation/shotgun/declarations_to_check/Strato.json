@@ -1,0 +1,16 @@
+{
+  "name": "strato.de",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://strato.de/_assets/pdf/de/Domainbedingungen.pdf"
+    },
+    "Privacy Policy": {
+      "fetch": "https://strato.de/datenschutz/",
+      "select": "main",
+      "remove": [
+        "nav.sub-nav-wrapper",
+        "div.sub-nav__menuicon"
+      ]
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "nic.de",
+  "terms": {
+    "Privacy Policy": {
+      "fetch": "https://nic.de/fileadmin/Downloads/Security/140566_DENIC_eG_27001_de.pdf"
+    }
+  }
+}

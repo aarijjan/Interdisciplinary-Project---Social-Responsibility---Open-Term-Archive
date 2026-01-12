@@ -1,0 +1,11 @@
+{
+  "name": "sueddeutsche.de",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://www.sueddeutsche.de/sz_abo/2.1/sz_abo.pdf"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.sueddeutsche.de/sz/9.31/sz.pdf"
+    }
+  }
+}

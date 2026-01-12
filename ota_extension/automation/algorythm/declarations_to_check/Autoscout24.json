@@ -1,0 +1,13 @@
+{
+  "name": "autoscout24.de",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://assets.ctfassets.net/uaddx06iwzdz/CPKVghdcm84Okz1Um1Hee/f21f5dd54734641506beff9ffb17c1d6/202501_Verbraucher_AGB_DE_clean.de__1_.pdf"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.autoscout24.de/unternehmen/datenschutz/",
+      "select": "div.cms-hub-elements",
+      "remove": []
+    }
+  }
+}
