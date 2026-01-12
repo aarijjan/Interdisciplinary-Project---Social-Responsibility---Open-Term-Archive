@@ -38,6 +38,7 @@ Ensure the following are installed on your system:
 Verify the installations by running:
 
 node -v
+
 npm -v
 
 Expected versions:
