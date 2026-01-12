@@ -24,7 +24,7 @@ After the planning phase has concluded more information will be gathered and mad
 
 ## Overview
 
-This project contains the *OTA Frontend* application. Follow the instructions below to set up the development environment and run the project locally.
+This project contains the _OTA Frontend_ application. Follow the instructions below to set up the development environment and run the project locally.
 
 ---
 
@@ -32,20 +32,18 @@ This project contains the *OTA Frontend* application. Follow the instructions be
 
 Ensure the following are installed on your system:
 
-- *Node.js* – You can download it from: [https://nodejs.org/en/download](https://nodejs.org/en/download)
-- *npm* (comes with Node.js)
+- _Node.js_ – You can download it from: [https://nodejs.org/en/download](https://nodejs.org/en/download)
+- _npm_ (comes with Node.js)
 
 Verify the installations by running:
 
-bash
 node -v
 npm -v
 
-
 Expected versions:
 
-- node -v → *v24.12.0*
-- npm -v → *11.6.2*
+- node -v → _v24.12.0_
+- npm -v → _11.6.2_
 
 ---
 
@@ -53,15 +51,11 @@ Expected versions:
 
 ### 1. Clone the Repository
 
-bash
 git clone https://gitlab.hsrw.eu/31627/ip-social-responsibility.git
-
 
 ### 2. Navigate to the Frontend Folder
 
-bash
 cd ota_frontend
-
 
 Make sure you are inside the ota_frontend directory before proceeding.
 
@@ -71,11 +65,9 @@ Make sure you are inside the ota_frontend directory before proceeding.
 
 Run the following command to install all required dependencies:
 
-bash
 npm install --legacy-peer-deps
 
-
-> *Note:* The --legacy-peer-deps flag is required to avoid dependency resolution issues.
+> _Note:_ The --legacy-peer-deps flag is required to avoid dependency resolution issues.
 
 ---
 
@@ -83,9 +75,7 @@ npm install --legacy-peer-deps
 
 Start the development server with:
 
-bash
 npm run dev
-
 
 The application will start in development mode. Open your browser and navigate to the URL shown in the terminal (commonly http://localhost:5173).
 
@@ -96,9 +86,7 @@ The application will start in development mode. Open your browser and navigate t
 - Ensure the correct Node.js and npm versions are installed.
 - If you encounter dependency errors, delete node_modules and package-lock.json, then rerun:
 
-  bash
   npm install --legacy-peer-deps
-  
 
 ---
 
