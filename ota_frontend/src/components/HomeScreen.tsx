@@ -477,6 +477,7 @@ function ImageCard({
       borderColor="gray.200"
       textAlign="center"
       transition="all 0.2s"
+      minHeight="260px"
       _hover={{
         borderColor: "blue.300",
         shadow: "md",
