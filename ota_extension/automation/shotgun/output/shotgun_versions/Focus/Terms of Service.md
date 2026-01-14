@@ -1,0 +1,129 @@
+**FOCUS Online ist Teil des digitalen Publishing-Hauses BurdaForward GmbH. Zur BurdaForward GmbH gehören auch die Marken CHIP, BUNTE.de, TV-Spielfilm.de, Fit-for-Fun.de, TV-Today.de, Finanzen100, NetMoms und The Weather Channel DE, E-Fahrer, cinema.de, Cardscout, Streampicker und Brandsyoulove.**
+
+**AGB Übersicht** I. Geltungsbereich und Änderungsvorbehalt II. Bereitstellungsbedingungen III. Haftung IV. Urheberrecht und verwandte Schutzrechte V. Registrierung VI. Regeln für die Benutzung der Angebote VII. Folgen von Verstößen VIII. Vertragsdauer und Kündigung IX. Datenschutz X. Allgemeine Gewinnspielbedingungen XI. Waren und Dienstleistungen von Drittanbietern XII. Allgemeine Bedingungen für Produkttests XIII. Hinweis zur außergerichtlichen Streitbeilegung
+
+**I. Geltungsbereich und Änderungsvorbehalt**
+
+**1\. Geltungsbereich** Diese Allgemeinen Nutzungsbedingungen gelten für alle Inhalte und Dienste, die durch die BurdaForward GmbH im Rahmen des Online-Angebots von FOCUS Online angeboten werden, insbesondere unter der Domain focus.de, einschließlich der zugehörigen klassischen und mobilen Websites, Apps, Präsenzen auf sozialen Medien und ggf. weiteren (auch zukünftigen) Verbreitungsformen (im Folgenden: Angebote).
+
+**2\. Änderung der Nutzungsbedingungen** Für nicht registrierte Nutzer gelten diese Nutzungsbedingungen in der bei Vornahme der Nutzungshandlung jeweils aktuellen Fassung. Für registrierte Nutzer gelten diese Nutzungsbedingungen in der zum Zeitpunkt der Registrierung aktuellen Fassung.
+
+**II. Bereitstellungsbedingungen**
+
+**1\. Kein Vertragsverhältnis durch Bereitstellung der Angebote** Durch die bloße unentgeltliche Bereitstellung von Inhalten zum Abruf sowie durch entsprechenden Abruf seitens der Nutzer wird kein Vertragsverhältnis zwischen der BurdaForward GmbH und dem jeweiligen Nutzer begründet.
+
+**2\. Erreichbarkeit der Angebote** Die BurdaForward GmbH ist stets bemüht, einen ordnungsgemäßen Betrieb der Angebote sicherzustellen, steht jedoch nicht für die ununterbrochene Nutzbarkeit bzw. Erreichbarkeit der Angebote ein.
+
+**3\. Einstellungsvorbehalt** Die BurdaForward GmbH behält sich vor, Teile der Angebote oder einzelne oder alle Angebote als Ganze ohne gesonderte Ankündigung zu verändern oder die Veröffentlichung zeitweise oder endgültig einzustellen. Ansprüche erwachsen den Nutzern hieraus nicht.
+
+**4\. Kein Veröffentlichungsanspruch** Soweit die BurdaForward GmbH im Rahmen der Angebote Nutzern die Einstellung von Inhalten ermöglicht, geschieht dies frei widerruflich und begründet keinen Anspruch der Nutzer auf Veröffentlichung. Die BurdaForward GmbH kann solche eingestellten Inhalte jederzeit ohne Angabe von Gründen sperren oder löschen.
+
+**5\. Keine Anlageberatung** Die Inhalte der Angebote zu Börsen- und Finanzthemen dienen lediglich der allgemeinen Information und stellen keine Anlageberatung, Empfehlung oder Aufforderung zum Kauf oder Verkauf der jeweiligen Wertpapiere, Geldmarktinstrumente oder Derivate dar, noch enthalten sie die Grundlage für einen Vertrag oder eine Verpflichtung irgendeiner Art. Börsengeschäfte beinhalten Risiken, die dem Nutzer bewusst sein müssen und die die Konsultation eines professionellen Anlageberaters erforderlich machen. Der Totalverlust des eingesetzten Kapitals kann nicht ausgeschlossen werden.
+
+**III. Haftung**
+
+**1\. Haftung für im Rahmen der Angebote zum Abruf bereitgestellte Inhalte**
+
+a) Eigene Inhalte Die BurdaForward GmbH ist - soweit sich dies aus dem Impressum des jeweiligen Angebots ergibt - Diensteanbieter i.S.d. § 7 Abs.1 TMG und für eigene Inhalte, die im Rahmen des jeweiligen Angebots abrufbar sind, nach den allgemeinen Gesetzen verantwortlich. Sie erstellt eigene Inhalte nach bestem Wissen, steht jedoch nicht für die Richtigkeit, Vollständigkeit und/oder Aktualität der Inhalte ein. Es gelten zudem die Haftungsbeschränkungen gemäß nachfolgender Ziffer III. 2.
+
+b) Fremde und verlinkte Inhalte Die BurdaForward GmbH ist nach den gesetzlichen Vorschriften der §§ 8 bis 10 TMG nicht verpflichtet und auch nicht in der Lage, die Rechtmäßigkeit der von Nutzern hochgeladenen oder publizierten Inhalte umfassend zu prüfen, zu überwachen und/oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen. Das gleiche gilt, wenn und soweit von den Angeboten der BurdaForward GmbH auf Websites Dritter verlinkt oder verwiesen wird. Die BurdaForward GmbH macht sich die von Nutzern hochgeladenen oder publizierten Inhalte sowie die auf den Websites Dritter liegenden, durch Link verknüpften Inhalte nicht zu eigen. Sie steht nicht dafür ein, dass diese Inhalte rechtmäßig, korrekt, aktuell und/oder vollständig sind. Sie haftet nicht für Schäden, die durch oder aufgrund der Nutzung dieser Inhalte entstehen.
+
+c) Kenntnis von rechtsverletzenden fremden oder verlinkten Inhalten Wenn die BurdaForward GmbH auf klare Gesetzesverstöße und/oder Rechtsverletzungen durch fremde oder verlinkte Inhalte hingewiesen wird, werden die entsprechenden Inhalte bzw. Links zu diesen Inhalten unverzüglich überprüft. Die BurdaForward GmbH behält sich hierbei vor, von Dritten zugänglich gemachte Inhalte und Links vorübergehend oder dauerhaft zu entfernen.
+
+**2\. Haftungsbeschränkungen**
+
+a) Allgemeine Haftungsbeschränkung Die BurdaForward GmbH haftet ? egal aus welchem Rechtsgrund ? nur für Schäden durch vorsätzliches oder grob fahrlässiges Handeln sowie für Schäden, die sich aus leicht fahrlässigen Verletzungen solcher Pflichten ergeben, die die ordnungsgemäße Durchführung eines mit dem betreffenden Nutzer bestehenden Vertrages erst ermöglichen und auf deren Erfüllung der Vertragspartner deshalb vertrauen darf (Kardinalpflichten). Im letzteren Fall ist die Haftung begrenzt auf den bei Vertragsschluss vorhersehbaren vertragstypischen Schaden. Die vorstehenden Haftungsbeschränkungen gelten nicht bei Verletzung von Leben, Körper und Gesundheit, im Anwendungsbereich des Produkthaftungsgesetzes sowie im Fall der Übernahme ausdrücklicher Garantien.
+
+b) Zusätzliche Haftungsbeschränkung für Datenverlust Für den Verlust von Daten haftet die BurdaForward GmbH nach Maßgabe des vorstehenden Absatzes, jedoch nur, soweit ein solcher Verlust durch angemessene Datensicherungsmaßnahmen seitens des Nutzers nicht vermeidbar gewesen wäre. Diese Datensicherung obliegt dem Nutzer.
+
+c) Erfüllungsgehilfen und gesetzliche Vertreter Die vorstehenden Haftungsregelungen gelten entsprechend für die Haftung der BurdaForward GmbH bei Pflichtverletzungen ihrer gesetzlichen Vertreter oder Erfüllungsgehilfen.
+
+**IV. Urheberrecht und verwandte Schutzrechte**
+
+**1\. Rechte an den im Rahmen der Angebote bereitgestellten Inhalten** Die im Rahmen eines Angebots bereitgestellten Inhalte sind grundsätzlich urheber- bzw. leistungsschutzrechtlich geschützt. Die Vervielfältigung, öffentliche Wiedergabe oder die sonstige Nutzung oder Verwertung derart geschützter Inhalte ist ohne die Zustimmung des jeweiligen Rechteinhabers in der Regel unzulässig. Gestattet ist, sofern sich nicht aus dem Gesetz Ausnahmen ergeben, lediglich die persönliche, nicht kommerzielle Nutzung im Rahmen der Zweckbestimmung des Angebots.
+
+**2\. Rechte an den vom Nutzer eingestellten Inhalten**
+
+a) Rechteeinräumung Die Urheber- und verwandten Schutzrechte an den von den Nutzern eingestellten Inhalten verbleiben grundsätzlich beim Nutzer. Durch das Einstellen/Veröffentlichen von Nutzerinhalten erklärt sich der Nutzer aber damit einverstanden, dass die BurdaForward GmbH die Nutzerinhalte auf nicht-exklusiver Basis speichert und sie an beliebiger Stelle im Rahmen der Angebote oder in sonstigen von ihr verantworteten Medien unentgeltlich veröffentlicht, insbesondere vervielfältigt, verbreitet, öffentlich zugänglich macht und sonst wiedergibt. Die BurdaForward GmbH darf die Nutzerinhalte dazu auch unter Wahrung des Urheberpersönlichkeitsrechts bearbeiten (insbes. kürzen, beschneiden, umformatieren oder übersetzen). Dabei bleiben die Inhalte stets als solche des Nutzers erkennbar. Eine werbliche (außer zur Bekanntmachung der Angebote) oder sonstige kommerzielle Verwertung ist nicht gestattet. Die jeweiligen Berechtigten dürfen die ihnen hiernach zustehenden Nutzungsrechte zudem auch an die Betreiber von Plattformen (etwa von sozialen Medien) unterlizenzieren, soweit dies erforderlich ist, um von den vorstehend eingeräumten Nutzungsrechten Gebrauch zu machen (d.h. insbesondere um sie auf ihren dortigen Präsenzen zu veröffentlichen).
+
+b) Dauer der Rechteeinräumung Die Nutzungsrechte nach dem vorstehenden Absatz räumt der betreffende Nutzer der BurdaForward GmbH räumlich und zeitlich unbegrenzt ein. Der Nutzer kann aber jederzeit unter Angabe der genauen Fundstelle/URL verlangen, dass ein von ihm eingestellter Inhalt gelöscht wird.
+
+c) Namensnennung Soweit und solange die BurdaForward GmbH von den Nutzern eingestellte Inhalte nutzen darf, ist der betreffende Nutzer auch mit der Nennung des von ihm mitgeteilten Namens, des von ihm bereitgestellten Fotos und anderer von ihm bereitgestellter Informationen zu seiner Person einverstanden.
+
+d) Verantwortung der einstellenden Nutzer Es liegt in der alleinigen Verantwortung eines jeden Nutzers, der Material in ein Angebot einstellt, die nötigen Rechte hierfür innezuhaben oder zu erwerben. In der Regel besitzt er die erforderlichen Rechte nur, wenn er das Material selbst angefertigt oder die Zustimmung vom Rechteinhaber eingeholt hat.
+
+**V. Registrierung**
+
+a) Jeder Nutzer verpflichtet sich, im Rahmen seiner Registrierung richtige und vollständige Angaben zu machen und insbesondere nicht die Rechte Dritter zu verletzen. Eine Verletzung der Rechte Dritter ist unter anderem dann gegeben, wenn personenbezogene Informationen oder sonstige Daten Dritter ohne deren Einwilligung verwendet werden, z.B. der Name oder die E-Mail-Adresse. Eine mehrfache Registrierung für den gleichen Dienst ist unzulässig. Registrierte Nutzer können ihre Anmeldeinformationen zu jedem Zeitpunkt ändern bzw. aktualisieren lassen.
+
+b) Die registrierten Nutzer sind verantwortlich für die vertrauliche Behandlung der ihnen erteilten bzw. von ihnen gewählten Zugangsinformationen (insbes. Passwort) und sind sowohl gegenüber der der BurdaForward GmbH als auch Dritten für deren Gebrauch verantwortlich. Jeder registrierte Nutzer ist verpflichtet, die BurdaForward GmbH im Falle des Verlusts oder der unbefugten Nutzung seiner Zugangsinformationen unverzüglich zu unterrichten.
+
+**VI. Regeln für die Benutzung der Angebote**
+
+**1\. Allgemeines** Es gelten die Regeln eines guten und respektvollen Umgangs der Nutzer untereinander. Kein Nutzer darf mit Material, das er anderen über ein Angebot zugänglich macht, gegen gesetzliche Verbote oder die guten Sitten verstoßen oder Rechte Dritter (z.B. Namens-, Kennzeichen-, Urheber-, Datenschutz-, Persönlichkeitsrechte usw.) verletzen. Insbesondere ist es den Nutzern untersagt, direkt oder indirekt pornografische, jugendbeeinträchtigende, gewaltverherrlichende oder volksverhetzende Inhalte zu verbreiten, zu Straftaten aufzurufen oder Anleitungen hierfür darzustellen. Darüber hinaus können für von den Nutzern eingestellte Inhalte weitere Regeln (die sog. Netiquette) vorgegeben werden.
+
+**2\. Keine Schadsoftware** Kein Nutzer darf bei der Benutzung des Angebots Daten versenden oder auf einem Datenträger der BurdaForward GmbH speichern, die nach ihrer Art oder Beschaffenheit, Größe oder Zahl geeignet sind, die Funktionsweise der Computersysteme der BurdaForward GmbH, verbundener Unternehmen oder von Dritten zu beeinträchtigen oder deren Rechte zu verletzen (z.B. Viren, Trojaner, Spam-E-Mails etc.).
+
+**3\. Keine Werbung** Es ist den Nutzern außerhalb gesondert hierfür vorgesehener Bereiche nicht erlaubt, anderen Nutzern oder Dritten unter Verwendung des Angebots Werbung in irgendeiner Form zu unterbreiten. Dies bezieht sich auch auf das Setzen von entsprechenden Links und insbesondere auf Werbung für Kettenbriefe, Schenkkreise, Umfragen, Pyramiden- und Schneeballsysteme sowie für den Kauf von Wertpapieren.
+
+**4\. Kein Missbrauch von Daten** Die Auslesung, Speicherung oder Weitergabe personenbezogener Daten anderer Nutzer zu anderen Zwecken als der bestimmungsgemäßen Nutzung des Angebots ist verboten. Die Nutzer behandeln ihnen bekannt werdende Informationen über andere Nutzer sowie Kommunikationsinhalte grundsätzlich vertraulich, soweit diese nicht vom Berechtigten selbst veröffentlicht wurden.
+
+**VII. Folgen von Verstößen**
+
+**1\. Prüfung** Die BurdaForward GmbH ist nicht verpflichtet und auch nicht in der Lage, die Rechtmäßigkeit der von Nutzern eingestellten Inhalte umfassend zu prüfen und/oder zu überwachen sowie nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen. Sie führt aber Stichproben durch und behält sich in jedem Fall das Recht auf Prüfung und Entfernung von Inhalten vor (vgl. II.4.).
+
+**2\. Sanktionen** Im Fall von Verstößen gegen diese Nutzungsbedingungen kann die BurdaForward GmbH vom Nutzer eingestellte oder ihm sonst zuzuordnende Inhalte und Informationen löschen. Des Weiteren kann die BurdaForward GmbH den Nutzer vorübergehend oder dauerhaft von der Nutzung des Angebots ausschließen.
+
+**3\. Haftung des Nutzers** Bei einem schuldhaften Verstoß gegen diese Nutzungsbedingungen haftet der Nutzer gegenüber der BurdaForward GmbH nach den gesetzlichen Bestimmungen u.a. auf den Ersatz der hieraus entstehenden Schäden.
+
+**VIII. Vertragsdauer und Kündigung**
+
+Für Registrierungen und soweit durch die BurdaForward GmbH Leistungen im Rahmen eines Vertragsverhältnisses erbracht werden, gilt - soweit im Zusammenhang mit dem jeweiligen Vertragsverhältnis nichts Abweichendes vereinbart ist - Folgendes:
+
+**1\. Beendigung durch den Nutzer** Die Registrierung bzw. das Vertragsverhältnis kann jederzeit ohne Einhaltung einer Frist durch E-Mail an folgende Adresse redaktion@focus.de gegenüber der BurdaForward GmbH beendet werden.
+
+**2\. Beendigung durch die BurdaForward GmbH** Die BurdaForward GmbH freut sich über jeden aktiven Nutzer, behält sich jedoch vor, die Registrierung bzw. das Vertragsverhältnis ohne Angabe von Gründen mit einer Frist von einer Woche ordentlich zu beenden.
+
+**3\. Außerordentliche Kündigung** Das Recht zur außerordentlichen Kündigung aus wichtigem Grund, insbesondere wegen erheblicher oder wiederholter Verletzung dieser Nutzungsbedingungen, bleibt unberührt.
+
+**IX. Datenschutz** Es gelten die Hinweise zum Datenschutz des jeweiligen Angebots.
+
+**X. Allgemeine Gewinnspielbedingungen**
+
+**1\. Geltungsbereich der Allgemeinen Gewinnspielbedingungen** Für auf den Angeboten veranstaltete Gewinnspiele gelten die nachfolgenden Allgemeinen Gewinnspielbedingungen. Je nach Eigenart des Gewinnspiels können daneben weitere besondere Bestimmungen anwendbar sein. Die besonderen Teilnahmebedingungen des jeweiligen Gewinnspiels sind zu beachten; sie gehen im Konfliktfall diesen allgemeinen Bedingungen vor.
+
+**2\. Teilnahmeberechtigung** Teilnahmeberechtigt sind nur Personen, die ihren Wohnsitz in Deutschland, Österreich oder der Schweiz haben. Mitarbeiter der BurdaForward GmbH und ihnen im Sinne von § 15 des Aktiengesetzes verbundenen Unternehmen sind von der Teilnahme an Gewinnspielen ausgeschlossen. Das gleiche gilt für die Mitarbeiter jener Unternehmen, die Preise zur Verfügung gestellt haben.
+
+**3\. Ausschluss von der Teilnahme** Eine Verletzung der allgemeinen oder besonderen Gewinnspielbedingungen, die Beeinflussung der Chancengleichheit durch technische Manipulation, die Übermittlung falscher Angaben zur Person oder ein vergleichbar schwerer Verstoß kann nach billigem Ermessen der BurdaForward GmbH zum - ggf. nachträglichen - Ausschluss von der Teilnahme führen.
+
+**4\. Ausschluss des Rechtswegs** Der Rechtsweg ist ausgeschlossen.
+
+**5\. Preise** Alle Preise wurden unentgeltlich zur Verfügung gestellt und können nicht bar ausgezahlt werden. Gewinne sind nicht übertragbar.
+
+**6\. Durchführung und Abwicklung** Die Gewinner werden von der BurdaForward GmbH per Losverfahren ermittelt und schriftlich benachrichtigt. Die BurdaForward GmbH ist berechtigt, den Namen und die Anschrift des Gewinners an den Kooperationspartner zu übermitteln, um so die Auslieferung des Gewinns zu ermöglichen. Zu anderen Zwecken dürfen diese Daten, wenn keine weitergehende Einwilligung vorliegt oder das Gesetz es erlaubt, nicht verwendet werden. Falls der BurdaForward GmbH nur die E-Mail-Adresse des Gewinners bekannt ist, wird der Gewinner per E-Mail benachrichtigt und zur Übermittlung seiner Anschrift aufgefordert. Meldet sich der Gewinner nicht innerhalb der jeweils genannten angemessenen Frist nach dem Absenden der Benachrichtigung, so verfällt der Gewinn und die BurdaForward GmbH behält sich das Recht vor, per Los einen neuen Gewinner zu ermitteln. Der im Rahmen des Gewinnspiels als Preis präsentierte Gegenstand ist nicht zwingend mit dem gewonnenen Gegenstand identisch. Vielmehr können Abweichungen hinsichtlich Modell, Farbe o. ä. bestehen. Der Preissponsor kann einen dem als Preis präsentierten Gegenstand gleichwertigen Gegenstand mittlerer Art und Güte auswählen. Die BurdaForward GmbH wird mit der Aushändigung des Gewinns von allen Verpflichtungen frei, sofern sich nicht aus diesen Regelungen schon ein früherer Zeitpunkt ergibt.
+
+**XI. Waren und Dienstleistungen von Drittanbietern** Die BurdaForward GmbH bietet im Rahmen einzelner ihrer Angebote ihren Nutzern die Möglichkeit, sich über Produkte und Dienstleistungen, die von Dritten im Internet angeboten werden, zu informieren.
+
+Bei von Dritten angebotenen Waren und Dienstleistungen leitet die BurdaForward GmbH den Nutzer bei Interesse auf die Website des Dritten weiter, wo dann der Bestell- und Bezahlprozess stattfindet. Verträge über den Kauf von Waren oder die Erbringung von Dienstleistungen kommen in diesen Fällen ausschließlich zwischen Drittem und Nutzer zustande. Die von der BurdaForward GmbH den Nutzern insoweit zur Verfügung gestellten Informationen stammen von den Dritten, die die Waren und Dienstleistungen anbieten. Die BurdaForward GmbH ist stets bemüht, ihren Nutzern aktuelle, vollständige und korrekte Informationen zur Verfügung zu stellen, steht für die Richtigkeit, Vollständigkeit und/oder Aktualität der Inhalte jedoch nicht ein. Es obliegt dem Nutzer, sich auf der Website des Dritten, auf die er bei Interesse an dessen Waren oder Dienstleistungen weitergeleitet wird, selbst davon zu überzeugen, dass die zuvor bereitgestellten Informationen korrekt, vollständig und noch aktuell sind.
+
+Bei der Bestellung von Waren oder Dienstleistungen auf den Websites von Dritten werden dort die für den Bestellvorgang erforderlichen und gegebenenfalls weitere personenbezogene Daten durch den Dritten erhoben und verwendet. Die BurdaForward GmbH hat darauf keinen Einfluss. Es obliegt dem Nutzer, sich über die Datenschutzbestimmungen des jeweiligen Dritten auf dessen Website zu informieren. Als Amazon-Partner verdient die BurdaForward GmbH an qualifizierten Käufen.
+
+**XII. Allgemeine Bedingungen für Produkttests** Die BurdaForward GmbH kann in Zusammenarbeit mit Partnerunternehmen sowohl registrierten als auch nicht registrierten Nutzern die Möglichkeit bieten, an Produkttests teilzunehmen. In diesem Fall gelten die nachfolgenden Regelungen:
+
+**1\. Teilnahme** Die Bewerbung und die Teilnahme an einem von der BurdaForward GmbH durchgeführten Produkttest begründet keinerlei Verpflichtung zur Teilnahme an weiteren Produkttests. Die Teilnahme an den Produkttests ist kostenlos. Zur Bewerbung um eine Teilnahme am Produkttest ist jede natürliche Person berechtigt, die mindestens 18 Jahre alt ist. Der Eingang der Bewerbung zum Produkttest hat innerhalb der auf der Aktionsseite des Produkttests genannten Frist zu erfolgen. Zur Überprüfung der Fristwahrung dient der elektronisch protokollierte Eingang der Sendung. Nach Ablauf dieser Frist eingegangene Einsendungen werden bei der Auswahl der Tester nicht berücksichtigt. Die Bewerbung für den Produkttest ist ausschließlich auf der Aktionsseite möglich. Anders erfolgte Bewerbungen werden nicht berücksichtigt. Die Mitarbeiter der BurdaForward GmbH und deren Angehörige sind von der Teilnahme ausgeschlossen. Zur Bewerbung am Produkttest ist es erforderlich, dass sämtliche Personenangaben wahrheitsgemäß erfolgen. Bei Verstößen gegen diese Verpflichtung kann ein Ausschluss des Bewerbers erfolgen. Jeder Bewerber darf sich nur einmal für den Produkttest bewerben. Mehrfacheinsendungen werden nicht anerkannt. Eine Teilnahme über Eintragungsdienste oder ähnliche Einrichtungen ist ebenfalls nicht akzeptiert.
+
+**2\. Persönlichen Daten** Mit der Bewerbung um eine Teilnahme an einem Produkttest willigt der Nutzer in die Erhebung, Verarbeitung und hier beschriebene Nutzung seiner personenbezogenen Daten zum Zwecke der Markt- und Meinungsforschung ein. Die persönlichen Daten des Nutzers (eventuell Namen, Alter, Alter der Kinder, Telefonnummer, Adresse und E-Mail-Adresse) werden nur für den jeweiligen Produkttest von der BurdaForward GmbH erhoben und an das Partnerunternehmen dieses Tests weitergereicht. Eine Weitergabe der Daten an Dritte wird nur vorgenommen, soweit dies zur Durchführung des Tests erforderlich ist (z.B. für den Versand der Produkte). Ansonsten werden die erhobenen Daten ausschließlich anonymisiert im Rahmen statistischer Auswertungen verwendet. Die BurdaForward GmbH und das Partnerunternehmen verpflichten sich, nach den Auswertungen des Tests die personenbezogenen Daten zu löschen, außer der Nutzer willigt separat an anderer Stelle in eine weitere Verwendung seiner Daten ein (z.B. für den Versand eines Newsletters des Partners) oder das Gesetz erlaubt sie. Die BurdaForward GmbH und der Produkttestpartner werden persönliche Daten auf keinen Fall an unbeteiligte Dritte weitergeben.
+
+**3\. Auswahl der Tester** Die BurdaForward GmbH behält sich die Auswahl der Tester vor. Es besteht weder ein Anspruch auf Teilnahme am Produkttest noch auf Überlassung der Testprodukte. Es gibt häufig mehr Interessenten an Produkttests, als Testprodukte zur Verfügung stehen. Die ausgewählten Tester werden per E-Mail benachrichtigt.
+
+**4\. Aktivitäten im Laufe des Produkttests** Mit einer Bewerbung für einen Produkttest willigt der Nutzer ein, Informationen über die zum Test stehenden Produkte, dazugehörende Umfragen und Aktivitäten, sowie das Feedback zu diesem Produkttest zu erhalten. Außerdem willigt er ein, die BurdaForward GmbH über seine Veröffentlichungen zum Testprodukt in Blogs zu informieren. Die Kommunikation erfolgt auf der Aktionsseite, per E-Mail oder telefonisch. Wenn der Nutzer sich entschließt, bei einem Produkttest mitzumachen, erlaubt er der BurdaForward GmbH, die Resultate seiner Aktivitäten mit den Resultaten der anderen Teilnehmer auszuwerten und dem Produkttest-Partner mitzuteilen und sie auf den Angeboten und in anderen Medien zu veröffentlichen. Dabei werden keine persönlichen Informationen des Nutzers veröffentlicht!
+
+**5\. Verpflichtung des Teilnehmers** Wenn ein Nutzer die Teilnahme an einem Produkttest, für den er als Tester ausgewählt wurde, bestätigt, verpflichtet er sich, aktiv an dem Test teilzunehmen, indem er das kostenfrei zur Verfügung gestellte Testprodukt testest und die gestellten Testfragen innerhalb der angegebenen Frist wahrheitsgemäß beantwortet. Das Testprodukt geht erst nach fristgerechter Rücksendung der Bewertung in das Eigentum des Nutzers über. Sollte das Testergebnis nicht fristgerecht oder gar nicht übermittelt werden, behalten sich die BurdaForward GmbH und das Partnerunternehmen das Recht vor, das Testprodukt zurückzufordern. Für Schäden an den zu testenden Produkte übernimmt weder BurdaForward GmbH noch der Kooperationspartner die Haftung. Testprodukte, die der Tester im Rahmen eines Produkttests erhält, stellen unverkäufliche Muster dar. Es wird darauf hingewiesen, dass die Veräußerung dieser Produkte gegen Markenrechte des Partnerunternehmens verstoßen kann, wenn das Partnerunternehmen die Testprodukte nicht für den Weitervertrieb in den Verkehr gebracht hat.
+
+**6\. Leistungen des Partnerunternehmens** Die Produkttests werden von der BurdaForward GmbH in Kooperation mit verschiedenen Partnern (Partnerunternehmen) durchgeführt. Die Partnerunternehmen stellen grundsätzlich die zu testenden Produkte zur Verfügung. Die BurdaForward GmbH vertritt die Partnerunternehmen während der Durchführung des Produkttests und verspricht die zu testenden Produkte allein in deren Namen. Die BurdaForward GmbH wird hierdurch nicht zu einer eigenen Leistung verpflichtet.
+
+**7\. Verstoß gegen die Teilnahmebedingungen** Bei einem Verstoß gegen Teilnahmebedingungen behält sich die BurdaForward GmbH das Recht vor, Personen vom Produkttest auszuschließen. Ausgeschlossen werden auch Personen, die sich unerlaubter Hilfsmittel bedienen oder sich anderweitig durch Manipulationen Vorteile verschaffen. Gegebenenfalls können in diesen Fällen auch nachträglich Tester ausgeschlossen werden.
+
+**8\. Abbruch des Produkttests** Die BurdaForward GmbH behält sich vor, den Produkttest zu jedem Zeitpunkt ohne Vorankündigung und ohne Angaben von Gründen abzubrechen oder zu beenden. Von dieser Möglichkeit macht die BurdaForward GmbH insbesondere dann Gebrauch, wenn aus technischen Gründen oder aus rechtlichen Gründen eine ordnungsgemäße Durchführung des Produkttest nicht gewährleistet werden kann. Der Rechtsweg ist ausgeschlossen. Gegebenenfalls wird der Bewerber dazu aufgefordert, weiteren Teilnahmebedingungen, die den jeweiligen Test betreffen in seiner Bewerbung zuzustimmen.
+
+**XIII. Hinweis zur außergerichtlichen Streitbeilegung** Die BurdaForward GmbH weist gemäß § 36 VSBG darauf hin, dass sie weder bereit noch verpflichtet ist, an einem Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.
