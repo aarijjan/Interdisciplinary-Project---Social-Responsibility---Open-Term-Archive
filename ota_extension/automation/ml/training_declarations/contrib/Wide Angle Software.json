@@ -1,0 +1,17 @@
+{
+  "name": "Wide Angle Software",
+  "terms": {
+    "Privacy Policy": {
+      "fetch": "https://www.wideanglesoftware.com/privacy/",
+      "select": [
+        ".content"
+      ]
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.wideanglesoftware.com/cookies/",
+      "select": [
+        ".content"
+      ]
+    }
+  }
+}

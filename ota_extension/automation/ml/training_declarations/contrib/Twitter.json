@@ -1,0 +1,173 @@
+{
+  "name": "Twitter",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://twitter.com/tos",
+      "select": [
+        "#twtr-main"
+      ],
+      "remove": [
+        ".ct07__sidebar",
+        ".ct07__dropdown-wrapper"
+      ]
+    },
+    "Privacy Policy": {
+      "fetch": "https://twitter.com/en/privacy",
+      "select": [
+        "#twtr-main"
+      ],
+      "remove": [
+        ".ct01__background-img",
+        ".twtr-hidden--lg",
+        ".ct07__dropdown-item",
+        ".ct07__side-nav",
+        "[aria-hidden=\"true\"]",
+        ".b04__image",
+        ".ct17-banner-container"
+      ],
+      "filter": [
+        "removeEmptyLinks"
+      ]
+    },
+    "Developer Terms": {
+      "fetch": "https://developer.twitter.com/en/developer-terms/agreement",
+      "select": [
+        "#twtr-main"
+      ],
+      "remove": [
+        ".u07"
+      ]
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://help.twitter.com/en/rules-and-policies/copyright-policy",
+      "filter": [
+        "removeScripts"
+      ],
+      "select": [
+        ".ct01__wrapper"
+      ],
+      "remove": [
+        ".b24__wrapper",
+        ".inherit",
+        ".twtr-type--roman-100r",
+        ".u11__breadcrumbs-list:nth-child(2)",
+        ".IconButton"
+      ]
+    },
+    "Law Enforcement Guidelines": {
+      "fetch": "https://help.twitter.com/en/rules-and-policies/twitter-law-enforcement-support",
+      "select": [
+        ".aem-Grid"
+      ],
+      "remove": [
+        ".twtr-type--roman-100r",
+        ".u11__breadcrumbs-list:nth-child(2)",
+        ".twtr-type--headline-md",
+        ".b24__wrapper",
+        ".b17",
+        ".u11__mobile-header",
+        ".twtr-component--first > .b02-v2 > ul",
+        ".twtr-component--first b"
+      ]
+    },
+    "Trackers Policy": {
+      "fetch": "https://help.twitter.com/en/rules-and-policies/twitter-cookies",
+      "select": [
+        ".aem-Grid"
+      ],
+      "remove": [
+        ".u11__breadcrumbs-mobile-modal",
+        ".twtr-type--roman-100r",
+        ".twtr-type--headline-md",
+        ".b24__wrapper",
+        ".b17"
+      ]
+    },
+    "Data Processor Agreement": {
+      "fetch": "https://help.twitter.com/en/rules-and-policies/data-processing-legal-bases",
+      "select": [
+        ".aem-Grid"
+      ],
+      "remove": [
+        ".u11__breadcrumbs-mobile-modal",
+        ".twtr-type--roman-100r",
+        ".twtr-type--headline-md",
+        ".b24__wrapper",
+        ".b17"
+      ]
+    },
+    "Community Guidelines": {
+      "select": [
+        {
+          "startBefore": "h1",
+          "endAfter": "[class*=\"rich-text-v\"]"
+        }
+      ],
+      "combine": [
+        {
+          "fetch": "https://help.twitter.com/en/rules-and-policies/twitter-rules"
+        },
+        {
+          "fetch": "https://help.twitter.com/en/rules-and-policies/violent-entities"
+        },
+        {
+          "fetch": "https://help.twitter.com/en/rules-and-policies/sexual-exploitation-policy"
+        },
+        {
+          "fetch": "https://help.twitter.com/en/rules-and-policies/abusive-behavior"
+        },
+        {
+          "fetch": "https://help.twitter.com/en/rules-and-policies/hateful-conduct-policy"
+        },
+        {
+          "fetch": "https://help.twitter.com/en/rules-and-policies/perpetrators-of-violent-attacks"
+        },
+        {
+          "fetch": "https://help.twitter.com/en/rules-and-policies/glorifying-self-harm"
+        },
+        {
+          "fetch": "https://help.twitter.com/en/rules-and-policies/media-policy"
+        },
+        {
+          "fetch": "https://help.twitter.com/en/rules-and-policies/regulated-goods-services"
+        },
+        {
+          "fetch": "https://help.twitter.com/en/rules-and-policies/personal-information"
+        },
+        {
+          "fetch": "https://help.twitter.com/en/rules-and-policies/intimate-media"
+        },
+        {
+          "fetch": "https://help.twitter.com/en/rules-and-policies/platform-manipulation"
+        },
+        {
+          "fetch": "https://help.twitter.com/en/rules-and-policies/election-integrity-policy"
+        },
+        {
+          "fetch": "https://help.twitter.com/en/rules-and-policies/twitter-impersonation-and-deceptive-identities-policy"
+        },
+        {
+          "fetch": "https://help.twitter.com/en/rules-and-policies/manipulated-media"
+        },
+        {
+          "fetch": "https://help.twitter.com/en/rules-and-policies/twitter-trademark-policy"
+        },
+        {
+          "fetch": "https://help.twitter.com/en/rules-and-policies/copyright-policy",
+          "select": [
+            {
+              "startBefore": "h1",
+              "endBefore": "[class*=\"share-tweet\"]"
+            }
+          ],
+          "remove": [
+            "[class*=\"twtr-type--headline-md\"]"
+          ]
+        },
+        {
+          "fetch": "https://help.twitter.com/en/rules-and-policies/enforcement-philosophy"
+        }
+      ]
+    }
+  }
+}

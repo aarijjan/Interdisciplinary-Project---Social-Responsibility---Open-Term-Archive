@@ -1,0 +1,9 @@
+{
+  "name": "SWR",
+  "terms": {
+    "Privacy Policy": {
+      "fetch": "https://swr.de/datenschutz/index.html",
+      "select": "#content"
+    }
+  }
+}

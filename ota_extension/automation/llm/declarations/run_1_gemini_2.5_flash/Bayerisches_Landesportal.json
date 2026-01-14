@@ -1,0 +1,14 @@
+{
+  "name": "Bayerisches Landesportal \u2013 Das Landesportal des Freistaats Bayern und der Bayerischen Staatsregierung",
+  "terms": {
+    "Privacy Policy": {
+      "fetch": "https://bayern.de/datenschutz/",
+      "select": "main#maincontent",
+      "remove": [
+        "main > nav[aria-label=\"Seitennavigation\"]",
+        "main > section.newsletter-subscribe",
+        "main > nav[aria-label=\"SocialMedia\"]"
+      ]
+    }
+  }
+}

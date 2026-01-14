@@ -1,0 +1,9 @@
+{
+  "name": "Google Flights",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://travel.google.com/booking/flights/terms/",
+      "select": "#maia-main"
+    }
+  }
+}

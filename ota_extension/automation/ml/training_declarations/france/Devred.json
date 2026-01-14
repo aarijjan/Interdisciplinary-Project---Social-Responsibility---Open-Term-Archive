@@ -1,0 +1,25 @@
+{
+  "name": "Devred",
+  "terms": {
+    "General Conditions of Sale": {
+      "fetch": "https://www.devred.com/general_terms_and_conditions_devred",
+      "select": [
+        "#maincontent"
+      ],
+      "remove": [
+        "#paiemement ~ ul img",
+        ".fs-guest-wishlist"
+      ],
+      "filter": [
+        "replaceAlmaImageLink"
+      ],
+      "executeClientScripts": true
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.devred.com/charte-protection-donnees",
+      "select": [
+        ".columns"
+      ]
+    }
+  }
+}

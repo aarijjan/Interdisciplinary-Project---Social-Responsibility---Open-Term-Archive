@@ -1,0 +1,15 @@
+{
+  "name": "Gebrauchtwagen und Neuwagen bei AutoScout24",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://www.autoscout24.de/unternehmen/verbraucher-agb/",
+      "select": ".cms-page-content__main",
+      "remove": "a[href$='.pdf']"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.autoscout24.de/unternehmen/datenschutz/",
+      "select": "main.cms-page-content__main",
+      "remove": []
+    }
+  }
+}

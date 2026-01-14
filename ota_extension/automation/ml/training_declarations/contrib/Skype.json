@@ -1,0 +1,32 @@
+{
+  "name": "Skype",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://www.microsoft.com/en-gb/servicesagreement/",
+      "select": [
+        "main"
+      ],
+      "remove": [
+        ".print",
+        ".tr_Right_Nav_Header_OnePSTemplate",
+        ".back-to-top-button"
+      ],
+      "filter": [
+        "removeIrrelevantModulesFromTos",
+        "removeNavigationHeaders",
+        "removeModuleIDs",
+        "removeInvisibleText"
+      ]
+    },
+    "Privacy Policy": {
+      "fetch": "https://privacy.microsoft.com/en-gb/privacystatement",
+      "filter": [
+        "removeIrrelevantModulesFromPrivacyPolicy",
+        "removeNavigationHeaders",
+        "removeModuleIDs",
+        "removeInvisibleText"
+      ],
+      "select": "h1, #psp_last_updated, .header_content .Description, .div_content"
+    }
+  }
+}

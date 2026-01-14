@@ -1,0 +1,19 @@
+{
+  "name": "IndieGala",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://www.indiegala.com/terms-of-service",
+      "select": [
+        ".main-container"
+      ],
+      "executeClientScripts": true
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.indiegala.com/privacy-policy",
+      "select": [
+        ".main-container"
+      ],
+      "executeClientScripts": true
+    }
+  }
+}

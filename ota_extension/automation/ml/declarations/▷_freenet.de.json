@@ -1,0 +1,13 @@
+{
+  "name": "\u25b7 freenet.de",
+  "terms": {
+    "Privacy Policy": {
+      "fetch": "https://www.freenet.de/datenschutz/",
+      "select": ".has-edit-button"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.freenet.de/agb/",
+      "select": "#frnMain"
+    }
+  }
+}

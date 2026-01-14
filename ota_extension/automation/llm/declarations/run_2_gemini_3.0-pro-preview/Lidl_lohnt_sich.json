@@ -1,0 +1,14 @@
+{
+  "name": "Lidl lohnt sich",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://lidl.de/c/allgemeine-geschaeftsbedingungen-onlineshop/s10005181",
+      "select": ".APageRoot__Sections",
+      "remove": [
+        ".AContentPageBackToTopLink",
+        ".AContentPagePdf",
+        ".m-banner"
+      ]
+    }
+  }
+}

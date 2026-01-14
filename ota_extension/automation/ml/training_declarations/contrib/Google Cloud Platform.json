@@ -1,0 +1,14 @@
+{
+  "name": "Google Cloud Platform",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://cloud.google.com/terms/",
+      "select": [
+        ".devsite-article"
+      ],
+      "remove": [
+        ".cws-breadcrumb"
+      ]
+    }
+  }
+}

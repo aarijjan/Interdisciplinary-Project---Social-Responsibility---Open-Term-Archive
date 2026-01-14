@@ -1,0 +1,9 @@
+{
+  "name": "DynDNS Service ddnss.de",
+  "terms": {
+    "Privacy Policy": {
+      "fetch": "https://ddnss.de#",
+      "select": ".content"
+    }
+  }
+}

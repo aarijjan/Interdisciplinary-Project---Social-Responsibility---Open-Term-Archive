@@ -1,0 +1,26 @@
+{
+  "name": "Palantir",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://www.palantir.com/terms-and-conditions/",
+      "select": [
+        "main section"
+      ],
+      "executeClientScripts": true
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.palantir.com/privacy-and-security/",
+      "select": [
+        "main section"
+      ],
+      "executeClientScripts": true
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.palantir.com/cookie-statement/",
+      "select": [
+        "main section"
+      ],
+      "executeClientScripts": true
+    }
+  }
+}

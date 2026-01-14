@@ -1,0 +1,29 @@
+{
+  "name": "Coinbase",
+  "terms": {
+    "Privacy Policy": {
+      "fetch": "https://www.coinbase.com/legal/privacy",
+      "select": [
+        "#main"
+      ],
+      "executeClientScripts": true
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.coinbase.com/legal/cookie",
+      "select": [
+        "#main"
+      ],
+      "executeClientScripts": true
+    },
+    "Terms of Service": {
+      "fetch": "https://www.coinbase.com/legal/user_agreement/ireland_europe",
+      "select": [
+        {
+          "startAfter": "#article_introduction",
+          "endBefore": ".footer"
+        }
+      ],
+      "executeClientScripts": true
+    }
+  }
+}

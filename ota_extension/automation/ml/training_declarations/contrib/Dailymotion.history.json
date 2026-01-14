@@ -1,0 +1,26 @@
+{
+  "Privacy Policy": [
+    {
+      "fetch": "https://www.dailymotion.com/legal/privacy?localization=gb",
+      "select": "body",
+      "validUntil": "2020-12-08T16:00:00.000Z"
+    },
+    {
+      "fetch": "https://www.dailymotion.com/legal/privacy?localization=gb",
+      "select": "div#privacy",
+      "validUntil": "2022-02-22T18:32:56Z"
+    }
+  ],
+  "Terms of Service": [
+    {
+      "fetch": "https://www.dailymotion.com/legal/terms?localization=gb",
+      "select": "body",
+      "validUntil": "2020-12-08T16:00:00.000Z"
+    },
+    {
+      "fetch": "https://www.dailymotion.com/legal/terms?localization=gb",
+      "select": "div#contract",
+      "validUntil": "2022-02-22T18:32:56Z"
+    }
+  ]
+}

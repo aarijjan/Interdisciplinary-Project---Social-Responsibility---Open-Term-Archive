@@ -1,0 +1,23 @@
+{
+  "name": "Coindesk",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://www.coindesk.com/terms/",
+      "select": [
+        "[data-module-name=\"page\"]"
+      ]
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.coindesk.com/privacy/",
+      "select": [
+        "[data-module-name=\"page\"]"
+      ]
+    },
+    "Editorial Policy": {
+      "fetch": "https://www.coindesk.com/ethics/",
+      "select": [
+        "[data-module-name=\"page\"]"
+      ]
+    }
+  }
+}

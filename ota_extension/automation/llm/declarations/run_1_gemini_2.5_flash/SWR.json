@@ -1,0 +1,16 @@
+{
+  "name": "SWR",
+  "terms": {
+    "Privacy Policy": {
+      "fetch": "https://swr.de/datenschutz/index.html",
+      "select": "article#article",
+      "remove": [
+        "article#article .interaction-bar",
+        "article#article #interaction-bar-share-dialog",
+        "article#article .datenschutz-wrapper",
+        "article#article .meta-bottom",
+        "article#article .more-linking"
+      ]
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "INFOnline GmbH",
+  "terms": {
+    "Privacy Policy": {
+      "fetch": "https://www.INFOnline.de/datenschutz",
+      "select": "#content",
+      "remove": ".post-tags"
+    }
+  }
+}

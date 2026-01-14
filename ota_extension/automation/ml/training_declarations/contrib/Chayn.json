@@ -1,0 +1,15 @@
+{
+  "name": "Chayn",
+  "terms": {
+    "Privacy Policy": {
+      "fetch": "https://www.chayn.co/policies/privacy-policy",
+      "select": [
+        ".section"
+      ],
+      "remove": [
+        "a[href$=--espanol]",
+        ".section_illustration"
+      ]
+    }
+  }
+}

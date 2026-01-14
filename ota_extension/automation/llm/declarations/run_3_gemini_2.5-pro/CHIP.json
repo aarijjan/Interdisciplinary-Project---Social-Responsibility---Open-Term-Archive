@@ -1,0 +1,10 @@
+{
+  "name": "CHIP",
+  "terms": {
+    "Privacy Policy": {
+      "fetch": "https://www.chip.de/news/Mehr-Privatsphaere-in-WhatsApp-Dieser-Schalter-schaltet-Meta-KI-ab_186141374.html",
+      "select": "main#M1",
+      "remove": "aside[role=\"complementary\"]"
+    }
+  }
+}

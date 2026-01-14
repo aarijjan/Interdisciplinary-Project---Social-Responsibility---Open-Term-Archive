@@ -1,0 +1,25 @@
+{
+  "name": "NordVPN",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://my.nordaccount.com/legal/terms-of-service/",
+      "select": [
+        {
+          "startBefore": "h1",
+          "endBefore": "footer"
+        }
+      ],
+      "executeClientScripts": true
+    },
+    "Privacy Policy": {
+      "fetch": "https://my.nordaccount.com/legal/privacy-policy/",
+      "select": [
+        {
+          "startBefore": "h1",
+          "endBefore": "footer"
+        }
+      ],
+      "executeClientScripts": true
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "t-online",
+  "terms": {
+    "Privacy Policy": {
+      "fetch": "https://t-online.de#datenschutz-manager",
+      "select": "div[data-testid=\"Stages.Container\"]",
+      "remove": [
+        "header",
+        "footer",
+        "div[data-external-sdi-mark=\"banner-placeholder\"]",
+        "div[data-component=\"CommercialSDI\"]",
+        "div[data-component=\"NativendoCommercial.Container\"]",
+        "div[data-testid=\"TaboolaFeeds.Feed\"]",
+        "div[data-commercial-breakpoint=\"mobile\"][data-commercial-format=\"stickyfooter\"]",
+        "aside[aria-label=\"Weitere Inhalte\"]",
+        "aside[aria-label=\"Anzeige\"]",
+        "enga-wortquiz-mobile-companion",
+        "t-sdc-football-competition-overview",
+        "t-fin-stream-landingpage",
+        "t-sdc-results-companion",
+        "enga-directlinks-games"
+      ]
+    }
+  }
+}

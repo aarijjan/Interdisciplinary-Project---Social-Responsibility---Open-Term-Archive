@@ -1,0 +1,13 @@
+{
+  "name": "WEB.DE",
+  "terms": {
+    "Privacy Policy": {
+      "fetch": "https://web.de/datenschutz/#.pc_page.homepage.index.footer_4.datenschutz",
+      "select": ".l-horizontal"
+    },
+    "Terms of Service": {
+      "fetch": "https://agb-server.web.de/webdeagb",
+      "select": ".center"
+    }
+  }
+}

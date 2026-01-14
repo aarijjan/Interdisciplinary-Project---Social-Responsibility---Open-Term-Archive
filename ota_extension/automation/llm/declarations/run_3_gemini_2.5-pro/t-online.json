@@ -1,0 +1,15 @@
+{
+  "name": "t-online",
+  "terms": {
+    "Privacy Policy": {
+      "fetch": "https://t-online.de#datenschutz-manager",
+      "select": "main[data-testid=\"PageMain\"]",
+      "remove": [
+        "aside[data-testid=\"StreamLayout.Companion\"]",
+        "[data-component=\"CommercialSDI\"]",
+        "[data-testid=\"TaboolaFeeds.Feed\"]",
+        "section[data-stage-layout=\"custom_nativendo_shopping_1\"]"
+      ]
+    }
+  }
+}

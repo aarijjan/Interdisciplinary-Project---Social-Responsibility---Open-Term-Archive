@@ -1,0 +1,19 @@
+{
+  "name": "E.Leclerc",
+  "terms": {
+    "General Conditions of Sale": {
+      "fetch": "https://www.e.leclerc/e/conditions-generales-de-vente",
+      "select": [
+        "app-images-wrapper"
+      ],
+      "executeClientScripts": true
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.e.leclerc/e/protection-donnees",
+      "select": [
+        "app-images-wrapper"
+      ],
+      "executeClientScripts": true
+    }
+  }
+}

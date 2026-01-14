@@ -1,0 +1,25 @@
+{
+  "name": "Eurolines",
+  "terms": {
+    "General Conditions of Sale": {
+      "fetch": "https://www.eurolines.de/fr/agb/cgv-sur-linternet/",
+      "select": [
+        ".content_wrapper"
+      ],
+      "remove": [
+        ".special-navi",
+        ".eu_breadcrumb"
+      ]
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.eurolines.de/fr/politique-de-confidentialite/",
+      "select": [
+        ".content_wrapper"
+      ],
+      "remove": [
+        ".special-navi",
+        ".eu_breadcrumb"
+      ]
+    }
+  }
+}

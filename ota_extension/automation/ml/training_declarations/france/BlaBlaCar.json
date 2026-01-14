@@ -1,0 +1,32 @@
+{
+  "name": "BlaBlaCar",
+  "terms": {
+    "General Conditions of Sale": {
+      "fetch": "https://blog.blablacar.fr/about-us/terms-and-conditions",
+      "select": [
+        ".article-full"
+      ],
+      "remove": [
+        ".enlazatom-title-box"
+      ]
+    },
+    "Trackers Policy": {
+      "fetch": "https://blog.blablacar.fr/about-us/cookies-policy",
+      "select": [
+        ".article-full"
+      ],
+      "remove": [
+        ".enlazatom-title-box"
+      ]
+    },
+    "Privacy Policy": {
+      "fetch": "https://blog.blablacar.fr/about-us/privacy-policy",
+      "select": [
+        ".article-full"
+      ],
+      "remove": [
+        ".enlazatom-title-box"
+      ]
+    }
+  }
+}

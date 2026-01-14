@@ -1,0 +1,16 @@
+{
+  "name": "rtl.de",
+  "terms": {
+    "Privacy Policy": {
+      "fetch": "https://rtl.de/datenschutz/",
+      "select": ".article-body"
+    },
+    "Terms of Service": {
+      "fetch": "https://rtl.de/nutzungsbedingungen/",
+      "select": ".article-body",
+      "remove": [
+        "#affiliate-links"
+      ]
+    }
+  }
+}

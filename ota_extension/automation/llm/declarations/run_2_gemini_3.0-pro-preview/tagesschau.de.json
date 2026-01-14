@@ -1,0 +1,17 @@
+{
+  "name": "tagesschau.de",
+  "terms": {
+    "Privacy Policy": {
+      "fetch": "https://tagesschau.de/datenschutz",
+      "select": "#content article",
+      "remove": [
+        ".meldungsfooter",
+        ".backlink",
+        ".socialbuttons",
+        ".taglist",
+        ".v-instance",
+        "[data-v-type=\"CookieCheckbox\"]"
+      ]
+    }
+  }
+}

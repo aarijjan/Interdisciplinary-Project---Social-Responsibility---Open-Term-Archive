@@ -1,0 +1,9 @@
+{
+  "name": "ndr.de",
+  "terms": {
+    "Privacy Policy": {
+      "fetch": "https://ndr.de/service/datenschutz",
+      "select": "article"
+    }
+  }
+}

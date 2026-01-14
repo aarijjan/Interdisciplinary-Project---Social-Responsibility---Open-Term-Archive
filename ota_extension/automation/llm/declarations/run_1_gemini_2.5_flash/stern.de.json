@@ -1,0 +1,15 @@
+{
+  "name": "stern.de",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://www.stern.de/agb-4541846.html",
+      "select": "div.article__body",
+      "remove": [
+        "div.feature-bar",
+        "nav.links--toc",
+        "section.ad-container",
+        "div.group-teaser-gallery"
+      ]
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Zoom",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://zoom.us/terms",
+      "select": [
+        "main"
+      ],
+      "remove": [
+        ".fdn-breadcrumb__list"
+      ],
+      "filter": [
+        "removeAmpDeviceId"
+      ],
+      "executeClientScripts": true
+    },
+    "Privacy Policy": {
+      "fetch": "https://zoom.us/privacy",
+      "select": [
+        ".main-DefaultTemplate"
+      ],
+      "remove": [
+        ".category"
+      ]
+    }
+  }
+}

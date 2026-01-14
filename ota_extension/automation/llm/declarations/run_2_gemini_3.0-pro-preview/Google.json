@@ -1,0 +1,15 @@
+{
+  "name": "Google",
+  "terms": {
+    "Privacy Policy": {
+      "fetch": "https://blogspot.de/intl/de/policies/privacy/",
+      "select": "body",
+      "remove": null
+    },
+    "Terms of Service": {
+      "fetch": "https://blogspot.de/intl/de/policies/terms/",
+      "select": "#link",
+      "remove": null
+    }
+  }
+}

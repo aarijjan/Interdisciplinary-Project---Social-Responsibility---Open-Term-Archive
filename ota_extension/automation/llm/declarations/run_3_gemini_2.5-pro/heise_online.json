@@ -1,0 +1,15 @@
+{
+  "name": "heise online",
+  "terms": {
+    "Privacy Policy": {
+      "fetch": "https://heise.de/tests/Ring-Doorbell-Plus-im-Test-Mehr-Cloud-Funktionen-vielleicht-bald-Biometrie-10640149.html",
+      "select": ".article-content",
+      "remove": [
+        ".a-toc",
+        "a-gift",
+        ".curtain-module",
+        ".a-inline-textbox"
+      ]
+    }
+  }
+}

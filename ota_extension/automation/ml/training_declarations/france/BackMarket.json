@@ -1,0 +1,14 @@
+{
+  "name": "BackMarket",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://www.backmarket.fr/fr-fr/legal/terms-of-use/",
+      "select": [
+        ".flex-grow > .flex"
+      ],
+      "remove": [
+        ".w-full"
+      ]
+    }
+  }
+}

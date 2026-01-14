@@ -1,0 +1,10 @@
+{
+  "name": "DerWesten.de",
+  "terms": {
+    "Privacy Policy": {
+      "fetch": "https://www.derwesten.de/datenschutz",
+      "select": ".entry-content",
+      "remove": "#cmpvendorlist"
+    }
+  }
+}

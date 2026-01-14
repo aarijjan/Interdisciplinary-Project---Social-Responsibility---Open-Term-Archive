@@ -1,0 +1,12 @@
+{
+  "name": "Play",
+  "importedFrom": "https://github.com/tosdr/tosback2/blob/f762cd4bbb2571272985fed009201a23300ba9b2/rules/play.google.com.xml",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://play.google.com/intl/en_us/about/play-terms.html",
+      "select": [
+        "#content"
+      ]
+    }
+  }
+}

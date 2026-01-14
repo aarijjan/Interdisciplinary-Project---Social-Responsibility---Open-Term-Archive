@@ -1,0 +1,21 @@
+{
+  "name": "SZ.de",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://www.sueddeutsche.de/agb",
+      "select": ".declaration-content-container",
+      "remove": ".declaration-intro-pdf-link, .declaration-intro-logo, .declaration-chapter-image"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.sueddeutsche.de/datenschutz",
+      "select": ".declaration-content-container",
+      "remove": [
+        ".declaration-intro-pdf-link",
+        ".data-declaration-inner-sub",
+        ".banner-b",
+        ".declaration-intro-logo",
+        "img"
+      ]
+    }
+  }
+}

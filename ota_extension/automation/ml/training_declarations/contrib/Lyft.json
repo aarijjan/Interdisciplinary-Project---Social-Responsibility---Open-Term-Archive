@@ -1,0 +1,20 @@
+{
+  "name": "Lyft",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://www.lyft.com/terms",
+      "select": [
+        "#main-container > article"
+      ]
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.lyft.com/privacy",
+      "select": [
+        "#privacy"
+      ],
+      "remove": [
+        ".table-of-contents"
+      ]
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "HNA.de",
+  "terms": {
+    "Privacy Policy": {
+      "fetch": "https://www.hna.de/ueber-uns/datenschutz/",
+      "select": ".id-Article--layoutAdRight"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.hna.de/ueber-uns/agb/",
+      "select": ".id-Article--layoutAdRight"
+    }
+  }
+}

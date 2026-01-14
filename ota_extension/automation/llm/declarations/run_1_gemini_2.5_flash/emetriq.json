@@ -1,0 +1,21 @@
+{
+  "name": "emetriq",
+  "terms": {
+    "Privacy Policy": {
+      "fetch": "https://www.emetriq.com/datenschutz/",
+      "select": [
+        "section.av_textblock_section .avia_textblock",
+        "section.av_toggle_section .toggle_content"
+      ],
+      "remove": "a[onclick*=\"CCM.openWidget\"]"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.emetriq.com/agb/",
+      "select": "[itemprop=\"text\"]",
+      "remove": [
+        ".text-wrapper > .blank",
+        ".text-wrapper > .accent-bar-wrapper"
+      ]
+    }
+  }
+}

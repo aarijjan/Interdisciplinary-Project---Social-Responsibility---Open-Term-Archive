@@ -1,0 +1,25 @@
+{
+  "name": "Air France",
+  "terms": {
+    "Privacy Policy": {
+      "fetch": "https://wwws.airfrance.fr/information/legal/edito-psc",
+      "select": [
+        ".bwc-page-layout__medium"
+      ],
+      "remove": [
+        ".bw-information-breadcrumbs"
+      ],
+      "executeClientScripts": true
+    },
+    "Conditions of Carriage": {
+      "fetch": "https://wwws.airfrance.fr/information/legal/edito-cg-airfrance",
+      "select": [
+        ".bwc-page-layout__medium"
+      ],
+      "remove": [
+        ".bw-information-breadcrumbs"
+      ],
+      "executeClientScripts": true
+    }
+  }
+}

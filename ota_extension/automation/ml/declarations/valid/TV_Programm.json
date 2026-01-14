@@ -1,0 +1,13 @@
+{
+  "name": "TV Programm",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://www.tvspielfilm.de/services/nutzungsbedingungen/",
+      "select": "#content"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.tvspielfilm.de/datenschutz/",
+      "select": ".page"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Telekom",
+  "terms": {
+    "Privacy Policy": {
+      "fetch": "https://telekom.de/ueber-das-unternehmen/datenschutz#fragen-und-antworten",
+      "select": "#e_553918",
+      "remove": []
+    },
+    "Terms of Service": {
+      "fetch": "https://telekom.de/agb",
+      "select": "#e_1179644.esx-terms",
+      "remove": [
+        "div[data-esx-app] > div.esx-terms-skeleton",
+        "#e_1179602",
+        "#e_1179604"
+      ]
+    }
+  }
+}

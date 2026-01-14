@@ -1,0 +1,29 @@
+{
+  "name": "Amazon Web Services",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://aws.amazon.com/service-terms/",
+      "select": [
+        "#aws-page-content-main"
+      ]
+    },
+    "Acceptable Use Policy": {
+      "fetch": "https://aws.amazon.com/aup/",
+      "select": [
+        "#aws-page-content-main"
+      ]
+    },
+    "Privacy Policy": {
+      "fetch": "https://aws.amazon.com/privacy/",
+      "select": [
+        "#aws-page-content-main"
+      ]
+    },
+    "Brand Guidelines": {
+      "fetch": "https://aws.amazon.com/trademark-guidelines/",
+      "select": [
+        "#aws-page-content-main"
+      ]
+    }
+  }
+}

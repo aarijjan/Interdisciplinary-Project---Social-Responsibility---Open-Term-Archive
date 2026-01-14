@@ -1,0 +1,13 @@
+{
+  "name": "Vodafone",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://www.vodafone.de/agb.html",
+      "select": "#top"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.vodafone.de/unternehmen/soziale-verantwortung/datenschutz-privatsphaere.html",
+      "select": ".ws10-grey-bg"
+    }
+  }
+}

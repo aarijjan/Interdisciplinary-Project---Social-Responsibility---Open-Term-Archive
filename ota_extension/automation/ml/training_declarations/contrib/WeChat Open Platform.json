@@ -1,0 +1,16 @@
+{
+  "name": "WeChat Open Platform",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://www.tencent.com/en-us/service-agreement.html",
+      "select": ".page-content"
+    },
+    "Developer Terms": {
+      "fetch": "https://open.weixin.qq.com/cgi-bin/frame?t=news/protocol_developer_tmpl",
+      "select": "#en_US_tpl",
+      "filter": [
+        "convertScriptToDiv"
+      ]
+    }
+  }
+}

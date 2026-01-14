@@ -1,0 +1,24 @@
+{
+  "name": "Bolt",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://bolt.eu/fr/legal/fr/terms-for-riders/",
+      "select": [
+        ".document > .container"
+      ]
+    },
+    "Trackers Policy": {
+      "fetch": "https://bolt.eu/fr/cookie-declaration/",
+      "executeClientScripts": true,
+      "select": [
+        "#cookie-declaration"
+      ]
+    },
+    "Privacy Policy": {
+      "fetch": "https://bolt.eu/fr/legal/fr/privacy-for-riders/",
+      "select": [
+        ".document > .container"
+      ]
+    }
+  }
+}

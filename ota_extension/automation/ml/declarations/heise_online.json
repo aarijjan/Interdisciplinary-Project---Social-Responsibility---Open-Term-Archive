@@ -1,0 +1,9 @@
+{
+  "name": "heise online",
+  "terms": {
+    "Privacy Policy": {
+      "fetch": "https://heise.de/news/Berliner-Datenschutzbehoerde-Auch-KI-Chatbots-sorgen-fuer-hohen-Anstieg-11129387.html",
+      "select": "#meldung"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "sourcehut",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://man.sr.ht/terms.md",
+      "select": [
+        ".header-tabbed h2",
+        ".content"
+      ],
+      "remove": [
+        "h5 a[href^=\"#\"]"
+      ]
+    },
+    "Privacy Policy": {
+      "fetch": "https://man.sr.ht/privacy.md",
+      "select": [
+        ".header-tabbed h2",
+        ".content"
+      ],
+      "remove": [
+        "h4 a[href^=\"#\"]",
+        "h5 a[href^=\"#\"]"
+      ]
+    }
+  }
+}

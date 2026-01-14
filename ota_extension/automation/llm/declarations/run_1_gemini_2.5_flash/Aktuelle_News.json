@@ -1,0 +1,19 @@
+{
+  "name": "Aktuelle News",
+  "terms": {
+    "Privacy Policy": {
+      "fetch": "https://tagesspiegel.de/verlag-der-tagesspiegel-datenschutzerklarung-383383.html",
+      "select": "main#main-content",
+      "remove": [
+        "#piano-widget",
+        "div[element=\"[object Object]\"]",
+        "p.tspAt",
+        "ul.tspScp",
+        "dl.debug-piano",
+        "div.tspAo",
+        "#coral_talk_stream",
+        "#outbrain-container"
+      ]
+    }
+  }
+}

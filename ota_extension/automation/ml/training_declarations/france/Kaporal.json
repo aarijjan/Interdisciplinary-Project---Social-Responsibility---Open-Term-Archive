@@ -1,0 +1,23 @@
+{
+  "name": "Kaporal",
+  "terms": {
+    "General Conditions of Sale": {
+      "fetch": "https://www.kaporal.com/fr_fr/cgv",
+      "select": [
+        ".page-content"
+      ],
+      "remove": [
+        ".extendedcontent-col1"
+      ]
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.kaporal.com/fr_fr/politique-de-confidentialite",
+      "select": [
+        ".main-content"
+      ],
+      "remove": [
+        ".breadcrumb"
+      ]
+    }
+  }
+}

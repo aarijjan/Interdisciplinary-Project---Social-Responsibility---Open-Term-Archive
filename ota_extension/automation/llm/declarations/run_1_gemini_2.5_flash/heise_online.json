@@ -1,0 +1,26 @@
+{
+  "name": "heise online",
+  "terms": {
+    "Privacy Policy": {
+      "fetch": "https://heise.de/news/Mozilla-ordnet-Firefox-Fuehrung-neu-und-setzt-auf-KI-11116376.html",
+      "select": "article#meldung",
+      "remove": [
+        ".a-article-header__service",
+        ".a-article-header__publish-info",
+        ".article-layout__header-wrbng",
+        ".a-toc",
+        ".notice-banner",
+        "[id^=\"HEI_D_\"]",
+        "[id^=\"HEI_M_\"]",
+        ".ad",
+        ".ad-mobile-group-3",
+        ".ad--inread",
+        "#wtma_teaser_ho_vertrieb_inline_branding",
+        "a-gift",
+        "footer.article-layout__footer",
+        "section.article-sidebar",
+        "aside.recommendations"
+      ]
+    }
+  }
+}

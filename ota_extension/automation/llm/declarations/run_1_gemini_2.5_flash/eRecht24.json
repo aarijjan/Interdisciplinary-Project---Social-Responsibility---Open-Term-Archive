@@ -1,0 +1,23 @@
+{
+  "name": "eRecht24",
+  "terms": {
+    "Privacy Policy": {
+      "fetch": "https://e-recht24.de/muster-datenschutzerklaerung.html",
+      "select": "article.article",
+      "remove": [
+        "section.article-intro-meta",
+        "section.article-top-module",
+        "nav#article-toc-wrap",
+        ".AimyVideoEmbedderVideoOuter",
+        ".ea-tool-wrap",
+        ".ea-premium-wrap",
+        ".author-modal-block"
+      ]
+    },
+    "Terms of Service": {
+      "fetch": "https://e-recht24.de/agb/",
+      "select": "article section[itemprop=\"articleBody\"]",
+      "remove": ".ea-premium-wrap"
+    }
+  }
+}

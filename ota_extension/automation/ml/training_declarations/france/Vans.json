@@ -1,0 +1,17 @@
+{
+  "name": "Vans",
+  "terms": {
+    "Privacy Policy": {
+      "fetch": "https://www.vans.fr/aide/privacy-full.html",
+      "select": [
+        ".grid_column"
+      ]
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://www.vans.fr/aide/conditions.html",
+      "select": [
+        "#body-container main"
+      ]
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "taz.de",
+  "terms": {
+    "Privacy Policy": {
+      "fetch": "https://taz.de/!vn5957314/",
+      "select": "#hauptinhalt"
+    },
+    "Terms of Service": {
+      "fetch": "https://taz.de/Abonnementvertraege-der-taz/!vn5957307/",
+      "select": "#hauptinhalt"
+    }
+  }
+}

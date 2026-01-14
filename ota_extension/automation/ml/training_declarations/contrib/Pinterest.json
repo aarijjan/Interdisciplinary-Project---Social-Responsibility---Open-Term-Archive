@@ -1,0 +1,13 @@
+{
+  "name": "Pinterest",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://policy.pinterest.com/en/terms-of-service",
+      "select": "main"
+    },
+    "Privacy Policy": {
+      "fetch": "https://policy.pinterest.com/en/privacy-policy",
+      "select": "main"
+    }
+  }
+}

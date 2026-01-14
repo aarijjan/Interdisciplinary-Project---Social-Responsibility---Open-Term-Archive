@@ -1,0 +1,13 @@
+{
+  "name": "DHL Privatkunden",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://dhl.de/de/toolbar/footer/agb.html",
+      "select": ".main"
+    },
+    "Privacy Policy": {
+      "fetch": "https://dhl.de/de/toolbar/footer/datenschutz.html",
+      "select": "#item-body-231f6f7c-2cee-4f92-8874-2da07b284f3a"
+    }
+  }
+}
