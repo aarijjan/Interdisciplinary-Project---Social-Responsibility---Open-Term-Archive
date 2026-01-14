@@ -35,11 +35,10 @@ Ensure the following are installed on your system:
 - _Node.js_ – You can download it from: [https://nodejs.org/en/download](https://nodejs.org/en/download)
 - _npm_ (comes with Node.js)
 
-Verify the installations by running:
+Verify the installations by running the following commands in terminal:
 
-node -v
-
-npm -v
+- node -v
+- npm -v
 
 Expected versions:
 
@@ -88,9 +87,3 @@ The application will start in development mode. Open your browser and navigate t
 - If you encounter dependency errors, delete node_modules and package-lock.json, then rerun:
 
   npm install --legacy-peer-deps
-
----
-
-## License
-
-Specify the project license here if applicable.
