@@ -1,0 +1,724 @@
+Datenschutzerklärung
+--------------------
+
+16.12.2025 - 11:05 Uhr
+
+Wir freuen uns sehr über Ihr Interesse an unserem Angebot. Mit dieser Datenschutzerklärung informieren wir Sie über Art, Umfang und Zweck der von uns verarbeiteten personenbezogenen Daten und Ihre Rechte als betroffene Person.
+
+**I. Allgemeines**
+
+**1\. Verantwortlicher**
+
+Verantwortlich für die Datenverarbeitung gemäß Art. 4 Nr. 7 DSGVO ist vorbehaltlich abweichender Angaben in dieser Datenschutzerklärung die Axel Springer Deutschland GmbH, Axel-Springer-Str. 65, 10888 Berlin, Telefon: +49 30 2591 0 (nachfolgend auch "wir" oder "uns").
+
+**2\. Kontaktdaten**
+
+Bitte wenden Sie sich bei Fragen und Anregungen zum Datenschutz sowie zur Durchsetzung Ihrer Rechte als betroffene Person jederzeit an unseren Datenschutzbeauftragten:
+
+Axel Springer Deutschland GmbH, Datenschutz, Axel-Springer-Str. 65, 10888 Berlin, [datenschutz@axelspringer.de](mailto:datenschutz@axelspringer.de)
+
+Soweit die Datenverarbeitung mit einem gemeinsam Verantwortlichen nach Art. 26 DSGVO erfolgt, agieren beide Verantwortlichen als gemeinsame Anlaufstelle.
+
+**3\. Aufruf der Website**
+
+Wenn Sie unser Angebot nutzen, werden ohne Ihre vorherige Einwilligung nur dann Informationen auf Ihrem Endgerät gespeichert oder ausgelesen, wenn dies für den von Ihnen jeweils in Anspruch genommenen Dienst unbedingt erforderlich ist und wir den Dienst anderenfalls nicht erbringen könnten (§ 25 Abs. 2 TDDDG). So werden durch uns beim Aufruf unserer Website automatisch Cookies gesetzt und folgende Informationen erfasst und verarbeitet, um die Auslieferung der Website an Ihr Endgerät und die Nutzbarkeit der bereitgestellten Funktionen zu ermöglichen sowie die Sicherheit und Stabilität unseres Angebots zu gewährleisten:
+
+*   Informationen über das zugreifende Endgerät und die verwendete Software
+*   Datum und Uhrzeit des Zugriffs
+*   Websites, von denen Sie auf unsere Website gelangt oder die Sie über unsere Website aufrufen
+*   IP-Adresse
+
+Rechtsgrundlage der Datenverarbeitung ist Art. 6 Abs. 1 lit. b DSGVO iVm. § 25 Abs. 2 TDDDG. Unsere Server speichern Ihre IP-Adresse außerdem für bis zu 14 Tage zu dem Zweck und in dem Interesse, die Sicherheit unseres Angebots gewährleisten zu können. Rechtsgrundlage hierfür ist Art. 6 Abs. 1 lit. f DSGVO. Weitere Informationen finden Sie über den Link “Privacy-Manager” am Seitenende unseres Angebots unter der Sonderkategorie „Unbedingt erforderlich“.
+
+**4\. Ort der Verarbeitung**
+
+Wir verarbeiten personenbezogene Daten auch in Staaten außerhalb des Europäischen Wirtschaftsraumes („EWR“), u.a. den USA. Die betreffenden Drittländer weisen im Zweifel nicht das Datenschutzniveau auf, das Sie unter der DSGVO genießen. Das kann Nachteile wie eine erschwerte Durchsetzung von Betroffenenrechten, eine fehlende Kontrolle der Weiterverarbeitung und Datenübermittlung sowie Zugriffe staatlicher Stellen zu Kontroll- und Überwachungszwecken bedeuten, ohne das Ihnen Rechtsbehelfe dagegen zustehen.
+
+Soweit für das jeweilige Drittland kein Angemessenheitsbeschluss der Europäischen Kommission existiert, haben wir zur Sicherstellung eines angemessenen Datenschutzniveaus mit den eingesetzten Diensten in Drittländern die Standardvertragsklauseln der EU-Kommission gemäß Art. 46 Abs. 2 lit. c DSGVO abgeschlossen:
+
+[Standardvertragsklauseln](https://eur-lex.europa.eu/legal-content/DE/TXT/PDF/?uri=CELEX:32021D0914&from=DE)
+
+**5. Speicherdauer**
+
+Wir verarbeiten personenbezogene Daten nur, solange dies für den jeweils in dieser Datenschutzerklärung genannten Zweck erforderlich ist. Die personenbezogenen Daten werden anschließend gelöscht, sofern einer Datenlöschung keine gesetzlichen Aufbewahrungsfristen entgegenstehen.
+
+**II. Ihre Rechte als betroffene Person**
+
+**1.** **Auskunft, Berichtigung, Löschung, Einschränkung und das Recht auf Vergessenwerden**
+
+Sie können von uns jederzeit unentgeltlich Auskunft darüber erhalten, ob personenbezogene Daten zu Ihrer Person von uns verarbeitet werden und auch konkret welche Daten über sie gespeichert werden sowie eine Kopie der gespeicherten Daten verlangen. Sie können ferner unrichtige Daten berichtigen und vervollständigen lassen.
+
+Auch können Sie die Löschung und Einschränkung Ihrer personenbezogenen Daten verlangen. Bitte beachten Sie, dass es z. B. für entgeltliche Verträge wie dem Kauf eines Abonnements von BILD gesetzliche Aufbewahrungspflichten gibt und wir daher Ihre Daten nicht in jedem Fall vollständig löschen dürfen. In diesem Fall werden Ihre Daten mit dem Ziel markiert, ihre künftige Verarbeitung einzuschränken.
+
+Um Auskunft zu erhalten bzw. zur Löschung Ihrer Daten, bitten wir Sie, dieses [Formular](https://www.axelspringer.com/de/datenschutzerklaerung/formular-auskunftsersuchen-und-loeschersuchen) auszufüllen. Auf diesem Wege können wir unbürokratisch sicherstellen, dass Auskünfte nur an Sie als berechtigte Person erteilt werden, bzw. personenbezogene Daten von Ihnen gelöscht werden. Sind Sie mit der Nutzung des Formulars nicht einverstanden, so schreiben Sie uns dies bitte kurz per E-Mail an [datenschutz.kundenservice@axelspringer.de](mailto:datenschutz.kundenservice@axelspringer.de) oder rufen Sie uns an unter (030) 5858 5379. Wir werden dann gemeinsam einen anderen Weg finden, der Ihre Identifizierung sicherstellt.
+
+**2\. Datenübertragbarkeit**
+
+Beruht die Verarbeitung auf der Einwilligung oder einem Vertrag und erfolgt sie mithilfe automatisierter Verfahren, haben Sie das Recht, dass Ihnen oder einem anderen Verantwortlichen die Sie betreffenden personenbezogenen Daten in einem strukturierten, gängigen und maschinenlesbaren Format übermittelt werden. Dies gilt nicht, wenn die Verarbeitung für die Wahrnehmung einer Aufgabe erforderlich ist, die im öffentlichen Interesse liegt oder in Ausübung öffentlicher Gewalt erfolgt, welche dem Verantwortlichen übertragen wurde. Die Übermittlung Ihrer personenbezogenen Daten von uns an einen anderen Verantwortlichen setzt ferner voraus, dass dies technisch machbar ist und hiervon nicht die Rechte und Freiheiten anderer Personen beeinträchtigt werden.
+
+**3\. Widerruf / Widerspruch**
+
+Ihre Einwilligung in die Nutzung unseres Angebots mit Tracking und Cookies können Sie jederzeit über den Link „Widerruf Tracking und Cookies“ am Seitenende unseres Angebots widerrufen. Sonstige Einwilligungen können Sie jederzeit mit Wirkung für die Zukunft unter der o. g. Kontaktadresse widerrufen.
+
+Der Verarbeitung Ihrer personenbezogenen Daten zum Zwecke der Direktwerbung können Sie jederzeit widersprechen durch entsprechende Mitteilung an datenschutz@axelspringer.de oder Axel-Springer-Str. 65 in 10888 Berlin, ohne dass hierfür andere als die Übermittlungskosten nach den Basistarifen entstehen.
+
+Ferner haben Sie das Recht aus Gründen, die sich aus Ihrer besonderen Situation ergeben, jederzeit gegen die Verarbeitung der Sie betreffenden personenbezogenen Daten, die aufgrund eines berechtigten oder öffentlichen Interesses erfolgt, Widerspruch einzulegen. Wir verarbeiten die personenbezogenen Daten im Falle des Widerspruchs nicht mehr, es sei denn, wir können zwingende schutzwürdige Gründe für die Verarbeitung nachweisen, die Ihre Interessen, Rechte und Freiheiten überwiegen, oder die Verarbeitung dient der Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen.
+
+**4\. Beschwerderecht**
+
+Ferner haben Sie ein Beschwerderecht bei der zuständigen Aufsichtsbehörde sowie die Möglichkeit Rechtsbehelfe einzulegen. Die Aufsichtsbehörde, bei der die Beschwerde eingereicht wurde, unterrichtet den Beschwerdeführer über den Stand und die Ergebnisse der Beschwerde einschließlich der Möglichkeit eines gerichtlichen Rechtsbehelfs.
+
+**5\. Bestehen einer automatisierten Entscheidungsfindung**
+
+Wir verzichten auf eine automatische Entscheidungsfindung oder ein Profiling im Sinne des Art. 22 DSGVO.
+
+ **III. BILD Pur-Abo** 
+
+**1\. Registrierung**
+
+Für den Abschluss eines BILD Pur-Abos ist die vorherige Anmeldung mittels eines bestehenden Benutzerkontos erforderlich. Für das Benutzerkonto ist eine Registrierung notwendig. Wir setzen dabei unseren portalübergreifenden Single-Sign-On-Dienst myPass ein, der Ihnen die Anmeldung auf allen Angeboten der Axel Springer Deutschland GmbH ermöglicht, die myPass ebenfalls integriert haben. Für die Nutzung von myPass gelten die [Nutzungsbedingungen](https://www.mypass.de/information/nutzungsbedingungen-fuer-mypass) von myPass. Mehr Informationen zu myPass finden Sie [hier](https://www.mypass.de/). Weitere Informationen zur Datenverarbeitung können Sie den [Datenschutzbestimmungen](https://www.mypass.de/datenschutz) von myPass. Rechtsgrundlage für die Datenverarbeitung ist Art. 6 Abs. 1 lit. b DSGVO.
+
+**2\. Abschluss BILD Pur-Abo**
+
+Beim Abschluss des BILD Pur-Abos verarbeiten wir die von Ihnen im Rahmen des Vertragsschlusses übermittelten personenbezogenen Daten zum Zwecke der Vertragsdurchführung und -erfüllung. Rechtsgrundlage für die Datenverarbeitung ist in diesem Fall Art. 6 Abs. 1 lit. b DSGVO. Ferner verarbeiten wir die von Ihnen im Rahmen des Vertragsschlusses übermittelten personenbezogenen Daten zum Zwecke der Erfüllung rechtlicher Pflichten, wie beispielsweise steuerliche Pflichten. Rechtsgrundlage ist in diesem Fall Art. 6 Abs. 1 lit. c DSGVO i.V.m. § 147 AO; Aufbewahrungspflicht 10 Jahre. Dazu gehört aus umsatzsteuerrechtlichen Gründen auch die Speicherung der IP-Adresse des Geräts, von dem aus Sie das BILD Pur-Abo abgeschlossen haben. 
+
+**3\. Unbedingt erforderliche Zugriffe auf Ihr Endgerät**
+
+Wenn Sie BILD Pur abonniert haben, setzen wir nur unbedingt erforderliche Cookies und vergleichbare Technologien ein, d.h. ein Abruf bzw. Speichern von Informationen in Ihrem Endgerät erfolgt nur dann, wenn dies für den von Ihnen in Anspruch genommenen Dienst unbedingt erforderlich ist und wir den Dienst anderenfalls nicht erbringen können (§ 25 Abs. 2 TDDDG).  Weitere Informationen hierzu können Sie im Privacy-Manager unter der Sonderkategorie „Unbedingt erforderlich“ entnehmen.
+
+**4\. Reichweitenmessung**
+
+In unserem Interesse und zu dem Zweck, die Reichweite unseres Angebots messen zu können, nutzen wir die Basismessung der INFOnline GmbH. Hierbei handelt es sich um eine allgemeine, nicht personenbezogene Reichweitenmessung. Es werden dabei keine Informationen in Ihrem Endgerät abgerufen oder gespeichert. Es wird lediglich gezählt, wie oft unsere Website aufgerufen wurde. Hierfür erforderlich ist jedoch die Verarbeitung Ihrer IP-Adresse bei Aufruf unserer Website für die Dauer der Browsersitzung. Wir haben mit der INFOnline GmbH eine Auftragsverarbeitungsvereinbarung (Art. 28 DSGVO) geschlossen. Verantwortlich bleiben wir. Rechtsgrundlage für die Datenverarbeitung ist Art. 6 Abs. 1 lit. f DSGVO.
+
+**IV. Nutzung von BILD.de mit Tracking und Cookies**
+
+**1\. Allgemeines**
+
+Wenn Sie Ihre Einwilligung in die Nutzung von BILD.de mit Tracking und Cookies erteilt haben, werden nicht nur unsere eigenen Inhalte bzw. solche, die in unserem Auftrag (Art. 28 DSGVO) ausgespielt werden, angezeigt, sondern auch Inhalte von Dritten. Hierbei kann es sich um redaktionelle Inhalte, Empfehlungen für externe Inhalte, Spiele und Umfragen, aber auch um Produktwerbung handeln, z. B. in der Form von personalisierten, d.h. auf Ihre mutmaßlichen Interessen auf Basis Ihres Nutzungsverhaltens ausgewählten Werbebannern am Rand der Seite oder Anzeigen unter Artikeln. Rechtsgrundlage der Verarbeitung personenbezogener Daten ist jeweils Art. 6 Abs. 1 lit. a DSGVO.
+
+Werden solche Inhalte geladen, so erfolgt dies von Servern der jeweiligen Drittanbieter. Dabei findet stets eine Übermittlung bestimmter Daten an die Drittanbieter statt, in vielen Fällen auch personenbezogener Daten. Zudem werden für die meisten Dienste der Drittanbieter, mittels derer die Inhalte geladen werden, Cookies gesetzt oder ähnliche Technologien eingesetzt. Die Zwecke, für die diese Daten von den Drittanbietern in deren eigener, teilweise aber auch in unserer Verantwortung verarbeitet werden, sind vielfältig.
+
+Unter dem Link „Privacy-Manager“ am Seitenende haben Sie die Möglichkeit zur Einwilligung oder Ablehnung einzelner Verarbeitungszwecke. Bitte beachten Sie, dass für die kostenfreie Nutzung von BILD.de bestimmte Verarbeitungszwecke nicht abgelehnt werden können. Ohne diese Verarbeitungszwecke ist die Nutzung von BILD.de nur bei Abschluss eines BILD Pur-Abos möglich.
+
+Sie können jederzeit Ihre Auswahl im Privacy-Manager ändern sowie die von Ihnen erteilten Einwilligungen insgesamt durch Anklicken des Links „Widerruf Tracking und Cookies“ am Seitenende mit Wirkung für die Zukunft widerrufen. Es erscheint dann erneut unser Cookie-Layer, auf dem Sie gefragt werden, wie Sie BILD.de nutzen möchten.
+
+Bereits gesetzte Cookies können von Ihnen darüber hinaus jederzeit über einen Internetbrowser oder andere Softwareprogramme gelöscht werden. Dies ist in allen gängigen Internetbrowsern möglich. Bitte beachten Sie, dass in diesem Fall auch die von Ihnen erteilte Einwilligung in die Nutzung von BILD.de mit Trackern und Cookies gelöscht wird und Sie bei einem erneuten Besuch unserer Website erneut gefragt werden, wie Sie BILD.de nutzen möchten. Die Laufzeit der eingesetzten Cookies ist vorbehaltlich abweichender Angaben auf die Dauer von maximal einem Jahr beschränkt.
+
+**2\. Drittanbieter** 
+
+Die Drittanbieter, deren Dienste bzw. Inhalte wir einbinden, helfen uns, unser Webangebot zu verbessern und zu finanzieren. Eine Übersicht sämtlicher möglicher Drittanbieter finden Sie an entsprechender Stelle im Privacy-Manager. Die Bezeichnung „Drittanbieter" ist dabei nicht im Sinne von Art. 4 Nr. 10 DSGVO (Dritter) zu verstehen. Unter den im Privacy-Manager aufgeführten Drittanbietern befinden sich vielmehr auch unsere Auftragsverarbeiter im Sinne von Art. 28 DSGVO, die in dieser Datenschutzerklärung nicht namentlich benannt sind, da wir gemäß Art. 4 Nr. 7 DSGVO in diesen Fällen für die Datenverarbeitung verantwortlich bleiben. Sie erkennen unsere Auftragsverarbeiter durch entsprechende Kennzeichnung im Privacy-Manager unter dem Link Drittanbieter. Ferner befinden sich unter den im Privacy-Manager aufgeführten Drittanbietern auch die Dritten und Auftragsverarbeiter (Unterauftragnehmer), die von unseren Vertragspartnern und Vermarktern eingesetzt werden. Aus den vorstehenden Gründen sind im Privacy-Manager regelmäßig mehr Drittanbieter namentlich aufgeführt als in dieser Datenschutzerklärung.
+
+**3\. Versteigerung von Anzeigenplätzen an Werbetreibende (Real Time Bidding)**
+
+Bei der Vermarktung unseres Angebots bedienen wir uns u.a. des sog. „Real Time Bidding“ (RTB) Verfahrens. Beim RTB werden unsere Anzeigenplätze an Werbetreibende automatisiert und in Echtzeit versteigert. Bei der Versteigerung werden insbesondere auch Ihre Nutzungsprofile und Ihre Interessen an die Teilnehmer der Auktionen übermittelt und berücksichtigt. Wir verwenden dabei das OpenRTB-Protokoll, dass diese Echtzeitgebote ermöglicht und einen anerkannten Industriestandart für die Kommunikation und Interoperabilität von Auktionsteilnehmern darstellt.
+
+­­­Nähere Informationen zu den Nutzungsprofilen und Interessen finden Sie in den folgenden Abschnitten der Datenschutzerklärung.
+
+**4\. Speichern von oder Zugriff auf Informationen auf einem Endgerät**
+
+Wenn Sie Ihre Einwilligung in die Nutzung unseres Angebots mit Tracking und Cookies erteilt haben, speichern wir und die von uns eingesetzten Drittanbieter Cookies, Endgeräte- oder ähnliche Online-Kennungen auf Ihrem Endgerät oder lesen diese aus.
+
+Cookies sind kleine Dateien, die Ihr Browser auf Ihrem Gerät in einem dafür vorgesehenen Verzeichnis ablegt. Durch sie kann u. a. festgestellt werden, ob Sie eine Website schon einmal besucht haben. Viele Cookies enthalten eine sogenannte Cookie-ID. Eine Cookie-ID ist eine eindeutige Kennung des Cookies. Sie besteht aus einer Zeichenfolge, durch welche Websites und Server dem konkreten Internetbrowser zugeordnet werden können, in dem das Cookie gespeichert wurde. Dies ermöglicht es den besuchten Websites und Servern, den individuellen Browser von anderen Internetbrowsern, die andere Cookies enthalten, zu unterscheiden. Ein bestimmter Internetbrowser kann über die eindeutige Cookie-ID wiedererkannt und identifiziert werden. Cookies können ohne zusätzliche Informationen Sie als Person nicht identifizieren.
+
+Cookies und ähnliche Technologien werden teilweise benötigt, um personenbezogene Daten zu erheben oder auf Ihrem Endgerät zu speichern, um in der Folge personenbezogene Daten verarbeiten zu können, u. a. zu den Zwecken „Verwendung reduzierter Daten zur Auswahl von Werbeanzeigen“, „Erstellung von Profilen für personalisierte Werbung“, „Verwendung von Profilen zur Auswahl personalisierter Werbung“, „Erstellung von Profilen zur Personalisierung von Inhalten“, „Verwendung von Profilen zur Auswahl personalisierter Inhalte“, „Messung der Werbeleistung“, „Messung der Performance von Inhalten“, „Analyse von Zielgruppen durch Statistiken oder Kombinationen von Daten aus verschiedenen Quellen“, Entwicklung und Verbesserung der Angebote“ und „Verwendung reduzierter Daten zur Auswahl von Inhalten“ (sog. „IAB-Verarbeitungszwecke“). Weitere Informationen zu den IAB-Verarbeitungszwecken und den einzelnen Drittanbietern finden Sie nachfolgend an entsprechender Stelle in dieser Datenschutzerklärung bzw. im Privacy-Manager.
+
+**5\. Axel Springer Nutzerkennungen**
+
+Wenn Sie Ihre Einwilligung in die Nutzung von BILD.de mit Tracking und Cookies erteilt haben, speichern wir im Local Storage Ihres Browsers pseudonyme Kennungen (nachstehend „Axel Springer Nutzerkennungen“) und rufen diese bei einem erneuten Besuch unserer Website ab. Nähere Informationen finden Sie unter dem Link „Privacy-Manager“ am Seitenende unter dem Drittanbieter "Axel Springer Nutzerkennungen". Rechtsgrundlage für die Speicherung bzw. den Abruf der Axel Springer Nutzerkennungen ist Art. 6 Abs. 1 lit. a DSGVO bzw. § 25 Abs. 1 TDDDG. Ihre Einwilligung können Sie jederzeit mit einem Klick auf den Link "Widerruf Nutzerkennungen" am Seitenende widerrufen.
+
+Wir verarbeiten die Axel Springer Nutzerkennungen zusammen mit Informationen über Ihre Aktivitäten auf unserer Website auch zu den IAB-Verarbeitungszwecken „Speichern von oder Zugriff auf Informationen auf einem Endgerät“, „Verwendung reduzierter Daten zur Auswahl von Werbeanzeigen“, „Erstellung von Profilen für personalisierte Werbung" und „Verwendung von Profilen zur Auswahl personalisierter Werbung“ sowie „Entwicklung und Verbesserung der Angebote“. Weitere Informationen zu den genannten IAB-Verarbeitungszwecken und den jeweiligen Rechtsgrundlagen finden Sie an entsprechender Stelle in dieser Datenschutzerklärung.
+
+Darüber hinaus verwenden wir die Axel Springer Nutzerkennungen zu den Verarbeitungszwecken “Verwendung und Weitergabe von Nutzerkennungen zu Werbezwecken” sowie „ID-Stabilisierung“. Weitere Informationen hierzu finden Sie an entsprechender Stelle in dieser Datenschutzerklärung.
+
+**6\. Verwendung und Weitergabe von Nutzerkennungen zu Werbezwecken**
+
+Wenn Sie Ihre Einwilligung in die Nutzung von BILD.de mit Tracking und Cookies erteilt haben, verarbeiten wir die Axel Springer Nutzerkennungen zu dem Verarbeitungszweck „Personalisierte Werbung und Inhalte, Messung von Werbeleistung und der Performance von Inhalten, Zielgruppenforschung sowie Entwicklung und Verbesserung von Angeboten".
+
+Hierfür bedienen wir uns der Dienste nachfolgend aufgeführter Dritter, die gemäß Art. 4 Nr. 7 DSGVO für die über Ihren jeweiligen Dienst stattfindende Datenverarbeitung verantwortlich sind. Weitere Informationen zur Datenverarbeitung durch diese Anbieter und Ihren Rechten als betroffene Person können Sie den nachfolgend verlinkten Datenschutzerklärungen der Anbieter entnehmen:
+
+*   **Media Impact Vermarktungspartner / Media Impact Nutzerkennung** (Media Impact GmbH & Co. KG, Axel Springer Straße 65, 10888 Berlin, Deutschland) [https://www.mediaimpact.de/de/ueber-unsere-werbung/](https://www.mediaimpact.de/de/ueber-unsere-werbung/)
+*   **1plusX** (1plusx AG, Eichenstrasse 2, 8808 Pfäffikon, Schweiz) [https://tagger.opecloud.com/asmi/privacy-policy.html](https://tagger.opecloud.com/asmi/privacy-policy.html)
+*   **Active Agent (Virtual Minds GmbH)** (Virtual Minds GmbH, Ellen-Gottlieb-Straße 16, 79106 Freiburg im Breisgau, Deutschland) [https://virtualminds.com/privacy-center/](https://virtualminds.com/privacy-center/)
+*   **Adform** (Adform, Sikegade 3B, 1113 Kopenhagen, Dänemark) [https://site.adform.com/privacy-center/platform-privacy/product-and-services-privacy-policy/](https://site.adform.com/privacy-center/platform-privacy/product-and-services-privacy-policy/)
+*   **Equativ** (Equtive, 66 Rue de la Chaussée d’Antin, 75009 Paris, Frankreich) [https://equativ.com/end-users-privacy-policy/](https://equativ.com/end-users-privacy-policy/)
+*   **Google Advertising Products**  (Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland), [www.google.de/intl/de/policies/privacy/](file:///C:/%5C%5CUsers%5C%5Cpblank%5C%5CAppData%5C%5CLocal%5C%5CMicrosoft%5C%5CWindows%5C%5CINetCache%5C%5CContent.Outlook%5C%5C08X50Q53%5C%5Cwww.google.de%5C%5Cintl%5C%5Cde%5C%5Cpolicies%5C%5Cprivacy%5C%5C)
+*   **Microsoft Advertising**  (Microsoft Corporation, One Microsoft Way, Redmond, WA 98052-6399, USA), https://www.awin.com/de/rechtliches/privacy-policy
+*   **The UK Trade Desk Ltd** (The UK Trade Desk Ltd. 10th Floor, 1 Bartholomew Close London EC1A 7BL England) [https://www.thetradedesk.com/us/privacy](https://www.thetradedesk.com/us/privacy)
+*   **Xandr Inc.**  (Xandr Inc., 28 W. 23rd Street, New York, NY 10010, USA) [https://www.xandr.com/privacy/platform-privacy-policy/#choices](https://www.xandr.com/privacy/platform-privacy-policy/%22%20%5Cl%20%22choices)
+*   **Yieldlab (Virtual Minds GmbH)** (Virtual Minds GmbH, Ellen-Gottlieb-Straße 16, 79106 Freiburg im Breisgau, Deutschland) [https://virtualminds.com/privacy-center/](https://virtualminds.com/privacy-center/)
+*   **Permutive Technologies Inc.** ( Permutive Limited, 8-10 Charterhouse Buildings, Goswell Road EC1M 7AN London, England) [https://permutive.com/privacy/](https://permutive.com/privacy/)
+
+Die Verarbeitung zu Werbezwecken umfasst auch die Verwendung der Axel Springer Nutzerkennungen als Identifizierungsmerkmal zum Abgleich mit den den vorgenannten Dritten und ausgewählten Werbekunden unseres Vermarkters Media Impact GmbH & Co. KG (Media Impact Vermarktungspartner). Für den Abgleich werden ausschließlich pseudonymisierte Datensätze verwendet und es werden keine Informationen direkt miteinander abgeglichen, weitergegeben oder zusammengeführt. Der Abgleich wird durch einen Dienstleister durchgeführt, mit dem wir und der jeweils teilnehmende Anbieter eine Vereinbarung zur Auftragsverarbeitung (Art. 28 DSGVO) geschlossen haben. Wenn der Dienstleister feststellt, dass wir und der teilnehmende Anbieter über eine übereinstimmende Nutzerkennung verfügen, informiert er uns über dieses „Matching“. Diese Information geben wir in pseudonymisierter Form mittels einer Axel Springer Nutzerkennung an Media Impact Vermarktungspartner weiter, welche diese Information zur Ausspielung und/oder Optimierung entsprechend personalisierter Werbung nutzt.
+
+Wir haben mit Media Impact Vermarktungspartner und dem teilnehmenden Anbieter eine Vereinbarung über die gemeinsame Verantwortung i.S.v. Art. 26 DSGVO geschlossen, in der wir die jeweiligen Verantwortlichkeiten für die Erfüllung der Verpflichtungen gemäß DSGVO festgelegt haben. Danach sind wir und der jeweilige Anbieter verpflichtet, Ihnen die Erteilung und den Widerruf datenschutzrechtlicher Einwilligungen zu ermöglichen. Zudem sind wir die zentrale Anlaufstelle für Sie als betroffene Person. Wir leiten Betroffenenanfragen, die bei uns eingehen und die gemeinsame Verantwortung betreffen, unverzüglich an Media Impact Vermarktungspartner zur Beantwortung weiter. Dessen ungeachtet können Sie die Ihnen nach der DSGVO zustehenden Rechte als betroffene Person sowohl bei und gegenüber uns als auch bei und gegenüber jedem anderen Verantwortlichen geltend machen. Nähere Informationen zur Vereinbarung über die gemeinsame Verantwortung und zu den teilnehmenden Anbietern finden Sie [hier](https://www.mediaimpact.de/de/ueber-unsere-werbung).
+
+Rechtsgrundlage für die Datenverarbeitung ist Art. 6 Abs. 1 lit. a DSGVO. Sie können die Datenverarbeitung zu dem hier beschriebenen Verarbeitungszweck jederzeit beenden, indem Sie Ihre Einwilligung in die Nutzung von BILD.de mit Tracking und Cookies widerrufen. Klicken Sie hierzu auf den Link "Widerruf Tracking und Cookies" am Seitenende.
+
+**7\. ID-Stabilisierung**
+
+Wenn Sie Ihre Einwilligung in die Nutzung von BILD.de mit Tracking und Cookies erteilt haben, verarbeiten wir die Axel Springer Nutzerkennungen - und wenn Sie uns auf einem unserer Onlineangebote Ihre Einwilligung in die Verarbeitung weiterer pseudonymer Identifier (z.B. Utiq) erteilt haben, auch diese - zur ID-Stabilisierung. Das bedeutet, dass wir die unterschiedlichen Identifier anhand der Axel Springer Nutzerkennungen einander zuordnen. Dies ermöglicht uns, Ihr Nutzungsverhalten auch auf anderen Onlineangeboten der Axel Springer Deutschland GmbH zu berücksichtigen und Ihnen auf Basis dessen – sofern Sie hierfür Ihre Einwilligung erteilt haben - personalisierte Werbung auszuspielen. Dies erfolgt in unserem und Ihrem Interesse, unsere Onlineangebote und die dort ausgespielte Werbung noch besser an Ihren Interessen auszurichten. Rechtsgrundlage für die ID-Stabilisierung ist Art. 6 Abs. 1 lit. f DSGVO. Sie haben nach Art. 21 DSGVO das Recht zum Widerspruch gegen die Verarbeitung. Das Recht zum Widerspruch gegen die Verarbeitung können Sie ausüben, indem Sie auf den Link „Widerruf Nutzerkennungen“ am Seitenende unseres Angebots klicken bzw. über den Link „Widerruf Tracking und Cookies“ Ihre Einwilligung in die Nutzung unseres Angebots mit Tracking und Cookies widerrufen. In beiden Fällen werden die Axel Springer Nutzerkennungen dann inaktiv und nicht mehr zur ID-Stabilisierung genutzt. Eine Löschung der Axel Springer Nutzerkennungen in Ihrem Browser ist jedoch aus technischen Gründen nur Ihnen möglich.
+
+**8\. Nutzung der Utiq- und netID-Technologie zu Werbezwecken**
+
+Haben Sie Ihre Einwilligung in den Verarbeitungszweck „Nutzung der Utiq- und netID-Technologie zu Werbezwecken“ erteilt, prüfen wir, ob die Utiq-Technologie und die netID-Technologie für Sie verfügbar sind.
+
+**netID-Technologie**
+
+Bei der netID Technologie prüfen wir anhand eines Cookies, ob Sie netID Nutzer sind. Ist dies der Fall, werden wir Sie um eine gesonderte Einwilligung zur Aktivierung der netID-Technologie zu Werbezwecken bitten.
+
+Erst nach Aktivierung der netID-Technologie erhalten wir von Ihrem netID Account-Anbieter den netID Identifier, mit dem wir Sie beim Besuch unserer Angebote und Inhalte wiedererkennen können. Anhand des netID Identifiers können wir Ihnen ein verbessertes Nutzungserlebnis ermöglichen und Ihnen auf Basis eines Nutzerprofils Ihren Präferenzen und Interessen entsprechende Dienste, Anzeigen und Angebote anbieten und anzeigen. Rechtsgrundlage für die Datenverarbeitung ist jeweils Art. 6 Abs. 1 lit. a DSGVO. Weitere Informationen können Sie in Ihrem netID Privacy Center (https://broker.netid.de/privacycenter) einsehen. Dort können Sie auch jederzeit Ihre Einwilligung in die Übermittlung des netID Identifiers an uns widerrufen. Nach Widerruf Ihrer Einwilligung erhalten wir nicht länger Ihren netID Identifier und löschen ihn aus unseren Datensätzen, soweit einer Löschung keine gesetzlichen Aufbewahrungspflichten entgegenstehen. Weitere Informationen zur netID finden Sie auch [hier](https://www.bild.de/corporate/site/bild-de/services-netid-identifier-77440242.bild.html).
+
+**Utiq Technologie**
+
+Haben Sie Ihre Einwilligung in den Verarbeitungszweck „Nutzung der Utiq- und netID-Technologie zu Werbezwecken“ erteilt, prüfen wir, ob die Utiq-Technologie für Sie verfügbar ist. Hierfür geben wir Ihre IP-Adresse an Utiq weiter. Ergibt die von Utiq durchgeführte Verfügbarkeitsprüfung, dass Sie eine unterstützte Internetverbindung (z. B. Breitband oder Mobilfunk) eines teilnehmenden Telekommunikationsanbieters nutzen, werden wir Ihnen ein gesondertes Banner anzeigen, auf dem Sie in die Nutzung der Utiq-Technologie zu Werbezwecken auf unserem Angebot einwilligen können („Aktivierung“).
+
+Erst nach erfolgter Aktivierung übermittelt Utiq Ihre IP-Adresse an Ihren Telekommunikationsanbieter. Dieser erstellt anhand Ihrer IP-Adresse und einer Referenz des verbundenen Telekommunikationskontos (z. B. Nutzerkontonummer oder Telefonnummer) eine pseudonyme Kennung („Netzwerksignal“) und stellt diese Utiq zur Verfügung.
+
+Abgeleitet vom Netzwerksignal erzeugt Utiq anschließend Werbekennungen mit begrenzter Lebensdauer, die der jeweiligen Internetverbindung zugewiesen sind. Das bedeutet, dass alle Nutzer derselben Internetverbindung, die die Utiq-Technologie aktivieren, dieselbe Werbekennung erhalten. Zur Speicherung Ihres Einwilligungsstatus und zum Abruf der erzeugten Werbekennungen werden Cookies auf Ihrem Endgerät gesetzt.
+
+Wir nutzen diese Werbekennungen, um Sie beim Besuch auf diesem sowie auf weiteren [Angeboten der Axel Springer Deutschland GmbH](https://www.axelspringer.com/de/utiq-marken) (soweit Sie auf diesen ebenfalls die Utiq-Technologie aktiviert haben) für die Zwecke "Personalisierte Werbung und Inhalte, Messung von Werbeleistung und der Performance von Inhalten, Zielgruppenforschung sowie Entwicklung und Verbesserung von Angeboten" wiederzuerkennen und Besuche auf unseren Angeboten miteinander zu verknüpfen. Da die Werbekennungen der jeweiligen Internetverbindung zugewiesen sind, werden bei Breitbandverbindungen (z. B. WLAN) die Browsing-Aktivitäten aller einwilligenden Haushaltsmitglieder betrachtet, während bei Mobilfunkverbindungen die Browsing-Aktivitäten eines einzelnen Mobilfunknutzers betrachtet werden.
+
+Die Aktivierung der Utiq-Technologie auf unserem Angebot erfolgt in gemeinsamer Verantwortung mit der Utiq SA/NV auf Grundlage einer entsprechenden Vereinbarung gemäß Art. 26 DSGVO. Neben den Rechten, die Sie jederzeit uns gegenüber ausüben können, steht Ihnen zudem der [Utiq Consenthub](https://consenthub.utiq.com/) zur Verfügung. Dort können Sie Ihre Einwilligungen in die Nutzung der Utiq-Technologie websiteübergreifend verwalten. Ungeachtet dessen, dass Sie Ihre Rechte gegenüber jedem Verantwortlichen ausüben können, fungiert Utiq als gemeinsame Anlaufstelle für alle Fragen oder Anfragen, die Sie im Zusammenhang mit der Utiq-Technologie haben.
+
+Die Nutzung der Utiq-Technologie zu Werbezwecken schließt die Weitergabe der Werbekennungen an die nachfolgend aufgeführten Drittanbieter ein. Utiq nutzt Ihre Daten auch zur Verbesserung und Weiterentwicklung der Utiq-Technologie.
+
+Rechtsgrundlage für die vorstehenden Datenverarbeitungen ist Art. 6 Abs. 1 lit. a DSGVO bzw. § 25 Abs. 1 TDDDG. Ihre Einwilligung können Sie jederzeit über den am Seitenende vorgehaltenen Link „Widerruf Nutzerkennungen“ oder über das Datenschutzportal von Utiq ("[Utiq Consenthub](https://consenthub.utiq.com/)") widerrufen. Weitere Informationen darüber, wie die Utiq-Technologie funktioniert, über unsere Partnerschaft mit Utiq und über Ihre Rechte finden Sie auf den Seiten [Utiq verwalten](https://www.bild.de/sonstiges/corporate-site/einwilligung-zur-nutzung-verwalten-sie-die-utiq-technologie-66573a2eaad9b31829419956) und [Utiq FAQ](https://www.axelspringer.com/de/utiq-faq) sowie in der [Datenschutzerklärung](https://consenthub.utiq.com/pages/privacy-statement) von Utiq.
+
+**10\. Personalisierte Inhaltsempfehlungen**
+
+Haben Sie im Privacy-Manager Ihre Einwilligung in den Verarbeitungszweck „Personalisierte Inhaltsempfehlungen“ erteilt, können Ihnen beim Besuch unseres Angebots personalisierte redaktionelle Inhaltsempfehlungen ausgespielt werden.
+
+Rechtsgrundlage für die Datenverarbeitung ist Art. 6 Abs. 1 lit. a DSGVO. Sie können jederzeit Ihre Auswahl im Privacy-Manager ändern sowie die von Ihnen erteilten Einwilligungen insgesamt durch Anklicken des Links „Widerruf Tracking und Cookies“ am Seitenende mit Wirkung für die Zukunft widerrufen.
+
+**11\. Eigene Produkt- und Vertriebsentwicklung**
+
+Haben Sie im Privacy-Manager Ihre Einwilligung in den Verarbeitungszweck „Eigene Produkt- und Vertriebsentwicklungen“ erteilt, können Informationen über Ihre Aktivitäten auf unserem Angebot für die Weiterentwicklung unserer Produkte und des Vertriebs genutzt werden. Dies umfasst die Bewerbung von Verlagsangeboten wie BILD Plus, Reichweitenmessung sowie Nutzungsanalysen und erfolgt ausschließlich zu unseren eigenen Zwecken, um unsere Verlagsangebote zu bewerben und zu messen. Es erfolgt keine Datenweitergabe an Dritte.
+
+Rechtsgrundlage für die Datenverarbeitung ist Art. 6 Abs. 1 lit. a DSGVO. Sie können jederzeit Ihre Auswahl im Privacy-Manager ändern sowie die von Ihnen erteilten Einwilligungen insgesamt durch Anklicken des Links „Widerruf Tracking und Cookies“ am Seitenende mit Wirkung für die Zukunft widerrufen.
+
+**12\. A/B Testing für Produktentwicklung**
+
+Haben Sie im Privacy-Manager Ihre Einwilligung in den Verarbeitungszweck „A/B Testing für Produktentwicklung“ erteilt, können zur Weiterentwicklung und Verbesserung unserer Produkte A/B-Tests für die Produktentwicklung durchgeführt werden, um z.B. neue Funktionen und Gestaltungen zu testen.
+
+Rechtsgrundlage für die Datenverarbeitung ist Art. 6 Abs. 1 lit. a DSGVO. Sie können jederzeit Ihre Auswahl im Privacy-Manager ändern sowie die von Ihnen erteilten Einwilligungen insgesamt durch Anklicken des Links „Widerruf Tracking und Cookies“ am Seitenende mit Wirkung für die Zukunft widerrufen.
+
+**13\. Verwendung reduzierter Daten zur Auswahl von Werbeanzeigen**
+
+Wenn sie Ihre Einwilligung in die Nutzung von BILD.de mit Tracking und Cookies erteilt haben, verarbeiten wir Echtzeit-Informationen über den Kontext, in dem die Anzeige dargestellt wird, einschließlich Informationen über das inhaltliche Umfeld sowie das verwendete Gerät, wie z. B. Gerätetyp und -funktionen, Browser-Kennung, URL, IP-Adresse und Ihre ungefähren Standortdaten. Dies geschieht zu dem Zweck, die Auswahl und Ausspielung der zur Refinanzierung unseres Angebots geschalteten Anzeigen zu optimieren, die Häufigkeit und Reihenfolge der Anzeige-Einblendungen zu steuern und um zu verhindern, dass eine Anzeige in einem ungeeigneten redaktionellen Umfeld (brand-unsafe) eingeblendet wird. Rechtsgrundlage für die Datenverarbeitung ist Art. 6 Abs. 1 lit. a DSGVO.
+
+Für die vorgenannten Zwecke bedienen wir uns auch der Dienste nachfolgend aufgeführter Dritter, die gemäß Art. 4 Nr. 7 DSGVO für die über Ihren jeweiligen Dienst stattfindende Datenverarbeitung verantwortlich sind. Weitere Informationen zur Datenverarbeitung durch diese Anbieter und Ihren Rechten als betroffene Person können Sie den nachfolgend verlinkten Datenschutzerklärungen der Anbieter entnehmen:
+
+*   **AWIN** (AWIN AG, Landsberger Allee 104 BC, 10249 Berlin, Deutschland), [https://www.awin.com/de/rechtliches/privacy-policy](https://www.awin.com/de/rechtliches/privacy-policy)
+*   **Connatix Native Exchange Inc.** (Connatix Native Exchange Inc., 666 Broadway, 10th Floor, New York, NY 10012, USA) [https://connatix.com/privacy-policy#videoPlatformPrivacy](https://connatix.com/privacy-policy#videoPlatformPrivacy%20)
+*   **Google Custom Search Widget** (Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland) [https://www.google.de/intl/de/adsense/start/](https://www.google.de/intl/de/adsense/start/)
+*   **Google Products**  (Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland), [www.google.de/intl/de/policies/privacy/](file:///C:/%5C%5CUsers%5C%5Cpblank%5C%5CAppData%5C%5CLocal%5C%5CMicrosoft%5C%5CWindows%5C%5CINetCache%5C%5CContent.Outlook%5C%5C08X50Q53%5C%5Cwww.google.de%5C%5Cintl%5C%5Cde%5C%5Cpolicies%5C%5Cprivacy%5C%5C)
+*   **Microsoft Advertising**  (Microsoft Corporation, One Microsoft Way, Redmond, WA 98052-6399, USA), https://www.awin.com/de/rechtliches/privacy-policy
+*   **Outbrain** (Outbrain UK Limited, 100 New Bridge Street, London, EC4V 6JA, Vereinigtes Königreich) [https://www.outbrain.com/privacy/](https://www.outbrain.com/privacy/)
+*   **Pinterest Ads** (Pinterest Europe Ltd. Palmerston House, 2nd Floor, Fenian Street, Dublin 2, Ireland), [https://policy.pinterest.com/de/privacy-policy](https://policy.pinterest.com/de/privacy-policy)
+*   **Pluto TV Europe GmbH** (Pluto TV Europe GmbH, Boxhagener Straße 80, 10245 Berlin) [https://privacy.paramount.com/de/policy?r=pluto.tv](https://privacy.paramount.com/de/policy?r=pluto.tv)
+*   **Twitch** (Twitch Interactive, Inc., 350 Bush Street, 2nd Floor, San Francisco, CA 94104, USA) https://www.twitch.tv/p/de-de/legal/privacy-policy/
+*   **Xandr**  (Xandr Inc., 28 W. 23rd Street, New York, NY 10010, USA) [https://www.xandr.com/privacy/platform-privacy-policy/#choices](https://www.xandr.com/privacy/platform-privacy-policy/%22%20%5Cl%20%22choices)
+
+In dem Interesse und zu dem Zweck, die Anzeigen auf unserer Website in der richtigen Größe und in einem von Ihrem Gerät unterstützten Format ausspielen und Sie bei Anklicken der Anzeige auf die entsprechende Zielseite weiterleiten zu können, werden durch den jeweiligen Drittanbieter zudem Ihre IP-Adresse sowie Informationen zu Ihrem Gerätetyp verarbeitet. Hierbei handelt es sich um die Sonderkategorie „Bereitstellung und Anzeige von Werbung und Inhalten“. Rechtsgrundlage der Datenverarbeitung ist Art. 6 Abs. 1 lit. f DSGVO.
+
+Rechtsgrundlage der Datenverarbeitung ist Art. 6 Abs. 1 lit. f DSGVO.
+
+**14\. Erstellung von Profilen für personalisierte Werbung**
+
+Wenn Sie Ihre Einwilligung in die Nutzung von BILD.de mit Tracking und Cookies erteilt haben, erstellen wir zur Ausrichtung von Anzeigen auf Ihre mutmaßlichen Interessen ein Profil Ihrer Nutzung mit Informationen zu Ihren Aktivitäten, Interessen, den Besuchen auf Webseiten oder der Verwendung von Anwendungen, demographischen Informationen oder des Standorts erstellt und mit Daten Ihres Nutzungsverhalten von anderen Websites angereichert. Rechtsgrundlage für die Datenverarbeitung ist Art. 6 Abs. 1 lit. a DSGVO. Für die vorgenannten Zwecke bedienen wir uns auch der Dienste nachfolgend aufgeführter Dritter, die gemäß Art. 4 Nr. 7 DSGVO für die über den Dienst stattfindende Datenverarbeitung verantwortlich sind. Weitere Informationen zur Datenverarbeitung durch diese Anbieter und Ihren Rechten als betroffene Person können Sie den nachfolgend verlinkten Datenschutzerklärungen der Anbieter entnehmen:
+
+*   **AWIN** (AWIN AG, Landsberger Allee 104 BC, 10249 Berlin, Deutschland), [https://www.awin.com/de/rechtliches/privacy-policy](https://www.awin.com/de/rechtliches/privacy-policy)
+*   **Google Advertising Products**  (Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland), [www.google.de/intl/de/policies/privacy/](file:///C:/%5C%5CUsers%5C%5Cpblank%5C%5CAppData%5C%5CLocal%5C%5CMicrosoft%5C%5CWindows%5C%5CINetCache%5C%5CContent.Outlook%5C%5C08X50Q53%5C%5Cwww.google.de%5C%5Cintl%5C%5Cde%5C%5Cpolicies%5C%5Cprivacy%5C%5C)
+*   **Google Custom Search Widget** (Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland) [https://www.google.de/intl/de/adsense/start/](https://www.google.de/intl/de/adsense/start/)
+*   **HEIM:SPIEL** (Heim:Spiel Medien GmbH Dorotheenstraße 26a, 48145 Münster, Deutschland), [https://www.heimspiel.de/rechtlicher\_hinweis.php](https://www.heimspiel.de/rechtlicher_hinweis.php)
+*   **Microsoft Advertising** (Microsoft Corporation, One Microsoft Way, Redmond, WA 98052-6399, USA [https://privacy.microsoft.com/de-de/privacystatement](https://privacy.microsoft.com/de-de/privacystatement)
+*   **Outbrain** ( Outbrain UK Limited, 100 New Bridge Street, London, EC4V 6JA, Vereinigtes Königreich) [https://www.outbrain.com/privacy/](https://www.outbrain.com/privacy/)
+*   **Pluto TV Europe GmbH** (Pluto TV Europe GmbH, Boxhagener Straße 80, 10245 Berlin) [https://privacy.paramount.com/de/policy?r=pluto.tv](https://privacy.paramount.com/de/policy?r=pluto.tv)
+*   **Pinterest Ads** (Pinterest Europe Ltd. Palmerston House, 2nd Floor, Fenian Street, Dublin 2, Ireland), [https://policy.pinterest.com/de/privacy-policy](https://policy.pinterest.com/de/privacy-policy)
+*   **Twitch** (Twitch Interactive, Inc., 350 Bush Street, 2nd Floor, San Francisco, CA 94104, USA) https://www.twitch.tv/p/de-de/legal/privacy-policy/
+
+**15\. Verwendung von Profilen zur Auswahl personalisierter Werbung**
+
+Wenn Sie Ihre Einwilligung in die Nutzung von BILD.de mit Tracking und Cookies erteilt haben, spielen wir Ihnen Anzeigen aus, von denen wir annehmen, dass sie Ihren Interessen entsprechen. Die Auswahl erfolgt dabei auf Grundlage des mit Ihrer Einwilligung erstellten Profils für personalisierte Werbung. Rechtsgrundlage für die Datenverarbeitung ist Art. 6 Abs. 1 lit. a DSGVO. Hierbei bedienen wir uns auch der Dienste nachfolgend aufgeführter Dritter, die gemäß Art. 4 Nr. 7 DSGVO für die über den Dienst stattfindende Datenverarbeitung verantwortlich sind. Weitere Informationen zur Datenverarbeitung durch die eingesetzten Anbieter und Ihren Rechten als betroffene Person können Sie den nachfolgend verlinkten Datenschutzerklärungen dieser Anbieter entnehmen:
+
+*   **AWIN** (AWIN AG, Landsberger Allee 104 BC, 10249 Berlin, Deutschland), [https://www.awin.com/de/rechtliches/privacy-policy](https://www.awin.com/de/rechtliches/privacy-policy)
+*   **Google Advertising Products** (Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland), [www.google.de/intl/de/policies/privacy/](file:///C:/%5C%5CUsers%5C%5Cpblank%5C%5CAppData%5C%5CLocal%5C%5CMicrosoft%5C%5CWindows%5C%5CINetCache%5C%5CContent.Outlook%5C%5C08X50Q53%5C%5Cwww.google.de%5C%5Cintl%5C%5Cde%5C%5Cpolicies%5C%5Cprivacy%5C%5C)
+*   **Google Custom Search Widget** (Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland) [https://www.google.de/intl/de/adsense/start/](https://www.google.de/intl/de/adsense/start/)
+*   **HEIM:SPIEL** (Heim:Spiel Medien GmbH Dorotheenstraße 26a, 48145 Münster, Deutschland), [https://www.heimspiel.de/rechtlicher\_hinweis.php](https://www.heimspiel.de/rechtlicher_hinweis.php)
+*   **Microsoft Advertising**   (Microsoft Corporation, One Microsoft Way, Redmond, WA 98052-6399, USA) [https://privacy.microsoft.com/de-de/privacystatement](https://privacy.microsoft.com/de-de/privacystatement)**Pinterest Ads** (Pinterest Europe Ltd. Palmerston House, 2nd Floor, Fenian Street, Dublin 2, Ireland), [https://policy.pinterest.com/de/privacy-policy](https://policy.pinterest.com/de/privacy-policy)
+*   **Outbrain** ( Outbrain UK Limited, 100 New Bridge Street, London, EC4V 6JA, Vereinigtes Königreich) https://www.outbrain.com/privacy/
+*   **Pluto TV Europe GmbH** (Pluto TV Europe GmbH, Boxhagener Straße 80, 10245 Berlin) [https://privacy.paramount.com/de/policy?r=pluto.tv](https://privacy.paramount.com/de/policy?r=pluto.tv)
+*   **Twitch** (Twitch Interactive, Inc., 350 Bush Street, 2nd Floor, San Francisco, CA 94104, USA) https://www.twitch.tv/p/de-de/legal/privacy-policy/
+
+Um die personalisierte Werbung Anzeigen auf unserer Website in der richtigen Größe und in einem von Ihrem Gerät unterstützten Format ausspielen und Sie bei Anklicken der Anzeige auf die entsprechende Zielseite weiterleiten zu können, werden durch den jeweiligen Drittanbieter zudem Ihre IP-Adresse sowie Informationen zu Ihrem Gerätetyp verarbeitet. Hierbei handelt es sich um die Sonderkategorie „Bereitstellung und Anzeige von Werbung und Inhalten“.
+
+**16\. Erstellung von Profilen zur Personalisierung von Inhalten**
+
+Wenn Sie Ihre Einwilligung in die Nutzung von BILD.de mit Tracking und Cookies erteilt haben, erstellen wir zur Ausrichtung der Inhalte (nicht Werbung) unseres Angebots auf Ihre mutmaßlichen Interessen ein Profil Ihrer Nutzung mit Informationen zu den Aktivitäten, Interessen und Besuchen auf Webseiten oder der Verwendung von Anwendungen, demographischen Informationen oder des Standorts. Rechtsgrundlage für die Datenverarbeitung ist Art. 6 Abs. 1 lit. a DSGVO.
+
+Hierbei bedienen wir uns der Dienste nachfolgend aufgeführten Drittanbieter, die gemäß Art. 4 Nr. 7 DSGVO für die über den Dienst stattfindende Datenverarbeitung verantwortlich sind. Weitere Informationen zur Datenverarbeitung durch die selbst verantwortlichen Drittanbieter und zu Ihren Rechten als betroffene Person können Sie den nachfolgend verlinkten Datenschutzerklärungen dieser Anbieter entnehmen:
+
+*   **Giphy** (Giphy, Inc., 416 W 13th Street Suite 207, New York, NY 10014), [https://giphy.com/privacy](https://giphy.com/privacy)
+*   **Google Custom Search Widget** (Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland) [https://www.google.de/intl/de/adsense/start/](https://www.google.de/intl/de/adsense/start/)
+*   **Instagram** (Meta Platforms Ireland Limited, 4 Grand Canal Square, Dublin 2, Ireland), [https://www.instagram.com/legal/privacy/](https://www.instagram.com/legal/privacy/)
+*   **SoundCloud** (SoundCloud Limited, Rheinsberger Str. 76/77, 10115 Berlin, Deutschland), [https://soundcloud.com/pages/privacy](https://soundcloud.com/pages/privacy)
+*   **Outbrain** ( Outbrain UK Limited, 100 New Bridge Street, London, EC4V 6JA, Vereinigtes Königreich) https://www.outbrain.com/privacy/
+*   **Rock Content Technologies** (Rock Content Attention, 301 Yamato Road, suite 1240, Boca Raton, Florida. 33431) [https://rockcontent.com/legal/privacy-policy/](https://rockcontent.com/legal/privacy-policy/)
+
+**17\. Verwendung von Profilen zur Auswahl personalisierter Inhalte**
+
+Wenn Sie Ihre Einwilligung in die Nutzung von BILD.de mit Tracking und Cookies erteilt haben, , spielen wir Ihnen ausgewählte Inhalte aus, von denen wir annehmen, dass Ihren Interessen entsprechen. Die Auswahl erfolgt dabei auf Grundlage des mit Ihrer Einwilligung erstellten Profils für personalisierte Inhalte. Rechtsgrundlage für die Datenverarbeitung ist Art. 6 Abs. 1 lit. a DSGVO.
+
+Hierbei bedienen wir uns der Dienste nachfolgend aufgeführter Drittanbieter, die gemäß Art. 4 Nr. 7 DSGVO für die über den Dienst stattfindende Datenverarbeitung verantwortlich sind. Weitere Informationen zur Datenverarbeitung durch diese Drittanbieter und zu Ihren Rechten als betroffene Person können Sie den nachfolgend verlinkten Datenschutzerklärungen der Anbieter entnehmen:
+
+*   **Arkadium** (Arkadium Inc., 40 West 25th Street, 4th Floor, New York, NY 10010), [https://www.arkadium.com/privacy-policy/](https://www.arkadium.com/privacy-policy/)
+*   **CoolGames** (CoolGames b.v., Herengracht 433, 1017 BR Amsterdam, the Netherlands), [http://corporate.coolgames.com/privacy-policy/](http://corporate.coolgames.com/privacy-policy/)
+*   **Dutyfarm-Games** (Dutyfarm GmbH, Hauptstraße 6b, D-10317 Berlin, Deutschland), [https://www.dutyfarm.com/de/impressum/](https://www.dutyfarm.com/de/impressum/)
+*   **Giphy** (Giphy, Inc., 416 W 13th Street Suite 207, New York, NY 10014), [https://giphy.com/privacy](https://giphy.com/privacy)  
+*   **Google Custom Search Widget** (Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland) [https://www.google.de/intl/de/adsense/start/](https://www.google.de/intl/de/adsense/start/)
+*   **Instagram** (Meta Platforms Ireland Limited, 4 Grand Canal Square, Dublin 2, Ireland), [https://www.instagram.com/legal/privacy/](https://www.instagram.com/legal/privacy/)
+*   **Mapcreator** (Mapcreator, Bogert 31-06 5612 LX Eindhoven, Niederlande), [https://mapcreator.io/privacy-policy/](https://mapcreator.io/privacy-policy/)
+*   **Kr3m.media GmbH** (kr3m. media GmbH, Kaiserstraße 158, 76133 Karlsruhe), [https://kr3m.com/datenschutz](https://kr3m.com/datenschutz)
+*   **SoundCloud** (SoundCloud Limited, Rheinsberger Str. 76/77, 10115 Berlin, Deutschland), [https://soundcloud.com/pages/privacy](https://soundcloud.com/pages/privacy)
+*   **Outbrain** ( Outbrain UK Limited, 100 New Bridge Street, London, EC4V 6JA, Vereinigtes Königreich) https://www.outbrain.com/privacy/
+*   **Rock Content Technologies** (Rock Content Attention, 301 Yamato Road, suite 1240, Boca Raton, Florida. 33431) [https://rockcontent.com/legal/privacy-policy/](https://rockcontent.com/legal/privacy-policy/)
+*   **Wetterkontor** (Wetterkontor GmbH, Gartenfeldstraße 2, D-55218 Ingelheim), [https://www.wetterkontor.de/de/datenschutzhinweise.asp](https://www.wetterkontor.de/de/datenschutzhinweise.asp)
+*   **X Corp.** (X Corp., 1355 Market Street, Suite 900 San Francisco, CA 94103, USA) [https://twitter.com/de/privacy](https://twitter.com/de/privacy%20)
+*   **YouTube** (Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland), [https://support.google.com/youtube/answer/7671399?p=privacy\_guidelines&hl=de&visit\_id=0-636644030056539000-341535836&rd=1](https://support.google.com/youtube/answer/7671399?p=privacy_guidelines&hl=de&visit_id=0-636644030056539000-341535836&rd=1)
+
+Um die personalisierten Inhalte in der richtigen Größe und in einem von Ihrem Gerät unterstützten Format ausspielen zu können, werden durch den jeweiligen Drittanbieter zudem Ihre IP-Adresse sowie Informationen zu Ihrem Gerätetyp verarbeitet. Hierbei handelt es sich um die Sonderkategorie „Bereitstellung und Anzeige von Werbung und Inhalten“. Rechtsgrundlage der Datenverarbeitung ist Art. 6 Abs. 1 lit. f DSGVO.
+
+**18\. Messung der Werbeleistung**
+
+Wenn Sie Ihre Einwilligung in die Nutzung von BILD.de mit Tracking und Cookies erteilt haben, ssetzen wir Dienste zur Messung der Anzeigen-Leistung ein. Dabei wird insbesondere ausgewertet und in einem Report zusammengestellt, ob und wie Anzeigen bei einem Nutzer eingeblendet wurden, ob und wie dieser mit ihnen interagiert hat, ob eine Anzeige in einem ungeeigneten redaktionellen Umfeld (brand-unsafe) eingeblendet wird und zu welchem Prozentsatz und wie lange die Anzeige hätte wahrgenommen werden können (Werbewahrnehmungschance). Rechtsgrundlage für die Datenverarbeitung ist Art. 6 Abs. 1 lit. a DSGVO.
+
+Hierbei bedienen wir uns der Dienste der nachfolgend aufgeführten Drittanbieter, die gemäß Art. 4 Nr. 7 DSGVO für die über den Dienst stattfindende Datenverarbeitung verantwortlich sind. Weitere Informationen zur Datenverarbeitung durch diese Anbieter und Ihren Rechten als betroffene Person können Sie den nachfolgend verlinkten Datenschutzerklärungen dieser Anbieter entnehmen:
+
+*   **AWIN** (AWIN AGLandsberger Allee 104 BC, 10249 Berlin, Deutschland), [https://www.awin.com/de/rechtliches/privacy-policy](https://www.awin.com/de/rechtliches/privacy-policy)
+*   **digidip** (digidip GmbH, Skalitzer Str. 68, 10997 Berlin) [https://digidip.net/privacy-policy](https://digidip.net/privacy-policy)
+*   **Facebook Audience Network** (Facebook Business Tools) (Meta Platforms Ireland Limited, 4 Grand Canal Square, Dublin 2, Ireland) [https://www.facebook.com/about/privacy/](https://www.facebook.com/about/privacy/)
+*   **Facebook Conversion Tracking** (Facebook Custom Audiences über das Pixel-Verfahren\*, Facebook Business Tools) (Meta Platforms Ireland Limited, 4 Grand Canal Square, Dublin 2, Ireland) [https://www.facebook.com/about/privacy/](https://www.facebook.com/about/privacy/)
+*   **Google Advertising Products**  (Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland), [www.google.de/intl/de/policies/privacy/](file:///C:/%5C%5CUsers%5C%5Cpblank%5C%5CAppData%5C%5CLocal%5C%5CMicrosoft%5C%5CWindows%5C%5CINetCache%5C%5CContent.Outlook%5C%5C08X50Q53%5C%5Cwww.google.de%5C%5Cintl%5C%5Cde%5C%5Cpolicies%5C%5Cprivacy%5C%5C)
+*   **Google Custom Search Widget** (Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland) [https://www.google.de/intl/de/adsense/start/](https://www.google.de/intl/de/adsense/start/)
+*   **Ladenzeile Conversion Tracking** (Visual Meta GmbH, Zimmerstraße 50 c/o Schützenstraße 15-17 10117 Berlin, Deutschland), [https://www.ladenzeile.de/datenschutzerklaerung.html](https://www.ladenzeile.de/datenschutzerklaerung.html)
+*   **Microsoft Advertising**   (Microsoft Corporation, One Microsoft Way, Redmond, WA 98052-6399, USA („Microsoft“)) [https://privacy.microsoft.com/de-de/privacystatement](https://privacy.microsoft.com/de-de/privacystatement)
+*   **Outbrain** ( Outbrain UK Limited, 100 New Bridge Street, London, EC4V 6JA, Vereinigtes Königreich) https://www.outbrain.com/privacy/
+*   **Pinterest Ads** (Pinterest Europe Ltd. Palmerston House, 2nd Floor, Fenian Street, Dublin 2, Ireland), [https://policy.pinterest.com/de/privacy-policy](https://policy.pinterest.com/de/privacy-policy)
+*   **Pluto TV Europe GmbH** (Pluto TV Europe GmbH, Boxhagener Straße 80, 10245 Berlin) [https://privacy.paramount.com/de/policy?r=pluto.tv](https://privacy.paramount.com/de/policy?r=pluto.tv)
+*   **ProductsUp** (Products Up GmbH, Bahnhofstr. 5 91245 Simmelsdorf, Deutschland), [https://www.productsup.com/de/datenschutz/](https://www.productsup.com/de/datenschutz/)
+*   **Twitch** (Twitch Interactive, Inc., 350 Bush Street, 2nd Floor, San Francisco, CA 94104, USA) https://www.twitch.tv/p/de-de/legal/privacy-policy/
+*   **Xandr** (ehemals AppNexus) (Xandr Inc., 28 W. 23rd Street, New York, NY 10010, USA) [https://www.xandr.com/privacy/platform-privacy-policy/#choices](https://www.xandr.com/privacy/platform-privacy-policy/%22%20%5Cl%20%22choices) 
+
+\* Am Beispiel von Facebook Conversion Tracking: Wir verwenden innerhalb unseres Internetauftritts den „Custom Audiences“ Pixel des sozialen Netzwerks Facebook. Dabei sind sog. Zählpixel auf unseren Seiten integriert. Wenn Sie unsere Seiten besuchen, wird über das Zählpixel eine direkte Verbindung zwischen Ihrem Browser und dem Facebook-Server hergestellt. Facebook erhält dadurch u. a. von Ihrem Browser die Information, dass von Ihrem Endgerät unsere Seite aufgerufen wurde. Wenn Sie Facebook-Nutzer sind, kann Facebook hierdurch den Besuch unserer Seiten Ihrem Benutzerkonto zuordnen. Facebook kann dann die Leistung von Inhalten und Anzeigen messen sowie Werbeanzeigen auf Facebook gezielt ausspielen. Wir weisen darauf hin, dass wir als Anbieter der Seiten keine Kenntnis vom Inhalt der übermittelten Daten sowie deren Nutzung durch Facebook erhalten. Wir können lediglich auswählen, welchen Segmenten von Facebook-Nutzern (wie Alter, Interessen) unsere Werbung angezeigt werden soll. Hierbei handelt es sich nicht um den Dienst „Facebook Custom Audiences über die Kundenliste“. Wir übermitteln an Facebook keine Kundendaten, insbesondere keine E-Mail-Adressen – weder verschlüsselt noch unverschlüsselt. Die Funktion „erweiterter Abgleich“ ist deaktiviert.
+
+Für die über Facebook Business Tools der Meta Platforms Ireland Limited, 4 Grand Canal Square, Grand Canal Harbour, Dublin 2, Irland („Facebook“) erhobenen Informationen sind wir mit Facebook gemeinsam verantwortlich. Informationen zu Facebook und die Kontaktdaten des Datenschutzbeauftragten sowie weitere Informationen dazu, wie Facebook personenbezogene Daten verarbeitet, einschließlich der Rechtsgrundlage und der Möglichkeiten zur Wahrnehmung Ihrer Rechte als betroffene Person gegenüber Facebook können Sie der [Datenrichtlinie](https://www.facebook.com/about/privacy) von Facebook entnehmen. Wir haben mit Facebook eine Vereinbarung über die gemeinsame Verantwortung (Art. 26 DSGVO) geschlossen, in der wir die jeweiligen Verantwortlichkeiten für die Erfüllung der Verpflichtungen gemäß der DSGVO hinsichtlich der gemeinsamen Verarbeitung festgelegt haben. Danach sind wir verpflichtet, die vorstehenden Informationen bereitzustellen, und Facebook hat die Verantwortung für die weiteren Betroffenenrechte gemäß Art. 15-20 der DSGVO übernommen.
+
+**19\. Messung der Performance von Inhalten**
+
+Wenn Sie Ihre Einwilligung in die Nutzung von BILD.de mit Tracking und Cookies erteilt haben, setzen wir Dienste zur Messung der Performance von Inhalten unseres Angebots ein. Dabei wird ausgewertet und in einem Report dargestellt, wie Inhalte an Nutzer ausgeliefert werden und wie diese mit ihnen interagiert haben. Rechtsgrundlage für die Datenverarbeitung ist Art. 6 Abs. 1 lit. a DSGVO.
+
+Hierbei bedienen wir uns der Dienste der nachfolgend aufgeführten Drittanbieter, die gemäß Art. 4 Nr. 7 DSGVO für die über den Dienst stattfindende Datenverarbeitung verantwortlich sind. Weitere Informationen zur Datenverarbeitung durch diese Anbieter und zu Ihren Rechten als betroffene Person können Sie den nachfolgend verlinkten Datenschutzerklärungen der Anbieter entnehmen:
+
+*   **AGOF** (agof – Arbeitsgemeinschaft Online Forschung e.V. Europa-Allee 22 60327 Frankfurt, Deutschland), [https://www.agof.de/datenschutz/](https://www.agof.de/datenschutz/)
+*   **Arkadium** (Arkadium Inc., 40 West 25th Street, 4th Floor, New York, NY 10010), [https://www.arkadium.com/privacy-policy/](https://www.arkadium.com/privacy-policy/)
+*   **Bitmovin Videoplayer Analytics** (Bitmovin Inc.,41 Drumm Street San Francisco, CA 94111, USA), [https://bitmovin.com/privacy/](https://bitmovin.com/privacy/) 
+*   **CoolGames** (CoolGames b.v., Herengracht 433, 1017 BR Amsterdam, the Netherlands), [http://corporate.coolgames.com/privacy-policy/](http://corporate.coolgames.com/privacy-policy/)
+*   **digidip** (digidip GmbH, Skalitzer Str. 68, 10997 Berlin) [https://digidip.net/privacy-policy](https://digidip.net/privacy-policy)
+*   **Dutyfarm-Games** (Dutyfarm GmbH, Hauptstraße 6b, D-10317 Berlin, Deutschland), [https://www.dutyfarm.com/de/impressum/](https://www.dutyfarm.com/de/impressum/)
+*   **Einkommensrechner IW Köln** (Institut der deutschen Wirtschaft Köln e.V., Konrad-Adenauer-Ufer 21, 50668 Köln) [https://www.iwkoeln.de/datenschutz.html](https://www.iwkoeln.de/datenschutz.html)
+*   **Facebook Content Feed** (Facebook Business Tools) (Meta Platforms Ireland Limited, 4 Grand Canal Square, Dublin 2, Ireland) [https://www.facebook.com/about/privacy/](https://www.facebook.com/about/privacy/)
+*   **Facebook Audience Network** (Facebook Business Tools) (Meta Platforms Ireland Limited, 4 Grand Canal Square, Dublin 2, Ireland) [https://www.facebook.com/about/privacy/](https://www.facebook.com/about/privacy/)
+*   **Facebook Conversion Tracking** (Facebook Custom Audiences über das Pixel-Verfahren\*, Facebook Business Tools) (Meta Platforms Ireland Limited, 4 Grand Canal Square, Dublin 2, Ireland) [https://www.facebook.com/about/privacy/](https://www.facebook.com/about/privacy/)
+*   **Giphy** (Giphy, Inc., 416 W 13th Street Suite 207, New York, NY 10014), [https://giphy.com/privacy](https://giphy.com/privacy)
+*   **Instagram** (Meta Platforms Ireland Limited, 4 Grand Canal Square, Dublin 2, Ireland), [https://www.instagram.com/legal/privacy/](https://www.instagram.com/legal/privacy/)
+*   **Kr3m.media GmbH** (kr3m. media GmbH, Kaiserstraße 158, 76133 Karlsruhe), [https://kr3m.com/datenschutz](https://kr3m.com/datenschutz)
+*   **Ladenzeile Conversion Tracking** (Visual Meta GmbH, Zimmerstraße 50 c/o Schützenstraße 15-17 10117 Berlin, Deutschland), [https://www.ladenzeile.de/datenschutzerklaerung.html](https://www.ladenzeile.de/datenschutzerklaerung.html)
+*   **Mapcreator** (Mapcreator, Bogert 31-06 5612 LX Eindhoven, Niederlande), [https://mapcreator.io/privacy-policy/](https://mapcreator.io/privacy-policy/)
+*   **Outbrain** ( Outbrain UK Limited, 100 New Bridge Street, London, EC4V 6JA, Vereinigtes Königreich) https://www.outbrain.com/privacy/
+*   **Pluto TV Europe GmbH** (Pluto TV Europe GmbH, Boxhagener Straße 80, 10245 Berlin) [https://privacy.paramount.com/de/policy?r=pluto.tv](https://privacy.paramount.com/de/policy?r=pluto.tv)
+*   **ProductsUp** (Products Up GmbH, Bahnhofstr. 5 91245 Simmelsdorf, Deutschland), [https://www.productsup.com/de/datenschutz/](https://www.productsup.com/de/datenschutz/)
+*   **Reddit** (Reddit Ireland Limited 70 Sir John Rogerson's Quay Dublin 2 Ireland), [https://www.redditinc.com/policies/privacy-policy](https://www.redditinc.com/policies/privacy-policy)
+*   **Rock Content Technologies** (Rock Content Attention, 301 Yamato Road, suite 1240, Boca Raton, Florida. 33431) [https://rockcontent.com/legal/privacy-policy/](https://rockcontent.com/legal/privacy-policy/)
+*    **SoundCloud** (SoundCloud Limited, Rheinsberger Str. 76/77, 10115 Berlin, Deutschland), [https://soundcloud.com/pages/privacy](https://soundcloud.com/pages/privacy)
+*   **Twitch** (Twitch Interactive, Inc., 350 Bush Street, 2nd Floor, San Francisco, CA 94104, USA) https://www.twitch.tv/p/de-de/legal/privacy-policy/
+*    **Wetterkontor** (Wetterkontor GmbH, Gartenfeldstraße 2, D-55218 Ingelheim), [https://www.wetterkontor.de/de/datenschutzhinweise.asp](https://www.wetterkontor.de/de/datenschutzhinweise.asp)
+*   **X Corp.** (X Corp., 1355 Market Street, Suite 900 San Francisco, CA 94103, USA) [https://twitter.com/de/privacy](https://twitter.com/de/privacy)
+*   **YouTube** (Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland), [https://support.google.com/youtube/answer/7671399?p=privacy\_guidelines&hl=de&visit\_id=0-636644030056539000-341535836&rd=1](https://support.google.com/youtube/answer/7671399?p=privacy_guidelines&hl=de&visit_id=0-636644030056539000-341535836&rd=1)
+
+\* Am Beispiel von Facebook Conversion Tracking: Wir verwenden innerhalb unseres Internetauftritts den „Custom Audiences“ Pixel des sozialen Netzwerks Facebook. Dabei sind sog. Zählpixel auf unseren Seiten integriert. Wenn Sie unsere Seiten besuchen, wird über das Zählpixel eine direkte Verbindung zwischen Ihrem Browser und dem Facebook-Server hergestellt. Facebook erhält dadurch u. a. von Ihrem Browser die Information, dass von Ihrem Endgerät unsere Seite aufgerufen wurde. Wenn Sie Facebook-Nutzer sind, kann Facebook hierdurch den Besuch unserer Seiten Ihrem Benutzerkonto zuordnen. Facebook kann dann die Leistung von Inhalten und Anzeigen messen sowie Werbeanzeigen auf Facebook gezielt ausspielen. Wir weisen darauf hin, dass wir als Anbieter der Seiten keine Kenntnis vom Inhalt der übermittelten Daten sowie deren Nutzung durch Facebook erhalten. Wir können lediglich auswählen, welchen Segmenten von Facebook-Nutzern (wie Alter, Interessen) unsere Werbung angezeigt werden soll. Hierbei handelt es sich nicht um den Dienst „Facebook Custom Audiences über die Kundenliste“. Wir übermitteln an Facebook keine Kundendaten, insbesondere keine E-Mail-Adressen – weder verschlüsselt noch unverschlüsselt. Die Funktion „erweiterter Abgleich“ ist deaktiviert.
+
+Für die über sog. Facebook Business Tools der Meta Platforms Ireland Limited, 4 Grand Canal Square, Grand Canal Harbour, Dublin 2, Irland („Facebook“) erhobenen Informationen sind wir mit Facebook gemeinsam verantwortlich. Informationen zu Facebook und die Kontaktdaten des Datenschutzbeauftragten sowie weitere Informationen dazu, wie Facebook personenbezogene Daten verarbeitet, einschließlich der Rechtsgrundlage und der Möglichkeiten zur Wahrnehmung Ihrer Rechte als betroffene Person gegenüber Facebook können Sie der [Datenrichtlinie](https://www.facebook.com/about/privacy) von Facebook entnehmen. Wir haben mit Facebook eine Vereinbarung über die gemeinsame Verantwortung (Art. 26 DSGVO) geschlossen, in der wir die jeweiligen Verantwortlichkeiten für die Erfüllung der Verpflichtungen gemäß der DSGVO hinsichtlich der gemeinsamen Verarbeitung festgelegt haben. Danach sind wir verpflichtet, die vorstehenden Informationen bereitzustellen, und Facebook hat die Verantwortung für die weiteren Betroffenenrechte gemäß Art. 15-20 der DSGVO übernommen.
+
+**20\. Analyse von Zielgruppen durch Statistiken oder Kombinationen von Daten aus verschiedenen Quellen**
+
+Wenn Sie Ihre Einwilligung in die Nutzung von BILD.de mit Tracking und Cookies erteilt haben, setzen wir Dienste ein zu dem Zweck, Erkenntnisse über Zielgruppen von Werbung und Inhalten zu erzielen. Hierbei werden aggregierte Berichte für Werbetreibende oder deren Repräsentanten über die Zielgruppen, die durch ihre Anzeigen erreicht werden und welche auf der Grundlage von Befragungspanels oder ähnlichen Verfahren gewonnen wurden, erstellt. Ferner werden aggregierte Berichte für Diensteanbieter über die Zielgruppen erstellt, die durch die Inhalte und/oder Anzeigen auf ihren Diensten erreicht wurden bzw. mit diesen interagiert haben und welche über Befragungspanels oder ähnliche Verfahren ermittelt wurden. Die Berichte ermöglichen dabei keinen Rückschluss auf eine bestimmte oder bestimmbare Person. Zur Erstellung dieser Berichte werden jedoch Informationen über Ihr Nutzungsverhalten verarbeitet. Darüber hinaus werden für Zwecke der Marktforschung Offline-Daten einem Online-Benutzer zugeordnet, um Erkenntnisse über Zielgruppen zu gewinnen, soweit Anbieter erklärt haben, Offline-Datenquellen abzugleichen und zusammenzuführen. Rechtsgrundlage für die Datenverarbeitung ist Art. 6 Abs. 1 lit. a DSGVO.
+
+Hierfür bedienen wir uns auch der Dienste nachfolgend aufgeführter Dritter, die gemäß Art. 4 Nr. 7 DSGVO für die über den Dienst stattfindende Datenverarbeitung verantwortlich sind. Weitere Informationen zur Datenverarbeitung durch diese Anbieter und zu Ihren Rechten als betroffene Person können Sie den nachfolgend verlinkten Datenschutzerklärungen der Anbieter entnehmen:
+
+*   **AGOF** (agof – Arbeitsgemeinschaft Online Forschung e.V. Europa-Allee 22 60327 Frankfurt, Deutschland), [https://www.agof.de/datenschutz/](https://www.agof.de/datenschutz/)
+*   **Einkommensrechner IW Köln** (Institut der deutschen Wirtschaft Köln e.V., Konrad-Adenauer-Ufer 21, 50668 Köln) [https://www.iwkoeln.de/datenschutz.html](https://www.iwkoeln.de/datenschutz.html)
+*   **Google Custom Search Widget** (Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland) [https://www.google.de/intl/de/adsense/start/](https://www.google.de/intl/de/adsense/start/)
+*   **Microsoft Advertising**   (Microsoft Corporation, One Microsoft Way, Redmond, WA 98052-6399, USA („Microsoft“)) [https://privacy.microsoft.com/de-de/privacystatement](https://privacy.microsoft.com/de-de/privacystatement)
+*   **Outbrain** ( Outbrain UK Limited, 100 New Bridge Street, London, EC4V 6JA, Vereinigtes Königreich) https://www.outbrain.com/privacy/
+
+**21\. Entwicklung und Verbesserung der Angebote**
+
+Wenn Sie Ihre Einwilligung in die Nutzung von BILD.de mit Tracking und Cookies erteilt haben, setzen wir Dienste ein zu dem Zweck, Produkte zu entwickeln und zu verbessern, z.B. durch neue Funktionen. Hierfür werden Informationen über Ihr Nutzungsverhalten verarbeitet.  Rechtsgrundlage für die Datenverarbeitung ist Art. 6 Abs. 1 lit. a DSGVO.
+
+Wir bedienen uns auch der Dienste nachfolgend aufgeführter Dritter, die gemäß Art. 4 Nr. 7 DSGVO für die über den Dienst stattfindende Datenverarbeitung verantwortlich sind. Weitere Informationen zur Datenverarbeitung durch diese Anbieter und Ihren Rechten als betroffene Person können Sie den nachfolgend verlinkten Datenschutzerklärungen der Anbieter entnehmen:
+
+*   **AGOF** (agof – Arbeitsgemeinschaft Online Forschung e.V. Europa-Allee 22 60327 Frankfurt, Deutschland), [https://www.agof.de/datenschutz/](https://www.agof.de/datenschutz/)
+*   **Einkommensrechner IW Köln** (Institut der deutschen Wirtschaft Köln e.V., Konrad-Adenauer-Ufer 21, 50668 Köln) [https://www.iwkoeln.de/datenschutz.html](https://www.iwkoeln.de/datenschutz.html)
+*   **Google Custom Search Widget** (Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland) [https://www.google.de/intl/de/adsense/start/](https://www.google.de/intl/de/adsense/start/)
+*   **Microsoft Advertising**   (Microsoft Corporation, One Microsoft Way, Redmond, WA 98052-6399, USA („Microsoft“)) [https://privacy.microsoft.com/de-de/privacystatement](https://privacy.microsoft.com/de-de/privacystatement)
+*   **Outbrain** ( Outbrain UK Limited, 100 New Bridge Street, London, EC4V 6JA, Vereinigtes Königreich) https://www.outbrain.com/privacy/
+*   **Xandr** (ehemals AppNexus) (Xandr Inc., 28 W. 23rd Street, New York, NY 10010, USA) [https://www.xandr.com/privacy/platform-privacy-policy/#choices](https://www.xandr.com/privacy/platform-privacy-policy/%22%20%5Cl%20%22choices)
+
+**22\. Verwendung reduzierter Daten zur Auswahl von Inhalten**
+
+Wenn Sie Ihre Einwilligung in die Nutzung von BILD.de mit Tracking und Cookies erteilt haben, verarbeiten wir Echtzeit-Informationen über das inhaltliche Umfeld und Ihre Interaktion sowie das verwendete Gerät, wie z. B. Gerätetyp und -funktionen, Browser-Kennung, URL, IP-Adresse und Ihre ungefähren Standortdaten. Dies geschieht zu dem Zweck, die Auswahl und Ausspielung der Inhalte zu optimieren und die Häufigkeit und Reihenfolge der Inhalte-Einblendungen zu steuern. Rechtsgrundlage für die Datenverarbeitung ist Art. 6 Abs. 1 lit. a DSGVO.
+
+Hierfür bedienen wir uns der Dienste nachfolgend aufgeführter Dritter, die gemäß Art. 4 Nr. 7 DSGVO für die über Ihren jeweiligen Dienst stattfindende Datenverarbeitung verantwortlich sind. Weitere Informationen zur Datenverarbeitung durch diese Anbieter und Ihren Rechten als betroffene Person können Sie der jeweils nachfolgend verlinkten Datenschutzerklärung des Anbieters entnehmen:
+
+*   **Einkommensrechner IW Köln** (Institut der deutschen Wirtschaft Köln e.V., Konrad-Adenauer-Ufer 21, 50668 Köln) [https://www.iwkoeln.de/datenschutz.html](https://www.iwkoeln.de/datenschutz.html%20)
+*   **Facebook Content Feeds** (Facebook Business Tools) (Meta Platforms Ireland Limited, 4 Grand Canal Square, Dublin 2, Ireland) [https://www.facebook.com/about/privacy/](https://www.facebook.com/about/privacy/)
+*   **Giphy, Inc.** (Giphy, Inc., 416 W 13th Street Suite 207, New York, NY 10014) [https://giphy.com/privacy](https://giphy.com/privacy)
+*   **Google Custom Search Widget CSE** (Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland) [https://www.google.de/intl/de/adsense/start/](https://www.google.de/intl/de/adsense/start/)
+*   **HEIM:SPIEL** (Heim:Spiel Medien GmbH Dorotheenstraße 26a, 48145 Münster, Deutschland), [https://www.heimspiel.de/rechtlicher\_hinweis.php](https://www.heimspiel.de/rechtlicher_hinweis.php)
+*   **Instagram** (Meta Platforms Ireland Limited, 4 Grand Canal Square, Dublin 2, Ireland) [https://www.instagram.com/legal/privacy/](https://www.instagram.com/legal/privacy/)
+*   **Mapcreator** (Mapcreator, Bogert 31-06 5612 LX Eindhoven, Niederlande), [https://mapcreator.io/privacy-policy/](https://mapcreator.io/privacy-policy/)
+*   **Outbrain** (Outbrain Inc., 39 West 13th Street, 3rd floor, New York, NY 10011, USA) [https://www.outbrain.com/legal/privacy](https://www.outbrain.com/legal/privacy)
+*   **Pinterest Inc.** (Pinterest Europe Ltd. Palmerston House, 2nd Floor, Fenian Street, Dublin 2, Ireland), [https://policy.pinterest.com/de/privacy-policy](https://policy.pinterest.com/de/privacy-policy%20)
+*   **Pluto TV Europe GmbH** (Pluto TV Europe GmbH, Boxhagener Straße 80, 10245 Berlin) [https://privacy.paramount.com/de/policy?r=pluto.tv](https://privacy.paramount.com/de/policy?r=pluto.tv)
+*   **Reddit** (Reddit Ireland Limited 70 Sir John Ro’erson's Quay Dublin 2 Ireland), [https://www.redditinc.com/policies/privacy-policy](https://www.redditinc.com/policies/privacy-policy)
+*   **Rock Content Technologies** (Rock Content Attention, 301 Yamato Road, suite 1240, Boca Raton, Florida. 33431) [https://rockcontent.com/legal/privacy-policy/](https://rockcontent.com/legal/privacy-policy/)
+*   **Soundcloud** (SoundCloud Limited, Rheinsberger Str. 76/77, 10115 Berlin, Deutschland), [https://soundcloud.com/pages/privacy](https://cms.tunein.com/policies/privacy/?lang=de)
+*   **Tuneln, Inc.** (TuneIn, Inc., 475 Brannan Street, Suite 320, San Francisco, CA 94107, USA), [https://cms.tunein.com/policies/privacy/?lang=de](https://cms.tunein.com/policies/privacy/?lang=de)
+*   **Twitch** (Twitch Interactive, Inc., 350 Bush Street, 2nd Floor, San Francisco, CA 94104, USA) [https://www.twitch.tv/p/de-de/legal/privacy-policy/](https://www.twitch.tv/p/de-de/legal/privacy-policy/)
+*   **X Corp.** (X Corp., 1355 Market Street, Suite 900 San Francisco, CA 94103, USA) [https://twitter.com/de/privacy](https://twitter.com/de/privacy)
+*   **YouTube** (Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland), [https://support.google.com/youtube/answer/7671399?p=privacy\_guidelines&hl=de&visit\_id=0-636644030056539000-341535836&rd=1](https://support.google.com/youtube/answer/7671399?p=privacy_guidelines&hl=de&visit_id=0-636644030056539000-341535836&rd=1)
+
+**23\. Gewährleistung der Sicherheit, Verhinderung und Aufdeckung von Betrug und Fehlerbehebung (Sonderkategorie)**
+
+Wenn Sie Ihre Einwilligung in die Nutzung von BILD.de mit Tracking und Cookies erteilt haben, verarbeiten wir und im Privacy-Manager unter der entsprechenden Sonderkategorie aufgeführten Drittanbieter zum Zwecke der Gewährleistung von Sicherheit, Verhinderung von Betrug und Behebung von Fehlern Informationen, einschließlich automatisch gesendeter Geräteeigenschaften zur Identifizierung, präziser Geolokalisierungsdaten und Daten, die durch Auslesen der Geräteeigenschaften zur Identifizierung ohne gesonderte Offenlegung und/oder Opt-in gewonnen werden. Dadurch wird sichergestellt, dass Daten sicher übermittelt werden, schädliche, betrügerische, ungültige oder illegale Aktivitäten erkannt und verhindert werden sowie der ordnungsgemäße und effiziente Betrieb von Systemen und Prozessen, einschließlich der Überwachung und Verbesserung der Leistung von Systemen und Prozessen, im Rahmen der erlaubten Verarbeitungszwecke gewährleistet wird.
+
+Soweit es um die Verarbeitung für die Zwecke der Gewährleistung von Sicherheit, Verhinderung von Betrug und Behebung von Fehlern durch Drittanbieter zu deren eigenen Zwecken geht, setzt dies natürlich voraus, dass Sie dem jeweiligen Drittanbieter Ihre Einwilligung in die Verarbeitung personenbezogener Daten zu einem bestimmten Zweck überhaupt erteilt bzw. der Datenverarbeitung nicht widersprochen haben.
+
+**24\. Ihre Entscheidung zum Datenschutz speichern und übermitteln (Sonderkategorie)**
+
+Wenn Sie Ihre Einwilligung in die Nutzung von BILD.de mit Tracking und Cookies erteilt haben, übermitteln wir Ihre Privacy-Manager-Einstellungen bzw. -Präferenz in Form einer codierten Zeichenfolge (sog. TC-String) an die Drittanbieter, die im Privacy-Manager unter dieser Sonderkategorie aufgeführt werden. Dies erfolgt zu dem Zweck, dass sowohl unser Angebot als auch die betreffenden Drittanbieter Ihre Datenschutzentscheidungen respektieren können.
+
+Die Verarbeitung Ihrer Entscheidungen erfolgt auf Grundlage unseres berechtigten Interesses gemäß Art. 6 Abs. 1 Satz 1 lit. f DSGVO, um Ihnen eine transparente und auf Ihre Wünsche abgestimmte Nutzererfahrung zu bieten und Ihre Datenschutzrechte zu wahren.
+
+**25\. Vermarktung von Online-Werbeplätzen**
+
+Zur Refinanzierung unseres Angebots lassen wir dieses durch unseren Werbevermarkter Media Impact GmbH & Co KG (Media Impact Vermarktungspartner) vermarkten. Im Rahmen der Vermarktung setzt Media Impact Vermarktungspartner Dienste von Drittanbietern ein.
+
+Wenn Sie Ihre Einwilligung in die Nutzung unseres Angebots mit Tracking und Cookies erteilt haben, können Media Impact Vermarktungspartner und die eingesetzten Drittanbieter Informationen auf Ihrem Endgerät speichern oder auslesen sowie personenbezogene Daten zu den bereits vorstehend aufgeführten IAB-Verarbeitungszwecken verarbeiten. Bei den Drittanbietern handelt es sich teils um Auftragsverarbeiter von Media Impact Vermarktungspartner und teils um Dritte im Sinne von Art. 4 Nr. 10 DSGVO, mit denen wir jeweils gemeinsam im Sinne von Art. 26 DSGVO verantwortlich sind, soweit wir dem jeweiligen Dritten über die Einbindung der Online-Werbe-Technologie in unser Angebot die Verarbeitung personenbezogener Daten zu den im Privacy-Manager gemeinsam festgelegten IAB-Verarbeitungszwecken auch zu eigenen Zwecken ermöglichen. Bei der Vermarktung unseres Angebots bedienen wir uns u.a. des sog. „Real Time Bidding“ (RTB) Verfahrens. Näheres hierzu finden Sie an entsprechender Stelle in dieser Datenschutzerklärung.
+
+Rechtsgrundlage für die Datenverarbeitung ist Art. 6 Abs. 1 lit. a DSGVO. Sie können eine von Ihnen erteilte Einwilligung jederzeit mit Wirkung für die Zukunft über den Link „Widerruf Tracking und Cookies“ am Seitenende widerrufen.
+
+Wir haben mit Media Impact Vermarktungspartner und den von Media Impact Vermarktungspartner im Rahmen der Vermarktung eingesetzten Dritten im Sinne von Art. 4 Nr. 10 DSGVO jeweils eine Vereinbarung i.S.v. Art. 26 DSGVO geschlossen, in der wir die jeweiligen Verantwortlichkeiten für die Erfüllung der Verpflichtungen gemäß der DSGVO im Rahmen der gemeinsamen Verantwortung festgelegt haben. Danach sind wir verpflichtet, Ihnen die Erteilung datenschutzrechtlicher Einwilligungen bzw. Widersprüche im Privacy-Manager zu ermöglichen. Zudem sind wir die zentrale Anlaufstelle für Sie als betroffene Person. Wir leiten Betroffenenanfragen, die bei uns eingehen und die Verarbeitung in gemeinsamer Verantwortung betreffen, unverzüglich an Media Impact Vermarktungspartner zur Beantwortung weiter. Dessen ungeachtet können Sie die Ihnen nach der DSGVO zustehenden Rechte als betroffene Person sowohl bei und gegenüber uns als auch bei und gegenüber jedem Verantwortlichen geltend machen.
+
+Weitere Informationen zu Media Impact Vermarktungspartner und den von ihr eingesetzten Drittanbietern finden Sie unter [https://www.mediaimpact.de/de/ueber-unsere-werbung](https://www.mediaimpact.de/de/ueber-unsere-werbung).
+
+**26\. Vermarktung von Segmentdaten**
+
+Zur Refinanzierung unseres Angebots lassen wir auf unserem Angebot erhobene Segmentdaten durch cmmrcl.ly GmbH (cmmrcl.ly) auf Social Media Plattformen vermarkten. Segmentdaten sind strukturierte Daten über Nutzergruppen, die für Personalisierung und zielgerichtete Ansprache genutzt werden können. Sie entstehen durch Analyse und Gruppierung von Nutzerdaten nach bestimmten Merkmalen, einschließlich technischer Daten, demografischer Daten und Verhaltensdaten.
+
+Wenn Sie Ihre Einwilligung in die Nutzung unseres Angebots mit Tracking und Cookies erteilt haben, kann cmmrcl.ly personenbezogene Daten zu den bereits vorstehend aufgeführten IAB-Verarbeitungszwecken verarbeiten.
+
+Rechtsgrundlage für die Datenverarbeitung ist Art. 6 Abs. 1 lit. a DSGVO. Sie können eine von Ihnen erteilte Einwilligung jederzeit mit Wirkung für die Zukunft über den Link „Widerruf Tracking und Cookies“ am Seitenende widerrufen.
+
+Wir haben mit cmmrcl.ly eine Vereinbarung i.S.v. Art. 26 DSGVO geschlossen, in der wir die jeweiligen Verantwortlichkeiten für die Erfüllung der Verpflichtungen gemäß der DSGVO im Rahmen der gemeinsamen Verantwortung festgelegt haben. Danach sind wir verpflichtet, Ihnen die Erteilung datenschutzrechtlicher Einwilligungen bzw. Widersprüche zu ermöglichen. Zudem sind wir die zentrale Anlaufstelle für Sie als betroffene Person. Wir leiten Betroffenenanfragen, die bei uns eingehen und die Verarbeitung in gemeinsamer Verantwortung betreffen, unverzüglich an cmmrcl.ly zur Beantwortung weiter. Dessen ungeachtet können Sie die Ihnen nach der DSGVO zustehenden Rechte als betroffene Person sowohl bei und gegenüber uns als auch bei und gegenüber jedem Verantwortlichen geltend machen.
+
+**27\. Vermarktung von Werbeplätzen im Connatix Video Player**
+
+Wenn Sie Ihre Einwilligung in die Nutzung von BILD.de mit Tracking und Cookies erteilt haben, lassen wir die Werbeplätze in den Connatix Video Playern in unserem Angebot zur Refinanzierung unseres Leistungsangebots und zu dem Zweck, die in dem betreffenden Video Player auf unserer Website ausgespielte Werbung an Ihren Interessen auszurichten, von Connatix Native Exchange Inc., 666 Broadway, 10th Floor, New York, NY 10012, USA („Connatix“) vermarkten.
+
+Da wir Connatix über die Einbindung der Online-Werbe-Technologie in unser Angebot die Verarbeitung personenbezogener Daten zu den gemeinsam festgelegten IAB-Verarbeitungszwecken auch zu eigenen Zwecken ermöglichen, haben mit Connatix eine Vereinbarung i.S.v. Art. 26 DSGVO geschlossen, in der wir die jeweiligen Verantwortlichkeiten für die Erfüllung der Verpflichtungen gemäß der DSGVO hinsichtlich der gemeinsamen Verarbeitung festgelegt haben. Danach sind wir verpflichtet, Ihnen die Erteilung und den Widerruf datenschutzrechtlicher Einwilligungen zu ermöglichen, Sie gemäß Art. 13 DSGVO über Art, Umfang und Zwecke der diesbezüglichen Datenverarbeitung zu informieren sowie Ihre Anfragen als betroffene Person, die bei uns eingehen und die gemeinsame Verarbeitung betreffen, im Einklang mit den gesetzlichen Vorschriften zu bearbeiten. Dessen ungeachtet können Sie die Ihnen nach der DSGVO zustehenden Rechte als betroffene Person sowohl bei und gegenüber uns als auch bei und gegenüber jedem anderen Verantwortlichen geltend machen.
+
+Im Rahmen der Vermarktung werden durch von Connatix eingesetzte Drittanbieter ebenfalls personenbezogene Daten zu den bereits vorstehend aufgeführten IAB-Verarbeitungszwecken verarbeitet, auch dies aber weiterhin natürlich nur, wenn Sie Ihre Einwilligung in die Nutzung von BILD.de mit Tracking und Cookies erteilt haben. Für die datenschutzrechtlichen Rechtsbeziehungen zu den Drittanbietern im Sinne von Kapitel 4 der DSGVO ist Connatix verantwortlich.
+
+Weitere Informationen zu Connatix und den von Connatix eingesetzten Drittanbietern finden Sie unter
+
+[https://connatix.com/privacy-policy#videoPlatformPrivacy](https://connatix.com/privacy-policy#videoPlatformPrivacy) (Datenschutzerklärung)
+
+[https://www.connatix.com/sub-processors](https://www.connatix.com/sub-processors) (Liste möglicher Drittanbieter von Connatix)
+
+**28. Affiliate-Marketing**
+
+Wenn Sie Ihre Einwilligung in die Nutzung von BILD.de mit Tracking und Cookies erteilt haben und sofern Sie über einen Werbebanner von einer externen Internetseite auf unsere Website gelangt sind, erhalten wir von dem Betreiber der externen Website („Affiliate“) die Information, dass ein Nutzer über die externe Seite auf unser Angebot gelangt ist. Hierbei handelt es sich um die dem beworbenen Angebot zugeordnete Produkt-ID sowie die Identifikationsnummer des Affiliate (Affiliate-ID) und eine aus einer beliebigen Nummernfolge erstellte Nutzer-ID. Diese Informationen werden von uns in einem Cookie auf Ihrem Endgerät gespeichert. Sollten Sie innerhalb von 30 Tagen das Angebot auf unserer Website bestellen, werden diese Informationen mit Abschluss des Bestellvorgangs automatisiert und verschlüsselt an den Affiliate übermittelt. Mit Abschluss des Bestellvorgangs, spätestens aber nach Ablauf von 30 Tagen wird das Cookie automatisch gelöscht. Sofern Sie das beworbene Produkt käuflich erwerben und von Ihrem fernabsatzrechtlichen Widerrufsecht keinen Gebrauch machen, erhält der Affiliate eine Provision von dem Advertiser. Zu diesem Zweck wird die Ihnen zugeteilte Auftragsnummer verarbeitet.  Die Verarbeitung dieser Daten erfolgt zu dem Zweck, Provisionszahlungen zwischen uns und dem Affiliate abzurechnen. Rechtsgrundlage ist Art. 6 Abs. 1 lit. a DSGVO. Der Affiliate kann anhand der Informationen nur erkennen, dass ein Nutzer von der externen Internetseite über den Werbebanner auf unsere Website gelangt ist und dort das beworbene Produkt bestellt und von seinem fernabsatzrechtlichen Widerrufsrecht keinen Gebrauch gemacht hat.
+
+Entsprechendes gilt andersherum, wenn Sie von einem auf unserer Website geschalteten Werbebanner eines Dritten („Advertiser“) auf die Website des Advertiser geleitet werden.
+
+Zudem bedienen wir uns auch der Dienste sog. Affiliate-Netzwerke. Affiliate-Netzwerke agieren als Schnittstelle zwischen Advertisern und Publishern. Das Affiliate-Netzwerk verarbeitet bei Anklicken des Werbemittels zum Zwecke der Abwicklung von Provisionszahlungen zwischen dem Advertiser und dem Affiliate Informationen über die Kampagne des Advertiser, den Affiliate, die Nutzer-Aktion (z.B. Klick oder „View“ und in welchem Land sie erfolgt ist) sowie über das verwendete Gerät.
+
+Weitergehende Informationen zu den einzelnen Affiliate-Netzwerken und Ihren Rechten als betroffene Person finden Sie in deren jeweiliger Datenschutzerklärung:
+
+•  **AWIN** (AWIN AG, Landsberger Allee 104 BC, 10249 Berlin,  Deutschland) [https://www.awin.com/de/datenschutzerklarung#how-do-we-use-data-from-end-users](https://www.awin.com/de/datenschutzerklarung%22%20%5Cl%20%22how-do-we-use-data-from-end-users);
+
+•  **digidip GmbH** (digidip GmbH, Skalitzer Str. 68, 10997 Berlin) [https://digidip.net/privacy-policy](https://digidip.net/privacy-policy)
+
+**29\. Partnerangebote**
+
+Wenn Sie Ihre Einwilligung in die Nutzung von BILD.de mit Tracking und Cookies erteilt haben, binden wir in unsere Website auch interessante Angebote von ausgewählten Partnern ein („Partnerangebote“). Sie erkennen diese an der entsprechenden Kennzeichnung (z.B. „Ein Angebot von“). Die Partnerangebote werden von dem dort angegebenen Partner bereitgestellt. Für das Ausspielen der Partnerangebote ist es erforderlich, dass Ihr Browser eine direkte Verbindung zu den Servern des Partners aufbaut. Hierfür ist die Verarbeitung Ihrer IP-Adresse erforderlich. Rechtsgrundlage für die Datenverarbeitung ist Art. 6 Abs. 1 lit. a DSGVO. Verantwortlich für die über das Partnerangebot stattfindenden Datenverarbeitungsvorgänge gemäß Art. 4 Nr. 7 DSGVO ist der Partner. Informationen zu den über die Partnerangebote stattfindenden Datenverarbeitungsvorgängen und Ihren Rechten als betroffene Person entnehmen Sie bitte der in dem jeweiligen Partnerangebot verlinkten Datenschutzerklärung des Partners.
+
+**30\. Partnerserviceseiten**
+
+Wenn Sie Ihre Einwilligung in die Nutzung von BILD.de mit Tracking und Cookies erteilt haben, werden Ihnen auch Serviceseiten von ausgewählten Partnern ausgespielt („Partnerserviceseite“). Sie erkennen diese an der entsprechenden Kennzeichnung (z.B. „Ein Service von“). Die Partnerserviceseite wird von dem dort angegebenen Partner bereitgestellt. Verantwortlich für den Inhalt der Partnerserviceseite und die dort stattfindenden Datenverarbeitungsvorgänge gemäß Art. 4 Nr. 7 DSGVO ist – mit Ausnahme des Headers und Footers der Website – der Partner. Informationen zum Partner erhalten Sie in dem in der Partnerserviceseite verlinkten Impressum des Partners. Informationen zu den über die Partnerserviceseite stattfindenden Datenverarbeitungsvorgängen und Ihren Rechten als betroffene Person entnehmen Sie bitte der ebenfalls dort verlinkten Datenschutzerklärung des Partners.
+
+**V. Social Media**
+
+**1\. Facebook Fanpages**
+
+Wir nutzen Facebook Fanpages, für die wir gemeinsam mit Meta Platforms Ireland Limited verantwortlich sind.
+
+In gemeinsamer Verantwortlichkeit mit Facebook analysieren wir, wie Sie unsere Fanpage nutzen (Seiten-Insights). Die nach der DSGVO erforderlichen Informationen zu der Datenverarbeitung im Rahmen von Seiten-Insights erhalten Sie bei Facebook; derzeit namentlich in den Datenschutzhinweisen von Facebook unter [https://www.facebook.com/legal/terms/information\_about\_page\_insights\_data](https://www.facebook.com/legal/terms/information_about_page_insights_data).
+
+Facebook stellt Ihnen auch die relevanten Inhalte des zwischen Facebook und uns geschlossenen Vertrags über die Verarbeitung in gemeinsamer Verantwortlichkeit nach Art. 26 DSGVO zur Verfügung; derzeit unter dem folgenden Link: [https://www.facebook.com/legal/terms/page\_controller\_addendum](https://www.facebook.com/legal/terms/page_controller_addendum).
+
+Sie können Ihr Beschwerderecht bei jeder für Sie zuständigen Aufsichtsbehörde geltend machen und dort Rechtsbehelfe einlegen.
+
+**Gemäß DSGVO haben Sie ein Recht auf Widerspruch gegen die Verarbeitung Ihrer Daten. In den oben verlinkten Datenschutzhinweisen von Facebook erfahren Sie mehr über diese und andere Betroffenenrechte.**
+
+Für Seiten-Insights auf unseren Facebook Fanpages fungiert Meta Platforms Ireland Limited, 4 Grand Canal Square, Dublin 2, Irland als gemeinsame Anlaufstelle und bearbeitet sämtliche Anträge zur Geltendmachung der Betroffenenrechte.
+
+Im Rahmen der Seiten-Insights erhalten wir selbst nur anonymisierte Statistiken – auf personenbezogene Daten, die durch Facebook verarbeitet werden, haben wir keinen Zugriff. Die Verarbeitung der anonymisierten Daten durch uns erfolgt auf Basis gesetzlicher Vorschriften, die es uns gestatten, personenbezogene Daten zu verarbeiten, weil wir ein überwiegendes berechtigtes Interesse daran haben, ein besseres Verständnis der Interessen der Besucher unserer Fanpage zu erlangen (Art. 6 Abs. 1 lit. f DSGVO).
+
+Facebook bietet auf den Fanpages verschiedene Community-Funktionen an, mit denen Sie mit anderen Nutzern in Interaktion treten können, etwa indem Sie dort Beiträge posten, Kommentare hinterlassen oder Beiträge liken bzw. teilen können. Wir weisen darauf hin, dass diese Bereiche öffentlich zugänglich sind und sämtliche persönlichen Informationen, die Sie darin einstellen oder bei der Anmeldung bereitstellen, von anderen eingesehen werden können. Wir können nicht kontrollieren, wie andere Nutzer der Fanpages diese Informationen verwenden. Insbesondere können wir nicht verhindern, dass unerwünschte Nachrichten an Sie gesendet werden.
+
+**2\. Social Plugins**
+
+Auf dieser Website sind keine Social Media Plugins integriert, die direkt Daten von den Servern der betreffenden Social Media-Anbieter laden. Bei den integrierten „Plugins“ handelt es sich vielmehr um einfache Links zu den betreffenden Drittseiten, die wir mit entsprechend Grafiken bebildern. Eine Übermittlung personenbezogener Daten an den Betreiber des Social Media-Dienstes durch die bekannten Plugins findet daher nicht statt.
+
+**3\. Kontextbezogene Inhalte**
+
+In bestimmten Bereichen unseres Angebots finden Sie Inhalte und Werbung, die von der Outbrain UK Limited, 100 New Bridge Street, London, EC4V 6JA, United Kingdom („Outbrain“) ausgewählt und ausgespielt werden. Wenn Sie nicht in die Nutzung von BILD.de mit Tracking und Cookies eingewilligt haben, fußt diese Auswahl von Inhalten und Werbung ausschließlich auf nicht-personenbezogenen Elementen wie den Inhalten der betreffenden Seite unseres Angebots (kontextual) oder darauf, welche Themen oder auch Seiten in unserem Angebot gerade besonders häufig nachgefragt werden. Um für die Auslieferung der betreffenden Inhalte und Werbung die Verbindung Ihres Endgeräts zum Server von Outbrain aufzubauen, ist indes die Verarbeitung der Ihrem Endgerät zum betreffenden Zeitpunkt zugewiesenen IP-Adresse durch Outbrain erforderlich. Rechtsgrundlage für diese Datenverarbeitung ist Art. 6 Abs. 1 lit. f DSGVO.
+
+Wir haben mit Outbrain in einer Vereinbarung gemäß Art. 26 DSGVO sichergestellt, dass Ihre Rechte in Bezug auf Ihre personenbezogenen Daten gewahrt sind. In dieser Vereinbarung ist im Wesentlichen geregelt, dass
+
+*   Outbrain ohne Ihre Einwilligung nur die IP-Adresse zum Aufbau der Verbindung für das Ausspielen von Inhalten und Werbung verarbeitet;
+*   das Setzen von Cookies und weiteren Datenverarbeitungen nur erfolgen, wenn Sie in die Nutzung von BILD.de mit Tracking und Cookies eingewilligt haben;
+*   ein Datentransfer in die USA nur unter Geltung der einschlägigen EU-Standardvertragsklauseln erfolgen darf;
+*   wir Ihnen die vorstehend aufgeführten Informationen bereitstellen;
+*   Sie Anträge entsprechend Art. 12 und 15-22 DSGVO direkt bei Outbrain ([hier](https://my.outbrain.com/recommendations-settings/home), vgl. auch die [Datenschutzbestimmungen von Outbrain](https://www.outbrain.com/privacy/de/)) ausüben können, dass uns aber Outbrain, wenn Sie Ihre Rechte unmittelbar gegenüber uns ausüben wollen, mit den entsprechenden Informationen etc. unterstützt.
+
+Weitere Informationen zu Outbrain und Ihren Rechten als betroffene Person gegenüber Outbrain können Sie den Datenschutzbestimmungen von Outbrain entnehmen. Informationen zur von Outbrain ggf. vorgenommenen Datenverarbeitung und deren Zwecken, wenn Sie in die Nutzung von BILD.de mit Tracking und Cookies eingewilligt haben, finden Sie in der im Footer der Website verlinktem Privacy-Manager. 
+
+**4\. Drittanbieterinhalte aus sozialen Netzwerken in redaktionellen Artikeln**
+
+Wenn Sie Ihre Einwilligung in die Nutzung von BILD.de mit Tracking und Cookies erteilt haben, betten wir zum Zweck der Verbesserung des Nutzungserlebnisses auch Dienste der unten aufgelisteten Anbieter in unser Angebot ein, die jeweils gemäß Art. 4 Nr. 7 DSGVO für die Datenverarbeitung verantwortlich sind. Hierzu baut Ihr Browser eine direkte Verbindung zu dem Server des jeweiligen Anbieters auf. Dabei wird von dem Anbieter stets Ihre IP-Adresse verarbeitet, die für den Aufbau der Verbindung zum Server des Anbieters und dem Ausspielen der Inhalte erforderlich ist. Informationen zur Datenverarbeitung durch den jeweiligen Anbieter können Sie der Datenschutzerklärung des jeweiligen Anbieters entnehmen.
+
+*   **Facebook** **Content Feed** (Facebook Business Tools\*)  (Meta Platforms Ireland Limited, 4 Grand Canal Square, Dublin 2, Ireland) [https://www.facebook.com/about/privacy/](https://www.facebook.com/about/privacy/)
+*   **Instagram** (Meta Platforms Ireland Limited, 4 Grand Canal Square, Dublin 2, Ireland), [https://www.instagram.com/legal/privacy/](https://www.instagram.com/legal/privacy/)
+*   **Reddit** (Reddit Ireland Limited 70 Sir John Rogerson's Quay Dublin 2 Ireland), [https://www.redditinc.com/policies/privacy-policy](https://www.redditinc.com/policies/privacy-policy)
+*   **Twitch** (Twitch Interactive, Inc., 350 Bush Street, 2nd Floor, San Francisco, CA 94104, USA) [https://www.twitch.tv/p/de-de/legal/privacy-policy/](https://www.twitch.tv/p/de-de/legal/privacy-policy/)
+*   **•X Corp.** (X Corp., 1355 Market Street, Suite 900 San Francisco, CA 94103, USA) [https://twitter.com/de/privacy](https://twitter.com/de/privacy)
+*   **YouTube** (Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland) [https://support.google.com/youtube/answer/7671399?p=privacy\_guidelines&hl=de&visit\_id=0-636644030056539000-341535836&rd=1](https://support.google.com/youtube/answer/7671399?p=privacy_guidelines&hl=de&visit_id=0-636644030056539000-341535836&rd=1)
+
+Informationen zur Datenverarbeitung durch den jeweiligen Anbieter können Sie der Datenschutzerklärung des jeweiligen Anbieters entnehmen.
+
+\*Für die über Facebook Business Tools der Meta Platforms Ireland Limited, 4 Grand Canal Square, Grand Canal Harbour, Dublin 2, Irland („Facebook“) erhobenen Informationen sind wir mit Facebook gemeinsam verantwortlich. Informationen zu Facebook und die Kontaktdaten des Datenschutzbeauftragten sowie weitere Informationen dazu, wie Facebook personenbezogene Daten verarbeitet, einschließlich der Rechtsgrundlage und der Möglichkeiten zur Wahrnehmung Ihrer Rechte als betroffene Person gegenüber Facebook können Sie der [Datenrichtlinie](https://www.facebook.com/about/privacy) von Facebook entnehmen. Wir haben mit Facebook eine Vereinbarung über die gemeinsame Verantwortung (Art. 26 DSGVO) geschlossen, in der wir die jeweiligen Verantwortlichkeiten für die Erfüllung der Verpflichtungen gemäß der DSGVO hinsichtlich der gemeinsamen Verarbeitung festgelegt haben. Danach sind wir verpflichtet, die vorstehenden Informationen bereitzustellen, und Facebook hat die Verantwortung für die weiteren Betroffenenrechte gemäß Art. 15-20 der DSGVO übernommen.
+
+Rechtsgrundlage für die Einbindung dieser Dienste ist Art. 6 Abs. 1 lit. a DSGVO. Über den Link „Privacy-Manager“ am Seitenende haben Sie die Möglichkeit, diesen Verarbeitungszweck abzulehnen. In diesem Fall oder falls Sie ein BILD PUR-Abo abgeschlossen haben, sehen Sie anstelle des Fremdinhalts einen Platzhalter mit dem Hinweis und der Möglichkeit, durch Anklicken des Platzhalters Ihre Einwilligung zu erteilen und den Fremdinhalt anzeigen zu lassen. Sollten Sie von dieser Möglichkeit Gebrauch machen, wird Ihre Einwilligung in einem Session-Storage-Eintrag gespeichert, der mit Schließung des Browsers automatisch gelöscht wird.
+
+**VI. Besondere Dienste**
+
+**1\. Registrierung**
+
+Für das Bereitstellen bestimmter Inhalte oder Leistungen ist die vorherige Anmeldung mittels eines bestehenden Benutzerkontos erforderlich. Für das Benutzerkonto ist eine Registrierung notwendig. Wir setzen dabei unseren portalübergreifenden Dienst myPass ein, der Ihnen die Anmeldung auf allen Angeboten der Axel Springer Deutschland GmbH ermöglicht, die myPass ebenfalls integriert haben. Für die Nutzung von myPass gelten die [Nutzungsbedingungen von myPass](https://www.mypass.de/information/nutzungsbedingungen-fuer-mypass). Mehr Informationen zu myPass finden Sie hier: www.mypass.de Weitere Informationen zur Datenverarbeitung können Sie dem [Datenschutzhinweis](https://www.mypass.de/datenschutz) für den Single-Sign-On-Dienst myPass entnehmen. Rechtsgrundlage für die Datenverarbeitung ist Art. 6 Abs. 1 lit. b DSGVO. Unter folgendem Link können Sie Ihre Registrierungsdaten einsehen und verwalten: https://meinkonto.bild.de/
+
+**2\. Abonnement und zahlungspflichtige Dienste**
+
+Beim Abschluss eines Abonnements oder bei Bezug eines zahlungspflichtigen Dienstes verarbeiten wir die von Ihnen im Rahmen des Vertragsschlusses übermittelten personenbezogenen Daten zum Zwecke der Vertragsdurchführung und -erfüllung. Rechtsgrundlage für die Datenverarbeitung ist Art. 6 Abs. 1 lit. b DSGVO. Entsprechendes gilt für solche Verarbeitungsvorgänge die zur Durchführung vorvertraglicher Maßnahmen erforderlich sind, etwa in Fällen von Anfragen zu unseren Produkten oder Leistungen. Ferner sind wir gehalten, personenbezogene Daten zum Zwecke der Erfüllung rechtlicher Pflichten zu verarbeiten, wie beispielsweise steuerliche Pflichten. Rechtsgrundlage ist in diesem Fall Art. 6 Abs. 1 lit. c DSGVO i.V.m. § 147 AO; Aufbewahrungspflicht 10 Jahre. Dazu gehört aus umsatzsteuerrechtlichen Gründen auch die Speicherung der IP-Adresse des Geräts, von dem aus Sie bei Abschluss des Vertrages auf die betreffende Website zugegriffen haben. 
+
+Wir übermitteln Ihre im Rahmen eines Abonnements oder zahlungspflichtigen Dienstes mitgeteilten personenbezogenen Daten nur dann an Dritte, wenn die Übermittlung erforderlich ist, um unsere vertraglichen Verpflichtungen Ihnen gegenüber zu erfüllen und dies ersichtlich bei oder gemeinsam mit einem anderen Anbieter erfolgt (z. B. bei Kooperationen), wir zur Weitergabe in sonstiger Weise berechtigt oder verpflichtet sind oder Sie uns eine entsprechende Einwilligung erteilt haben. Sofern Sie ein Abo mit uns haben, erfolgt die Logistik, insbesondere der Versand bzw. die Zustellung durch verschiedene Zustellpartner. Im Falle von Zahlungsrückständen behalten wir uns vor, Ihre Daten zur Geltendmachung unserer Ansprüche an ein Inkassounternehmen weiterzugeben. Rechtsgrundlage ist unser berechtigtes Interesse zur Geltendmachung einer offenen Forderung gemäß Art. 6 Abs. 1 lit. f DSGVO.
+
+**3\. Zahlungsdienste**
+
+Für den Fall, dass Sie einen zahlungspflichtigen Dienst nutzen oder etwas über unsere Website erwerben, bieten wir Zahlungsmethoden folgender Anbieter an, die jeweils verantwortlich für die Datenverarbeitung gemäß Art. 4 Nr. 7 DSGVO sin
+
+**Lastschrift Komplett und monatliche Zahlungsweise**
+
+Wir haben auf dieser Website die Zahlungsmethoden „Lastschrift Komplett“ und „Monatliche Zahlungsweise“ der Arvato Payment Solutions GmbH, Gütersloher Str. 123, 33415 Verl („Arvato“) integriert. Diese Zahlungsmethoden können nur gewährt werden, wenn Sie Arvato eine Ermächtigung zur Einziehung der Forderung und Ihre Einwilligung in eine vorherige Bonitätsprüfung und Missbrauchserkennung durch Arvato erteilt haben. Nach erfolgreicher Bonitätsprüfung treten wir die während der vereinbarten Mindestvertragslaufzeit fälligen Forderungen an Arvato ab, die in diesem Zeitraum dann auch die Einziehung der monatlichen Teilbeträge übernimmt. Zu den vorgenannten Zwecken übermitteln wir an Arvato Ihren Namen, Ihr Geburtsdatum, Ihre Anschrift, Ihre E-Mail-Adresse, Ihre Bankverbindungsdaten, die IP-Adresse, sowie Informationen über die Forderungshöhe und die Fälligkeit der Teilforderungen und Angaben zu den von Ihnen bestellten Artikeln (z.B. Bestellwert, Produktgruppe, Warenwert, ggf. Anfragekanal und Lieferart). Rechtsgrundlage für die Datenübermittlung ist Art. 6 Abs. 1 lit. b und Art. 6 Abs. 1 lit. f DSGVO. Unser berechtigtes Interesse besteht darin, Ihnen auch risikobehaftete Zahlarten, wie Monatliche Zahlungsweise oder Lastschrift Komplett, anbieten zu können. Das berechtigte Interesse von Arvato besteht darin, vor Gewährung der Zahlarten, die alle ein kreditorisches Risiko mit sich bringen, möglichst gut einschätzen zu können, ob Sie den eingegangenen Zahlungsverpflichtungen nachkommen werden. Verantwortlich für die weitere Datenverarbeitung gemäß Art. 4 Nr. 7 DSGVO ist ausschließlich Arvato. Detaillierte datenschutzrechtliche Informationen zu Arvato finden Sie unter folgendem Link [https://documents.myafterpay.com/tnp/privacy-statement/de\_de/](https://documents.myafterpay.com/tnp/privacy-statement/de_de/)
+
+**Concardis**
+
+Für die Bezahlung per Karte (online, offline oder beim Kunden vor Ort) arbeiten wir mit dem Zahlungsdienstleister Concardis der Concardis GmbH, Helfmann-Park 7, 65760 Eschborn zusammen. Weitere Information zur Datenverarbeitung durch Concardis stehen unter [https://www.concardis.com/datenschutzerklaerung](https://www.concardis.com/datenschutzerklaerung) zur Verfügung.
+
+**Klarna**
+
+Wir haben auf dieser Website Klarna (Klarna AB, Sveavägen 46, 111 34 Stockholm, Schweden) integriert. Klarna ist ein Online-Zahlungsdienstleister, der den Kauf auf Rechnung oder eine flexible Ratenzahlung ermöglicht. Ferner werden von Klarna weitere Services, wie beispielsweise ein Käuferschutz oder eine Identitäts- und Bonitätsprüfung, angeboten. Wählt die betroffene Person während des Bestellvorgangs in unserem Online-Shop als Zahlungsmöglichkeit entweder den „Kauf auf Rechnung“ oder „Ratenkauf“ aus, werden automatisiert Daten der betroffenen Person an Klarna übermittelt. Mit der Auswahl einer dieser Zahlungsoptionen willigt die betroffene Person in diese, zur Abwicklung des Rechnungs- oder Ratenkaufes oder zur Identitäts- und Bonitätsprüfung erforderliche, Übermittlung personenbezogener Daten ein. Bei den an Klarna übermittelten personenbezogenen Daten handelt es sich in der Regel um Vorname, Nachname, Adresse, Geburtsdatum, Geschlecht, E-Mail-Adresse, IP-Adresse, Telefonnummer, Mobiltelefonnummer sowie um andere Daten, die zur Abwicklung eines Rechnungs- oder Ratenkaufs notwendig sind. Zur Abwicklung des Kaufvertrages notwendig sind auch solche personenbezogenen Daten, die im Zusammenhang mit der jeweiligen Bestellung stehen. Insbesondere kann es zum wechselseitigen Austausch von Zahlungsinformationen, wie Bankverbindung, Kartennummer, Gültigkeitsdatum und CVC-Code, Artikelanzahl, Artikelnummer, Daten zu Waren und Dienstleistungen, Preise und steuerliche Abgaben, Angaben zum früheren Kaufverhalten oder sonstige Angaben zur finanziellen Situation der betroffenen Person, kommen. Die Übermittlung der Daten bezweckt insbesondere die Identitätsüberprüfung, die Zahlungsadministration und die Betrugsprävention. Wir werden Klarna personenbezogene Daten insbesondere dann übermitteln, wenn ein berechtigtes Interesse für die Übermittlung gegeben ist. Die zwischen Klarna und uns ausgetauschten personenbezogenen Daten werden von Klarna an Wirtschaftsauskunfteien übermittelt. Diese Übermittlung bezweckt die Identitäts- und Bonitätsprüfung. Klarna gibt die personenbezogenen Daten auch an verbundene Unternehmen (Klarna Gruppe) und Leistungserbringer oder Subunternehmer weiter, soweit dies zur Erfüllung der vertraglichen Verpflichtungen erforderlich ist oder die Daten im Auftrag verarbeitet werden sollen. Zur Entscheidung über die Begründung, Durchführung oder Beendigung einer Vertragsbeziehung erhebt und nutzt Klarna Daten und Informationen über das bisherige Zahlungsverhalten der betroffenen Person sowie Wahrscheinlichkeitswerte für deren Verhalten in der Zukunft (sogenanntes Scoring). Die Berechnung des Scorings wird auf der Basis wissenschaftlich anerkannter mathematisch-statistischer Verfahren durchgeführt. Die betroffene Person hat die Möglichkeit, die Einwilligung zum Umgang mit personenbezogenen Daten jederzeit gegenüber Klarna zu widerrufen. Ein Widerruf wirkt sich nicht auf personenbezogene Daten aus, die zwingend zur (vertragsgemäßen) Zahlungsabwicklung verarbeitet, genutzt oder übermittelt werden müssen.
+
+Klarna Premium Program
+
+Bei der Teilnahme am Klarna Premium Program können Nutzer über einen von Klarna bereitgestellten Gutscheincode Zugang zu Angeboten wie BILDplus erhalten. Die Einlösung erfolgt direkt über unsere Plattform. Dabei verarbeiten wir personenbezogene Daten in eigener datenschutzrechtlicher Verantwortung. Ein direkter Datenaustausch mit Klarna findet nicht statt.
+
+Die geltenden Datenschutzbestimmungen von Klarna können unter
+
+[https://cdn.klarna.com/1.0/shared/content/policy/data/de\_de/data\_protection.pdf](https://cdn.klarna.com/1.0/shared/content/policy/data/de_de/data_protection.pdf) abgerufen werden.
+
+**PayPal**
+
+Wir haben auf dieser Website die Zahlungsmöglichkeit PayPal integriert. PayPal ist ein Online-Zahlungsdienstleister der PayPal (Europe) S.à.r.l. & Cie. S.C.A., 22-24 Boulevard Royal, 2449 Luxembourg, Luxemburg. Zahlungen werden über sogenannte PayPal-Konten abgewickelt, die virtuelle Privat- oder Geschäftskonten darstellen. Zudem besteht bei PayPal die Möglichkeit, virtuelle Zahlungen über Kreditkarten abzuwickeln, wenn ein Nutzer kein PayPal-Konto unterhält. Ein PayPal-Konto wird über eine E-Mail-Adresse geführt, weshalb es keine klassische Kontonummer gibt. PayPal ermöglicht es, Online-Zahlungen an Dritte auszulösen oder auch Zahlungen zu empfangen. PayPal übernimmt ferner Treuhänderfunktionen und bietet Käuferschutzdienste an. Wählt die betroffene Person während des Bestellvorgangs in unserem Online-Shop als Zahlungsmöglichkeit „PayPal“ aus, werden automatisiert Daten der betroffenen Person an PayPal übermittelt. Mit der Auswahl dieser Zahlungsoption willigt die betroffene Person in die zur Zahlungsabwicklung erforderliche Übermittlung personenbezogener Daten ein. Bei den an PayPal übermittelten personenbezogenen Daten handelt es sich in der Regel um Vorname, Nachname, Adresse, E-Mail-Adresse, IP-Adresse, Telefonnummer, Mobiltelefonnummer oder andere Daten, die zur Zahlungsabwicklung notwendig sind. Zur Abwicklung des Kaufvertrages notwendig sind auch solche personenbezogenen Daten, die im Zusammenhang mit der jeweiligen Bestellung stehen. Die Übermittlung der Daten bezweckt die Zahlungsabwicklung und die Betrugsprävention. Wir werden PayPal personenbezogene Daten insbesondere dann übermitteln, wenn ein berechtigtes Interesse für die Übermittlung gegeben ist.
+
+Die zwischen PayPal und dem für uns ausgetauschten personenbezogenen Daten werden von PayPal unter Umständen an Wirtschaftsauskunfteien übermittelt. Diese Übermittlung bezweckt die Identitäts- und Bonitätsprüfung. PayPal gibt die personenbezogenen Daten gegebenenfalls an verbundene Unternehmen und Leistungserbringer oder Subunternehmer weiter, soweit dies zur Erfüllung der vertraglichen Verpflichtungen erforderlich ist oder die Daten im Auftrag verarbeitet werden sollen.
+
+Die betroffene Person hat die Möglichkeit, die Einwilligung zum Umgang mit personenbezogenen Daten jederzeit gegenüber PayPal zu widerrufen. Ein Widerruf wirkt sich nicht auf personenbezogene Daten aus, die zwingend zur (vertragsgemäßen) Zahlungsabwicklung verarbeitet, genutzt oder übermittelt werden müssen. Die geltenden Datenschutzbestimmungen von PayPal können unter [https://www.paypal.com/de/webapps/mpp/ua/privacy-full](https://www.paypal.com/de/webapps/mpp/ua/privacy-full) abgerufen werden.
+
+**Sofortüberweisung**
+
+Wir haben auf dieser Website Komponenten von Sofortüberweisung integriert. Sofortüberweisung ist ein Zahlungsdienst, der eine bargeldlose Zahlung von Produkten und Dienstleistungen im Internet ermöglicht. Sofortüberweisung bildet ein technisches Verfahren ab, durch welches der Online-Händler unverzüglich eine Zahlungsbestätigung erhält. So wird ein Händler in die Lage versetzt, Waren, Dienstleistungen oder Downloads sofort nach der Bestellung an den Kunden auszuliefern. Betreibergesellschaft von Sofortüberweisung ist die SOFORT GmbH, Fußbergstraße 1, 82131 Gauting, Deutschland. Wählt die betroffene Person während des Bestellvorgangs in unserem Online-Shop als Zahlungsmöglichkeit „Sofortüberweisung“ aus, werden automatisiert Daten der betroffenen Person an Sofortüberweisung übermittelt. Mit einer Auswahl dieser Zahlungsoption willigt die betroffene Person in eine zur Zahlungsabwicklung erforderliche Übermittlung personenbezogener Daten ein. Bei der Kaufabwicklung über Sofortüberweisung übermittelt der Käufer die PIN und die TAN an die Sofort GmbH. Sofortüberweisung führt sodann nach technischer Überprüfung des Kontostandes und Abruf weiterer Daten zur Prüfung der Kontodeckung eine Überweisung an den Online-Händler aus. Die Durchführung der Finanztransaktion wird dem Online-Händler sodann automatisiert mitgeteilt. Bei den mit Sofortüberweisung ausgetauschten personenbezogenen Daten handelt es sich um Vorname, Nachname, Adresse, E-Mail-Adresse, IP-Adresse, Telefonnummer, Mobiltelefonnummer oder andere Daten, die zur Zahlungsabwicklung notwendig sind. Die Übermittlung der Daten bezweckt die Zahlungsabwicklung und die Betrugsprävention. Wir werden Sofortüberweisung andere personenbezogene Daten auch dann übermitteln, wenn ein berechtigtes Interesse für die Übermittlung gegeben ist. Die zwischen Sofortüberweisung und uns ausgetauschten personenbezogenen Daten werden von Sofortüberweisung unter Umständen an Wirtschaftsauskunfteien übermittelt. Diese Übermittlung bezweckt die Identitäts- und Bonitätsprüfung. Sofortüberweisung gibt die personenbezogenen Daten gegebenenfalls an verbundene Unternehmen und Leistungserbringer oder Subunternehmer weiter, soweit dies zur Erfüllung der vertraglichen Verpflichtungen erforderlich ist oder die Daten im Auftrag verarbeitet werden sollen. Die betroffene Person hat die Möglichkeit, die Einwilligung zum Umgang mit personenbezogenen Daten jederzeit gegenüber Sofortüberweisung zu widerrufen. Ein Widerruf wirkt sich nicht auf personenbezogene Daten aus, die zwingend zur (vertragsgemäßen) Zahlungsabwicklung verarbeitet, genutzt oder übermittelt werden müssen. Die geltenden Datenschutzbestimmungen von Sofortüberweisung können unter [https://www.klarna.com/sofort/datenschutz/](https://www.klarna.com/sofort/datenschutz/) abgerufen werden.
+
+**Stripe**
+
+Wenn Sie sich für eine Zahlungsart des Paymentdienstleisters Stripe entscheiden, erfolgt die Zahlungsabwicklung über den Paymentdienstleister Stripe Payments Europe Ltd, Block 4, Harcourt Centre, Harcourt Road, Dublin 2, Ireland, an den wir Ihre im Rahmen des Bestellvorgangs mitgeteilten Informationen nebst den Informationen über Ihre Bestellung (Name, Anschrift, Kontonummer, Bankleitzahl, evtl. Kreditkartennummer, Rechnungsbetrag, Währung und Transaktionsnummer) weitergeben. Die Weitergabe Ihrer Daten erfolgt ausschließlich zum Zwecke der Zahlungsabwicklung mit dem Payment-Dienstleister Stripe Payments Europe Ltd. Nähere Informationen zum Datenschutz von Stripe finden Sie unter: [https://stripe.com/de/terms](https://stripe.com/de/terms).
+
+**4\. Mein BILD-Konto**
+
+Sofern Sie sich für Mein BILD-Konto registriert haben und kein BILD Pur-Abo abgeschlossen, führen wir Ihre Nutzer-ID mit Ihrer im Registrierungsprozess angegebenen E-Mail-Adresse und mit pseudonymisierten Daten Ihres Nutzerverhaltens bei BILD (Nutzungsdaten) sowie, soweit Sie über unsere Website oder in unserer App ein kostenpflichtiges Produkt bestellt haben – mit Ihren Bestelldaten (d.h. das/die von Ihnen bestellten Produkt/-e, das Datum der Bestellung und das Datum des möglichen Endes Ihre Abonnements) zusammen, um Ihnen die personalisierten Dienste bei BILD erbringen zu können.
+
+Bei Ihrer Nutzer-ID handelt es sich um eine Ihnen bei der Registrierung nach dem Zufallsprinzip generierten Identifikationsnummer, unter der Sie als Nutzer geführt werden und die uns ermöglicht, Sie in der Folge als berechtigen Nutzer identifizieren und Ihnen Zugang zu den Diensten zu geben.
+
+Die hierfür erforderlichen Nutzungsdaten erheben wir durch Cookies und ähnliche Technologien. Wir bedienen uns dafür der Drittanbieter Adobe Analytics und Piano Norway (Cxense), die wir als Auftragsverarbeiter verpflichtet haben (Art. 28 DSGVO).
+
+Bei den Nutzungsdaten handelt es sich u.a. um die folgenden Informationen:
+
+•    Häufigkeit und Dauer der Nutzung
+
+•    Artikel- und Bildaufrufe
+
+•    Abspielen von Audio- und Videoformaten
+
+•    Region der Nutzung
+
+•    Aktionen (z.B. Inhalte teilen, Kommentare)
+
+Wir verarbeiten die Daten zu dem Zweck, Ihnen bei BILD auf Ihre Interessen und Ihre Nutzung abgestimmte Inhalte anzeigen zu können und Ihnen per E-Mail für Sie interessante Artikel und Inhalte zu empfehlen. Sofern Sie die Zusendung personalisierter Artikelempfehlungen per E-Mail nicht wünschen, haben Sie jederzeit die Möglichkeit, diesen Dienst zu deaktivieren, z.B. durch Anklicken des hierfür vorgesehenen Links in jeder Artikelempfehlung bzw. im Bereich „Meine Newsletter“.
+
+Rechtsgrundlagen der Datenverarbeitung sind die Vertragserfüllung (Art. 6 Abs. 1 lit. b DSGVO) sowie Ihre Einwilligung in die Erstellung von Nutzungsprofilen und in die Zusammenführung der Daten (Art. 6 Abs. 1 lit. a DSGVO). Ihre Einwilligung in die Erstellung von Nutzungsprofilen können Sie jederzeit über den Link „Widerruf Tracking und Cookies“ durch Anklicken des Widerruf-Buttons widerrufen. Bitte beachten Sie aber, dass wir den personalisierten Dienst im BILD Pur-Abo nicht bereitstellen können. 
+
+**5\. Mailings und Newsletter**
+
+Die von Ihnen im Zusammenhang mit dem Verkauf einer Ware oder Dienstleistung erhobene E-Mail-Adresse verwenden wir außerdem, um Sie per E-Mail über eigene ähnliche Waren oder Dienstleistungen sowie über bestehende Abonnements oder generell über unsere Onlinedienste zu informieren, sofern wir Sie bei Erhebung der E-Mail-Adresse hierauf hingewiesen und Sie dem nicht widersprochen haben. Die Verarbeitung der E-Mail-Adresse erfolgt in diesem Fall auf Grundlage unseres berechtigten Interesses an der Bewerbung unserer Waren und Dienstleistungen (Art. 6 Abs. 1 lit. f DSGVO, § 7 Abs. 3 UWG). Sie haben jederzeit die Möglichkeit, der Zusendung dieser Informationen über weitere Produktangebote zu widersprechen, z.B. durch Anklicken des hierfür in jeder dieser E-Mails vorgesehenen Abbestelllinks. 
+
+Sofern Sie einen unserer Newsletter bestellt haben, nutzen wir Ihre E-Mail-Adresse bzw. mobile Telefonnummer, um Ihnen den von Ihnen bestellten Newsletter per E-Mail bzw. per WhatsApp zuzusenden. Rechtsgrundlage für die Datenverarbeitung ist in diesen Fällen Ihre zuvor erteilte Einwilligung (Art. 6 Abs. 1 lit. a DSGVO). Sie haben jederzeit die Möglichkeit, eine von Ihnen erteilte Einwilligung mit Wirkung für die Zukunft zu widerrufen, z.B. durch Anklicken des hierfür in jedem per E-Mail versandten Newsletter vorgesehenen Abbestelllinks bzw. im Falle unseres WhatsApp Newsletters durch Übersendung einer entsprechenden Chatnachricht oder auch jederzeit schriftlich oder in Textform an datenschutz@axelspringer.de oder Datenschutz, Axel-Springer-Str. 65 in 10888 Berlin.
+
+**6\. Personalisierte Produkt- und Medienangebote per E-Mail bzw. Push-Nachrichten**
+
+Sofern Sie Ihre Einwilligung in die Zusendung von Newslettern per E-Mail und/oder Push-Nachrichten mit Produktangeboten und/oder Medienangebote auf Basis Ihrer persönlichen Nutzung der Axel Springer Medien erteilt und kein BILD Pur-Abo abgeschlossen haben, führen wir Ihr pseudonymes Nutzungsprofil (Nutzungsdaten) mit Ihrer nach dem Zufallsprinzip generierten Identifikationsnummer (Nutzer-ID) und Ihrer E-Mail-Adresse zusammen. Bei den erfassten Nutzungsdaten handelt es ich u.a. um die folgenden Informationen:
+
+•    Häufigkeit und Dauer der Nutzung
+
+•    Artikel- und Bildaufrufe
+
+•    Abspielen von Audio- und Videoformaten
+
+•    Region der Nutzung
+
+•    Aktionen (z.B. Inhalte teilen, Kommentare)
+
+Die Datenzusammenführung erfolgt zu dem Zweck, Ihnen per E-Mail entsprechend Ihren Interessen auf Basis Ihres Nutzungsverhaltens interessante Werbung gemäß Ihrer Einwilligung zuzusenden.
+
+Die hierfür erforderlichen Nutzungsdaten erheben wir mittels Cookies und ähnlichen Technologien. Wir bedienen uns dabei der Dienste des Drittanbieters Adobe Analytics, den wir datenschutzrechtlich als Auftragsverarbeiter verpflichtet haben (Art. 28 DSGVO). Verantwortlich für die Datenverarbeitung bleiben wir.
+
+Soweit Sie über unsere Website ein kostenpflichtiges Produkt bestellt haben, führen wir mit Ihrer Einwilligung darüber hinaus Daten über Ihre Bestellung(en), wie das von Ihnen bestellte Produkt, das Datum der Bestellung und das Datum des möglichen Endes Ihre Abonnements zu den vorstehend genannten Daten hinzu. Dies erfolgt zu dem Zweck, Ihnen auch unter Berücksichtigung der von Ihnen erworbenen Produkte für Sie interessante Werbung auszuspielen. Rechtsgrundlage für die Zusammenführung der Daten zu diesem Zweck ist Art. 6 Abs. 1 lit a DSGVO. Sie können Ihre diesbezügliche Einwilligung jederzeit mit Wirkung für die Zukunft insgesamt widerrufen, z.B. durch Anklicken des hierfür in jedem personalisierten Newsletter vorgesehenen Abbestelllinks. Ihre Einwilligung in die Erstellung von Nutzungsprofilen können Sie zudem jederzeit über den Link „Widerruf Tracking und Cookies“ durch Anklicken des Widerruf-Buttons widerrufen. Bitte beachten Sie aber, dass wir Ihnen dann keine personalisierten Produkt- und Medienangebote mehr per E-Mail bzw. Push-Nachrichtenden schicken können. 
+
+**7\. E-Mail-Tracking**
+
+Sofern Sie einen unserer Mailings oder Newsletter bzw. personalisierte Produkt- und Medienangebote per E-Mail abonniert haben, sind in den E-Mails sogenannte Zählpixel integriert zu dem Zweck und Interesse, unseren Newsletter optimieren zu können. Wir erhalten hierdurch die Information, welcher Browser und welches Betriebssystem verwendet wird, welche IP-Adresse gerade zugreift und zugleich, wer der Zugangsprovider ist. Zudem wird erkannt, ob die E-Mail gelesen und ob anschließend der in der E-Mail integrierte Link angeklickt und die jeweilige Website über diese IP-Adresse besucht wurde. Zusätzlich wird die Anzahl der Zugriffe auf die Webseite gezählt sowie die entsprechende Tageszeit festgehalten, wann die E-Mail abgerufen und der Zugriff getätigt wurde. Auch der ungefähre Standort des Nutzers wird übermittelt. Rechtsgrundlage für die Datenverarbeitung ist Art. 6 Abs. 1 lit. a DSGVO. Sollten Sie dies nicht wünschen, können Sie den Newsletter jederzeit wie vorstehend beschrieben abbestellen und damit Ihre Einwilligung widerrufen.
+
+**8.Push-Benachrichtigungen**
+
+Soweit Sie sich für den Empfang sog. Push-Benachrichtigungen angemeldet haben, erhalten Sie über unsere Push-Benachrichtigungen regelmäßig Informationen über redaktionelle Inhalte, die unser Team für Sie auswählt. Hierfür bedienen wir uns der Dienste der Braze Inc., 28 East 28th Street, NY 10016, die wir datenschutzrechtlich als Auftragsverarbeiter verpflichtet haben (Art. 28 DSGVO). Verantwortlich für die Datenverarbeitung bleiben wir. Um sich für die Push-Nachrichten anzumelden, müssen Sie die Abfrage Ihres Browsers bzw. Endgerätes zum Erhalt der Benachrichtigungen bestätigen. Dieser Prozess wird von uns dokumentiert und gespeichert. Hierfür wird der Anmeldezeitpunkt sowie eine Browser- bzw. Geräte-ID gespeichert. Diese Daten dienen einerseits dazu, Ihnen die Push-Benachrichtigungen zusenden zu können, und andererseits als Nachweis Ihrer Anmeldung.
+
+Zu dem Zweck, unsere Push-Benachrichtigungen stetig zu optimieren, werten wir zudem das Nutzerverhalten bzgl. unserer Push-Benachrichtigungen statistisch aus. Wir können so erkennen, ob und wann unsere Push-Benachrichtigungen angezeigt und angeklickt wurden. Dies ermöglicht uns festzustellen, welche Push-Benachrichtigungen die Empfänger interessieren, um zukünftige Nachrichten auf die mutmaßlichen Interessen aller Empfänger abzustimmen und damit das Interesse für unser Angebot zu steigern. Zusätzlich speichern wir neben der Browser- bzw. Geräte-ID den Themenschwerpunkt der Seite, auf der die Push-Benachrichtigungen aktiviert wurde (z.B. Wirtschaft, Sport etc.). Diese Information nutzen wir ebenfalls, um an die entsprechenden Abonnenten Push-Benachrichtigungen zu versenden, die in ihrem mutmaßlichen Interesse sind. Rechtsgrundlage der Verarbeitung ist jeweils Art. 6 Abs. 1 lit. a DSGVO.  Ihre Einwilligung können Sie jederzeit mit Wirkung für die Zukunft widerrufen. Den Widerruf der Einwilligung können Sie in den dazu vorgesehenen Einstellungen zum Erhalt von Push-Benachrichtigungen in Ihrem Browser vornehmen. Sofern Sie unsere Push-Benachrichtigungen auf einem Desktop-PC mit dem Betriebssystem „Windows“ nutzen, können Sie die Push-Benachrichtigungen auch über einen Rechtsklick auf die jeweilige Push-Benachrichtigung in den dort erscheinenden Einstellungen abbestellen. Ihre Daten werden gelöscht, sobald sie für die Erreichung des Zweckes ihrer Erhebung nicht mehr erforderlich sind, sofern dem keine gesetzlichen Aufbewahrungsfristen entgegenstehen.
+
+**9\. Kommentarfunktion und Umfragen**
+
+Wir bieten auf unserer Website und in Blogs sowie auf allgemeinen Feedback-Seiten vereinzelt die Möglichkeit, Kommentare und Feedback abzugeben oder Bugs und fehlerhafte Inhalte zu melden sowie an Umfragen teilzunehmen. Wir verarbeiten in diesen Fällen die Daten, die Sie uns übermitteln. Wenn Sie einen Kommentar veröffentlichen möchten, müssen Sie die hierfür vorgesehenen Felder ausfüllen. Sie können hierbei auch ein Pseudonym verwenden. Wenn Sie die Felder nicht ausfüllen, können Sie keinen Kommentar veröffentlichen. Wir erheben und verarbeiten die von Ihnen im Rahmen der Dienste übermittelten personenbezogenen Daten, um Ihnen die Nutzung des Dienstes zu ermöglichen. Rechtsgrundlage für die Verarbeitung ist Art. 6 Abs. 1 lit. b DSGVO. Kommentare werden dabei vor einer Veröffentlichung auf mögliche Verstöße gegen unsere Netiquette-Regeln überprüft. Rechtsgrundlage für die Datenverarbeitung ist in diesem Fall Art. 6 Abs. 1 lit. f DSGVO und erfolgt in unserem Interesse, Verstöße gegen unsere Netiquette-Regeln im Vorfeld festzustellen und eine Veröffentlichung in diesem Fall zu unterbinden. Ihre E-Mail-Adresse verarbeiten wir in dem Interesse und zu dem Zweck, Sie im Falle von Beanstandungen eines von Ihnen veröffentlichten Kommentars kontaktieren und Ihnen die Möglichkeit zur Stellungnahme geben zu können. Rechtsgrundlage der Datenverarbeitung ist Art. 6 Abs. 1 lit. f DSGVO.
+
+Zur Analyse von Nutzerkommentaren hinsichtlich der Einhaltung unserer Netiquette-Regeln nutzen wir das Moderations-Tool Conversario der ferret go GmbH, Brauerstraße 14, 16321 Bernau bei Berlin (ferret go). Folgende Daten werden dabei in unserem Auftrag (Art. 28 DSGVO) verarbeitet: NutzerID / NutzerName (Facebook Name) / Nutzerbild / Kommentartext / KommentarID / Datum & Uhrzeit des Kommentars.
+
+**10\. Ihre Kontaktaufnahme**
+
+Bei Ihrer Kontaktaufnahme mit uns, z.B. über eines unserer Kontaktformulare oder per E-Mail werden die von Ihnen mitgeteilten Daten (z.B. Ihre E-Mail-Adresse, ggf. Ihr Name, Ihre Telefonnummer, etc.) von uns verarbeitet, um Ihre Anfrage zu bearbeiten und ggf. mit Ihnen Kontakt aufzunehmen. Die in diesem Zusammenhang anfallenden Daten löschen wir, wenn sie für den vorgenannten Zweck nicht mehr erforderlich sind, sofern der Löschung keine gesetzlichen Aufbewahrungspflichten entgegenstehen. Rechtsgrundlage für die Datenverarbeitung ist Art. 6 Abs. 1 Satz 1 lit. f DSGVO. Wenn Sie uns personenbezogene Daten einer anderen Person mitteilen, müssen Sie hierfür zuvor die erforderlichen datenschutzrechtlichen Maßnahmen ergreifen, z.B. eine erforderliche vorherige Einwilligung dieser Person einholen und sie darüber informieren, zu welchem Zweck Sie die Daten an uns übermitteln.
+
+Vereinzelt stellen wir auch Kontaktformulare von Anbietern bereit, zu dem Zweck und in dem Interesse, Ihnen eine unmittelbare Kontaktaufnahme zu dem jeweils in dem Kontaktformular ausgewiesenen Anbieter zu ermöglichen. Die von Ihnen in das Kontaktformular eingegebenen personenbezogenen Daten werden über eine Schnittstelle direkt an den Anbieter weitergeleitet. Wir haben keinen Zugriff auf die Daten, eine (Zwischen-)Speicherung der Daten findet nicht statt. Informationen zur Datenverarbeitung entnehmen Sie der jeweils im Kontaktformular verlinkten Datenschutzerklärung des Anbieters. Rechtsgrundlage für die Datenübermittlung ist Art. 6 Abs. 1 lit. b bzw. Art. 6 Abs. 1 lit. f DSGVO.
+
+**11\. Gewinnspiele**
+
+Sofern Sie an einem Gewinnspiel teilnehmen, können Sie die weiteren Informationen zur über die im Rahmen der Gewinnspielteilnahme stattfindende Datenverarbeitung dem Datenschutzhinweis des jeweiligen Gewinnspiels entnehmen.
+
+**12\. Pseudonymisiertes Matching mit Werbepartnern**
+
+Wenn Sie registrierter Nutzer sind, aber kein Pur-Abo abgeschlossen haben und uns hierfür Ihre gesonderte Einwilligung erteilt haben (z. B. im Rahmen der Teilnahme an einem Gewinnspiel), verwenden wir Ihre an uns übermittelte E-Mail-Adresse in pseudonymisierter Form als Identifizierungsmerkmal für personalisierte Werbung, also um Ihnen auf Basis Ihrer Interessen, Ihres Nutzungsverhaltens und demografischer Merkmale ausgewählte Werbeanzeigen ausspielen zu können. Dies schließt ein, dass wir diese Informationen in pseudonymisierter Form mit ausgewählten Werbepartnern abgleichen. „In pseudonymisierter Form“ bedeutet, dass die Informationen zuvor in eine Zeichenkette umgewandelt werden, so dass sie Ihnen – ohne Zusatzinformationen – nicht mehr direkt zugeordnet werden können. Es werden also keine Informationen direkt miteinander abgeglichen, weitergegeben oder zusammengeführt. Bei den ausgewählten Werbepartnern kann es sich um verbundene Unternehmen der Axel Springer Deutschland GmbH i.S.v. § 15 AktG oder um Werbekunden unseres Vermarkters Media Impact GmbH & Co. KG (Media Impact Vermarktungspartner) handeln.
+
+Damit der Abgleich stattfinden kann, muss der jeweilige Werbepartner ebenfalls berechtigt sein, E-Mail-Adressen aus seinem Datenbestand in pseudonymisierter Form als Identifizierungsmerkmal zu nutzen. Der Abgleich wird durch einen Dienstleister durchgeführt, mit dem wir und der jeweilige Werbepartner eine Vereinbarung zur Auftragsverarbeitung (Art. 28 DSGVO) geschlossen haben. Dabei werden ausschließlich die speziell für diesen Abgleich generierten pseudonymen Datensätze verwendet. Wenn Sie Ihre E-Mail-Adresse sowohl uns als auch dem Werbepartner übermittelt haben, werden wir über dieses „Matching“ informiert. Diese Information geben wir in pseudonymisierter Form mittels einer Axel Springer Nutzerkennung an Media Impact Vermarktungspartner weiter, welche diese Information zur Ausspielung und/oder Optimierung entsprechend personalisierter Werbung nutzt.
+
+Wir haben mit Media Impact Vermarktungspartner und dem jeweiligen Werbepartner eine Vereinbarung über die gemeinsame Verantwortung i.S.v. Art. 26 DSGVO geschlossen, in der wir die jeweiligen Verantwortlichkeiten für die Erfüllung der Verpflichtungen gemäß DSGVO festgelegt haben. Danach sind wir und der jeweilige Werbepartner verpflichtet, Ihnen die Erteilung und den Widerruf datenschutzrechtlicher Einwilligungen zu ermöglichen. Zudem sind wir die zentrale Anlaufstelle für Sie als betroffene Person. Wir leiten Betroffenenanfragen, die bei uns eingehen und die gemeinsame Verantwortung betreffen, unverzüglich an Media Impact Vermarktungspartner zur Beantwortung weiter. Dessen ungeachtet können Sie die Ihnen nach der DSGVO zustehenden Rechte als betroffene Person sowohl bei und gegenüber uns als auch bei und gegenüber jedem anderen Verantwortlichen geltend machen. Weitere Informationen zu Media Impact Vermarktungspartner finden Sie [hier](https://www.mediaimpact.de/de/ueber-unsere-werbung_bild_pur/). Rechtsgrundlage der Datenverarbeitung ist Art. 6 Abs. 1 lit. a DSGVO. Ihre Einwilligung können Sie jederzeit mit Wirkung für die Zukunft widerrufen, indem Sie im „Mein Konto“-Bereich unter „Kommunikationseinstellungen“ die Häkchen entfernen.“
+
+**13\. Hey\_**
+
+Wenn Sie Ihre Einwilligung in die Nutzung von BILD.de mit Tracking und Cookies erteilt haben, bieten wir Ihnen die Möglichkeit, mit „Hey\_“ zu chatten. Hierbei handelt es sich um einen Dienst unter Verwendung der künstlichen Intelligenz GPT, die uns teils direkt von OpenAI Ireland Ltd („OpenAI“), teils von Microsoft Ireland Operations Limited (nachfolgend "Microsoft Azure") jeweils auf einer eigenen Instanz zur Verfügung gestellt wird. Beide haben wir datenschutzrechtlich als Auftragsverarbeiter verpflichtet (Art. 28 DSGVO). Microsoft Azure darf Ihre nachstehend genannten, im Rahmen der Nutzung von „Hey\_“ anfallenden, personenbezogenen Daten auch für eigene Zwecke der Produktverbesserung und -weiterentwicklung verwenden. Weitere Informationen zu Microsoft Azure und OpenAI finden Sie unter https://privacy.microsoft.com/de-de/privacystatement und unter https://openai.com/de-DE/policies/privacy-policy/.
+
+Der Dienst „Hey\_“ dient der spielerischen Erkundung von Möglichkeiten, mit KI zu arbeiten. „Hey\_“ beantwortet Wissensfragen auf der Basis von mathematisch errechneten Wahrscheinlichkeiten. Diese Funktionsweise ist in großen Teilen in der künstlichen Intelligenz GPT durch Microsoft Azure und OpenAI vordefiniert und kann von uns nur in begrenztem Umfang beeinflusst oder kontrolliert werden (siehe hierzu auch unsere Hinweise zur Nutzung von „Hey\_“ in den „Hey\_“-AGB). Bitte machen Sie keine persönlichen Entscheidungen von den Antworten des Dienstes abhängig und vermeiden Sie es, Informationen über sich oder andere im „Hey\_“-Eingabefeld preiszugeben.
+
+Wenn Sie sich für Mein BILD-Konto registriert haben und eingeloggt sind, ordnen und speichern wir bei Ihrer Nutzung von „Hey\_“ Ihre Texteingaben in das „Hey\_“-Eingabefeld und die von „Hey\_“ generierten Antworten ("Chat-Verläufe") in Ihrem Benutzerkonto. Sie können jeden Chat-Verlauf eigenständig löschen, indem Sie auf das Papierkorb-Symbol rechts neben dem Chat-Verlauf klicken. Gelöschte Chat-Verläufe werden bei uns nicht weiter gespeichert. Wenn Sie mit Ihrem Mein BILD-Konto eingeloggt sind, können wir Sie außerdem mit dem Namen ansprechen, der Ihrem Benutzerkonto zugeordnet ist. Diese Information entnehmen wir dem Browser Ihres Endgeräts, speichern sie jedoch im Rahmen Ihrer Nutzung von „Hey\_“ nicht.
+
+Wenn Sie über kein Mein BILD-Konto verfügen oder nicht eingeloggt sind, wird Ihr Chatverlauf einer zufällig generierten ID zugeordnet, die auf Ihrem Endgerät in einem Cookie gespeichert ist, welcher binnen Monatsfrist gelöscht wird.
+
+Die Speicherung der Chat-Verläufe – ob als eingeloggter oder nicht eingeloggter Nutzer – dient allein Ihrem Nutzererlebnis, damit Sie bei einem erneuten Zugriff auf „Hey\_“ im eingeloggten Zustand den bisherigen Chat-Verlauf einsehen können. Sofern Sie einen Chat-Verlauf nicht eigenständig löschen oder Ihre Einwilligung in die Datenverarbeitungen widerrufen (siehe unten), werden sämtliche Chat-Verläufe spätestens ein Jahr nach ihrer Erstellung nutzerübergreifend gelöscht.
+
+Rechtsgrundlage der vorstehenden Datenverarbeitungen ist Art. 6 Abs. 1 lit. a DSGVO. Sie können diese Datenverarbeitungen für die hier beschriebenen Nutzungszwecke jederzeit für die Zukunft unterbinden, indem Sie Ihre Einwilligung in die Nutzung von BILD.de mit Tracking und Cookies widerrufen. Klicken Sie hierzu auf den Link „Widerruf Tracking und Cookies“ am Seitenende.
+
+Wenn Sie im Privacy-Manager zusätzlich Ihre Einwilligung in den Verarbeitungszweck „Verwendung und Weitergabe von Chatbotdaten zur Werbeausspielung“ erteilt haben, beachten Sie bitte unsere weiteren Informationen dazu in Ziffer 14.
+
+**14\. Verwendung und Weitergabe von Chatbotdaten zur Werbeausspielung**
+
+Wenn Sie im Privacy-Manager Ihre Einwilligung in den Verarbeitungszweck „Verwendung und Weitergabe von Chatbotdaten zur Werbeausspielung“ erteilt haben und den Dienst "Hey\_" in Anspruch nehmen, werden Ihr Chat-Verlauf (Ihre Texteingaben in das „Hey\_“-Eingabefeld und die von „Hey\_“ generierten Antworten), Ihre IP-Adresse, eine pseudonyme Kennung sowie Ihr ungefährer Standort (Stadt, Region bzw. PLZ) gesondert erfasst, um Ihnen relevante Werbung auf unserem Angebot anzuzeigen. Mit Ihrer Einwilligung dürfen die vorstehenden Daten zudem zur Messung von Werbeleistung und der Performance von Inhalten und zur Zielgruppenforschung verarbeitet werden. Außerdem dürfen die vorstehenden Daten mit Ihrer Einwilligung zur Entwicklung und Verbesserung von Angeboten verarbeitet werden.
+
+Wir bedienen uns der Dienste nachfolgend aufgeführter Dritter, die gemäß Art. 4 Nr. 7 DSGVO für die über Ihren jeweiligen Dienst stattfindende Datenverarbeitung verantwortlich sind. Weitere Informationen zur Datenverarbeitung durch diese Anbieter und Ihren Rechten als betroffene Person können Sie den nachfolgend verlinkten Datenschutzerklärungen der Anbieter entnehmen.
+
+*   **Google Chat Ads** (Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland) https://www.google.de/intl/de/adsense/start/
+
+Rechtsgrundlage für die vorstehenden Datenverarbeitungen ist Art. 6 Abs. 1 lit. a DSGVO. Sie können die Datenverarbeitungen für die hier beschriebenen Nutzungszwecke jederzeit beenden, indem Sie Ihre Einstellungen im Privacy-Manager entsprechend anpassen oder indem Sie Ihre Einwilligung in die Nutzung von BILD.de mit Tracking und Cookies insgesamt widerrufen (Link „Widerruf Tracking und Cookies“ am Seitenende).
+
+**15\. BILD Service-Chat**
+
+Mit unserem BILD Service-Chat haben Sie die Möglichkeit, Ihre Anfrage schnell und einfach auf Grundlage von bestimmten Schlagwörtern automatisch durch unseren KI-Chatbot beantworten zu lassen. Technisch wird der KI-Chatbot durch die knowhere GmbH, Karolinenstraße 9, 20357 Hamburg, zur Verfügung gestellt, den wir datenschutzrechtlich verpflichtet haben und der personenbezogene Daten in unserem Auftrag und nach unserer Weisung verarbeitet (Art. 28 DSGVO). Verantwortlich für die Datenverarbeitung bleiben wir. Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO.
+
+Neben den von Ihnen im Chat mitgeteilten Informationen sind dies Ihre IP-Adresse und Informationen zu dem von Ihnen eingesetzten Endgerät. Für die Nutzung des KI-Chatbots ist der Einsatz von Cookies und anderen Technologien (local StorageKeys) erforderlich. Rechtsgrundlage hierfür ist § 25 Abs. 2 TDDDG.
+
+**16\. Deutschland-Konferenz**
+
+Wenn Sie sich auf BILD.de registriert und ein BILDplus-Abonnement abgeschlossen haben, können Sie sich aktiv an der Deutschland-Konferenz beteiligen. Ihre Beiträge werden unter dem Benutzernamen veröffentlicht, der aus den im Bereich „Mein Konto“ hinterlegten Angaben erstellt wird. Sie haben außerdem die Möglichkeit, in Ihrem Profil ein Foto, sowie Angaben zu Ihrer Person (Profilbeschreibung) zu hinterlegen, was ebenfalls mit Ihrem Beitrag veröffentlicht wird. Wenn Sie hiervon keinen Gebrauch machen, wird lediglich ein von Ihnen gewählter Avatar neben Ihrem Beitrag veröffentlicht.
+
+Die von Ihnen erstellten Beiträge sind mit Ihrem Profil für alle eingeloggten BILD-Nutzer sichtbar. Zudem haben die eingeloggten BILD-Nutzer die Möglichkeit, Ihre Beiträge in sozialen Netzwerken (z.B. Facebook, X) zu teilen oder per E-Mail zu versenden.
+
+BILDplus-Abonnenten können Ihre Beiträge außerdem liken oder auch auf sie antworten. Sie erhalten für Reaktionen der BILDplus-Abonnenten und Ihrer Teilnahme an Debatten Punkte, die in Ihrem Profil angezeigt werden. Unter “Mein Profil ändern” haben Sie die Möglichkeit, Aktivitäten Ihres Profils für Andere zu verbergen. Die Auflistung Ihrer Beiträge wird Anderen dann nicht angezeigt. Eingeloggte BILD-Nutzer können auch direkt auf Ihr öffentliches Profil gehen und Ihre Aktivitäten sehen. BILDplus-Abonnenten können zudem Ihrem Profil folgen.
+
+Wir erheben und verarbeiten die Daten zu dem Zweck, Ihre Beiträge nach Maßgabe der [Nutzungsregeln](https://www.bild.de/sonstiges/corporate-site/debatte-bei-bild-unsere-nutzungsregeln-677fa2037a802a223c01796e) für die Deutschland-Konferenz (nachfolgend „Nutzungsregeln“) zu veröffentlichen. Rechtsgrundlage für die Verarbeitung ist Art. 6 Abs. 1 lit. b DSGVO.
+
+Wir bedienen uns dabei der Dienste der Firma Logora, 31 Avenue Théophile Gautier, 75016 Paris, Frankreich, die wir datenschutzrechtlich verpflichtet haben und die personenbezogenen Daten in unserem Auftrag und nach unserer Weisung verarbeitet (Art. 28 DSGVO). Bei der Registrierung und Anmeldung für die Deutschland-Konferenz, die über ein eingebundenes Widget erfolgt, werden Ihr Name, Ihre E-Mail-Adresse, Ihr Abonnement-Status sowie Ihre Nutzer-ID verarbeitet. Verantwortlich für die Datenverarbeitung bleiben wir. Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO.
+
+Für die Nutzung von der Deutschland-Konferenz ist der Einsatz von Cookies und anderen Technologien erforderlich. Rechtsgrundlage hierfür ist § 25 Abs. 2 TDDDG.
+
+Die Beiträge werden vor einer Veröffentlichung auf mögliche Verstöße gegen die Nutzungsregeln überprüft. Rechtsgrundlage für die Datenverarbeitung ist in diesem Fall Art. 6 Abs. 1 lit. f DSGVO und erfolgt in unserem Interesse, Verstöße gegen die Nutzungsregeln im Vorfeld festzustellen und eine Veröffentlichung in diesem Fall zu unterbinden. Darüber hinaus haben BILD-Nutzer die Möglichkeit, Ihren Beitrag zu melden, wenn sie der Meinung sind, dass sie gegen die [Nutzungsregeln](https://www.bild.de/sonstiges/corporate-site/debatte-bei-bild-unsere-nutzungsregeln-677fa2037a802a223c01796e) oder geltendes Recht verstoßen. Ihre E-Mail-Adresse verarbeiten wir in dem Interesse und zu dem Zweck, Sie im Falle von Beanstandungen eines von Ihnen veröffentlichten Kommentars kontaktieren und Ihnen die Möglichkeit zur Stellungnahme geben zu können. Rechtsgrundlage der Datenverarbeitung ist Art. 6 Abs. 1 lit. f DSGVO.
+
+Zur Analyse von Beiträgen hinsichtlich der Einhaltung unserer Nutzungsregeln nutzen wir das Moderations-Tool Conversario der ferret go GmbH, Brauerstraße 14, 16321 Bernau bei Berlin (ferret go). Folgende Daten werden in unserem Auftrag (Art. 28 DSGVO) erfasst und verarbeitet: NutzerID / NutzerName / Nutzerbild / Beitrag / BeitragsID / Datum & Uhrzeit des Beitrags.
+
+**17\. Wissen Sie mehr?**
+
+Sie haben die Möglichkeit, unserer Redaktion Informationen zu Missständen oder bestimmten Themen zukommen zu lassen. Sie haben dabei auch die Möglichkeit, uns die Informationen anonym zukommen zu lassen, d.h. ohne Angabe Ihrer personenbezogenen Daten. Wenn Sie unseren Whistleblower-Kanal nutzen, klicken Sie hierfür den Button "Neue Meldung erstellen". Wenn Sie anschließend das Feld "Anonym melden" klicken, können Sie Ihre Meldung anonym übermitteln. Um Ihnen auch im Rahmen einer anonymen Meldung zu ermöglichen, sich Kenntnis vom Stand der der Bearbeitung Ihrer Meldung in unserer Redaktion zu verschaffen und ggf. weiterhin anonym mit unserer Redaktion in Kontakt zu treten und auf mögliche Rückfragen zu reagieren, erhalten Sie nach dem Absenden Ihrer Meldung ein Passwort. Mit diesem Passwort können Sie jederzeit über den Button "Bestehende Meldung weiterverfolgen" zu Ihrer Meldung gelangen, den Status ansehen und mit unserer Redaktion anonym kommunizieren.
+
+Optional haben Sie auch die Möglichkeit, im Whistleblower-Kanal bei Ihrer Meldung Ihre E-Mail-Adresse anzugeben, auf die wir keinen Zugriff haben. Sie erhalten dann automatisiert eine Nachricht per E-Mail, wenn es in unserem Whistleblower-Kanal Neuigkeiten zu Ihrer Meldung gibt. Sie bleiben für uns weiterhin anonym. Für die Bereitstellung unseres Whistleblower-Kanals bedienen wir uns der Whistleblower Software der Formalize ApS, Kannikegade 4, 1, 8000 Aarhus, Dänemark, mit der wir eine Auftragsverarbeitungsvereinbarung geschlossen haben. Verantwortlich für die Datenverarbeitung bleiben wir.
+
+Sofern Sie uns über unseren Whistleblower-Kanal Ihre Meldung vertraulich melden oder uns auf anderem Wege Ihre Kontaktdaten übermitteln (z.B. per E-Mail oder Post), verarbeiten wir diese zu dem Zweck und in dem Interesse, Sie bei möglichen Rückfragen zu kontaktieren.
+
+Die in Ihrer Meldung von Ihnen bereitgestellten Informationen verarbeitet unsere Redaktion zu journalistischen Zwecken unter Beachtung der §§ 12, 23 MStV.
+
+Sofern Sie dies wünschen, schicken wir Ihnen diese Datenschutzerklärung selbstverständlich kostenfrei per Post zu. Bitte kontaktieren Sie uns hierzu unter Axel Springer Deutschland GmbH, Betrieblicher Datenschutz, Axel-Springer-Straße 65, 10888 Berlin.
+
+Stand 15.12.2025

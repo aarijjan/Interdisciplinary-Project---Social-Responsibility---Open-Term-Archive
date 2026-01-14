@@ -1,0 +1,4 @@
+Allgemeine Geschäfts­bedingungen
+================================
+
+Hier finden Sie die Einkaufsbedingungen der Telefónica Deutschland Gruppe: (Stand 01/2018) [AGB für Lieferanten - deutsch](https://telefonica.de/file/public/465/Telefonica-Germany-Einkaufs-AGB-01-2018.pdf?attachment=1 "Download-Link: PDF") [Purchasing Terms and Conditions for suppliers - english](https://telefonica.de/file/public/465/Telefonica-Germany-Einkaufs-AGB-01-2018-EN.pdf?attachment=1 "Download-Link: PDF") Weitere AGB für Vertragskunden, Prepaidkunden sowie für den Verkauf und die Lieferung von Waren finden sie unter [https://www.o2online.de/recht/agb-und-infos/](https://www.o2online.de/recht/agb-und-infos/ "Öffnet in neuem Fenster: AGB bei o2online").

@@ -1,0 +1,3235 @@
+
+<!DOCTYPE html>
+<html lang="de-de" dir="ltr"
+	  class='layout-erecht24-2021 com_content view-article itemid-108 j31 mm-hover'>
+
+<head>
+<link href="https://www.e-recht24.de/muster-datenschutzerklaerung.html" rel="canonical" />
+
+    <script src="/media/jui/js/jquery.min.js" type="text/javascript"></script>
+	<script src="/media/jui/js/jquery-noconflict.js" type="text/javascript"></script>
+	<script src="/media/jui/js/jquery-migrate.min.js" type="text/javascript"></script><script type="text/javascript">
+  var _paq = window._paq || [];
+  _paq.push(["setCookieDomain", "*.e-recht24.de"]);
+  _paq.push(["setDomains", ["*.e-recht24.de","*.digistore24.com","*.webinarraum.net"]]);
+  _paq.push(["enableCrossDomainLinking"]);
+  _paq.push(["setCustomDimension", 1, "Gast"]);
+  _paq.push(["enableHeartBeatTimer", 5]);
+  _paq.push(["trackPageView"]);
+  _paq.push(["enableLinkTracking"]);
+(function embedTrackingCode() {
+  _paq.push(["setTrackerUrl", "//service.e-recht24.de/matomo.php"]);
+  _paq.push(["setSiteId", "1"]);
+})();
+</script>
+<script async type="text/javascript" src="//service.e-recht24.de/matomo.js"></script><script>
+
+// AB24-06 Google/Trust-Pilot Main Nav - 100% 
+try {
+	var cb_i2406_1=0;
+	var cb_i2406_1interval = setInterval(function() {
+		cb_i2406_1++;
+		if (document.querySelector('img.logo-img') != null) {
+		
+			clearInterval(cb_i2406_1interval);
+			document.querySelector('img.logo-img').setAttribute('src','https://www.e-recht24.de/mitglieder/wp-content/uploads/eRecht-Free-Logo-Bewertungen.svg');
+				document.querySelector('img.logo-img').style.width = 'unset';		
+		} else {
+			if(cb_i2406_1 > 50) clearInterval(cb_i2406_1interval);
+		}
+	}, 50);
+
+	var cb_i2406_2=0;
+	var cb_i2406_2interval = setInterval(function() {
+		cb_i2406_2++;
+		if (document.querySelector('#t3-stickynav img') != null) {
+			clearInterval(cb_i2406_2interval);	
+			document.querySelector('#t3-stickynav img').style.width = '285px';
+			document.querySelector('#t3-stickynav img').setAttribute('src','https://www.e-recht24.de/mitglieder/wp-content/uploads/eRecht-Free-Logo-Bewertungen.svg');
+		} else {
+			if(cb_i2406_2 > 50) clearInterval(cb_i2406_2interval);
+		}
+	}, 50);
+} catch (e) {
+	console.log(e);
+}
+
+// CB-U1
+try {
+	if( document.URL.indexOf("/artikel/") > -1 ){
+
+		function cb_checkVisible(elm) {
+		  var rect = elm.getBoundingClientRect();
+		  var viewHeight = Math.max(document.documentElement.clientHeight, window.innerHeight);
+		  return !(rect.bottom < 0 || rect.top - viewHeight >= 0);
+		}
+		var u1_loaded = false;
+
+		var cb_ui=0;
+		var cb_uinterval = setInterval(function() {
+			cb_ui++;
+			if (document.querySelector('h3[data-identify]:last-of-type') != null) {
+				clearInterval(cb_uinterval);
+				var cb_box = document.querySelector('h3[data-identify]:last-of-type');			
+				document.addEventListener('scroll', function () {
+					if( u1_loaded == false && cb_checkVisible(cb_box) == true ){
+						var cb_script = document.createElement('script');
+						cb_script.src = 'https://www.e-recht24.de/cb/surveys/cb_u1.js';
+						document.head.appendChild(cb_script);				
+						u1_loaded = true;
+					}
+				}, {passive: true});
+				
+			} else {
+				if(cb_ui > 50) clearInterval(cb_uinterval);
+			}
+		}, 50);
+	}
+} catch (e) {
+	console.log(e);
+}
+
+
+/* ZM 2024-04-23 auskommentiert
+
+// CB-40 - Sticky Footer auf Artikeln - 100% Ausspielung
+try {    
+
+		if ( window.innerWidth > 1000 ) {
+                    
+					function cb_get_top(el) {
+						if( el !== null ){
+							return el.offsetTop + (el.offsetParent && cb_get_top(el.offsetParent));
+						}
+						return false;
+					}
+				
+					function cb_get_bottom(el) {
+						if( el !== null ){
+							return el.offsetTop + (el.offsetParent && cb_get_top(el.offsetParent));
+						}
+						return false;			
+					}
+
+					var i_40=0;
+					var interval_40 = setInterval(function() {	
+						i_40++;
+						
+						if ( document.querySelector('#ea-premium-1') !== null &&  document.querySelector('#ea-premium-1 h4') !== null && document.querySelector('.main .wrap') !== null ) {
+					
+							var cb_el_show_sticky_after = document.querySelector('#ea-premium-1');
+							var cb_el_show_sticky_after_top = cb_get_top(cb_el_show_sticky_after);
+
+							var cb_el_show_sticky_before = document.querySelector('.main .wrap');
+							var cb_el_show_sticky_before_top = cb_get_top(cb_el_show_sticky_before);
+
+							var cb_image = 'https://www.e-recht24.de/plugins/system/erechtarticle/images/premium.svg';
+							var cb_headline = document.querySelector('#ea-premium-1 h4').innerText;
+							var cb_content = document.querySelector('#ea-premium-1 .ea-premium-text').innerHTML;
+							var cb_cta_text = document.querySelector('#ea-premium-1 .ea-premium-button').innerText;
+							var cb_cta_target = document.querySelector('#ea-premium-1 a').getAttribute('href');
+							if (cb_cta_target.substring(0, 24) != 'https://www.e-recht24.de'){
+								cb_cta_target = 'https://www.e-recht24.de'+cb_cta_target;
+							}							
+							
+							var cb_html = '<a href="'+cb_cta_target+'" id="cb40_v1_klick" style="max-width: 1180px; margin: 0 auto; display: block; text-decoration: none;"><div style="padding: 0px; color: #fff; position:relative;"> <div style="max-width: 70%; margin: 10px 0px; padding: 12px 24px;"> <div id="cb_40_c" class="ea-premium-wrap">'+cb_content+'</div> </div> <div style="position: absolute;bottom: 20px;right: 24px;"><img src="https://www.e-recht24.de/plugins/system/erechtarticle/images/premium.svg" style="max-height: 200px;position: relative;bottom: 0;"></div></div> </a> <a href="javascript:void(null);" id="cb_40_v1_close" style=" position: absolute; top: 5px; right: 10px;"><img src="https://www.e-recht24.de/mitglieder/wp-content/uploads/close-icon-white.svg" style=" width: 15px;"></a><style>#cb_40_c h1,#cb_40_c h2,#cb_40_c h3,#cb_40_c h4, #cb_40_c p, #cb_40_c li {color: #fff!important;} #cb_40_c.ea-premium-wrap {background-image: unset; margin-bottom: 0;} #cb_40_c h1,#cb_40_c h2,#cb_40_c h3,#cb_40_c h4 {margin-top: 0px; color: #ffffff !important; font-size: 28px !important; font-weight: 700 !important; line-height: 32px !important;} #cb_40_c ul {font-weight: 400; font-size: 16px; line-height: 20px; padding: 0; margin-left: 16px;} #cb_40_c ul li {background: none; list-style-type: none; position: relative; margin: 10px 0; } #cb_40_c ul li::before {content: \'\' !important; background: url(https://www.e-recht24.de/plugins/system/erechtarticle/images/list-elem.png); margin: -5px 8px -3px -10px; background-size: cover; display: inline-block; height: 15px; width: 15px; background-position: 0px; background-repeat: no-repeat;}</style>';
+
+							var newEl = document.createElement('div');
+							newEl.style.cssText = 'display: none; position: fixed; width: 100%; height: auto; background: #003e57; bottom: 0; z-index: 9999999999999999; background-size: cover;';
+							newEl.id = 'cb_40_sticky';
+							newEl.innerHTML = cb_html;
+							
+							document.body.appendChild(newEl);
+							
+							
+							if( document.querySelector('#cb_40_c .ea-premium-button') !== null ){
+								cb_button_width = document.querySelector('#cb_40_c .ea-premium-button').offsetWidth;	
+								if( cb_button_width <= 350 ){
+									var newEl = document.createElement('img');
+									newEl.setAttribute('src', 'https://www.e-recht24.de/cb/cb37-ratings-new.png');
+									newEl.setAttribute('style', 'width: 270px;height: auto;margin: 0px 0px 0px 20px;');
+									var ref = document.querySelector('#cb_40_c .ea-premium-button')
+									ref.parentNode.insertBefore(newEl, ref.nextSibling);						
+								}				
+							}
+
+							var cb_sticky = document.getElementById('cb_40_sticky');
+							var cb_sticky_shown = false;
+							
+							window.addEventListener('scroll', function() {
+								if( window.pageYOffset > cb_el_show_sticky_after_top && window.pageYOffset < cb_el_show_sticky_before_top ){
+									if( cb_sticky.style.display == 'none' && !document.querySelector('div[data-id="5"].eb-visible') ) {
+										cb_sticky.style.display = 'block';
+										
+										if( cb_sticky_shown === false ){
+											cb_sticky_shown = true;
+											_paq.push(['trackEvent', "ab-cb40-banner eingeblendet", 'gezeigt', '']);
+											
+											if( typeof EngageBox != 'undefined' ){
+												EngageBox.onReady(function() { 
+													EngageBox.getInstance(7).destroy();
+												});	
+											}
+										}
+									}
+								}
+								else{
+									if( cb_sticky.style.display == 'block' ) {
+										cb_sticky.style.display = 'none';
+									}
+								}
+							});	
+
+							if (document.querySelector('#cb40_v1_klick') != null) {
+								document.querySelector("#cb40_v1_klick").addEventListener('click', function(e) {
+									_paq.push(['trackEvent', "ab-cb40-banner: Klick v1", 'button', '']);
+								});		
+							}
+							
+							if (document.querySelector('#cb_40_v1_close') != null) {
+								document.querySelector("#cb_40_v1_close").addEventListener('click', function(e) {
+									document.querySelector('#cb_40_sticky').innerHTML = '';
+									_paq.push(['trackEvent', "ab-cb40-banner: Close v1", 'button', '']);
+									
+								});		
+							}				
+														
+							if( typeof EngageBox != 'undefined' && !EngageBox.getInstance('5') == false ){
+								EngageBox.getInstance('5').on('beforeOpen', function() {
+									cb_sticky.style.display = 'none';
+								});
+							}					
+
+							clearInterval(interval_40);
+						} else {
+							if(i_40 > 200) clearInterval(interval_40);
+						}
+					}, 100);						
+
+	}
+
+} catch (e) { console.log(e); }	
+
+*/
+
+
+
+
+try {
+	
+	cbws = ""; var cbqa = false;
+	if(localStorage.getItem('cb') == "qa" || document.URL.indexOf("cb=qa") > -1) { cbqa = true;  }
+
+	// ENGAGEBOX: ANZEIGEN
+	// tassos.gr/joomla-extensions/engagebox/docs/engagebox-javascript-api-2
+	var j=0;
+	var interval2 = setInterval(function() {	
+		j++;
+		if ( typeof EngageBox != "undefined") { // #1
+			EngageBox.onReady(function() { // #2
+				var b = EngageBox.getInstances();				
+				for (var i = 0; i < b.length; i++) { // #3
+					b_id = b[i].id;					
+					b[i].on("afterOpen", function() {
+						_paq.push(['trackEvent', "Engagebox angezeigt: " + b_id, document.location.pathname, cbws]);
+					});
+				}
+			}); // end engagebox  ready
+			clearInterval(interval2);
+		} else {
+			if(j > 500) clearInterval(interval2 );
+		}
+	}, 100);
+	
+
+	
+	jQuery( document ).ready(function() {
+
+		// Support-Button: rot
+		jQuery(document).on("click", "#support_tab", function() {
+			_paq.push(['trackEvent', "Klick auf Support-Tab rot", "Support-Tab rot: " + document.location.pathname, ""]);
+		});		
+
+		
+		// ENGAGEBOX: KLICKS
+		slideinClicked = false;
+		jQuery(document).on("click", "div.eb-inst.eb-7", function() {
+			if( slideinClicked == false ) {
+				_paq.push(['trackEvent', "Layer 7 slide-in Klick", document.location.pathname, cbws]);
+				slideinClicked = true;
+			}
+		});
+		
+		jQuery(document).on("click", "div.eb-inst.eb-5 #rstbox_5", function() {
+			_paq.push(['trackEvent', "Layer 5 exit Intent Klick", document.location.pathname, '']);	
+		});
+
+		// Nav
+		jQuery(document).on("click", ".t3-wrapper .t3-topbar a, .cb-t3-topbar a, .col-md-9.header-right", function() {
+			_paq.push(['trackEvent', 'Topbar Klicks', jQuery(this).attr("href"), document.location.pathname]);
+		});		
+		jQuery("#t3-mainnav a").on("click", function() {
+			_paq.push(['trackEvent', 'Navigation Klicks', jQuery(this).attr("href"), document.location.pathname]);
+		});
+		jQuery("#t3-stickynav a").on("click", function() {
+			_paq.push(['trackEvent', 'Sticky-Navigation Klicks', jQuery(this).attr("href"), document.location.pathname]);
+		});
+		jQuery(document).on("click", "div.top-topics  a", function() {
+			_paq.push(['trackEvent', 'Top-Themen', 'Top-Themen: ' + jQuery(this).attr("href"), 'Top-Themen: ' + document.location.pathname]);
+		});		
+		
+		// Top-Themen
+		
+
+	}); // end doc ready	
+	
+	
+	/* /ARTIKEL */
+	if(document.location.pathname.indexOf("/artikel/") > -1) {
+		document.addEventListener("DOMContentLoaded", function() {
+			// weiterlesen
+			if( document.querySelector("a.su-button.su-button-style-3d.article-content[href='#1']") != null ) { 
+				document.querySelector("a.su-button.su-button-style-3d.article-content[href='#1']").addEventListener("click", function(event) {
+					_paq.push(['trackEvent', 'Artikel Button blau: weiterlesen', document.location.pathname, '']);
+				});
+			}
+
+			// kaufen
+			if( document.querySelector("a.su-button.su-button-style-3d.article-content[target='_self']") != null ) {
+				document.querySelector("a.su-button.su-button-style-3d.article-content[target='_self']").addEventListener("click", function(event) {
+					_paq.push(['trackEvent', 'Artikel Button blau: kaufen', document.location.pathname, '']);
+				});
+			}
+		});
+	}
+	
+	/* DATENSCHUTZGRUNDVERORDNUNG.HTML */
+	if(document.location.pathname == "/datenschutzgrundverordnung.html") {
+		jQuery( document ).ready(function() {
+			jQuery.fn.isInViewport2 = function() {
+				if(jQuery(this).length > 0) {
+					var elementTop = jQuery(this).offset().top;
+					var elementBottom = elementTop + jQuery(this).outerHeight();
+					var viewportTop = jQuery(window).scrollTop();
+					var viewportBottom = viewportTop + jQuery(window).height();
+					return elementBottom > viewportTop && elementTop < viewportBottom;
+				}
+			};
+			
+			select = jQuery("h2, h3");
+			jQuery(document).ready(function() {
+				jQuery(document).on("scroll", function() {
+					jQuery.each( select, function( key, value ) {
+						if( jQuery(value).isInViewport2() ) {
+							_paq.push(['trackEvent', "Scroll-Tracking: " + document.location.pathname, jQuery(value).text(), '']);
+							select[key] = "";
+						}
+					});
+				});
+			});
+			
+			// KLICK blaue box
+			jQuery("section.article-content > .su-row.su-clmms-yes.su-gutter-large a").on("click", function() {
+				_paq.push(['trackEvent', "Klick-Tracking blauBox: " + document.location.pathname, jQuery(this).text(), '']);	
+			});
+			/*jQuery("div.microsite-dsgv a").on("click", function() {
+				_paq.push(['trackEvent', "Klick-Tracking dsgvo special: " + document.location.pathname, jQuery(this).text(), '']);	
+			});*/
+			jQuery(".su-call-to-action.microsite-cta a").on("click", function() {
+				_paq.push(['trackEvent', "Klick-Tracking cta orange: " + document.location.pathname, jQuery(this).text(), '']);	
+			});
+		});
+	}
+	
+	// fc
+	function cBgetHashVariable(variable)
+	  {
+		var query = window.location.hash.substring(1);
+		var vars = query.split("&");
+		for (var i=0;i<vars.length;i++) {
+		  var pair = vars[i].split("=");
+		  if(pair[0] == variable){return pair[1];}
+		}
+		return(false);
+	  }
+		function cBgetQueryVariable(variable)
+	  {
+		var query = window.location.search.substring(1);
+		var vars = query.split("&");
+		for (var i=0;i<vars.length;i++) {
+		  var pair = vars[i].split("=");
+		  if(pair[0] == variable){return pair[1];}
+		}
+		return(false);
+	  }
+	  
+	  
+	var fc = localStorage.getItem('fc');
+	if( fc == null ) {
+		var quelle = "";
+		var medium = "";
+		var camp = "";
+		var lp = "";
+
+		if( document.location.hash.indexOf("pk_") > -1 || document.location.search.indexOf("pk_") > -1 ) {
+			//console.log("__kampagne")
+			if( cBgetHashVariable("pk_source") != "") { 
+				quelle = cBgetHashVariable("pk_source"); 
+			}
+			if( cBgetQueryVariable("pk_source") != "") { 
+				quelle = cBgetQueryVariable("pk_source"); 
+			}
+			
+			if( cBgetHashVariable("pk_campaign") != "") { 
+				camp = cBgetHashVariable("pk_campaign"); 
+			}
+			if( cBgetQueryVariable("pk_campaign") != "") { 
+				camp = cBgetQueryVariable("pk_campaign"); 
+			}
+			
+			if( cBgetHashVariable("pk_medium") != "") { 
+				medium = cBgetHashVariable("pk_medium"); 
+			}
+			if( cBgetQueryVariable("pk_medium") != "") { 
+				medium = cBgetQueryVariable("pk_medium"); 
+			}
+			quelle = quelle.replace("-", "").replace("-", "").replace("-", "");
+			camp = camp.replace("-", "").replace("-", "").replace("-", "");
+			medium = medium.replace("-", "").replace("-", "").replace("-", "");
+			
+			
+		} else {
+			// quelle
+			if (document.referrer == "" || document.referrer.indexOf("https://www.e-recht24.de/") > -1) { quelle = "direct"; } else if (document.referrer.indexOf("google") > -1 || document.referrer.indexOf("bing") > -1 || document.referrer.indexOf("yahoo") > -1 || document.referrer.indexOf("duckduckgo") > -1 || document.referrer.indexOf("ecosia") > -1 ||  document.referrer.indexOf("baidu.com") > -1 ) {
+				quelle = "seo"; 
+			} else {  
+				quelle = "referral";
+			}
+			// medium
+			if(document.referrer) {
+				medium = document.referrer.match(/:\/\/(.[^/]+)/)[1];
+			} else {
+				medium = "NA";
+			}
+			// camp
+			if( document.location.pathname == "/muster-datenschutzerklaerung.html" ) {  
+				camp = "generatordsg"; 
+			} else if( document.location.pathname == "/impressum-generator.html" ) {  
+				camp = "generatorig"; 
+			} else { 
+				camp = "anders";
+			}
+		}
+		// lp
+		lp = document.location.pathname.replace("/", "Q").replace("/", "Q").replace("/", "Q").replace("/", "Q").replace("/", "Q").replace("/", "Q").replace("/", "Q").replace("-", "").replace("-", "").replace("-", "").replace("-", "");
+
+		var cb_key = quelle + "_" + camp + "_" + medium + "_" + lp;
+		if( cb_key.length > 127 ) {
+			cb_key = cb_key.substr(0, 127);
+		}
+		localStorage.setItem('fc', cb_key);
+	}
+	
+	// Content-Boxen messen in Matomo
+	document.addEventListener("DOMContentLoaded", function() {
+		if( document.querySelectorAll('[data-track-content]').length > 0 ){
+			_paq.push(['trackVisibleContentImpressions']);
+		}
+	});
+
+
+
+} catch (e) {
+	console.log(e);
+}
+</script><script>
+try {
+	// für cb25		
+	var cb_eb15 = document.createElement("style");
+	cb_eb15.type = "text/css";
+	cb_eb15.id = "cb25_css";
+	cb_eb15.innerHTML = ".eb-15[data-id='15'] { display: none !important; }";
+	document.head.appendChild(cb_eb15);
+	
+	jQuery( document ).ready(function() {
+	// Schritte des DSG
+	cb_last_dsg_class = 'none';	
+		if( document.querySelector('article') !== null ){
+			var target = document.querySelector('article');
+			var observer = new MutationObserver(function(mutations) {
+				mutations.forEach(function(mutation) {	
+					if( mutation.type == 'childList' && document.querySelector('#e24ig-content') !== null &&  document.querySelector('.e24ig-wrap') !== null && cb_last_dsg_class != document.querySelector('.e24ig-wrap').className ){	
+						cb_last_dsg_class = document.querySelector('.e24ig-wrap').className;
+						var cb_out = 'dsg_'+document.querySelector('.e24ig-wrap').className.split(' ').pop().trim();
+						console.log( cb_out );
+						window['ablyft'] = window['ablyft'] || [];
+						window['ablyft'].push({
+							eventType: 'activatePage',
+							pageApiName: cb_out
+						});
+					}	
+				});
+			});
+			var config = { attributes: true, childList: true, characterData: true, subtree: true };
+			observer.observe(target, config);
+		}
+	});	
+	
+	//if( document.URL.indexOf("cb_qa=28") > -1) {	
+		var _paq = _paq || [];
+		_paq.push(['AbTesting::create', {
+			name: 'cb28dsg_progressbar-removed', // you can also use '39' (ID of the experiment) to hide the name
+			percentage: 100,
+			includedTargets: [{"attribute":"url","inverted":"0","type":"equals_simple","value":"https:\/\/www.e-recht24.de\/muster-datenschutzerklaerung.html"}],
+			excludedTargets: [],
+			variations: [
+				{
+					name: 'original',
+					activate: function (event) {
+					}
+				},
+				{
+					name: 'cb28dsg-1', 
+					percentage: 50,
+					activate: function(event) {
+						//console.log("__cb28dsg-1");
+						
+						jQuery(document).on('e24dsgloaded', function() {
+							if( jQuery('ul.e24ig-toc').length ){
+								jQuery('ul.e24ig-toc li').each(function( index ) {
+									if( jQuery(this).hasClass('e24ig-toc-clickable') || jQuery(this).hasClass('e24ig-toc-current') ){
+										jQuery(this).show();
+									} else {
+										jQuery(this).hide();
+									}
+								});
+							}	
+						});
+					}
+				},                        {
+					name: 'cb28dsg-0',
+					percentage: 50,
+					activate: function(event) {
+						//console.log("__cb28dsg-0");
+					}
+				}            
+			],
+			trigger: function () {
+				return true;
+			}
+		}]);
+	//}
+	
+	
+
+	// TRACKING	
+	jQuery( document ).ready(function() {
+		jQuery(document).on("click", ".e24ig-cb-text.disabled", function() {
+			//console.log( jQuery(this) );
+			_paq.push(['trackEvent', 'Datenschutz-Generator: Premium-Layer angezeigt', jQuery(this).attr("for")]);
+		});
+		
+		jQuery(document).on("click", "#e24ig-premium-dialog a", function() {
+			t = jQuery(this).parent(".e24ig-dialog-inner").find("div.e24ig-premium-dialog-title").text();
+			_paq.push(['trackEvent', 'Datenschutz-Generator: Premium-Layer: Klick auf Button', t]);
+		});
+		
+		jQuery(document).on("click", "button.e24ig-next", function() {
+			if( jQuery("#e24ig-item-updateslegalprotection_newtools").length ) {
+				t = jQuery("#e24ig-se-updateslegalprotection_privacy_update_cycle option:selected").text();
+				_paq.push(['trackEvent', 'Datenschutz-Generator: zusätzliche Fragen: Updatezyklus', t]);
+
+
+				t2 = jQuery("#e24ig-se-updateslegalprotection_newtools option:selected").text();
+				_paq.push(['trackEvent', 'Datenschutz-Generator: zusätzliche Fragen: neue Tools', t2]);
+			}
+		});
+
+		jQuery(document).on("click", ".start-block-generator button", function() {
+			_paq.push(['trackEvent', 'Datenschutz-Generator LP: Klick Datenschutzerklärung kostenlos erstellen', '_']);
+		});
+		jQuery(document).on("click", ".start-block-generator .btn.btn-primary", function() {
+			_paq.push(['trackEvent', 'Datenschutz-Generator LP: eRecht24 Premium ansehen', '_']);
+		});
+		jQuery(document).on("click", "#dsg_bottom_banner a", function() {
+			_paq.push(['trackEvent', 'Datenschutz-Generator LP: sticky Footer', '_']);
+		});
+		
+	
+		// TIME ON SITE
+		//setTimeout(function(){  _paq.push(['trackEvent', "DSG: time on site", "dsg time: 5"]); },     5000);
+		//setTimeout(function(){  _paq.push(['trackEvent', "DSG: time on site", "dsg time: 10"]); },   10000);
+		//setTimeout(function(){  _paq.push(['trackEvent', "DSG: time on site", "dsg time: 20"]); },   20000);
+		//setTimeout(function(){  _paq.push(['trackEvent', "DSG: time on site", "dsg time: 30"]); },   30000);
+		//setTimeout(function(){  _paq.push(['trackEvent', "DSG: time on site", "dsg time: 60"]); },   60000);
+		//setTimeout(function(){  _paq.push(['trackEvent', "DSG: time on site", "dsg time: 120"]); }, 120000);
+		//setTimeout(function(){  _paq.push(['trackEvent', "DSG: time on site", "dsg time: 240"]); }, 240000);
+
+
+		// SCROLL-TRACKING
+		jQuery.fn.isInViewport = function() {
+			var elementTop = jQuery(this).offset().top;
+			var elementBottom = elementTop + jQuery(this).outerHeight();
+			var viewportTop = jQuery(window).scrollTop();
+			var viewportBottom = viewportTop + jQuery(window).height();
+			return elementBottom > viewportTop && elementTop < viewportBottom;
+		};	
+			
+		fields = [
+			{ selector: 'webseiten',
+			  name: '1 Das Wichtigste zur DSGVO-konformen Datenschutzerklärung für Webseiten'
+			},
+			{ selector: 'wer-pflicht',
+			  name: '2 Wer ist im Internet zu einer Datenschutzerklärung verpflichtet?'
+			},
+			{ selector: 'dse-dsgvo',
+			  name: '3 Der Datenschutz-Generator und die DSGVO'
+			},
+			{ selector: 'anwendungen',
+			  name: '4 Welche Anwendungen, Tools und Plug-Ins deckt der eRecht24 Datenschutzgenerator ab?'
+			}
+		]
+
+		jQuery(document).on("scroll", function() {
+			jQuery.each( fields, function( key, value ) {
+				if( value['selector'] != "") {
+					var vpelem = jQuery('#t3-content').find("[data-viewport='" + value['selector'] + "']:first"); 
+					if( vpelem.length && vpelem.isInViewport() ) {
+						_paq.push(['trackEvent', "DSG: Scroll-Tracking", fields[key]['name']]);
+						//console.log(value['selector']);
+						fields[key]['selector'] = "";
+					}
+				}
+			});
+		});
+		
+		// Inhaltsverzeichnis
+		jQuery(document).on("click", "#toc-list-wrap a", function() {
+			_paq.push(['trackEvent', 'Datenschutz-Generator LP: Klick auf Inhaltsverzeichnis', jQuery(this).attr("href")]);
+		});
+		
+		// Autoren
+		jQuery(document).on("click", "section.article-intro-meta span.author-toggle:eq(0)", function() {
+			_paq.push(['trackEvent', 'Datenschutz-Generator LP: Klick auf Autor: Siebert', '_']);
+		});
+		jQuery(document).on("click", "section.article-intro-meta span.author-toggle:eq(1)", function() {
+			_paq.push(['trackEvent', 'Datenschutz-Generator LP: Klick auf Autor: Lexow', '_']);
+		});
+	}); // end doc ready
+
+
+	
+} catch (e) {
+	console.log(e);
+}
+</script>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="author" content="Rechtsanwalt Sören Siebert " />
+	<meta name="robots" content="index,follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+	<meta name="description" content="Datenschutzerklärung Vorlage - 100% kostenlos ✓ DSGVO-konform ✓ aktuell &amp; leicht erreichbar ✓ anonym ✓ ohne Anmeldung ► Jetzt bei eRecht24 erstellen!" />
+	<title>Kostenlose Datenschutzerklärung für Ihre Website | eRecht24</title>
+	<link href="/templates/ja_teline_v/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+	<link href="https://www.e-recht24.de/index.php?option=com_search&amp;Itemid=144&amp;catid=111&amp;id=10568&amp;lang=de&amp;view=article&amp;format=opensearch" rel="search" title="Suchen eRecht24" type="application/opensearchdescription+xml" />
+	<link href="/templates/ja_teline_v/css/bootstrap.css" rel="stylesheet" type="text/css" />
+	<link href="/plugins/system/bdthemes_shortcodes/css/shortcode-ultimate.css" rel="stylesheet" type="text/css" />
+	<link href="https://www.e-recht24.de/plugins/system/erechtarticle/css/erechtarticle.css" rel="stylesheet" type="text/css" />
+	<link href="/plugins/system/bdthemes_shortcodes/shortcodes/e24spoiler/css/spoiler.css" rel="stylesheet" type="text/css" />
+	<link href="/media/plg_system_jcepro/site/css/content.min.css?86aa0286b6232c4a5b58f892ce080277" rel="stylesheet" type="text/css" />
+	<link href="/media/com_rstbox/css/engagebox.css?eeb5d01c52acf7dfec23ff3826bc0021" rel="stylesheet" type="text/css" />
+	<link href="/plugins/system/microformatsvotes/assets/css/microformatsvotes.css" rel="stylesheet" type="text/css" media="screen" />
+	<link href="/templates/system/css/system.css" rel="stylesheet" type="text/css" />
+	<link href="/templates/ja_teline_v/css/template.css" rel="stylesheet" type="text/css" />
+	<link href="/templates/ja_teline_v/css/megamenu.css" rel="stylesheet" type="text/css" />
+	<link href="/templates/ja_teline_v/fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+	<link href="/templates/ja_teline_v/local/fonts/roboto/css/roboto.css" rel="stylesheet" type="text/css" />
+	<link href="/templates/ja_teline_v/local/fonts/roboto-condensed/css/roboto-condensed.css" rel="stylesheet" type="text/css" />
+	<link href="/templates/ja_teline_v/local/fonts/lato/css/lato.css" rel="stylesheet" type="text/css" />
+	<link href="/templates/ja_teline_v/css/custom.css" rel="stylesheet" type="text/css" />
+	<link href="/templates/ja_teline_v/local/css/2021.css" rel="stylesheet" type="text/css" />
+	<link href="/plugins/system/bdthemes_shortcodes/css/row-column.css" rel="stylesheet" type="text/css" />
+	<link href="/plugins/system/bdthemes_shortcodes/shortcodes/panel/css/panel.css" rel="stylesheet" type="text/css" />
+	<link href="/plugins/system/bdthemes_shortcodes/shortcodes/button/css/button.css" rel="stylesheet" type="text/css" />
+	<style type="text/css">
+.AimyVideoEmbedderVideoOuter.centered{margin:0 auto;}.AimyVideoEmbedderVideo{position:relative;width:100%;}.AimyVideoEmbedderVideoInner{overflow:hidden;}.AimyVideoEmbedderVideo-16-9{padding-bottom:56.25%;}.AimyVideoEmbedderVideo-4-3{padding-bottom:75%;}.AimyVideoEmbedderVideo-1-1{padding-bottom:100%;}.AimyVideoEmbedderVideoInner iframe, .AimyVideoEmbedderVideoPlaceholder{position:absolute;top:0;left:0;width:100%;height:100%;}.AimyVideoEmbedderVideoPlaceholder > div{display: table;width: 100%;height: 100%;}.AimyVideoEmbedderVideoPlaceholder > div > div{display: table-cell;vertical-align: middle;cursor: pointer;text-align: center;border: 1px solid #EEE;}.AimyVideoEmbedderVideoPlaceholder > div > div > button{display: inline-block;text-align: center;cursor: pointer;background: transparent;border: 0;margin: 0;padding: 0;}.AimyVideoEmbedderVideoPlaceholder > div:hover{opacity: 0.85;}.AimyVideoEmbedderVideoPlaceholder p, .AimyVideoEmbedderVideoPlaceholder img{margin: 0.25em;text-align: center;}.AimyVideoEmbedderVideoPlaceholder img{display: inline;}.AimyVideoEmbedderVideoPlaceholderWithBgImage{background-position: center center;background-repeat: no-repeat;background-size: cover;}.AimyVideoEmbedderVideoOuter.centered{margin:0 auto;}.AimyVideoEmbedderVideo{position:relative;width:100%;}.AimyVideoEmbedderVideoInner{overflow:hidden;}.AimyVideoEmbedderVideo-16-9{padding-bottom:56.25%;}.AimyVideoEmbedderVideo-4-3{padding-bottom:75%;}.AimyVideoEmbedderVideo-1-1{padding-bottom:100%;}.AimyVideoEmbedderVideoInner iframe, .AimyVideoEmbedderVideoPlaceholder{position:absolute;top:0;left:0;width:100%;height:100%;}.AimyVideoEmbedderVideoPlaceholder > div{display: table;width: 100%;height: 100%;}.AimyVideoEmbedderVideoPlaceholder > div > div{display: table-cell;vertical-align: middle;cursor: pointer;text-align: center;border: 1px solid #EEE;}.AimyVideoEmbedderVideoPlaceholder > div > div > button{display: inline-block;text-align: center;cursor: pointer;background: transparent;border: 0;margin: 0;padding: 0;}.AimyVideoEmbedderVideoPlaceholder > div:hover{opacity: 0.85;}.AimyVideoEmbedderVideoPlaceholder p, .AimyVideoEmbedderVideoPlaceholder img{margin: 0.25em;text-align: center;}.AimyVideoEmbedderVideoPlaceholder img{display: inline;}.AimyVideoEmbedderVideoPlaceholderWithBgImage{background-position: center center;background-repeat: no-repeat;background-size: cover;}/* Hintergrundbild und Wrapper */
+#sjslideouterwrapper {
+    background: #041624 url(https://www.e-recht24.de/mitglieder/wp-content/uploads/ki-days-bg-e1765227424754.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Hauptlayout */
+  .sjslidewrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    color: #ffffff;
+    font-family: 'Lato', sans-serif;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  /* Platzhalter links/rechts für zentrierte Inhalte */
+  .sjslideleft,
+  .sjslideright {
+    width: 0%;
+  }
+  
+  /* Inhalt mittig */
+  .sjslidecontent {
+    flex: 1;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  /* Überschrift */
+  .sjslideheadline {
+    font-size: 20px;
+    font-weight: 700;
+    color: #3DC6EF;
+  }
+  
+  /* Subline */
+  .sjtsubline {
+    font-size: 32px;
+    font-weight: 800;
+    color: #ffffff;
+    margin-bottom: 5px;
+    line-height: 1;
+  }
+
+  /* === Eingabefeld + Button Wrapper === */
+  .sjslideinputwrapper {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: nowrap;
+    margin-top: 20px;
+  }
+  
+  /* Hinweistext zur E-Mail */ 
+  .sjsmail {
+    font-size: 12px;
+    margin-top: 5px;
+  }
+
+  /* === Eingabefeld === */
+  #kiday_email {
+    height: 55px;
+    width: 420px;
+    font-size: 18px;
+    border: 2px solid #3DC6EF;
+    border-radius: 4px;
+    padding: 0 20px;
+    outline: none;
+    box-sizing: border-box;
+    background:#ffffff;
+    color:#041624; 
+  }
+
+
+#kiday_email::placeholder {
+    color: #999;
+    font-weight: 400;
+  }
+  
+  /* Button */
+  #btn_sjslide {
+    background-color: #5DE8C1;
+    border: 2px solid #5DE8C1;
+    height: 55px;
+    padding: 0px 30px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    text-transform: uppercase;
+  }
+  
+  #btn_sjslide span {
+    color: #004059;
+    font-size: 16px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    transition: all 0.2s;
+  }
+  
+  /* Hovereffekt */
+  #btn_sjslide:hover {
+    background-color: transparent;
+  }
+  
+  #btn_sjslide:hover span {
+    color: #5DE8C1;
+  }
+  
+
+
+  /* Responsive Anpassung */
+  @media (max-width: 768px) {
+    .sjtsubline {
+      font-size: 40px;
+    }
+  
+    .sjslideheadline {
+      font-size: 16px;
+    }
+  
+    #btn_sjslide {
+      width: 80%;
+      font-size: 14px;
+    }
+  
+    .sjslideleft,
+    .sjslideright {
+      display: none; 
+    }
+  }
+  .eb-110 .eb-dialog{--eb-max-width:100%;--eb-height:auto;--eb-padding:0;--eb-border-radius:0;--eb-text-color:rgba(51, 51, 51, 1);--eb-dialog-shadow:var(--eb-shadow-3);text-align:center;--eb-border-style:none;--eb-border-color:rgba(46, 198, 100, 1);--eb-border-width:0px;--eb-overlay-enabled:0;--eb-bg-image-enabled:0;--eb-background-image:none;}.eb-110 .eb-close{--eb-close-button-inside:block;--eb-close-button-outside:none;--eb-close-button-icon:block;--eb-close-button-image:none;--eb-close-button-font-size:22px;--eb-close-button-color:rgba(222, 222, 222, 1);--eb-close-button-hover-color:rgba(255, 255, 255, 1);}.eb-110 .eb-dialog .eb-container{justify-content:flex-end;min-height:100%;display:flex;flex-direction:column;}.eb-110.eb-inst{justify-content:center;align-items:flex-end;}@media screen and (max-width: 1024px){.eb-110 .eb-dialog{--eb-height:auto;--eb-bg-image-enabled:inherit;--eb-background-image:none;}}@media screen and (max-width: 575px){.eb-110 .eb-dialog{--eb-height:auto;--eb-bg-image-enabled:inherit;--eb-background-image:none;}}.eb-110 {
+                --animation_duration: 1000ms;
+
+            }
+        .start-block-generator {
+	color: #fff;
+	padding: 40px 0;
+	position: relative;
+}
+
+.start-block-generator-title {
+	font-size: 30px;
+	font-weight: 900;
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+.start-block-generator-boxtitle {
+	font-size: 24px;
+	margin-bottom: 30px;
+}
+
+.start-block-generator.dark::before {
+	background: #004059;
+	position: absolute;
+	height: 100%;
+	width: 1000%;
+	top: 0;
+	content: ' ';
+	left: -50%;
+	margin: 0 auto;
+	z-index: -1;
+}
+
+.start-block-generator ul {
+	margin-bottom: 30px;
+}
+
+.start-block-generator  .gradient-box {
+	padding: 30px;
+}
+
+.start-block-generator .small-text {
+	font-size: 14px;
+	margin-top: 10px;
+line-height:16px;
+display: flex;
+justify-content: center;
+}
+
+.start-block-generator .btn, .start-block-generator a.btn {
+	text-transform: none;
+	font-size: 18px;
+	font-weight: 700;
+}
+
+.view-article .t3-content .start-block-generator ul li {
+	background: none;
+	position: relative;
+	margin-bottom: 10px;
+}
+
+.view-article .t3-content .start-block-generator ul li:before {
+	content: '\f0c8';
+	font-family: "FontAwesome";
+	font-size: 6px;
+	position: absolute;
+	line-height: 1em;
+	left: -16px;
+	top: 10px;
+	color: #3DC6EF;
+}
+
+.start-block-generator .stars-bg, .start-block-generator .stars-value {
+	background-image: url("/templates/ja_teline_v/local/images/stars-small.png");
+	display: inline-block;
+	width: 80px;
+	height: 16px;
+	position: relative;
+	background-position: left top;
+margin-right: 5px;
+}
+
+.start-block-generator .stars-value {
+	position: absolute;
+	left: 0;
+	top: 0;
+	background-position: left center;
+}
+
+.start-block-generator .rating-text {
+	display: inline-block;
+}
+
+.start-block-generator .row {
+	margin-bottom: 0;
+}
+
+.row.equal > .col-sm-6 > .gradient-box {
+height:100%;
+}
+
+@media all and (max-width:767.98px) {
+	.start-block-generator .col-sm-6:first-child {
+		margin-bottom: 40px;
+	}
+}
+@media all and (max-width:479px) {
+	.start-block-generator .small-text,
+.start-block-generator .stars-bg,
+.start-block-generator .rating-text {
+		display:block;
+margin: 10px auto 0 auto;
+	}
+}.cta-bottom-banner-wrap {
+position: fixed;
+bottom:-400px;
+background:#004059;
+color:#fff;
+z-index:100;
+width:100%;
+padding: 20px 0;
+}
+.cta-bottom-banner-wrap .cta-close {
+position:absolute;
+top:2px;
+right:2px;
+color:#aaa;
+width:20px;
+height:20px;
+z-index:103;
+cursor:pointer;
+text-align:center;
+line-height:20px;
+}
+.cta-bottom-banner-wrap .cta-close:hover {
+color:#fff;
+}
+.cta-bottom-banner-inner {
+max-width:1180px;
+margin:0 auto;
+position:relative;
+}
+.cta-bottom-banner-inner:hover a.btn {
+background:transparent;
+color:#0094D8;
+}
+.cta-bottom-banner-inner > a {
+display:block;
+position:absolute;
+z-index:102;
+width:100%;
+height:100%;
+}
+.cta-bottom-banner-inner > a span {
+position:absolute;
+left:-100000px;
+}
+
+.cta-bottom-banner-title {
+font-size:24px;
+font-weight:700;
+line-height:1.2em;
+margin:8px 0 13px 0;
+}
+.cta-bottom-banner-inner ul {
+margin:0;
+padding:0;
+}
+.cta-bottom-banner-inner ul li {
+display:inline list-item;
+margin:0 20px 0 0;
+}
+.cta-bottom-banner-inner ul li:last-child {
+margin:0;
+}
+.cta-bottom-banner-inner ul li::marker {
+font-family:"FontAwesome";
+content:'\f00c   ';
+color:#0094d8;
+}
+.cta-bottom-banner-inner a.btn {
+text-transform:none;
+display:block;
+}
+.cta-bottom-banner-wrap .small-text {
+font-size: 14px;
+	margin-top: 10px;
+line-height:16px;
+display: flex;
+justify-content: center;
+}
+.cta-bottom-banner-wrap .stars-bg, .cta-bottom-banner-wrap .stars-value {
+	background-image: url("/templates/ja_teline_v/local/images/stars-small.png");
+	display: inline-block;
+	width: 80px;
+	height: 16px;
+	position: relative;
+	background-position: left top;
+margin-right: 5px;
+}
+
+.cta-bottom-banner-wrap .stars-value {
+	position: absolute;
+	left: 0;
+	top: 0;
+	background-position: left center;
+}
+
+.cta-bottom-banner-wrap .rating-text {
+	display: inline-block;
+}
+@media (max-width:1199.98px){
+.cta-bottom-banner-inner {
+max-width:980px;
+}
+
+.cta-bottom-banner-title {
+margin: 0;
+line-height:1.5em;
+font-size: 18px;
+}
+.cta-bottom-banner-inner ul {
+font-size:14px;
+}
+}
+@media (max-width:991.98px){
+.cta-bottom-banner-inner ul {
+display:none;
+}
+.cta-bottom-banner-inner {
+padding-left:20px;
+padding-right:20px;
+}
+.cta-bottom-banner-title {
+font-size:18px;
+}
+}
+@media (max-width:767.98px){
+.cta-bottom-banner-title {
+text-align:center;
+margin-bottom:20px;
+}
+}#supnl695ceaced64a5.su-panel { background-color:#990000;color:#ffffff;border:0px solid #cccccc;margin:0 0 6px 0;}
+#supnl695ceaced64a5.su-panel .su-panel-content { padding:5px;}a#subtn_695ceaced6624 { color: #FFFFFF; background-color: #2D89EF;-webkit-border-radius: 3px; border-radius: 3px;}
+a#subtn_695ceaced6624 span { font-size: 13px;-webkit-border-radius: 3px; border-radius: 3px;line-height:26px;padding: 4px 16px;}
+a#subtn_695ceaced6624:hover { background-color: #4596f1;}#supnl695ceaced67fe.su-panel { background-color:#990000;color:#ffffff;border:0px solid #cccccc;margin:0 0 6px 0;}
+#supnl695ceaced67fe.su-panel .su-panel-content { padding:5px;}a#subtn_695ceaced6971 { color: #FFFFFF; background-color: #2D89EF;-webkit-border-radius: 3px; border-radius: 3px;}
+a#subtn_695ceaced6971 span { font-size: 13px;-webkit-border-radius: 3px; border-radius: 3px;line-height:26px;padding: 4px 16px;}
+a#subtn_695ceaced6971:hover { background-color: #4596f1;}#supnl695ceaced6b35.su-panel { background-color:#990000;color:#ffffff;border:0px solid #cccccc;margin:0 0 6px 0;}
+#supnl695ceaced6b35.su-panel .su-panel-content { padding:5px;}a#subtn_695ceaced6cae { color: #FFFFFF; background-color: #2D89EF;-webkit-border-radius: 3px; border-radius: 3px;}
+a#subtn_695ceaced6cae span { font-size: 13px;-webkit-border-radius: 3px; border-radius: 3px;line-height:26px;padding: 4px 16px;}
+a#subtn_695ceaced6cae:hover { background-color: #4596f1;}#theBrevoChat {
+    display:none;
+    position: fixed;
+    bottom:20px;
+    right:20px;
+    width: 380px;
+    border-radius: 10px 10px 10px 10px;
+    background: rgba(0, 44, 69, 0.64);
+    backdrop-filter: blur(6.5px);    
+    padding:40px;
+    color:#ffffff; 
+    font-family: 'Lato';
+    z-index: 12000;
+}
+
+
+#confirmhead {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 22px;
+}
+
+#confirmmsg {
+    font-size:14px;
+    font-weight:400;
+    font-style: italic;
+}
+
+#confirmmsg a {
+    color:#3DC6EF;
+}
+
+
+#showdummychat {
+    position: fixed;
+    bottom:20px;
+    right:20px;
+    z-index: 12000;
+}
+
+#brevocross {
+    position: absolute;
+    top: 10px;
+    right: 16px;
+}
+
+#confirmbtns {
+    display:flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+
+#theBrevoChat #confirmyes{
+    border-radius: 2px;
+    padding:8px 4px; margin:0 10px;
+    border: 2px solid var(--border-border-secondary-cta, #0094D8);
+    background: var(--surface-surface-secondary-cta, #0094D8);    
+}
+
+#theBrevoChat #confirmno {
+    border-radius: 2px;
+    padding:8px 4px; margin:0 10px;
+    border: 2px solid var(--border-border-secondary-cta, grey);
+    background: var(--surface-surface-secondary-cta, grey);    
+}
+
+
+
+#theBrevoChat button span {
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 900;
+    padding: 12px 20px;
+    letter-spacing:1px;
+}
+
+
+@media (max-width: 400px) {
+    #theBrevoChat{
+         width: 360px;
+         right: 10px;
+         padding: 20px;
+      }
+}
+	</style>
+	<script type="application/json" class="joomla-script-options new">{"csrf.token":"9a299fed18bf62a2cac76c0808f4620f","system.paths":{"root":"","base":""}}</script>
+	<script src="/plugins/system/bdthemes_shortcodes/js/shortcode-ultimate.js" type="text/javascript"></script>
+	<script src="/plugins/system/bdthemes_shortcodes/shortcodes/e24spoiler/js/spoiler.js" type="text/javascript"></script>
+	<script src="/media/system/js/caption.js?eeb5d01c52acf7dfec23ff3826bc0021" type="text/javascript"></script>
+	<script src="/templates/ja_teline_v/local/js/author-box.js" type="text/javascript"></script>
+	<script src="/media/com_adtrack/js/adtrack.js" type="text/javascript"></script>
+	<script src="/media/system/js/core.js?eeb5d01c52acf7dfec23ff3826bc0021" type="text/javascript"></script>
+	<script src="/media/com_rstbox/js/vendor/velocity.min.js?eeb5d01c52acf7dfec23ff3826bc0021" type="text/javascript"></script>
+	<script src="/media/com_rstbox/js/vendor/velocity.ui.min.js?eeb5d01c52acf7dfec23ff3826bc0021" type="text/javascript"></script>
+	<script src="/media/com_rstbox/js/animations.js?eeb5d01c52acf7dfec23ff3826bc0021" type="text/javascript"></script>
+	<script src="/media/com_rstbox/js/engagebox.js?eeb5d01c52acf7dfec23ff3826bc0021" type="text/javascript"></script>
+	<script src="/media/system/js/mootools-core.js?eeb5d01c52acf7dfec23ff3826bc0021" type="text/javascript"></script>
+	<script src="/plugins/system/microformatsvotes/assets/js/plugin.js" type="text/javascript"></script>
+	<script src="/plugins/system/t3/base-bs3/bootstrap/js/bootstrap.js" type="text/javascript"></script>
+	<script src="/plugins/system/t3/base-bs3/js/jquery.tap.min.js" type="text/javascript"></script>
+	<script src="/plugins/system/t3/base-bs3/js/script.js" type="text/javascript"></script>
+	<script src="/plugins/system/t3/base-bs3/js/menu.js" type="text/javascript"></script>
+	<script src="/plugins/system/t3/base-bs3/js/jquery.ckie.js" type="text/javascript"></script>
+	<script src="/templates/ja_teline_v/js/script.js" type="text/javascript"></script>
+	<script src="/templates/ja_teline_v/local/js/stickynav.js" type="text/javascript"></script>
+	<script src="/plugins/system/t3/base-bs3/js/nav-collapse.js" type="text/javascript"></script>
+	<script src="/plugins/system/bdthemes_shortcodes/shortcodes/panel/js/panel.js" type="text/javascript"></script>
+	<script type="text/javascript">
+jQuery(document).ready(function(){var sel = "div.AimyVideoEmbedderVideoPlaceholder";loadVideoFn = function(e){var $t = jQuery(e);$t.parent().children(":first").html(decodeURIComponent($t.attr("data-frame")));$t.remove();};jQuery(sel).click(function(){loadVideoFn(this);});jQuery(sel + " a").click(function(e){return e.stopPropagation();});});</script><script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Datenschutzerklärung einfach erstellen – So geht’s DSGVO-konform!",
+  "description": "Vorstellung eines Tools von e-recht24, mit dem Nutzer schnell und einfach eine rechtssichere Datenschutzerklärung erstellen können.",
+  "thumbnailUrl": "https://i.ytimg.com/vi/z3iwog8h1gY/maxresdefault.jpg",
+  "uploadDate": "2024-11-06T03:30:31-08:00",
+  "duration": "PT0M40S",
+  "publisher": {
+    "@type": "Organization",
+    "name": "eRecht24",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.e-recht24.de/images/e-recht24-logo.png"
+    }
+  },
+  "contentUrl": "https://www.e-recht24.de/muster-datenschutzerklaerung.html",
+"embedUrl": "https://www.youtube.com/embed/z3iwog8h1gY"
+}
+</script><script>jQuery(document).ready(function(){var sel = "div.AimyVideoEmbedderVideoPlaceholder";loadVideoFn = function(e){var $t = jQuery(e);$t.parent().children(":first").html(decodeURIComponent($t.attr("data-frame")));$t.remove();};jQuery(sel).click(function(){loadVideoFn(this);});jQuery(sel + " a").click(function(e){return e.stopPropagation();});});</script><script>jQuery(window).on('load',  function() {
+				new JCaption('img.caption');
+			});var adtrack_root = "https://www.e-recht24.de/";
+            <!-- EngageBox #110 Actions Start -->
+            
+        !(function() {  
+                if (!EngageBox) {
+                    return;
+                }
+
+                EngageBox.onReady(function() {
+                    var me = EngageBox.getInstance(110);
+
+                    if (!me) {
+                        return;
+                    }
+
+                    
+        !(function() { me.on("open", function() { var excb40 = document.getElementById('area_sticky');
+if (excb40) {
+    excb40.innerHTML = "";
+} }); })();
+                });
+             })();
+            <!-- EngageBox #110 Actions End -->
+        var SITE_ROOT = "https://www.e-recht24.de/";
+	var ja_base_uri = "";
+
+	</script>
+	<script type="application/ld+json">
+{
+					"@context": "http:\/\/schema.org\/",
+					"@type": "Product",
+					"name": "DSGVO-konforme Datenschutzerklärung jetzt kostenlos erstellen",
+                    "url": "https://www.e-recht24.de/muster-datenschutzerklaerung.html",
+					"aggregateRating": {
+					"@type": "AggregateRating",
+					"ratingValue": "4.34",
+					"bestRating": "5",
+					"ratingCount": "6934"
+					}
+				}
+	</script>
+	<link href="http://feeds.feedburner.com/erecht24" rel="alternate" type="application/rss+xml" title="Internetrecht" />
+	<meta property="site_name " content="eRecht24" />
+<meta property="og:title" content="DSGVO-konforme Datenschutzerklärung jetzt kostenlos erstellen" />
+<meta property="og:type" content="article" />
+<meta property="og:image" content="https://www.e-recht24.de/images/admin-300x200.jpg" />
+<meta property="og:image:secure_url" content="https://www.e-recht24.de/images/admin-300x200.jpg" />
+<meta property="og:url" content="https://www.e-recht24.de/muster-datenschutzerklaerung.html" />
+<meta property="og:description" content="Erzeugen Sie mit dem eRecht24 Impressum Generator ein rechtssicheres Impressum + Datenschutzerkl&auml;rung f&uuml;r Ihre Webseite. ✓ Einfach ✓ in 5 Minuten  ✓ 100% kostenlos ✓ Muster &amp; Beispiele" />
+<meta property="article:author" content="Rechtsanwalt Sören Siebert " /><meta name="twitter:creator" content="Rechtsanwalt Sören Siebert " />
+<meta name="twitter:url" content="https://www.e-recht24.de/muster-datenschutzerklaerung.html" />
+<meta name="twitter:title" content="DSGVO-konforme Datenschutzerklärung jetzt kostenlos erstellen" />
+<meta name="twitter:description" content="Erzeugen Sie ein rechtssicheres Impressum f&uuml;r Ihre Webseite ✓ Einfach ✓ in 5 Minuten ✓ 100% kostenlos ✓ Muster" />
+<meta name="twitter:image" content="https://www.e-recht24.de/images/admin-300x200.jpg" />
+
+	<meta charset="utf-8">
+<!-- META FOR IOS & HANDHELD -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+	<style type="text/stylesheet">
+		@-webkit-viewport   { width: device-width; }
+		@-moz-viewport      { width: device-width; }
+		@-ms-viewport       { width: device-width; }
+		@-o-viewport        { width: device-width; }
+		@viewport           { width: device-width; }
+	</style>
+	<script type="text/javascript">
+		//<![CDATA[
+		if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+			var msViewportStyle = document.createElement("style");
+			msViewportStyle.appendChild(
+				document.createTextNode("@-ms-viewport{width:auto!important}")
+			);
+			document.getElementsByTagName("head")[0].appendChild(msViewportStyle);
+		}
+		//]]>
+	</script>
+<meta name="HandheldFriendly" content="true"/>
+<meta name="apple-mobile-web-app-capable" content="YES"/>
+<!-- //META FOR IOS & HANDHELD -->
+
+
+
+<!-- Le HTML5 shim and media query for IE8 support -->
+<!--[if lt IE 9]>
+<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<script type="text/javascript" src="/plugins/system/t3/base-bs3/js/respond.min.js"></script>
+<![endif]-->
+
+<!-- You can add Google Analytics here or use T3 Injection feature -->
+<script src="https://tools.e-recht24.de/media/com_impressumgenerator/data/clients/erecht24dsg/js/e24ig.js?v=231220" type="text/javascript"></script>
+<script type="text/javascript">
+var global_ph = '';
+var global_uuid = '';
+var import_uuid = '';
+var project_uuid = '';
+var e24ig_success_handling = 0;
+var e24ig_feature_table = 1;
+jQuery( document ).ready(function($) {
+const queryString = window.location.search;
+const urlParams = new URLSearchParams(queryString);
+const importuuid = urlParams.get('importuuid');
+if(localStorage.getItem("erecht24dsg_start") !== null || (importuuid !== null && importuuid.length)){
+activateGenerator();
+}
+});
+function activateGenerator(){
+if (!jQuery("#e24ig-outer").length){
+jQuery('body,html').animate({scrollTop : 0}, 800);
+jQuery("article header").after('<div id="e24ig-outer"></div>');
+runE24ig(1);
+jQuery( "#e24ig-outer").nextAll().hide();
+if(localStorage.getItem("erecht24dsg_start") === null){
+localStorage.setItem("erecht24dsg_start", Date.now());
+}
+}
+}
+function disableGenerator() {
+jQuery( "#e24ig-outer").nextAll().show();
+jQuery( "#e24ig-outer").hide();
+if(localStorage.getItem("erecht24dsg_start") !== null){
+localStorage.removeItem("erecht24dsg_start");
+}
+jQuery( "#e24ig-outer").remove();
+jQuery('body,html').animate({scrollTop :0}, 800);
+}
+if(typeof sticky_toc == 'object'){
+sticky_toc.reinitSticky();
+}
+</script>
+<link rel="stylesheet" href="https://tools.e-recht24.de/media/com_impressumgenerator/data/clients/erecht24dsg/css/custom.css?v=240530" type="text/css" /><script async src="/abl/_public/72099448/assets_js/1763634853.js"></script><script>
+// CB-40 - Sticky Footer auf Artikeln - 100% Ausspielung
+try {    
+
+        if ( window.innerWidth > 1000 ) {
+                    
+                    function cb_get_top(el) {
+                        if( el !== null ){
+                            return el.offsetTop + (el.offsetParent && cb_get_top(el.offsetParent));
+                        }
+                        return false;
+                    }
+                
+
+                    var ix=0;
+                    var intval40 = setInterval(function() {    
+                        ix++;
+                        
+                        if ( document.querySelector('#ea-premium-1') !== null &&  document.querySelector('#ea-premium-1 h4') !== null && document.querySelector('.main .wrap') !== null ) {
+                    
+                            
+                            var show_sticky_after = document.querySelector('#ea-premium-1');
+                            var show_sticky_after_top = cb_get_top(show_sticky_after);
+
+                            var show_sticky_before = document.querySelector('.main .wrap');
+                            var show_sticky_before_top = cb_get_top(show_sticky_before);
+
+                           const regex = /^(https?:\/\/)/;
+
+                            var sticky_content = document.querySelector('#ea-premium-1 .ea-premium-text').innerHTML;
+                            var sticky_target = document.querySelector('#ea-premium-1 a').getAttribute('href');
+                            if(!regex.test(sticky_target)) {
+                                sticky_target = 'https://www.e-recht24.de' + sticky_target;
+                            }                            
+
+                            var erstesDiv = document.querySelector('#ea-premium-1 div[class]');
+
+                            // Fallbackimg 
+                            var backgroundImageUrl = 'https://www.e-recht24.de/plugins/system/erechtarticle/images/premium.svg';
+                            // Überprüfe, ob ein passendes div-Element gefunden wurde
+                            if (erstesDiv) {
+                                var backgroundImageStyle = window.getComputedStyle(erstesDiv).getPropertyValue('background-image');
+                                backgroundImageUrl = backgroundImageStyle.replace(/url\(['"]?(.*?)['"]?\)/i, '$1');
+                                // Überprüfe, ob der Pfad relativ ist
+                                if (!backgroundImageUrl.startsWith('http') && !backgroundImageUrl.startsWith('/')) {
+                                    // Extrahiere den relativen Pfad
+                                    var relativePath = backgroundImageUrl;
+                                    // Bestimme die Anzahl der "../" im Pfad
+                                    var levelsUp = (relativePath.match(/\.\.\//g) || []).length;
+                                    // Erzeuge den absoluten Pfad basierend auf der aktuellen Seite
+                                    var currentPath = window.location.href.split('/');
+                                    currentPath.pop(); // Entferne das letzte Element (die aktuelle Datei)
+                                    for (var i = 0; i < levelsUp; i++) {
+                                      currentPath.pop(); // Entferne entsprechend viele Verzeichnisebenen
+                                    }
+                                    var absolutePath = currentPath.join('/') + '/' + relativePath.replace(/\.\.\//g, '');
+                                    // Setze den absoluten Pfad zurück
+                                    backgroundImageUrl = absolutePath;
+                                }                            
+                            }                      
+                            
+                            var backgroundimage = '<img src="' + backgroundImageUrl + '" style="max-height: 200px;position: relative;bottom: 0;"></img>';
+                            var sticky_target_url = '<a href="' + sticky_target + '" id="sticky_klick" style="max-width: 1180px; margin: 0 auto; display: block; text-decoration: none;">';
+
+                            var sticky_html = `${sticky_target_url}
+                                <div style="padding: 0px; color: #fff; position:relative;"> 
+                                    <div style="max-width: 70%; margin: 10px 0px; padding: 12px 24px;"> 
+                                        <div id="stickyc" class="ea-premium-wrap">${sticky_content}</div> 
+                                    </div> 
+                                    <div style="position: absolute;bottom: 20px;right: 24px;">
+                                        ${backgroundimage}
+                                    </div>
+                                </div> </a> 
+                                <a href="javascript:void(null);" id="sticky_close" style="position: absolute; top: 5px; right: 10px;"><img src="https://www.e-recht24.de/mitglieder/wp-content/uploads/close-icon-white.svg" style=" width: 15px;"></a>
+                                <style>#stickyc h1,#stickyc h2,#stickyc h3,#stickyc h4, #stickyc p, #stickyc li 
+                                        {color: #fff!important;} 
+                                    #stickyc.ea-premium-wrap 
+                                        {   background-image: unset; 
+                                            margin-bottom: 0;} 
+                                    #stickyc h1,#stickyc h2,#stickyc h3,#stickyc h4 
+                                        {   margin-top: 0px; 
+                                            color: #ffffff !important; 
+                                            font-size: 28px !important; 
+                                            font-weight: 700 !important; 
+                                            line-height: 32px !important;} 
+                                    #stickyc ul 
+                                        {   font-weight: 400; 
+                                            font-size: 16px; 
+                                            line-height: 20px; 
+                                            padding: 0; 
+                                            margin-left: 16px;} 
+                                    #stickyc ul li 
+                                        {
+                                            background: none; 
+                                            list-style-type: none; 
+                                            position: relative; 
+                                            margin: 10px 0; }
+                                    #stickyc ul li::before 
+                                        {   content: \'\' !important; 
+                                            background: url(https://www.e-recht24.de/plugins/system/erechtarticle/images/list-elem.png); 
+                                            margin: -5px 8px -3px -10px; 
+                                            background-size: cover; 
+                                            display: inline-block; 
+                                            height: 15px; width: 15px; 
+                                            background-position: 0px; 
+                                            background-repeat: no-repeat;}
+                                </style>`;
+
+                            var newEl = document.createElement('div');
+                            newEl.style.cssText = `position: fixed; 
+                                                    display:none;
+                                                    width: 100%; 
+                                                    height: auto; 
+                                                    background: none; // url(https://www.e-recht24.de/plugins/system/erechtarticle/images/blue-bg-waves.svg);
+                                                    background-color: #003e57; 
+                                                    bottom: 0; 
+                                                    z-index: 9999999999999999; 
+                                                    background-size: cover`;
+                            newEl.id = 'area_sticky';
+                            newEl.innerHTML = sticky_html;
+                            
+                            document.body.appendChild(newEl);
+                            
+                            
+							if( document.querySelector('#stickyc .ea-premium-button') !== null ){
+								cb_button_width = document.querySelector('#stickyc .ea-premium-button').offsetWidth;	
+								if( cb_button_width <= 350 ){
+									var newEl = document.createElement('img');
+									newEl.setAttribute('src', 'https://www.e-recht24.de/cb/cb37-ratings-new.png');
+									newEl.setAttribute('style', 'width: 270px;height: auto;margin: 0px 0px 0px 20px;');
+									var ref = document.querySelector('#stickyc .ea-premium-button')
+									ref.parentNode.insertBefore(newEl, ref.nextSibling);						
+								}				
+							}
+
+                            var cb_sticky = document.getElementById('area_sticky');
+                            var sticky_shown = false;
+                            
+                            window.addEventListener('scroll', function() {
+                                if( window.scrollY > show_sticky_after_top+show_sticky_after.offsetHeight && window.scrollY < show_sticky_before_top ){
+                                    if( cb_sticky.style.display == 'none' && !document.querySelector('div[data-id="5"].eb-visible') ) {
+                                        cb_sticky.style.display = 'block';
+                                        
+                                        if( sticky_shown === false ){
+                                            sticky_shown = true;
+                                            
+                                            if( typeof EngageBox != 'undefined' ){
+                                                EngageBox.onReady(function() { 
+                                                    EngageBox.getInstance(7).destroy();
+                                                });    
+                                            }
+                                        }
+                                    }
+                                }
+                                else{
+                                    if( cb_sticky.style.display == 'block' ) {
+                                        cb_sticky.style.display = 'none';
+                                    }
+                                }
+                            });    
+
+                            if (document.querySelector('#sticky_klick') != null) {
+                                document.querySelector("#sticky_klick").addEventListener('click', function(e) {
+                                    _paq.push(['trackEvent', "ab-cb40-banner: Klick v1", 'button', '']);
+                                });        
+                            }
+                            
+                            if (document.querySelector('#sticky_close') != null) {
+                                document.querySelector("#sticky_close").addEventListener('click', function(e) {
+                                    document.querySelector('#area_sticky').innerHTML = '';
+                                    _paq.push(['trackEvent', "ab-cb40-banner: Close v1", 'button', '']);
+                                    
+                                });        
+                            }                
+                                                        
+                            if( typeof EngageBox != 'undefined' && !EngageBox.getInstance('5') == false ){
+                                EngageBox.getInstance('5').on('beforeOpen', function() {
+                                    cb_sticky.style.display = 'none';
+                                });
+                            }                    
+
+                            clearInterval(intval40);
+                        } else {
+                            if(ix > 200) clearInterval(intval40);
+                        }
+                    }, 100);                        
+
+    }
+
+} catch (e) { console.log(e); }    
+
+</script>
+	
+
+
+
+
+
+</head>
+
+<body >
+<div class="t3-wrapper" itemscope itemtype="http://schema.org/WebPage"> <!-- Need this wrapper for off-canvas menu. Remove if you don't use of-canvas -->
+
+  
+
+
+	
+<!-- HEADER -->
+<header id="t3-header" class="t3-header t3-header-2021">
+	<div class="container">
+		<div class="row header-row">
+
+			<div class="col-md-3 header-left">
+
+				<!-- OFF CANVAS TOGGLE -->
+				
+				<!-- // OFF CANVAS TOGGLE -->
+
+				<!-- LOGO -->
+				<div class="logo">
+					<div class="logo-image">
+						<a href="https://www.e-recht24.de/" title="eRecht24.de">
+															<img class="logo-img" src="/images/logo-erecht24-light.svg" alt="eRecht24.de" />
+																					<span>eRecht24.de</span>
+						</a> <small class="site-slogan"></small>
+					</div>
+				</div>
+				<!-- //LOGO -->
+
+			</div>
+
+
+			<!-- HEADER RIGHT -->
+			<div class="col-md-9 header-right">
+				<div class="header-right-inner">
+
+					<div class="col header-1 ">
+						<div class="t3-module module toolsmenu " id="Mod107"><div class="module-inner"><div class="module-ct"><ul class="nav ">
+<li class="item-134"><a href="/impressum-generator.html" class="">Impressum-Generator</a></li><li class="item-108 current active"><a href="/muster-datenschutzerklaerung.html" class="">Datenschutz-Generator</a></li><li class="item-2313"><a href="https://www.e-recht24.de/e24link/vhagz" class="" rel="nofollow">Login </a></li></ul>
+</div></div></div><div class="t3-module module " id="Mod352"><div class="module-inner"><div class="module-ct"><div class="mb-top"><a href="https://www.e-recht24.de/e24link/rsden" class="topbar-btn btn-sale">Jetzt Mitglied werden!</a></div>
+</div></div></div>
+					</div>
+					
+				</div>
+			</div>
+			<!-- // HEADER RIGHT -->
+			<div class="navbar-header">
+														<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".t3-navbar-collapse">
+					<i class="fa fa-bars"></i>
+					</button>
+							</div>
+		</div>
+	</div>
+</header>
+<!-- // HEADER -->
+
+
+  
+<!-- MAIN NAVIGATION -->
+<nav id="t3-mainnav" class="wrap navbar navbar-default t3-mainnav t3-mainnav-2021">
+	<div class="container">
+		<div class="mainnav-search-wrap">
+		<div class="mainnav-wrap">
+			<div class="t3-navbar-collapse navbar-collapse collapse"></div>
+			<div class="t3-navbar navbar-collapse collapse">
+				<div  class="t3-megamenu"  data-responsive="true">
+<ul itemscope itemtype="http://www.schema.org/SiteNavigationElement" class="nav navbar-nav level0">
+<li itemprop='name' class="item-home" data-id="207" data-level="1" data-class="item-home">
+<a itemprop='url' class=" homelink"  href="/"   data-target="#">Home </a>
+
+</li>
+<li itemprop='name' class="dropdown mega" data-id="193" data-level="1">
+<a itemprop='url' class=" dropdown-toggle"  href="/artikel/"   data-target="#" data-toggle="dropdown">Ratgeber <em class="caret"></em></a>
+
+<div class="nav-child dropdown-menu mega-dropdown-menu"  style="width: 800px"  data-width="800"><div class="mega-dropdown-inner">
+<div class="row">
+<div class="col-xs-3 mega-col-nav" data-width="3"><div class="mega-inner">
+<ul itemscope itemtype="http://www.schema.org/SiteNavigationElement" class="mega-nav level1">
+<li itemprop='name'  data-id="3399" data-level="2">
+<span class=" separator"   data-target="#"> Schwerpunkte</span>
+
+</li>
+<li itemprop='name'  data-id="2918" data-level="2">
+<a itemprop='url' class=""  href="/agb/"   data-target="#">AGB </a>
+
+</li>
+<li itemprop='name'  data-id="3494" data-level="2">
+<a itemprop='url' class=""  href="/arbeitsrecht/"   data-target="#">Arbeitsrecht </a>
+
+</li>
+<li itemprop='name'  data-id="2858" data-level="2">
+<a itemprop='url' class=""  href="/datenschutz/"   data-target="#">Datenschutz </a>
+
+</li>
+<li itemprop='name'  data-id="3284" data-level="2">
+<a itemprop='url' class=""  href="/domain-hosting/"   data-target="#">Domain &amp; Hosting </a>
+
+</li>
+<li itemprop='name'  data-id="3005" data-level="2">
+<a itemprop='url' class=""  href="/ecommerce/"   data-target="#">E-Commerce </a>
+
+</li>
+<li itemprop='name'  data-id="2797" data-level="2">
+<a itemprop='url' class=""  href="/impressum/"   data-target="#">Impressum</a>
+
+</li>
+</ul>
+</div></div>
+<div class="col-xs-3 mega-col-nav" data-width="3"><div class="mega-inner">
+<ul itemscope itemtype="http://www.schema.org/SiteNavigationElement" class="mega-nav level1">
+<li itemprop='name'  data-id="3400" data-level="2">
+<span class="hidden-separator separator"   data-target="#"> ---</span>
+
+</li>
+<li itemprop='name'  data-id="3543" data-level="2">
+<a itemprop='url' class=""  href="/ki/"   data-target="#">Künstliche Intelligenz (KI) </a>
+
+</li>
+<li itemprop='name'  data-id="3410" data-level="2">
+<a itemprop='url' class=""  href="/markenrecht/"   data-target="#">Markenrecht </a>
+
+</li>
+<li itemprop='name'  data-id="3326" data-level="2">
+<a itemprop='url' class=""  href="/online-marketing/"   data-target="#">Online Marketing </a>
+
+</li>
+<li itemprop='name'  data-id="183" data-level="2">
+<a itemprop='url' class=""  href="/strafrecht/"   data-target="#">Strafrecht </a>
+
+</li>
+<li itemprop='name'  data-id="2855" data-level="2">
+<a itemprop='url' class=""  href="/tracking-cookies/"   data-target="#">Tracking &amp; Cookies</a>
+
+</li>
+<li itemprop='name'  data-id="3434" data-level="2">
+<a itemprop='url' class=""  href="/unternehmensgruendung/"   data-target="#">Unternehmensgründung </a>
+
+</li>
+</ul>
+</div></div>
+<div class="col-xs-3 mega-col-nav" data-width="3"><div class="mega-inner">
+<ul itemscope itemtype="http://www.schema.org/SiteNavigationElement" class="mega-nav level1">
+<li itemprop='name'  data-id="3401" data-level="2">
+<span class="hidden-separator separator"   data-target="#"> ---</span>
+
+</li>
+<li itemprop='name'  data-id="3175" data-level="2">
+<a itemprop='url' class=""  href="/urheberrecht/"   data-target="#">Urheberrecht </a>
+
+</li>
+</ul>
+</div></div>
+<div class="col-xs-3 mega-col-nav" data-width="3"><div class="mega-inner">
+<ul itemscope itemtype="http://www.schema.org/SiteNavigationElement" class="mega-nav level1">
+<li itemprop='name'  data-id="3402" data-level="2">
+<span class=" separator"   data-target="#"> Businessthemen</span>
+
+</li>
+<li itemprop='name'  data-id="3403" data-level="2">
+<a itemprop='url' class=""  href="/datenschutz/13122-alles-rechtliche-fuer-agenturen-und-webdesigner.html"   data-target="#">Agenturen &amp; Webdesigner</a>
+
+</li>
+<li itemprop='name'  data-id="3405" data-level="2">
+<a itemprop='url' class=""  href="/ecommerce/6347-top-10-fehler-eroeffnung-onlineshop.html"   data-target="#">Online-Shop-Betreiber</a>
+
+</li>
+<li itemprop='name'  data-id="3404" data-level="2">
+<a itemprop='url' class=""  href="/unternehmensgruendung/7175-rechtliche-voraussetzungen-unternehmensgruendung.html"   data-target="#">Gründer &amp; Start-Ups </a>
+
+</li>
+<li itemprop='name'  data-id="3424" data-level="2">
+<a itemprop='url' class=""  href="/13346-content-creator-und-influencer-recht.html"   data-target="#">Content Creator </a>
+
+</li>
+<li itemprop='name'  data-id="3542" data-level="2">
+<a itemprop='url' class=""  href="/13386-digitalisierung-vereine.html"   data-target="#">Vereine </a>
+
+</li>
+<li itemprop='name'  data-id="3714" data-level="2">
+<a itemprop='url' class=""  href="/13491-digitalisierung-im-handwerk.html"   data-target="#">Handwerker </a>
+
+</li>
+</ul>
+</div></div>
+</div>
+</div></div>
+</li>
+<li itemprop='name'  data-id="196" data-level="1" data-hidesub="1">
+<a itemprop='url' class=""  href="/news/"   data-target="#">News </a>
+
+</li>
+<li itemprop='name'  data-id="2764" data-level="1">
+<a itemprop='url' class=""  href="https://marktplatz.e-recht24.de/"   data-target="#">Marktplatz</a>
+
+</li>
+<li itemprop='name' class="dropdown mega" data-id="383" data-level="1">
+<a itemprop='url' class=" dropdown-toggle"  href="/e24link/bthgs"   data-target="#" data-toggle="dropdown">Mitglieder<em class="caret"></em></a>
+
+<div class="nav-child dropdown-menu mega-dropdown-menu"  ><div class="mega-dropdown-inner">
+<div class="row">
+<div class="col-xs-12 mega-col-nav" data-width="12"><div class="mega-inner">
+<ul itemscope itemtype="http://www.schema.org/SiteNavigationElement" class="mega-nav level1">
+<li itemprop='name'  data-id="1917" data-level="2">
+<a itemprop='url' class=""  href="https://www.e-recht24.de/e24link/rlxb1"   data-target="#">Login</a>
+
+</li>
+</ul>
+</div></div>
+</div>
+</div></div>
+</li>
+<li itemprop='name' class="dropdown mega" data-id="1247" data-level="1">
+<a itemprop='url' class=" dropdown-toggle"  href="/tools.html"   data-target="#" data-toggle="dropdown">Tools<em class="caret"></em></a>
+
+<div class="nav-child dropdown-menu mega-dropdown-menu"  style="width: 1000px"  data-width="1000"><div class="mega-dropdown-inner">
+<div class="row">
+<div class="col-xs-3 mega-col-nav" data-width="3"><div class="mega-inner">
+<ul itemscope itemtype="http://www.schema.org/SiteNavigationElement" class="mega-nav level1">
+<li itemprop='name'  data-id="1335" data-level="2">
+<span class=" separator"   data-target="#"> Checks</span>
+
+</li>
+<li itemprop='name'  data-id="2584" data-level="2">
+<a itemprop='url' class=""  href="/websitescanner"   data-target="#">eRecht24 Website Scanner </a>
+
+</li>
+<li itemprop='name'  data-id="2710" data-level="2">
+<a itemprop='url' class=""  href="/google-fonts-scanner"   data-target="#">eRecht24 Google Fonts Scanner </a>
+
+</li>
+<li itemprop='name'  data-id="3571" data-level="2">
+<a itemprop='url' class=""  href="/barrierefreiheit.html"   data-target="#">Barrierefreiheits-Check &amp; -Scanner </a>
+
+</li>
+<li itemprop='name'  data-id="3599" data-level="2">
+<a itemprop='url' class=""  href="/social-media-check.html"   data-target="#">eRecht24 Social-Media-Check </a>
+
+</li>
+<li itemprop='name'  data-id="3598" data-level="2">
+<a itemprop='url' class=""  href="/ki-check.html"   data-target="#">eRecht24 KI-Check </a>
+
+</li>
+<li itemprop='name'  data-id="582" data-level="2" data-xicon="fa fa-lock">
+<a itemprop='url' class=""  href="https://www.e-recht24.de/mitglieder/login/?redirect_to=%2Ftools%2Fabmahncheck%2F"   data-target="#"><span class="fa fa-lock"></span>Abmahn-Check</a>
+
+</li>
+<li itemprop='name'  data-id="1262" data-level="2" data-xicon="fa fa-lock">
+<a itemprop='url' class=""  href="https://www.e-recht24.de/mitglieder/login/?redirect_to=%2Ftools%2Fmarkencheck%2F"   data-target="#"><span class="fa fa-lock"></span>Marken-Check</a>
+
+</li>
+<li itemprop='name'  data-id="1810" data-level="2">
+<a itemprop='url' class=""  href="https://www.e-recht24.de/dsgvo-bussgeldrechner.html"   data-target="#">DSGVO Bußgeldrechner</a>
+
+</li>
+<li itemprop='name'  data-id="3492" data-level="2" data-xicon="fa fa-lock">
+<a itemprop='url' class=""  href="https://www.e-recht24.de/mitglieder/tools/datenschutzpro/"   data-target="#"><span class="fa fa-lock"></span>eRecht24 DatenschutzPro Datenschutzmanagementsystem</a>
+
+</li>
+<li itemprop='name'  data-id="3652" data-level="2" data-xicon="fa fa-lock">
+<a itemprop='url' class=""  href="https://www.e-recht24.de/mitglieder/produkt-tiktok-shops/"   data-target="#"><span class="fa fa-lock"></span>TikTok Shops</a>
+
+</li>
+</ul>
+</div></div>
+<div class="col-xs-3 mega-col-nav" data-width="3"><div class="mega-inner">
+<ul itemscope itemtype="http://www.schema.org/SiteNavigationElement" class="mega-nav level1">
+<li itemprop='name'  data-id="1336" data-level="2">
+<span class=" separator"   data-target="#"> Plugins</span>
+
+</li>
+<li itemprop='name'  data-id="2097" data-level="2" data-xicon="fa fa-lock">
+<a itemprop='url' class=""  href="https://www.e-recht24.de/mitglieder/lp-cookieeinwilligung/"   data-target="#"><span class="fa fa-lock"></span>Cookie Consent Tool</a>
+
+</li>
+<li itemprop='name'  data-id="986" data-level="2" data-xicon="fa fa-lock">
+<a itemprop='url' class=""  href="/erecht24-safe-sharing.html"   data-target="#"><span class="fa fa-lock"></span>eRecht24 Safe Sharing Tool </a>
+
+</li>
+<li itemprop='name'  data-id="1260" data-level="2" data-xicon="fa fa-lock">
+<a itemprop='url' class=""  href="https://www.e-recht24.de/mitglieder/login/?redirect_to=%2Ftools%2Ferecht24-rechtstexte-plugin%2F"   data-target="#"><span class="fa fa-lock"></span>eRecht24 Rechtstexte Plugin</a>
+
+</li>
+</ul>
+</div></div>
+<div class="col-xs-3 mega-col-nav" data-width="3"><div class="mega-inner">
+<ul itemscope itemtype="http://www.schema.org/SiteNavigationElement" class="mega-nav level1">
+<li itemprop='name'  data-id="1334" data-level="2">
+<span class=" separator"   data-target="#"> Generatoren</span>
+
+</li>
+<li itemprop='name'  data-id="1257" data-level="2">
+<a itemprop='url' class=""  href="/impressum-generator.html"   data-target="#">Impressum Generator</a>
+
+</li>
+<li itemprop='name' class="active" data-id="1258" data-level="2">
+<a itemprop='url' class=""  href="/muster-datenschutzerklaerung.html"   data-target="#">Datenschutzerklärung</a>
+
+</li>
+<li itemprop='name'  data-id="1259" data-level="2">
+<a itemprop='url' class=""  href="/facebook-impressum-generator.html"   data-target="#">Social Media Impressum Generator</a>
+
+</li>
+<li itemprop='name'  data-id="1261" data-level="2" data-xicon="fa fa-lock">
+<a itemprop='url' class=""  href="https://www.e-recht24.de/mitglieder/login/?redirect_to=%2Ftools%2Fgenerator-vertraulichkeitsvereinbarung%2F"   data-target="#"><span class="fa fa-lock"></span>NDA Generator</a>
+
+</li>
+<li itemprop='name'  data-id="1984" data-level="2">
+<a itemprop='url' class=""  href="/homeoffice-generator.html"   data-target="#">Datenschutz für Homeoffice </a>
+
+</li>
+<li itemprop='name'  data-id="2172" data-level="2">
+<a itemprop='url' class=""  href="/barrierefreiheitserklaerung.html"   data-target="#">Barrierefreiheitserklärung Generator für Behörden &amp; öffentliche Stellen </a>
+
+</li>
+<li itemprop='name'  data-id="3304" data-level="2">
+<a itemprop='url' class=""  href="/passwort-generator.html"   data-target="#">Passwort Generator </a>
+
+</li>
+</ul>
+</div></div>
+<div class="col-xs-3 mega-col-nav" data-width="3"><div class="mega-inner">
+<ul itemscope itemtype="http://www.schema.org/SiteNavigationElement" class="mega-nav level1">
+<li itemprop='name'  data-id="1814" data-level="2">
+<span class=" separator"   data-target="#"> Premium-Tools</span>
+
+</li>
+<li itemprop='name'  data-id="1815" data-level="2" data-xicon="fa fa-lock">
+<a itemprop='url' class=""  href="https://www.e-recht24.de/mitglieder/login/?redirect_to=%2Ftools%2Fprojekt-manager%2F"   data-target="#"><span class="fa fa-lock"></span>eRecht24 Projekt Manager</a>
+
+</li>
+<li itemprop='name'  data-id="1816" data-level="2" data-xicon="fa fa-lock">
+<a itemprop='url' class=""  href="https://www.e-recht24.de/mitglieder/login/?redirect_to=%2Ftools%2Fprojekt-manager%2F"   data-target="#"><span class="fa fa-lock"></span>eRecht24 Projekt Planer</a>
+
+</li>
+<li itemprop='name'  data-id="1817" data-level="2" data-xicon="fa fa-lock">
+<a itemprop='url' class=""  href="https://www.e-recht24.de/mitglieder/login/?redirect_to=%2Ftools%2Fprojekt-manager%2F"   data-target="#"><span class="fa fa-lock"></span>eRecht24 Projekt Report</a>
+
+</li>
+<li itemprop='name'  data-id="3611" data-level="2" data-xicon="fa fa-lock">
+<a itemprop='url' class=""  href="https://www.e-recht24.de/mitglieder/login/?redirect_to=%2Ftools%2Fvertragsschluss%2F"   data-target="#"><span class="fa fa-lock"></span>eRecht24 Vertragsschluss</a>
+
+</li>
+</ul>
+</div></div>
+</div>
+</div></div>
+</li>
+<li itemprop='name'  data-id="1116" data-level="1">
+<a itemprop='url' class=""  href="https://www.e-recht24.de/e24link/ayk9o?source_id=e24_menu"   data-target="#">Webinar</a>
+
+</li>
+<li itemprop='name' class="dropdown mega" data-id="1572" data-level="1">
+<a itemprop='url' class=" dropdown-toggle"  href="https://www.e-recht24.de/mitglieder/vorteilsangebote/uebersicht-rechtsberatungspakete/"   data-target="#" data-toggle="dropdown">Rechtsberatung<em class="caret"></em></a>
+
+<div class="nav-child dropdown-menu mega-dropdown-menu"  ><div class="mega-dropdown-inner">
+<div class="row">
+<div class="col-xs-12 mega-col-nav" data-width="12"><div class="mega-inner">
+<ul itemscope itemtype="http://www.schema.org/SiteNavigationElement" class="mega-nav level1">
+<li itemprop='name'  data-id="166" data-level="2">
+<a itemprop='url' class=""  href="/anwalt-internetrecht.htm"   data-target="#">Anwalt Internetrecht </a>
+
+</li>
+<li itemprop='name'  data-id="163" data-level="2">
+<a itemprop='url' class=""  href="/telefonische-rechtsberatung.html"   data-target="#">Telefonische Rechtsberatung </a>
+
+</li>
+<li itemprop='name'  data-id="1721" data-level="2">
+<a itemprop='url' class=""  href="https://www.e-recht24.de/mitglieder/vorteilsangebote/website-check-dsgvo/"   data-target="#">Website-Check DSGVO</a>
+
+</li>
+<li itemprop='name'  data-id="2585" data-level="2">
+<a itemprop='url' class=""  href="https://www.e-recht24.de/mitglieder/vorteilsangebote/check-online-shop-b2c-agb/"   data-target="#">Check Online-Shop</a>
+
+</li>
+<li itemprop='name'  data-id="2586" data-level="2">
+<a itemprop='url' class=""  href="https://www.e-recht24.de/mitglieder/vorteilsangebote/premium-agenturpaket/"   data-target="#">Webdesigner / Agenturen</a>
+
+</li>
+</ul>
+</div></div>
+</div>
+</div></div>
+</li>
+<li itemprop='name'  data-id="2202" data-level="1">
+<a itemprop='url' class=""  href="https://www.e-recht24.de/e24link/x4pfm"   data-target="#">Webseite absichern</a>
+
+</li>
+</ul>
+</div>
+
+			</div>
+		</div>
+		<div class="searchmod-wrap">
+			<div class="module-search">
+	<form action="/" method="post" class="form-inline">
+		<i class="fa fa-search"></i>
+		<label for="mod-search-searchword" class="element-invisible">Suchen ...</label> <input name="searchword" id="mod-search-searchword" maxlength="200"  class="form-control inputbox search-query" type="text" size="20" value="Suchen ..."  onblur="if (this.value=='') this.value='Suchen ...';" onfocus="if (this.value=='Suchen ...') this.value='';" />		<input type="hidden" name="task" value="search" />
+		<input type="hidden" name="option" value="com_search" />
+		<input type="hidden" name="Itemid" value="144" />
+
+	</form>
+
+</div>
+
+		</div>
+		</div>
+	</div>
+</nav>
+
+<script>
+	(function ($){
+		var maps = [];
+		$(maps).each (function (){
+			$('li[data-id="' + this['id'] + '"]').addClass (this['class']);
+		});
+	})(jQuery);
+</script>
+<!-- //MAIN NAVIGATION -->
+
+  
+  
+<!-- STICKY NAV -->
+<div id="t3-stickynav" class="t3-stickynav t3-stickynav-2021">
+	<div class="shadow">
+		<div class="container">
+			<a href="/"><img alt="eRecht24.de" src="/images/logo-erecht24-light.svg" ></a>
+<ul id="stickynavlist">
+<li><a class="stickylink" href="/artikel/">Ratgeber</a></li>
+<!--<li><a class="stickylink" href="/news/">News</a></li>-->
+<li><a class="stickylink" href="/mitglieder/affiliate/">Affiliate</a></li>
+<li><a class="stickylink" href="/e24link/68vqb">Mitglieder</a></li>
+<li><a class="stickylink" href="/tools.html">Tools</a></li>
+<li><a class="stickylink" href="/e24link/3646q">AGB</a></li>
+<li><div class="mb-top"><a class="topbar-btn btn-sale" href="/e24link/nfymg">Jetzt Mitglied werden!</a></div></li>
+</ul>
+		</div>
+	</div>
+</div>
+<!-- //STICKY NAV -->
+
+
+  
+
+  
+  
+
+  
+  
+
+
+	
+<div class="main">
+
+	
+  <div id="t3-mainbody" class="container t3-mainbody mainbody-magazine">
+  
+  	<div class="row">
+
+			<!-- MAIN CONTENT -->
+			<div id="t3-content" class="col t3-content">
+												<div class="item-row row-main">
+		<div class="article-main">
+								
+<article class="article" itemscope itemtype="http://schema.org/Article">
+	<meta itemscope itemprop="mainEntityOfPage"  itemType="https://schema.org/WebPage" itemid="/muster-datenschutzerklaerung.html" />
+	<meta itemprop="inLanguage" content="de-DE" />
+				<h1 class="main-title">Datenschutzerklärung: Generator</h1>
+						
+<header class="article-header clearfix">
+	<h2 class="article-title" itemprop="headline">
+					DSGVO-konforme Datenschutzerklärung jetzt kostenlos erstellen			<meta itemprop="url" content="https://www.e-recht24.de/muster-datenschutzerklaerung.html" />
+			</h2>
+
+			</header>				
+					<section class="article-intro-meta">
+		<div class="article-intro-data" >
+																			<div class="row author-block">
+<div class="col col-sm-6 author-line" itemprop="author">
+	<span class="author-label">Von:</span>
+		<img class="avatar" src="/images/microsites/redaktion/siebert-rund.png" alt="Rechtsanwalt Sören Siebert ">
+		
+			<span class="author-toggle" onclick="e24ToggleAuthorBox(1);"><span itemprop="name">Rechtsanwalt Sören Siebert </span></span>
+		 
+</div>
+<div class="col col-sm-6 author-line">
+	<span class="author-label">Fachlich geprüft von:</span>
+	<img class="avatar" src="/images/microsites/redaktion/annika-haucke-240x240.jpeg" alt="Rechtsanw&auml;ltin Annika Haucke">
+		
+			<span class="author-toggle" onclick="e24ToggleAuthorBox(2);"><span itemprop="name">Rechtsanw&auml;ltin Annika Haucke</span></span>
+		</div>
+</div>		<div class="row date-rating">
+	<div class="col col-sm-6 stack-notebook">
+							<span class="modified">
+					<time datetime="2025-07-01T02:00:00+02:00">
+						<span class="date-label">Stand:</span> 01. Juli 2025					</time>
+				</span>
+						
+						
+						
+			
+	</div>
+	<div class="col col-sm-6">
+		<!-- voting start -->
+		<div class="mfv"><div style="clear:both;margin:7px 0">
+		<div class="plgmfv-inline-rating" id="com_content.article-10568" ><div class="rating">
+				<div class="plgmfv-inline-rating-stars" id="mfv">
+					<ul class="plgmfv-star-rating">
+						<li id="mfv-current-rating" style="width:86.8%;">&nbsp;</li>
+						<li><a title="1 Stern von 5" class="plgmfv-toggler one-star worst">1</a></li>
+						<li><a title="2 Sterne von 5" class="plgmfv-toggler two-stars">2</a></li>
+						<li><a title="3 Sterne von 5" class="plgmfv-toggler three-stars">3</a></li>
+						<li><a title="4 Sterne von 5" class="plgmfv-toggler four-stars">4</a></li>
+						<li><a title="5 Sterne von 5" class="plgmfv-toggler five-stars best">5</a></li>
+					</ul>
+				</div><div class="plgmfv-box">(<span class="votes">6934</span> Bewertungen, <span class="average">4.34</span> von 5)</div></div></div></div></div>
+		<!-- voting end -->
+	</div>
+</div>
+
+<meta itemprop="dateModified" content="2025-07-01T02:00:00+02:00" />
+<meta itemprop="datePublished" content="2021-08-31T08:00:00+02:00" />
+<meta itemprop="dateCreated" content="2009-04-09T22:22:46+02:00" />										<div itemprop="publisher" itemscope itemtype="https://schema.org/Organization" style="height:0px;">
+					    <div itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
+					      <meta itemprop="url" content="https://www.e-recht24.de/images/logo-erecht24-long-72-rgb.png">
+					      <meta itemprop="width" content="202">
+					      <meta itemprop="height" content="50">
+					    </div>
+					    <meta itemprop="name" content="eRecht24">
+					  </div>
+					
+																		</div>
+		</section>
+		
+			<section class="brief-content light">
+				
+				<p class="pseudo-headline">Das Wichtigste in Kürze</p>
+				<ul><li>Fast alle Websitebetreiber, Unternehmer und Online Shops benötigen eine Datenschutzerklärung.</li><li>Die Datenschutzerklärung muss aktuell und leicht erreichbar sein, sonst drohen Abmahnungen und Bußgelder bis zu 20 Mio. Euro.</li><li>Mit einem Datenschutzgenerator sind Sie auf der sicheren Seite, weil die Texte für Ihre Datenschutzerklärung immer aktuell sind.</li></ul>																			</section>
+	
+		<section class="article-top-module">
+		<!-- START: Modules Anywhere --><div  id="generatorstart" class="start-block-generator dark">
+<div class="start-block-generator-title">eRecht24 Datenschutz-Generator</div>
+<div class="row equal">
+<div class="col-sm-6">
+<div class="gradient-box dark">
+<div class="start-block-generator-boxtitle"><strong>Erstellen Sie kostenlos eine Datenschutzerklärung</strong> für Ihre Website</div>
+<ul style="flex-grow:1;">
+<li><strong>Rechtssichere Datenschutzerklärung</strong> - in nur 3 Minuten</li>
+<li><strong>Für alle Websites</strong> und Unternehmensformen geeignet</li>
+<li><strong>Kostenlos</strong> und anonym</li>
+</ul>
+<button class="btn btn-secondary" onclick="activateGenerator();">Datenschutzerklärung kostenlos erstellen</button>
+<div class="small-text center rating"><span class="stars-bg"><span class="stars-value"></span></span><span class="rating-text"></span></div>
+</div>
+</div>
+<div class="col-sm-6">
+<div class="gradient-box dark">
+<div class="start-block-generator-boxtitle"><strong>Mehr Komfort und mehr erfasste Dienste</strong> mit eRecht24 Premium</div>
+<ul style="flex-grow:1;">
+<li><strong>Wir benachrichtigen Sie</strong> bei allen wichtigen rechtlichen Änderungen</li>
+<li>Sie können Ihre Datenschutzerklärung<strong> jederzeit aktualisieren und bearbeiten</strong></li>
+</ul>
+<a class="btn btn-primary" href="/e24link/fqlge">eRecht24 Premium ansehen</a>
+<div class="small-text center">ab 14,90 Euro / Monat</div>
+</div>
+</div>
+</div>
+</div>
+<script>
+jQuery( document ).ready(function($) {
+if($('#mfv-current-rating').length){
+$('.stars-value').attr('style',$('#mfv-current-rating').attr('style'));
+$('.rating-text').html($('.plgmfv-box').html());
+}
+timeItTookToLoadPage = Date.now() - requesttimestamp;
+var pageUrl = encodeURI(location.href);
+
+_paq.push(['setReferrerUrl', pageUrl ]);
+//currentUrl = pageUrl.replace(/\.html/g, '.html_qc001');
+//_paq.push(['setCustomUrl', currentUrl]);
+_paq.push(['setDocumentTitle', 'Einleitung']);
+
+_paq.push(['deleteCustomVariables', 'page']); 
+_paq.push(['trackPageView']);
+
+var content = document.getElementById('e24ig-content');
+_paq.push(['trackContentImpressionsWithinNode', content]);
+_paq.push(['enableLinkTracking']);
+});
+</script><!-- END: Modules Anywhere -->	</section>
+		<section class="article-full row" id="fullarticle">
+							<div class="col col-md-4 col-md-push-8 col-toc">
+				<div id="fixed-col1">
+					<nav id="article-toc-wrap">
+						<div id="article-toc-inner" class="gradient-box">
+	                        <div data-toc id="article-toc"></div>
+						</div>
+					</nav>
+				</div>
+			</div>
+					
+		<div class="article-content-main col col-md-8 col-md-pull-4">
+						<section class="article-content" itemprop="articleBody " data-content>
+				
+												
+<p>&nbsp;</p>
+<p><a href="/datenschutz/" class="back-to-overview">Zurück zur Übersicht: "Datenschutz"</a></p>
+<p>&nbsp;</p>
+<h3 class="skip" data-viewport="webseiten">Das Wichtigste zur DSGVO-konformen Datenschutzerklärung für Websites</h3>
+<p>Für eine Website ist eine Datenschutzerklärung ein absolutes Muss. Wer seiner Verantwortung nicht nachkommt, dem drohen DSGVO Geldbußen, Abmahnungen und Schadensersatzforderungen. Sanktionen sind auch bei fehlerhaften und unvollständigen Datenschutzerklärungen möglich. Gehen Sie hier deshalb sehr gewissenhaft vor. Doch was sind eigentlich die wichtigsten rechtlichen Inhalte einer Datenschutzerklärung?&nbsp;Sollten Sie eine Muster-Datenschutzerklärung nutzen? Oder ist für die Erstellung einer Datenschutzerklärung ein Generator besser?</p>
+<!-- START: Modules Anywhere -->
+<div style="max-width:773px" class="AimyVideoEmbedderVideoOuter">
+<div class="AimyVideoEmbedderVideo">
+<div class="AimyVideoEmbedderVideoInner AimyVideoEmbedderVideo-16-9"></div>
+<div class="AimyVideoEmbedderVideoPlaceholder" data-frame="%3Ciframe%20width%3D%22773%22%20height%3D%22433%22%20referrerpolicy%3D%22strict-origin-when-cross-origin%22%20style%3D%22border%3A0%22%20allowfullscreen%3D%22allowfullscreen%22%20src%3D%22https%3A%2F%2Fwww.youtube-nocookie.com%2Fembed%2Fz3iwog8h1gY%3Frel%3D0%26amp%3Bfs%3D1%26amp%3Bautoplay%3D0%26amp%3Bhtml5%3D1%22%3E%3C%2Fiframe%3E" style="" data-srv="youtube">
+<div>
+<div><button><img alt="Video Placeholder" src="https://i.ytimg.com/vi/z3iwog8h1gY/maxresdefault.jpg" />
+<div class="clicktoplay">
+<div class="clicktoplayinner">
+<p class="play-button"><i class="fa fa-youtube-play"></i></p>
+<p><strong>Click to play</strong></p>
+<p>Das Video wird über YouTube eingebunden. Wenn Sie das Video ansehen, werden Ihre personenbezogenen Daten von YouTube verarbeitet. Weitere Details entnehmen Sie unserer Datenschutzerklärung. Wenn Sie die Seite verlassen, wird YouTube wieder deaktiviert.</p>
+</div>
+</div>
+</button></div>
+</div>
+</div>
+</div>
+</div>
+<!-- END: Modules Anywhere -->
+<h3 data-heading="1. Wer braucht eine Datenschutzerklärung?" data-viewport="wer-pflicht">1. Datenschutz: Wer ist im Internet zu einer Datenschutzerklärung laut DSGVO verpflichtet?</h3>
+<p>Die Datenschutzgrundverordnung (<a href="/datenschutzgrundverordnung.html">DSGVO</a>)&nbsp;schreibt vor, dass Sie als Webseitenbetreiber die Besucher und Nutzer umfassend informieren. Erheben, übermitteln, verarbeiten oder nutzen Sie personenbezogene Daten, ist es Ihre Pflicht, eine Datenschutzerklärung auf Ihrer Seite bereitzuhalten.</p>
+<p><strong>Definition:</strong> Eine Datenschutzerklärung beschreibt die Verarbeitung von Informationen und Daten durch eine Organisation. Dazu gehören vor allem personenbezogene Daten wie Name, Adresse, E-Mail-Adresse und IP-Adresse. Die Datenschutzerklärung ist abzugrenzen von der Einwilligung im Datenschutz. Hierbei geht es darum, dass der Betroffene die Verarbeitung seiner personenbezogenen Daten zulässt, weil das Gesetz die Datenverarbeitung nicht erlaubt. <strong>Beispiel</strong>: Zusendung von Werbemails.</p>
+<p><strong><em>Exkurs: Was sind personenbezogene Daten im Datenschutz?</em></strong></p>
+<p><strong>Art. 4 Nr. 1 DSGVO liefert folgende Definition von personenbezogenen Daten:</strong></p>
+<p>"personenbezogene Daten" sind alle Informationen, die sich auf eine identifizierte oder identifizierbare natürliche Person (im Folgenden „betroffene Person“) beziehen; als identifizierbar wird eine natürliche Person angesehen, die direkt oder indirekt, insbesondere mittels Zuordnung zu einer Kennung wie einem Namen, zu einer Kennnummer, zu Standortdaten, zu einer Online-Kennung oder zu einem oder mehreren besonderen Merkmalen, die Ausdruck der physischen, physiologischen, genetischen, psychischen, wirtschaftlichen, kulturellen oder sozialen Identität dieser natürlichen Person sind, identifiziert werden kann;</p>
+<p><strong>Das bedeutet:</strong></p>
+<p><em>Bei personenbezogenen Daten ordnet ein Webseitenbetreiber einer Person Daten zu. Typische personenbezogene Daten sind IP-Adresse, E-Mail-Adresse, Standortdaten, Name und Alter, Adresse. Aber auch Informationen wie die Sozialversicherungsnummer, die Personalausweisnummer, Kontonummer und sonstige zur Nutzung eines Kontos gehörende Daten sowie Informationen rund um das Aussehen, wie Haut- und Haarfarbe oder Größe fallen unter die Definition der personenbezogenen Daten.</em></p>
+<p>Eine Datenschutzerklärung muss (fast) jede Website im Internet haben. Heutzutage verarbeiten nahezu alle Webseitenbetreiber im Internet personenbezogene Daten – egal ob sie einen privaten Blog oder einen Online-Shop betreiben. Nutzen Sie einen Homepage-Baukasten auf Ihren Websites, setzen die Anbieter sehr oft Tracking-Tools und Plug-ins und ähnliche Dienste ein. Bei einem externen Hosting erstellt der Hoster auch Server-Logfiles. Bei deutschen und europäischen Websites ist eine Datenschutzerklärung zwingend notwendig.</p>
+<p>Bei ausländischen Websites ist eine Datenschutzerklärung nur Pflicht, wenn sich der Webseitenbetreiber mit seinen Dienstleistungen und Produkten an EU-Bürger richtet oder eine Niederlassung in der EU hat.</p>
+<p>Als Open Source CMS muss Wordpress nicht in der Datenschutzerklärung erwähnt werden. Nur bei Nutzung spezieller Wordpress-Tools, die spezielle Datenverarbeitungsvorgänge anstoßen, ist eine Erwähnung in der Datenschutzerklärung notwendig.&nbsp;</p>
+<p><strong>Übrigens</strong>: Die Datenschutzgrundverordnung gilt nicht nur in der digitalen Welt. Die Verarbeitung von personenbezogenen Daten spielt ebenso in der analogen Welt eine Rolle. Das haben jedoch nicht viele auf dem Schirm: Denn wer in einen Laden geht, ist auch für den Verkäufer sichtbar. Er kauft etwas ein, zahlt bar oder mit Karte. Bei Barzahlung hinterlässt er keine Informationen, wenn er das Geschäft wieder verlässt. Zahlt er dagegen mit Karte oder nutzt eine Kundenkarte, hinterlässt er tausende Informationen.</p>
+<p>Beim Online-Einkauf werden ebenfalls zahlreiche Daten verarbeitet: Von der IP-Adresse und E-Mail-Adresse über die Vorlieben (wenn Tracking Dienste eingesetzt werden) bis hin zu Zahlungsinformationen und Personalien. Bei der Nutzung von Websites müssen Besucher zu ihrem Schutz daher eine gewisse Kontrolle darüber haben, was mit Informationen über sie passiert. Weil sie umfassend über den Umgang mit ihren Daten aufzuklären sind, hat die DSGVO im Zusammenhang mit Websites eine enorme Bedeutung.</p>
+<h3 data-heading="2. Wo muss die Erklärung hin?">2.&nbsp;Praxis: So binden Sie Ihre Datenschutzerklärung rechtssicher ein</h3>
+<p>Ihre Datenschutzerklärung muss die Nutzer Ihrer Website verständlich und transparent darüber aufklären, wie Sie mit ihren personenbezogenen Daten umgehen. Das bedeutet:</p>
+<p>Der Nutzer muss die Datenschutzerklärung jederzeit von jeder Unterseite der Website aus erreichen können. Der Nutzer sollte nicht lange suchen und nicht zweimal klicken müssen, um auf die Datenschutzerklärung zu gelangen.</p>
+<div id="ea-attention-1" class="ea-attention-wrap"><div class="ea-attention-text">
+<h4>ABER ACHTUNG</h4>
+<p>Ein Link etwa im Impressum reicht dafür nicht aus. Vielmehr müssen Sie Impressum und Datenschutzhinweise auf Ihrer Website klar voneinander abgrenzen.</p>
+</div></div>
+<p><strong>Unser </strong><strong>Tipp:</strong> Verlinken Sie die Datenschutzerklärung im Footer. So ist sie von jeder Seite aus zu sehen.</p>
+<p>Die Datenschutzerklärung muss die gleiche Schriftgröße und -art haben wie der sonstige Inhalt Ihrer Website. Datenschutzerklärungen dürfen nicht im Kleingedruckten versteckt werden, sodass betroffene Personen hier länger suchen müssen als nötig.</p>
+<p>Sie müssen die Rechtsgrundlagen nennen und idealerweise Informationen gliedern und strukturieren. Erstellen Sie kostenlos Ihre rechtssichere Datenschutzerklärung per Generator.&nbsp;Nach der Eingabe Ihrer Daten erhalten Sie Ihre individualisierte Datenschutzerklärung sowohl als Text als auch als HTML-Code für Ihre Website und können den Rechtstext im Handumdrehen auf Ihrer Website einbinden.</p>
+<div id="ea-tool-1" class="ea-tool-wrap"><a href="https://www.e-recht24.de/e24link/v7m3n"><span>Jetzt Datenschutzerklärung erstellen </span></a><div class="ea-tool-dsg"><div class="ea-tool-inner"><h4 class="skip">Erstellen Sie jetzt eine rechtssichere Datenschutzerklärung mit dem eRecht24 Datenschutz Generator </h4><ul><li>Einfache Integration in Ihre Website </li><li>Anwaltlich geprüfter Generator </li><li>Für Sie kostenfrei in wenigen Schritten </li></ul><span class="ea-tool-button">Jetzt Datenschutzerklärung erstellen </span></div></div></div>
+<h4>Warum eine KI-generierte Datenschutzerklärung keine gute Idee ist</h4>
+<p>OpenAI hat kürzlich seine Nutzungsbedingungen angepasst und weist darauf hin, dass der Chatbot keine Rechtsberatung leisten kann und ein Anwalt kontaktiert werden sollte.&nbsp; Dennoch bietet die <a href="/ki/">KI</a> für Nutzer fast unbegrenzte Möglichkeiten. Also sollte sie doch auch ganz einfach und schnell eine passende Datenschutzerklärung für Ihre Website erstellen können, oder etwa nicht?</p>
+<p>Warum es keine gute Idee ist, Rechtstexte durch eine künstliche Intelligenz erstellen zu lassen und welche teuren Fehler sich dabei einschleichen können, lesen Sie in unserem Artikel “<a href="/ki/13304-rechtstexte-chatgpt.html">Kann mir ChatGPT meine Datenschutzerklärung und mein Impressum erstellen?</a>”.</p>
+<h3 data-heading="3. Was hat sich mit der DSGVO geändert?">3. Datenschutzerklärung und DSGVO: Was hat sich geändert?</h3>
+<p>Die DSGVO, die seit 2018 Anwendung findet, hatte konkret das Ziel das Datenschutzrecht in Europa zu vereinheitlichen. So gab es auch in Deutschland schon zahlreiche datenschutzrechtliche Regeln, die sich nun in der DSGVO wiederfinden. Allerdings handelte es sich eher um eine Art Flickenteppich. Was aber hat die DSGVO konkret für Auswirkungen auf die Datenschutzerklärung? Das sind die wichtigsten:</p>
+<ul>
+<li>Für jede Verarbeitung von personenbezogenen Daten muss die Rechtsgrundlage genannt werden. Das kann die Einwilligung (z.B. in den Versand eines <a href="/artikel/ecommerce/6534-newsletter-rechtssicher-erstellen-und-versenden.html">Newsletters</a> per e Mail) oder aber eine andere gesetzliche Grundlage sein (Art. 6 Abs. 1 DSGVO). Mehr dazu unten.</li>
+<li>Auch der Zweck der Verarbeitung der Daten muss genannt werden.</li>
+<li>Den Hinweis auf das Recht des Betroffenen, die Einwilligung zu widerrufen und gegen die Verarbeitung der Daten Widerspruch einzulegen, sollten Sie ebenfalls aufführen.</li>
+<li>Die Rechte des Nutzers müssen Sie ebenfalls aufnehmen (Details siehe unten).</li>
+</ul>
+<h3 data-heading="4. Wichtige Inhalte">4. Datenschutzerklärung: Was sind die wichtigsten Inhalte?</h3>
+<p data-heading="4. Wichtige Inhalte">Eine Datenschutzerklärung im Internet unterrichtet Besucher und Nutzer der Website über die Verarbeitung personenbezogener Daten. Sie als Webseitenbetreiber müssen die Erklärung in einer einfachen und verständlichen Sprache abfassen. Der genaue Inhalt richtet sich danach, wie genau Sie mit den personenbezogenen Daten der Nutzer umgehen. Es gibt einige Informationen, die jede Datenschutzerklärung enthält. Der Rest richtet sich danach, welche Tools und Dienste Sie einsetzen.</p>
+<h4>Der Allgemeine Teil der Datenschutzerklärung</h4>
+<p>Zunächst sollten Sie eine Art Einleitung formulieren, die Nutzer darüber informiert, was die Datenschutzerklärung ist. Beispiel:</p>
+<p><strong>Allgemeine Datenschutzhinweise</strong></p>
+<p><em>Die folgenden Hinweise geben einen einfachen Überblick darüber, was mit Ihren personenbezogenen Daten passiert, wenn Sie diese Website besuchen. Personenbezogene Daten sind alle Daten, mit denen Sie persönlich identifiziert werden können. Ausführliche Informationen zum Thema Datenschutz entnehmen Sie unserer unter diesem Text aufgeführten Datenschutzerklärung.</em></p>
+<p>Weiterhin müssen Sie bestimmte allgemeine Angaben machen:</p>
+<ul>
+<li>Wer ist für die Datenschutzerklärung verantwortlich? Nennen Sie die Kontaktdaten (Name, Anschrift, E-Mail-Adresse).</li>
+<li>Wer ist der Datenschutzbeauftragte?&nbsp;Benennen Sie in der Datenschutzerklärung die Person, die für die Datenverarbeitung Ihrer Website verantwortlich ist. Haben Sie einen internen oder <a href="/datenschutz/10885-externer-datenschutzbeauftragter-dsgvo.html">externen&nbsp;Datenschutzbeauftragten</a>, müssen Sie auch diesen aufführen. Machen Sie deutlich, zu welchem Zweck und auf welcher Rechtsgrundlage die Verarbeitung der Daten erfolgt.</li>
+</ul>
+<h4>Der besondere Teil der Datenschutzerklärung</h4>
+<p>Machen Sie für jede einzelne Datenverarbeitung deutlich, zu welchem Zweck und auf welcher Rechtsgrundlage die Verarbeitung der Daten erfolgt.</p>
+<p>Setzen Sie als Seitenbetreiber auf der Webseite Profiling ein, müssen sie die Nutzer darüber aufklären, was genau sie hier mit den Informationen machen. Die meisten Betreiber einer Website sammeln Daten und erstellen hierüber Nutzerprofile. Damit optimieren sie den Verkaufsprozess.</p>
+<p>Geben Sie als Websitebetreiber der Website an, wie lange Sie die personenbezogenen Daten des Nutzers speichern. Informieren Sie die Betroffenen über die Rechte, die ihnen nach der DSGVO zustehen, um die Kontrolle über ihre personenbezogenen Daten zu behalten. Dazu gehören:</p>
+<ul>
+<li><strong>Auskunft:</strong>&nbsp;Sie müssen Ihre Besucher auf Anfrage Informationen dazu liefern, welche personenbezogenen Daten Sie konkret gespeichert haben&nbsp;(z.B. IP-Adresse des Nutzers, Mailadresse etc.).</li>
+<li><strong>Berichtigung:</strong>&nbsp;Ihre Besucher haben einen Anspruch darauf, dass Sie fehlerhafte Daten berichtigen.</li>
+<li><strong>Löschung&nbsp;oder Einschränkung der Verarbeitung:&nbsp;</strong>Wenn Ihre Besucher Sie bitten, ihre personenbezogenen Daten zu löschen, müssen Sie diese Daten der Nutzer löschen. Ausnahme: dem steht eine gesetzliche Pflicht zur Aufbewahrung der Daten entgegen. Eventuell müssen Sie die Daten zumindest einschränken.&nbsp;<strong>Achtung:</strong>&nbsp;Sobald der Nutzer seine Einwilligung widerruft oder der Zweck wegfällt, zu dem Sie die Daten gespeichert haben, müssen Sie diese selbstständig löschen.</li>
+<li><strong>Widerspruch:</strong>&nbsp;Die Nutzer Ihrer Website können der Verarbeitung Ihrer personenbezogenen Daten widersprechen.</li>
+<li><strong>Recht auf Datenherausgabe und Übertragbarkeit:&nbsp;</strong>Darüber hinaus können die Nutzer Ihrer Website von Ihnen verlangen, ihre personenbezogenen Daten in einem "gängigen Format" an andere Verantwortliche zu übergeben, damit diese die Daten mitnehmen können.</li>
+</ul>
+<h3 data-heading="5. Rechtmäßige Verarbeitung personenbezogener Daten">5. Datenschutz: Wann ist die Verarbeitung von personenbezogenen Daten auf meiner Website nach der DSGVO rechtmäßig?</h3>
+<p>Wenn Sie personenbezogene Daten verarbeiten – egal ob auf Ihrer Website im Internet oder offline – muss diese Verarbeitung personenbezogener Daten rechtmäßig sein. Ob die Verarbeitung personenbezogener Daten rechtmäßig ist, richtet sich vor allem nach Art. 6 Abs. 1 Datenschutzgrundverordnung (DSGVO). Eine besondere Bedeutung hat hier Art. 6 Abs. 1 lit a DSGVO. Die wichtigsten Fälle:</p>
+<h4>Einwilligung (Art. 6 Abs. 1 lit a DSGVO)</h4>
+<p>Nach Art. 6 Abs. 1 lit. a DSGVO muss die betroffene Person in die Verarbeitung der personenbezogenen Daten einwilligen. Ist dies nicht der Fall, muss eine Rechtsgrundlage für die Verarbeitung der Daten vorliegen.</p>
+<h4>Datenverarbeitung zur Erfüllung des Vertrages (Art. 6 Abs. 1 lit. b DSGVO)</h4>
+<p>Das kann zum Beispiel nach Art. 6 Abs. 1 lit b DSGVO dann gegeben sein, wenn Sie die Daten zur Erfüllung des Vertrags auf Ihrer Website verarbeiten. Beispiel: Sie haben einen Onlineshop und erheben Adressdaten. Die Datenerhebung bzw. Datenerfassung und – verarbeitung ist rechtmäßig, weil Sie sie brauchen, um die Produkte an den Kunden zu versenden.</p>
+<h4>Datenverarbeitung aufgrund berechtigten Interesses (Art. 6 Abs. 1 lit. f DSGVO)</h4>
+<p>Nach Art. 6 Abs. 1 lit f DSGVO können Sie die Daten rechtmäßig verarbeiten, wenn die Verarbeitung der Daten zur Wahrung der berechtigten Interessen des Verantwortlichen oder von Dritten erforderlich ist und nicht andere schützenswerte Interessen überwiegen. Das kann zum Beispiel der Fall sein, wenn Sie bereits einen Kunden haben und ihm Werbe-E-Mails zu weiteren Produkten über seine E-Mail-Adresse zusenden möchten. Auch hier ist die Datenerhebung bzw. Datenerfassung und Datenverarbeitung in der Regel rechtmäßig, wenn vom Nutzer kein ausdrücklicher Widerspruch vorliegt.</p>
+<h4>Welche Informationen gehen über Server-Logfiles an den Server-Hoster?</h4>
+<p>Was viele nicht wissen: Auch Server speichern Daten und Informationen über Nutzer einer Website. Nutzen Sie einen externen Hoster, werden in der Regel Server-Logfiles Ihrer Website erstellt. Nur wenn Sie die Seite selbst hosten, haben Sie hierüber die volle Kontrolle.</p>
+<p><strong>Folge:</strong> Sie müssen in Ihre Datenschutzerklärung aufnehmen, dass Server-Logfiles erhoben werden. Das heißt, folgende Informationen und Hinweise müssen in die Datenschutzerklärung auf Ihrer Website:</p>
+<ul>
+<li>Sie erheben folgende Daten über Zugriffe auf die Website und speichern diese als “Server-Logfiles” auf dem Server der Website ab:
+<ul>
+<li>Besuchte Website</li>
+<li>Uhrzeit zum Zeitpunkt des Zugriffes</li>
+<li>Menge der gesendeten Daten in Byte</li>
+<li>Quelle/Verweis, von welchem der Nutzer auf die Seite kam</li>
+<li>Verwendeter Browser</li>
+<li>Verwendetes Betriebssystem</li>
+<li>Verwendete IP-Adresse</li>
+</ul>
+</li>
+<li>Die Server-Logfiles werden für maximal 7 Tage gespeichert und anschließend gelöscht.</li>
+<li>Die Daten werden aus Sicherheitsgründen gespeichert, um z. B. Missbrauchsfälle aufklären zu können.</li>
+</ul>
+<h3 data-heading="6. Cookies &amp; Co.">6. Was muss in die Datenschutzerklärung, wenn ich Cookies setzen möchte?</h3>
+<p>Viele Websitebetreiber nutzen heutzutage Cookies. Cookies sind textliche Informationen, die im Browser auf dem PC des Nutzers gespeichert werden können, wenn er eine Website besucht hat. Bei einem späteren Besuch kann der Webserver die Informationen der Cookies auslesen. Dadurch kann der Besucher bzw. Nutzer identifiziert, sein Login gemerkt oder ein Warenkorb gespeichert werden.</p>
+<p>Wenn Sie Cookies auf Ihrer Website nutzen, reicht ein pauschaler Hinweis in der Datenschutzerklärung nicht aus. Sie müssen die Besucher Ihrer Website umfassend über die Nutzungsbedingungen aufklären. Bei der Nutzung müssen Sie auch zwischen den verschiedenen Arten der Cookies unterscheiden. Nehmen Sie folgende Informationen in Ihre Datenschutzerklärung auf:</p>
+<ul>
+<li>Was sind Cookies und welche Arten von Cookies gibt es?</li>
+<li>Was genau passiert, wenn Sie Cookies setzen? Werden die Cookies von Ihrem Server oder einem externen Server (Dritte) an den Browser des Nutzers übertragen?</li>
+<li>Wie und zu welchen Zwecken verwenden Sie Cookies? Geht es um die pseudonymisierte Reichweitenmessung, Benutzerfreundlichkeit und Sicherheit der Website?</li>
+<li>Welche Tools, Plugins und Dienste nutzen Sie, z.B. Analysetools?</li>
+<li>Haben Sie ein rechtssicheres Cookie-Consent-Tool?</li>
+<li>Was können Sie tun, um das Setzen von Cookies zu unterbinden? Dazu gehört zum Beispiel, dass Sie dies im Browser einstellen oder widersprechen.</li>
+<li>Wie lange speichern Sie die Daten?</li>
+</ul>
+<p><span>Es reicht allein nicht aus, dass Sie Cookies in Ihre Datenschutzerklärung aufnehmen. Sie müssen auch ein Cookie-Banner bzw. -Hinweis aufnehmen, über den Sie den Nutzer über die Cookies detailliert informieren und der Nutzer die Möglichkeit hat, seine Einwilligung über die Verarbeitung zu erteilen bzw. abzulehnen.</span></p>
+<div id="ea-premium-1" data-track-content data-content-name="Premium - 1 - /muster-datenschutzerklaerung.html" data-content-piece="standard" class="ea-premium-wrap"><a href="https://www.e-recht24.de/e24link/2wcw0 "><span>Premium Mitglied werden </span></a><div class="ea-premium-standard"><div class="ea-premium-text"><h4 class="skip">eRecht24 Premium für Websitebetreiber, Agenturen & Online-Shops </h4><ul><li>Generatoren, AGB, Muster & Verträge </li><li>Cookie Consent Tool, Premium Scanner & Projekt Planer </li><li>Live-Webinaren und Know-How für rechtssicheres Business</li></ul><span class="ea-premium-button">Premium Mitglied werden </span></div></div></div>
+<h3 data-heading="7. Wichtiges zur Verwendung von Google Analytics">7. Was muss ich beachten, wenn ich Google Analytics nutze?</h3>
+<p>Tracking- und Analyse Tools wie Google Analytics (Dritte) sind nützlich, wenn Sie das Nutzverhalten, die Verweildauer oder die Aufrufe Ihrer Seite analysieren möchten. So sammelt Google Analytics Daten über Ihre Websitebesucher, sodass Sie mit diesen Diensten beispielsweise nachvollziehen können, welche Nutzer sich Ihren Newsletter bestellen oder welcher Logik sie beim Besuch Ihrer Seite folgen.</p>
+<p>Damit Diensten wie Google Analytics und Co. diese Nutzung und Verarbeitung ermöglicht wird, sammeln sie zahlreiche Informationen und personenbezogene Daten wie die IP-Adresse. Nutzen Sie also Google Analytics, hat das für Sie verschiedene&nbsp;<strong>Folgen</strong>:</p>
+<ul>
+<li>Sie brauchen immer eine Einwilligung Ihrer Nutzer, wenn Sie Google Analytics nutzen möchten.</li>
+</ul>
+<ul>
+<li>Sie müssen die Informationen zu den Diensten wie Google Analytics in Ihre Datenschutzerklärung Ihrer Website aufnehmen. Dazu gehört auch, wie die Verarbeitung der Daten abläuft:
+<ul>
+<li>Nutzern muss es möglich sein, die Datenabfrage über Google Analytics abzuschalten (Opt-Out). Erläutern Sie die drei Möglichkeiten:
+<ul>
+<li>Datenschutzeinstellungen über den Browser</li>
+<li>Browser-Plugin</li>
+<li>Opt-Out-Cookie</li>
+</ul>
+</li>
+<li>Nutzer müssen einstellen können, dass ihre Daten nur anonymisiert verwendet werden.</li>
+</ul>
+</li>
+<li>Wenn Sie Ihren Nutzern ermöglichen, Google Analytics per Link zu deaktivieren, müssen Sie selbst einen entsprechenden Code vor dem Tracking Code einfügen. Zudem müssen Sie einen Einbindungscode ergänzen, damit die Daten der Nutzer anonymisiert werden können.</li>
+<li>Sie müssen mit Google einen Vertrag zur Auftragsverarbeitung schließen.</li>
+</ul>
+<div id="ea-attention-2" class="ea-attention-wrap"><div class="ea-attention-text">
+<h4>Wichtig:&nbsp;</h4>
+<p>Universal Analytics wurde durch Google Analytics 4 ersetzt und vollständig eingestellt.</p>
+</div></div>
+<p>Betreiber einer Website haben zusätzlich zum Opt-Out-Cookie, der für eine datenschutzkonforme Nutzung notwendig ist, die Möglichkeit, ein Opt-In-Cookie, gemäß Art. 6 Abs. 1 lit. f DSGVO einzusetzen. Durch diesen kann der Besucher der Website der Verwendung seiner Daten aktiv zustimmen.</p>
+<h3 data-heading="8. Wichtiges zu Social Media-Plugins">8. Muss ich Social Media-Plugins in die Datenschutzerklärung aufnehmen?</h3>
+<p>Ein Like auf Facebook für Ihre Produkte oder ein Teilen Ihrer geplanten Veranstaltung bei X (ehemals Twitter): Wenn Sie <a href="/online-marketing/13029-social-media-recht.html">Social Media</a> Plugins auf Ihrer Seite einbinden, profitieren Sie in der Regel von einem enormen Werbeeffekt. Schließlich sind soziale Netzwerke gefragt wie nie.</p>
+<p>Datenschutzrechtlich passiert auf Ihrer Seite allerdings einiges, was für Ihre Nutzer weniger erfreulich ist: Denn der Browser Ihrer Nutzer übermittelt bei diesen Plugins direkt Daten an den Server von Facebook, X, Xing und Co. <strong>Besonders heikel</strong>: Im Falle von Facebook Plugins geschieht das nicht nur, wenn Ihre Nutzer bei Facebook eingeloggt sind. Es passiert sogar dann, wenn die Nutzer gar keinen Facebook-Account besitzen!</p>
+<p><strong>Deshalb gilt auch hier</strong>: Nehmen Sie sämtliche Social Media Plugins in Ihre Datenschutzerklärung auf Ihrer Website auf. Erklären Sie,</p>
+<ul>
+<li>welche Tools, Plugins und Dienste Sie verwenden,</li>
+<li>welche personenbezogenen Daten der Nutzer dabei zu welchen Zwecken erhoben und übermittelt werden,</li>
+<li>wie der Ablauf der Verarbeitung der Daten ist,</li>
+<li>wie Ihre Nutzer verhindern können, dass Facebook die personenbezogenen Daten mit deren Facebook-Konto verknüpft.</li>
+<li>Verweisen Sie auch auf die Datenschutzrichtlinien von Facebook:&nbsp;<a href="https://facebook.com/about/privacy"></a><a href="https://www.facebook.com/privacy/policy/?entry_point=data_policy_redirect&amp;entry=0" target="_blank" rel="noopener">https://www.facebook.com/about/privacy/</a></li>
+</ul>
+<h3 data-heading="9. Newsletter oder Kontakt anbieten">9. Was muss ich beachten, wenn ich einen Newsletter oder eine Kontaktmöglichkeit anbiete?</h3>
+<p>Bieten Sie auf Ihrer Website ein Kontaktformular an oder können Nutzer bei Ihnen Kommentare hinterlassen? Dann müssen die Nutzer dafür personenbezogene Daten bei Ihnen eingeben. Weisen Sie in der Datenschutzerklärung Ihrer Website darauf hin, wie Sie mit diesen personenbezogenen Daten umgehen.</p>
+<p>Geben Sie detailliert an:</p>
+<ol>
+<li>welche personenbezogenen Daten Sie verarbeiten (<strong>Beispiele:</strong> Name, IP-Adresse, E-Mail-Adresse, Wohnort, Postleitzahl),</li>
+<li>wie Sie die personenbezogenen Daten auf der Website verarbeiten. Dazu gehört auch, dass Sie die personenbezogenen Daten nur verarbeiten, nachdem der Nutzer seine Einwilligung erteilt hat und Sie die geltenden Datenschutzbestimmungen einhalten,</li>
+<li>warum Sie die personenbezogenen Daten verarbeiten <br><strong>Beispiele</strong>:&nbsp;<br>- Weil sie ein berechtigtes Interesse daran haben, um Ihre vertraglich vereinbarte Pflicht zu erfüllen<br>- Weil Sie Ihr Online-Angebot optimieren möchten</li>
+</ol>
+<div id="ea-attention-3" class="ea-attention-wrap"><div class="ea-attention-text">
+<h4>Wichtig:</h4>
+<ul>
+<li>Wenn Sie eine SSL-Verschlüsselung verwenden, nehmen Sie diese Info ebenfalls mit auf.</li>
+<li>Nehmen Sie unter Ihrem Kontaktformular in kurzen Datenschutzhinweisen einen Hinweis auf die Datenschutzerklärung auf – am besten per Link.</li>
+<li>Wenn Sie eine Kommentarfunktion anbieten: Weisen Sie die Nutzer darauf hin, dass Sie die IP-Adresse (und ggf. weitere personenbezogene Daten) speichern. Hieran haben Sie ein berechtigtes Interesse: Denn wenn der Nutzer mit seinem Kommentar gegen geltendes Recht verstößt, sollten Sie seine Identität ermitteln können.</li>
+</ul>
+</div></div>
+<h3 data-heading="10. Folgen bei fehlender Datenschutzerklärung">10. Was passiert, wenn ich keine ordnungsgemäße Datenschutzerklärung auf meiner Website habe?</h3>
+<p>Wenn Sie keine ordnungsgemäße Datenschutzerklärung auf Ihrer Website haben, kann das für Sie verschiedene unschöne Folgen haben.</p>
+<ol>
+<li><strong>Abmahnung:&nbsp;</strong>Es kann eine Abmahnung in Ihren Briefkasten flattern. Mitbewerber – also geschäftliche Konkurrenten – sowie Verbraucherschutz- und Wettbewerbsverbände dürfen gegen Sie vorgehen, wenn Sie keine oder eine unzureichende Datenschutzerklärung auf Ihrer Website haben. Denn Sie verstoßen damit nicht nur gegen die Datenschutzgrundverordnung (DSGVO), sondern auch gegen das Gesetz gegen den unlauteren Wettbewerb (UWG).Wer Sie abmahnt, wird Ihnen auch eine Schadensersatzforderung um die Ohren hauen. Doch auch die Abmahnkosten selber müssen Sie tragen. Zudem müssen Sie eine strafbewehrte Unterlassungserklärung abgeben. Verstoßen Sie dagegen, kann es teuer werden.</li>
+<li><strong>Bußgeld:</strong>&nbsp;Besonders hart kann Sie aber das <a href="/datenschutz/11271-achtung-hohe-dsgvo-bussgelder-verhaengt.html">DSGVO-Bußgeld</a> der Datenschutzbehörden treffen: Denn seit dem Inkrafttreten der DSGVO drohen bei Verstößen bis zu 20 Mio. Euro Bußgeld oder 4 % Ihres weltweiten Umsatzes. Lassen Sie es nicht darauf ankommen!</li>
+</ol>
+<h3 data-heading="11. Datenschutzerklärung in Englisch">11. Englische Datenschutzerklärung: Generator auf eRecht24 Premium erstellt auch englische Texte</h3>
+<p>Deutsche Seitenbetreiber, die ihre Webseite in deutscher Sprache zur Verfügung stellen, müssen auch ihre Datenschutzerklärung auf Deutsch führen. In einigen Fällen benötigen Sie jedoch eine englische Übersetzung Ihrer Datenschutzerklärung für Ihre Seite. Wann ist das der Fall?</p>
+<h4>Dann benötigen Webseitenbetreiber eine englische Übersetzung der Datenschutzerklärung</h4>
+<p>Verschiedene Faktoren auf einer Webseite können darauf hindeuten, dass Seitenbetreiber eine englische Übersetzung ihrer Datenschutzerklärung benötigen:</p>
+<ol>
+<li><strong>Englische Sprache</strong><br>Ist die Webseite neben deutscher auch in englischer Sprache verfügbar, zum Beispiel weil Seitenbetreiber eine internationale Zielgruppe erreichen wollen, ist auch eine englische Variante der Datenschutzerklärung notwendig.</li>
+<li><strong>Internationale Telefonnummer</strong><br>Führen Webseitenbetreiber auf ihrer Seite eine Telefonnummer mit internationaler Vorwahl, sollten sie die Datenschutzerklärung ins Englische übersetzen.</li>
+<li><strong>Lieferung ins englischsprachige Ausland</strong><br>Liefern Webseitenbetreiber ihre Ware auch ins englischsprachige Ausland, sollten sie ihre Datenschutzerklärung auf Ihrer Seite ins Englische übersetzen.</li>
+</ol>
+<h4>Warum müssen Seitenbetreiber eine englische Übersetzung der Datenschutzerklärung bereitstellen?</h4>
+<p>Webseitenbetreiber erheben personenbezogene Daten ihrer Nutzer in Deutschland und damit in der EU. Auf diese Weise sind sie durch die DSGVO verpflichtet, Nutzer bei der Erhebung personenbezogener Daten auf die Datenschutzerklärung hinzuweisen. Damit potenzielle englischsprachige Kunden oder Nutzer die Erklärung lesen können, müssen Sie sie auch in englischer Sprache auf Ihrer Seite zur Verfügung stellen.</p>
+<p>Mit unserem eRecht24 Datenschutz-Generator auf Premium können Sie Ihre Datenschutzerklärung auch auf Englisch erstellen. Probieren Sie es gleich aus!</p>
+<div id="ea-premium-2" data-track-content data-content-name="Premium - 2 - /muster-datenschutzerklaerung.html" data-content-piece="standard" class="ea-premium-wrap"><a href="https://www.e-recht24.de/e24link/2wcw0 "><span>Premium Mitglied werden </span></a><div class="ea-premium-standard"><div class="ea-premium-text"><h4 class="skip">eRecht24 Premium für Websitebetreiber, Agenturen & Online-Shops </h4><ul><li>Generatoren, AGB, Muster & Verträge </li><li>Cookie Consent Tool, Premium Scanner & Projekt Planer </li><li>Live-Webinaren und Know-How für rechtssicheres Business</li></ul><span class="ea-premium-button">Premium Mitglied werden </span></div></div></div>
+<h3 data-heading="12. Datenschutzbeauftragter"><strong><a id="datenschutzbeauftragter"></a>12. Datenschutzerklärung und Datenschutzbeauftragter</strong></h3>
+<p>Ein <strong>Datenschutzbeauftragter</strong> ist dafür verantwortlich, dass Behörden und Unternehmen die Vorschriften zum Datenschutz einhalten. Er stellt dabei sicher, dass sie personenbezogene Daten von Kunden so sammeln, speichern und verarbeiten, dass sie den Vorgaben des Bundesdatenschutzgesetztes (BDSG), der Datenschutz-Grundverordnung (DSGVO) und dem <a href="https://dejure.org/gesetze/TDDDG" target="_blank" rel="noopener">Telekommunikation-Digitale-Dienste-Datenschutz-Gesetz</a>&nbsp;(TDDDG (ehemals TTDSG)) entsprechen. Der Datenschutzbeauftragte ist damit ein unabhängiges Kontrollorgan.</p>
+<h4>Aufgaben eines Datenschutzbeauftragten</h4>
+<p>Nach der DSGVO ist es Aufgabe des Datenschutzbeauftragten, Unternehmen und Behörden bei der Einhaltung der Datenschutzbestimmungen zu unterstützen. Dazu sollte er eine Datenschutz-Analyse durchführen, interne Abläufe überwachen und kontrollieren. Stellt er einen Verstoß fest, muss er zusammen mit der Geschäftsführung Maßnahmen evaluieren und bestimmen, um diese Verstöße zu beseitigen. Der Datenschutzbeauftragte kann dabei nicht selbst entscheiden, welche Maßnahmen geeignet sind. Diese Entscheidung muss die Geschäftsleitung allein treffen.</p>
+<p>Damit Behörden und Unternehmen erst gar nicht gegen Datenschutzbestimmungen verstoßen, ist der Datenschutzbeauftragte dafür verantwortlich, intern eine Datenschutzorganisation aufzubauen. Diese soll das Personal über Richtlinien und Änderungen informieren.</p>
+<h4>Aufgaben durch die DSGVO</h4>
+<p>Nach Art. 39 Abs. 1b DSGVO hat der Datenschutzbeauftragte zudem eine umfassende Überwachungspflicht. <strong>Das heißt</strong>: Er ist dafür zuständig, alle Maßnahmen, die einen gesetzeskonformen Umgang mit personenbezogenen Daten gemäß der DSGVO betreffen, zu überwachen. Dazu muss er u. a. dafür sorgen, dass Unternehmen und Behörden Zuständigkeiten richtig zuweisen und die beteiligten Mitarbeiter entsprechend schulen.</p>
+<p>Zudem berät und überwacht der Datenschutzbeauftragte die Datenschutz-Folgenabschätzung (DSFO). Dabei kann es beispielsweise um die Frage gehen, ob eine DSFO durchgeführt und welche Methodik angewandt werden sollte.</p>
+<h4>Wer haftet bei Datenschutzverstößen?</h4>
+<p>Begehen Unternehmen und Behörden einen Verstoß gegen Datenschutzbestimmungen, haftet in der Regel die Unternehmensführung bzw. die Behördenleitung. Sie sind nach dem BDSG letztendlich dafür verantwortlich, die Vorgaben einzuhalten. Handelt der Datenschutzbeauftragte jedoch fahrlässig oder vorsätzlich, muss sich dieser seinen Fehlern stellen und selbst dafür haften.</p>
+<h4>Wer benötigt einen Datenschutzbeauftragten?</h4>
+<p>Öffentliche Stellen wie Ämter und Behörden müssen regelmäßig einen Datenschutzbeauftragten bestellen. Nicht-öffentliche Stellen dagegen müssen einen Datenschutzbeauftragten einholen, wenn in der Regel mindestens 20 Personen ständig mit der automatisierten Datenverarbeitung beschäftigt sind. Wenn Sie nichtautomatisiert Daten erheben und verarbeiten, müssen Sie ebenfalls einen Datenschutzbeauftragten ab einer Personenstärke von 20 bestellen. Daneben müssen Adressverlage, Markt- und Meinungsforschungsinstitute, Auskunfteien und Unternehmen, die besonders sensitive Daten erheben, unabhängig vom eingesetzten Personal regelmäßig einen Datenschutzbeauftragten einbestellen.</p>
+<div id="ea-notice-1" class="ea-notice-wrap"><blockquote class="ea-notice-text">
+<p>Alles Wichtige zu diesem Thema haben wir Ihnen in unserem umfassenden Artikel "<a href="/datenschutz/10744-datenschutzbeauftragter-dsgvo.html">Wann die Bestellung eines Datenschutzbeauftragten für Ihr Unternehmen unabdingbar ist</a>"&nbsp;zusammengefasst.</p>
+</blockquote><div class="ea-notice-author-wrap"><div class="ea-notice-photo"><a href="https://www.kanzlei-siebert.de" target="_blank"><img src="/images/soeren-siebert.jpg" alt="Sören Siebert"></a></div><div class="ea-notice-data"><span class="ea-notice-name">Sören Siebert</span><span class="ea-notice-title"><a href="https://www.kanzlei-siebert.de" target="_blank">Rechtsanwalt</a></span></div></div></div>
+<h3>13.&nbsp;DSGVO-Checkliste</h3>
+<p>In unserer Checkliste sind noch einmal alle wichtigen Inhalte für DSGVO-konforme Datenschutzerklärungen zusammengefasst:</p>
+<h4>Checkliste: Das gehört in die Datenschutzerklärung</h4>
+<div class="checklist-bullets">
+<p><strong>Allgemeine Informationen</strong></p>
+<ul style="list-style-type: circle;">
+<li>Verantwortlicher für die Datenverarbeitung und Kontaktdaten</li>
+<li>Ggf. Vertreter und Kontaktdaten</li>
+<li>Ggf. Datenschutzbeauftragter und Kontaktdaten</li>
+</ul>
+<p><strong>Informationen zu den Rechten Betroffener</strong></p>
+<ul style="list-style-type: circle;">
+<li>Recht auf Auskunft</li>
+<li>Recht auf Löschung, Berichtigung und Einschränkung der Verarbeitung</li>
+<li>Recht auf Widerspruch in die Datenverarbeitung und Widerruf der Einwilligung</li>
+<li>Recht auf Datenherausgabe und -übertragbarkeit</li>
+<li>Beschwerderecht bei einer Datenschutzbehörde</li>
+</ul>
+<p><strong>Informationen zur einzelnen Datenverarbeitung</strong></p>
+<ul style="list-style-type: circle;">
+<li>Art der Datenverarbeitung</li>
+<li>Zweck der Erhebung personenbezogener Daten</li>
+<li>Rechtsgrundlage</li>
+<li>berechtigtes Interesse (ggf. eines Dritten) an der Datenverarbeitung, das den Datenschutz überwiegt</li>
+<li>Speicherdauer bzw. Kriterien für die Festlegung der Dauer</li>
+</ul>
+<p><strong>Informationen zur Datenübertragung an andere (sofern gegeben)</strong></p>
+<ul style="list-style-type: circle;">
+<li>Datenübertragung an Dritte: Empfänger, Kategorie der Empfänger</li>
+<li>Datenübertragung ins Ausland, an eine internationale Organisation oder Absicht dazu</li>
+</ul>
+<p><strong>Informationen zur Erforderlichkeit oder Profiling (sofern gegeben)</strong></p>
+<ul style="list-style-type: circle;">
+<li>Info, ob Bereitstellung der Daten gesetzlich oder vertraglich vorgeschrieben oder für einen Vertragsabschluss erforderlich ist</li>
+<li>Info: ist Nutzer verpflichtet die personenbezogenen Daten bereitzustellen und was passiert, wenn er das nicht tut?</li>
+<li>automatisierte Entscheidungsfindung einschließlich Profiling</li>
+</ul>
+</div>
+<p>&nbsp;</p>
+<h2 data-viewport="dse-dsgvo">Der Datenschutz-Generator und die DSGVO</h2>
+<p>Jeder Websitebetreiber - aber vor allem Webdesigner und Agenturen - müssen sich um das Thema "Datenschutz" kümmern. Ein "Herummogeln" um diese Frage ist nicht mehr möglich.</p>
+<p>Vor allem, weil die im Mai 2018 in Kraft getretene Datenschutz-Grundverordnung (DSGVO) zu zahlreichen rechtlichen Änderungen im Bereich Datenschutz geführt hat. Besonders die stetige Abmahngefahr und die hohen <strong>Bußgelder von bis zu 20 Millionen Euro</strong> haben das Thema zu einem der wichtigsten Themen für Seitenbetreiber, Wedesigner und Online Shops werden lassen. <strong>Alle Datenschutzerklärungen</strong> auf Websites mussten bzw. müssen nun DSGVO-konform neu erstellt werden.</p>
+<div id="ea-notice-2" class="ea-notice-wrap"><blockquote class="ea-notice-text">
+<p>Als <a href="/e24link/3qchk">eRecht24 Premium Nutzer</a> steht Ihnen dafür ein umfangreicher DSGVO-konformer Datenschutz Generator zur Verfügung.</p>
+</blockquote><div class="ea-notice-author-wrap"><div class="ea-notice-photo"><a href="https://www.kanzlei-siebert.de" target="_blank"><img src="/images/soeren-siebert.jpg" alt="Sören Siebert"></a></div><div class="ea-notice-data"><span class="ea-notice-name">Sören Siebert</span><span class="ea-notice-title"><a href="https://www.kanzlei-siebert.de" target="_blank">Rechtsanwalt</a></span></div></div></div>
+<h3>14. Datenschutzerklärung erstellen:&nbsp;Generator vs. Muster &amp; Vorlagen?</h3>
+<p>Im Gegensatz zu vielen Muster Datenschutzerklärungen oder bloßen Vorlagen für eine Datenschutzerklärung können Sie mit unserem Datenschutz-Generator die Datenschutzerklärung für Ihre Webseite direkt und individuell erstellen.</p>
+<p>Muster oder Vorlagen für Datenschutzerklärungen sind immer statisch. Sie können dort allenfalls einige Passagen löschen. Oft ist auch gar nicht klar, welchen Stand diese Muster oder Vorlagen haben. Eine aktuelle und konkret zu Ihrer Webseite passende Datenschutzerklärung können Sie so aber nicht erzeugen.</p>
+<p>Ein echter Generator hat im Gegensatz zum Muster den Vorteil, dass Sie schnell und einfach die Tools, Dienste und Datenverarbeitungsvorgänge anklicken können, die für Sie relevant sind. Am Ende erhalten Sie dann eine Datenschutzerklärung mit dem Inhalt, den Sie wirklich benötigen. Die Datenschutzerklärung wird Ihnen als pdf und als html Quellcode zur Verfügung gestellt.</p>
+<div id="ea-tool-2" class="ea-tool-wrap"><a href="https://www.e-recht24.de/e24link/v7m3n"><span>Jetzt Datenschutzerklärung erstellen </span></a><div class="ea-tool-dsg"><div class="ea-tool-inner"><h4 class="skip">Erstellen Sie jetzt eine rechtssichere Datenschutzerklärung mit dem eRecht24 Datenschutz Generator </h4><ul><li>Einfache Integration in Ihre Website </li><li>Anwaltlich geprüfter Generator </li><li>Für Sie kostenfrei in wenigen Schritten </li></ul><span class="ea-tool-button">Jetzt Datenschutzerklärung erstellen </span></div></div></div>
+<h3 data-heading="15. Tools &amp; mehr im eRecht24 Datenschutzgenerator" data-viewport="anwendungen">15. Welche Anwendungen, Tools &amp; Plugins deckt der eRecht24 Datenschutzgenerator ab?</h3>
+<p>Wir arbeiten seit Jahren daran, unseren Datenschutz-Generator für Sie rechtlich aktuell zu halten und um die aktuellsten Tools und Plugins zu ergänzen. Aktuell sind in der Profi-Version des Generators folgende Punkte enthalten:</p>
+<ul class="column-3">
+<li><strong><a href="/dsg/1und1-webanalytics-ionos.html">1&amp;1 Web Analytics</a></strong></li>
+<li><a href="/dsg/13500-ablyft.html"><strong>ABlyft</strong></a></li>
+<li><strong><a href="/dsg/12603-activecampaign.html">Active Campaign</a></strong></li>
+<li><a href="/dsg/12605-acuity-scheduling.html"><strong>Acuity Scheduling</strong></a></li>
+<li><strong><a href="/dsg/12606-adobe-typekit-web-fonts.html">Adobe Typekit Web Fonts</a></strong></li>
+<li><strong><a href="/dsg/13155-akismet.html">Akismet</a></strong></li>
+<li><strong><a href="/dsg/12607-allgemeine-angaben-zur-speicherdauer-von-personenbezogenen-daten.html">Allgemeine Angaben zur Speicherdauer personenbezogener Daten</a></strong></li>
+<li><strong><a href="/dsg/12965-all-inkl.html">All-Inkl</a></strong></li>
+<li><a href="/dsg/13011-alfahosting.html"><strong><span class="SpellingError SCXW129815312 BCX0">Alfahosting</span></strong></a></li>
+<li><strong><a href="/dsg/12992-amazon-cloudfront-cdn.html">Amazon CloudFront</a></strong></li>
+<li><strong><a href="/dsg/12608-amazon-partnerprogramm.html">Amazon Partnerprogramm</a></strong></li>
+<li><strong><a href="/dsg/12609-amazon-pay.html">Amazon Pay</a></strong></li>
+<li><a href="/dsg/12610-hosting-amazon-web-services.html"><strong>Amazon Web Services (AWS)</strong></a></li>
+<li><strong><a href="/dsg/12974-american-express.html">American Express</a></strong></li>
+<li><strong><a href="/dsg/12611-anfrage-per-e-mail-telefon-oder-telefax.html">Anfrage per E-Mail, Telefon oder Telefax</a></strong></li>
+<li><strong><a href="/dsg/12612-apple-pay.html">Apple Pay</a></strong></li>
+<li><strong><a href="/dsg/12977-aut-o-mattic.html">Aut O'Mattic</a></strong></li>
+<li><a href="/dsg/12613-awin.html"><strong>AWIN</strong></a></li>
+<li><a href="/dsg/12614-beschwerderecht-bei-der-zustaendigen-aufsichtsbehoerde.html"><strong>Beschwerderecht bei Aufsichtsbehörden</strong></a></li>
+<li><strong><a href="/dsg/12615-bestellabwicklung-per-dropshipping.html">Bestellabwicklung per Dropshipping</a></strong></li>
+<li><strong><a href="/dsg/12616-bewerbungen.html">Bewerbungen</a></strong></li>
+<li><a href="/dsg/12617-bigbluebutton.html"><strong>BigBlueButton</strong></a></li>
+<li><a href="/dsg/13241-bing-maps.html"><strong>Bing Maps</strong></a></li>
+<li><a href="/dsg/12618-bonitaetspruefung.html"><strong>Bonitätsprüfung</strong></a></li>
+<li><strong><a href="/dsg/12619-borlabs-cookie.html">Borlabs Cookie</a></strong></li>
+<li><strong><a href="/dsg/13158-brevo.html">Brevo</a></strong></li>
+<li><a href="/dsg/13222-brevo-chat.html"><strong>Brevo Chat</strong></a></li>
+<li><a href="/dsg/13251-brevo-terminbuchung.html"><strong>Brevo Terminbuchung</strong></a></li>
+<li><a href="/dsg/13252-bunny-net-cdn.html"><strong>Bunny.net CDN</strong></a></li>
+<li><strong><a href="/dsg/12620-calendly.html">Calendly</a></strong></li>
+<li><strong><a href="/dsg/13008-ccm19.html">CCM19</a></strong></li>
+<li><a href="/dsg/12621-chatfuel.html"><strong>Chatfuel</strong></a></li>
+<li><a href="/dsg/13221-chatgpt.html"><strong>ChatGPT</strong></a></li>
+<li><a href="/dsg/13354-cituro.html"><strong>Cituro</strong></a></li>
+<li><strong><a href="/dsg/13152-cleantalk.html">CleanTalk</a></strong></li>
+<li><strong><a href="/dsg/12622-cleverelements.html">CleverElements</a></strong></li>
+<li><strong><a href="/dsg/12623-cleverreach.html">CleverReach</a></strong></li>
+<li><a href="/dsg/13318-clickfunnels.html"><strong>ClickFunnels</strong></a></li>
+<li><strong><a href="/dsg/12624-clickmeeting.html">Clickmeeting</a></strong></li>
+<li><strong><a href="/dsg/12626-cloudflare.html">CloudFlare</a></strong></li>
+<li><a href="/dsg/13110-cloudflare-turnstile.html"><strong>Cloudflare Turnstile</strong></a></li>
+<li><strong><a href="/dsg/12966-complianz.html">Complianz</a></strong></li>
+<li><strong><a href="/dsg/12628-consent-manager-provider.html">Consent Manager Provider</a></strong></li>
+<li><a href="/dsg/12629-convertkit.html"><strong>ConvertKit</strong></a></li>
+<li><strong><a href="/dsg/12627-cookies.html">Cookies</a></strong></li>
+<li><a href="/dsg/12630-cookiebot.html"><strong>Cookiebot</strong></a></li>
+<li><a href="/dsg/13216-cookiefirst.html"><strong>CookieFirst</strong></a></li>
+<li><a href="/dsg/12631-cookie-notice-compliance.html"><strong>Cookie Notice &amp; Compliance</strong></a></li>
+<li><a href="/dsg/12632-copecart.html"><strong>CopeCart</strong></a></li>
+<li><strong><a href="/dsg/12633-criteo.html">Criteo</a></strong></li>
+<li><strong><a href="#datenschutzbeauftragter">Datenschutzbeauftragter</a></strong></li>
+<li><strong><a href="/dsg/12748-verarbeitung-kunden-und-vertragsdaten.html">Datenschutzerklärung zum Verarbeiten von Kunden- und Vertragsdaten</a></strong></li>
+<li><strong><a href="/dsg/12635-datenuebermittlung-dienstleister.html">Datenübermittlung - Dienstleister, die online Verträge schließen (ohne Warenversand)</a></strong></li>
+<li><strong><a href="/dsg/12637-datenuebermittlung-online-shops-haendler.html">Datenübermittlung - Online-Shops &amp; Händler (mit Warenversand)</a></strong></li>
+<li><strong><a href="/dsg/12636-digistore24.html">Digistore24</a></strong></li>
+<li><a href="/dsg/12638-doctolib-terminbuchung.html"><strong>Doctolib Terminbuchung</strong></a></li>
+<li><a href="/dsg/13012-domainfactory.html"><strong><span class="SpellingError BCX0 SCXW35314163">DomainFactory</span></strong></a></li>
+<li><a href="/dsg/13393-einsatz-von-ki-systemen-im-rahmen-der-chatbot-kommunikation.html"><strong>Einsatz von KI-Systemen im Rahmen der Chatbot-Kommunikation</strong></a></li>
+<li><a href="/dsg/13449-einsatz-von-kuenstlicher-intelligenz-auf-der-website.html"><strong>Einsatz von Künstlicher Intelligenz (KI) auf der Website</strong></a></li>
+<li><a href="/dsg/13391-einsatz-von-kuenstlicher-intelligenz-zur-beantwortung-von-kundenanfragen.html#toc_wie-funktioniert-der-einsatz-von-kuenstlicher-intelligenz-zur-beantwortung-von-kundenanfragen"><strong>Einsatz von Künstlicher Intelligenz (KI) zur Beantwortung von Kundenanfragen</strong></a></li>
+<li><strong><a href="/dsg/12993-elopage.html"><span class="SpellingError SCXW261780365 BCX0">Elopage</span></a></strong><span class="NormalTextRun SCXW261780365 BCX0"> </span></li>
+<li><a href="/dsg/13217-empfaenger-von-personenbezogenen-daten.html"><strong>Empfänger von personenbezogenen Daten</strong></a></li>
+<li><strong><a href="/dsg/12639-erecht24-safe-sharing-tool.html">eRecht24 Safe Sharing Tool</a></strong></li>
+<li><a href="/dsg/12640-etermin.html"><strong>eTermin</strong></a></li>
+<li><strong><a href="/dsg/12641-etracker.html">etracker</a></strong></li>
+<li><strong><a href="/dsg/13392-etsy-payments.html">Etsy Payments</a></strong></li>
+<li><a href="/dsg/12642-evalanche.html"><strong>Evalanche</strong></a></li>
+<li><strong><a href="/dsg/12972-eventbrite.html">Eventbrite</a></strong></li>
+<li><strong><a href="/dsg/12643-externes-hosting.html">Externes Hosting</a></strong></li>
+<li><a href="/dsg/13499-eye-able.html"><strong>Eye-Able</strong></a></li>
+<li><strong><a href="/dsg/12644-facebook-plugins.html">Facebook</a></strong></li>
+<li><strong><a href="/dsg/12645-facebook-connect.html">Facebook Connect</a></strong></li>
+<li><strong><a href="/dsg/13048-facebook-conversion-api.html">Facebook Conversion API</a></strong></li>
+<li><a href="/dsg/13022-facebook-custom-audiences.html"><strong>Facebook Custom Audiences</strong></a></li>
+<li><strong><a href="/dsg/12646-facebook-pixel.html">Facebook Pixel</a></strong></li>
+<li><strong><a href="/dsg/13153-fathom-analytics.html">Fathom Analytics</a></strong></li>
+<li><strong><a href="/dsg/12647-font-awesome.html">Font Awesome</a></strong></li>
+<li><strong><a href="/dsg/13050-friendly-captcha.html">Friendly Captcha</a></strong></li>
+<li><strong><a href="/dsg/12994-gdpr-legal-cookie-von-shopify.html"><span class="TextRun SCXW2799666 BCX0" lang="EN-US" data-contrast="auto"><span class="NormalTextRun SCXW2799666 BCX0">GDPR Legal Cookie </span><span class="NormalTextRun SCXW2799666 BCX0">von</span><span class="NormalTextRun SCXW2799666 BCX0"> Shopify</span></span><span class="EOP SCXW2799666 BCX0" data-ccp-props="{&quot;201341983&quot;:0,&quot;335551550&quot;:6,&quot;335551620&quot;:6,&quot;335559739&quot;:160,&quot;335559740&quot;:276}"></span></a></strong></li>
+<li><strong><a href="/dsg/12648-getresponse.html">GetResponse</a></strong></li>
+<li><a href="/dsg/12649-giropay.html"><strong>Giropay</strong></a></li>
+<li><strong><a href="/dsg/12650-google-adsense.html">Google AdSense</a></strong></li>
+<li><strong><a href="/dsg/12651-google-ads.html">Google Ads</a></strong></li>
+<li><strong><a href="/dsg/12652-google-analytics.html">Google Analytics</a></strong></li>
+<li><strong><a href="/dsg/12653-google-analytics-auftragsdatenverarbeitung.html">Google Analytics Auftragsdatenverarbeitung</a></strong><a href="#google-analytics-demograf"></a></li>
+<li><strong><a href="/dsg/12654-google-analytics-demografische-merkmale.html">Google Analytics Demografische Merkmale</a></strong></li>
+<li><strong><a href="/dsg/12655-google-analytics-ip-anonymisierung.html">Google Analytics IP-Anonymisierung</a></strong></li>
+<li><strong><a href="/dsg/12656-google-analytics-remarketing.html">Google Analytics Remarketing</a></strong></li>
+<li><strong><a href="/dsg/13047-google-calendar.html">Google Calendar</a></strong></li>
+<li><a href="/dsg/12660-google-cloud-cdn.html"><strong>Google Cloud CDN</strong></a></li>
+<li><a href="/dsg/12661-google-conversion-tracking.html"><strong>Google Conversion-Tracking</strong></a></li>
+<li><strong><a href="/dsg/12969-google-drive.html">Google Drive</a></strong></li>
+<li><a href="/dsg/13002-google-forms.html"><strong>Google Forms</strong></a></li>
+<li><strong><a href="/dsg/12664-google-maps.html">Google Maps</a></strong></li>
+<li><strong><a href="/dsg/12665-google-meet.html">Google Meet</a></strong></li>
+<li><strong><a href="/dsg/12666-google-pay.html">Google Pay</a></strong></li>
+<li><strong><a href="/dsg/12667-google-recaptcha.html">Google reCAPTCHA</a></strong></li>
+<li><strong><a href="/dsg/12979-google-signale.html">Google Signale</a></strong></li>
+<li><a href="/dsg/12668-google-tag-manager.html"><strong>Google Tag Manager</strong></a></li>
+<li><strong><a href="/dsg/12669-google-web-fonts.html">Google Fonts</a></strong></li>
+<li><a href="/dsg/12670-google-plugin.html"><strong>Google+ Plugin</strong></a></li>
+<li><strong><a href="/dsg/12671-gotomeeting.html">GoToMeeting</a></strong></li>
+<li><a href="/dsg/13215-gravatar.html"><strong>Gravatar</strong></a></li>
+<li><strong><a href="/dsg/13049-hcaptcha.html">hCaptcha</a></strong></li>
+<li><strong><a href="/dsg/12970-hetzner.html">Hetzner</a></strong></li>
+<li><strong><a href="/dsg/13447-heyflow.html">Heyflow</a></strong></li>
+<li><strong><a href="/dsg/12672-auskunft-sperrung-berichtigung-loeschung.html">Hinweis zu Auskunft, Sperrung, Berichtigung und Löschung</a></strong></li>
+<li><a href="/dsg/13018-host-europe.html"><strong>Host Europe</strong></a></li>
+<li><strong><a href="/dsg/12673-hotjar.html">Hotjar</a></strong></li>
+<li><strong><a href="/dsg/12674-hubspot-crm.html">Hubspot CRM</a></strong></li>
+<li><strong><a href="/dsg/12675-instagram-plugin.html">Instagram</a></strong></li>
+<li><a href="/dsg/12676-inxmail.html"><strong>Inxmail</strong></a></li>
+<li><a href="/dsg/12978-ionos.html"><strong>IONOS</strong></a><span></span></li>
+<li><a href="/dsg/12677-ithemes-security.html"><strong>iThemes Security</strong></a></li>
+<li><a href="/dsg/12678-jameda.html"><strong>Jameda</strong></a></li>
+<li><a href="/dsg/12679-jimdo.html"><strong>Jimdo</strong></a></li>
+<li><strong><a href="/dsg/12680-jitsi-meet.html">Jitsi Meet</a></strong></li>
+<li><a href="/dsg/13001-jotform.html"><strong>Jotform</strong></a></li>
+<li><strong><a href="/dsg/12681-klarna.html">Klarna</a></strong></li>
+<li><a href="/dsg/13208-klaviyo.html"><strong>Klaviyo</strong></a></li>
+<li><strong><a href="/dsg/12682-klick-tipp.html">Klick-Tipp</a></strong></li>
+<li><strong><a href="/dsg/12683-kommentarfunktion.html">Kommentarfunktion</a></strong></li>
+<li><strong><a href="/dsg/12684-kommentarfunktion-mit-abonnieren-von-kommentaren.html">Kommentarfunktion mit Abonnieren von Kommentaren</a></strong></li>
+<li><strong><a href="/dsg/12685-kommentarfunktion-mit-angabe-der-e-mail-adresse.html">Kommentarfunktion mit Angabe der E-Mail-Adresse</a></strong></li>
+<li><strong><a href="/dsg/12686-kommentarfunktion-mit-speicherung-der-ip-adresse.html">Kommentarfunktion mit Speicherung der IP-Adresse</a></strong></li>
+<li><a href="/dsg/13383-kommunikation-via-telegram.html"><strong>Kommunikation via Telegram</strong></a></li>
+<li><strong><a href="/dsg/12687-kontaktformular.html">Kontaktformular<br></a></strong></li>
+<li><a href="/dsg/13317-leadfeeder.html"><strong>Leadfeeder</strong></a></li>
+<li><a href="/dsg/13111-lead-forensics.html"><strong>Lead Forensics</strong></a></li>
+<li><a href="/dsg/13283-leadinfo.html"><strong>Leadinfo</strong></a></li>
+<li><a href="/dsg/13010-leadlab.html"><strong>LeadLab</strong></a></li>
+<li><strong><a href="/dsg/12688-linkedin-plugin.html">LinkedIn</a></strong></li>
+<li><strong><a href="/dsg/12689-linkedin-insight-tag.html">LinkedIn Insight Tag</a></strong></li>
+<li><strong><a href="/dsg/12690-mailchimp.html">MailChimp</a></strong></li>
+<li><a href="/dsg/12691-mailerlite.html"><strong>MailerLite</strong></a></li>
+<li><strong><a href="/dsg/12692-mailjet.html">Mailjet</a></strong></li>
+<li><a href="/dsg/12696-mailpoet.html"><strong>MailPoet</strong></a></li>
+<li><a href="/dsg/13464-make-com.html"><strong>Make.com</strong></a></li>
+<li><strong><a href="/dsg/12991-managewp.html">ManageWP</a></strong></li>
+<li><a href="/dsg/12697-manychat.html"><strong>Manychat</strong></a></li>
+<li><a href="/dsg/13285-mapbox.html"><strong>Mapbox</strong></a></li>
+<li><strong><a href="/dsg/12975-mastercard.html">Mastercard</a></strong></li>
+<li><a href="/dsg/12698-matomo-ehemals-piwik.html"><strong>Matomo</strong></a></li>
+<li><a href="/dsg/12699-mautic.html"><strong>Mautic</strong></a></li>
+<li><a href="/dsg/13355-meetergo.html"><strong>Meetergo</strong></a></li>
+<li><a href="/dsg/13239-microsoft-advertising.html"><strong>Microsoft Advertising</strong></a></li>
+<li><strong><a href="/dsg/13113-microsoft-bookings.html">Microsoft Bookings</a></strong></li>
+<li><a href="/dsg/12700-microsoft-clarity.html"><strong>Microsoft Clarity</strong></a></li>
+<li><strong><a href="/dsg/12701-microsoft-teams.html">Microsoft Teams</a></strong></li>
+<li><strong><a href="/dsg/12971-mittwald.html">Mittwald</a></strong></li>
+<li><a href="/dsg/12702-mollie.html"><strong>Mollie</strong></a></li>
+<li><a href="/dsg/13214-mouseflow.html"><strong>Mouseflow</strong></a></li>
+<li><a href="/dsg/12703-myfonts.html"><strong>MyFonts</strong></a></li>
+<li><strong><a href="/dsg/12704-newsletter-allgemein.html">Newsletter allgemein</a></strong></li>
+<li><strong><a href="/dsg/12705-newsletter2go.html">Newsletter2Go</a><span></span></strong></li>
+<li><a href="/dsg/13250-newsletterversand-bestandskunden.html"><strong>Newsletterversand an Bestandskunden</strong></a></li>
+<li><a href="/dsg/13071-ninjafirewall.html"><strong>Ninja Firewall</strong></a></li>
+<li><a href="/dsg/13357-nitropack.html"><strong>NitroPack</strong></a></li>
+<li><strong><a href="/dsg/12706-nutzerregistrierung.html">Nutzerregistrierung</a></strong></li>
+<li><a href="/dsg/12707-omq-chatbot.html"><strong>OMQ Chatbot</strong></a></li>
+<li><strong><a href="/dsg/12708-onedrive.html">OneDrive</a></strong></li>
+<li><a href="/dsg/13353-onepage-io.html"><strong>OnePage.io</strong></a></li>
+<li><strong><a href="/dsg/12709-openstreetmaps.html">OpenStreetMaps</a></strong></li>
+<li><a href="/dsg/12710-osano-cookie-consent.html"><strong>Osano Cookie Consent</strong></a></li>
+<li><a href="/dsg/13021-outbrain.html"><strong>Outbrain</strong></a></li>
+<li><a href="/dsg/12711-paydirekt.html"><strong>Paydirekt&nbsp;</strong></a></li>
+<li><a href="/dsg/12712-payone.html"><strong>PayOne</strong></a></li>
+<li><strong><a href="/dsg/12713-paypal.html">PayPal</a></strong></li>
+<li><a href="/dsg/13356-perspective-co.html"><strong>Perspective.co</strong></a></li>
+<li><strong><a href="/dsg/13004-allgemeine-hinweise-zu-den-rechtsgrundlagen-der-datenverarbeitung-auf-der-website.html" class="tocitems active" data-identify="0">Pflichtangabe „Allgemeine Hinweise zu den Rechtsgrundlagen der Datenverarbeitung auf der Website“</a></strong></li>
+<li><strong><a href="/dsg/12714-pinterest-plugin.html">Pinterest</a></strong></li>
+<li><a href="/dsg/12715-pinterest-tag.html"><strong>Pinterest Tag</strong></a></li>
+<li><a href="/dsg/13316-pipedrive.html"><strong>Pipedrive</strong></a></li>
+<li><strong><a href="/dsg/13376-piwik-pro.html">Piwik Pro</a></strong></li>
+<li><strong><a href="/dsg/12995-pixelmate.html"><span class="TextRun SCXW237730001 BCX0" lang="DE-DE" data-contrast="auto"><span class="SpellingError SCXW237730001 BCX0">Pixelmate</span></span></a></strong></li>
+<li><a href="/dsg/13213-plausible-analytics.html"><strong>Plausible Analytics</strong></a></li>
+<li><a href="/dsg/13112-podigee.html"><strong>Podigee</strong></a></li>
+<li><strong><a href="/dsg/12716-postwerbung.html">Postwerbung</a></strong></li>
+<li><strong><a href="/dsg/12717-provenexpert.html">ProvenExpert</a></strong></li>
+<li><strong><a href="/dsg/12718-quentn.html">Quentn</a></strong></li>
+<li><a href="/dsg/13020-raidboxes.html"><strong>Raidboxes</strong></a></li>
+<li><strong><a href="/dsg/12719-rapidmail.html">Rapidmail</a></strong></li>
+<li><strong><a href="/dsg/13072-real-cookie-banner.html">Real Cookie Banner</a></strong></li>
+<li><strong><a href="/dsg/12720-recht-auf-datenuebertragbarkeit.html">Recht auf Datenübertragbarkeit</a></strong></li>
+<li><strong><a href="/dsg/12721-recht-auf-einschraenkung-der-verarbeitung.html">Recht auf Einschränkung der Verarbeitung</a></strong></li>
+<li><strong><a href="/dsg/12722-registrierung-mit-google.html">Registrierung mit Google</a></strong></li>
+<li><a href="/dsg/12723-salesforce-chatbot.html"><strong>Salesforce Chatbot</strong></a></li>
+<li><a href="/dsg/12724-salesforce-cloud.html"><strong>Salesforce Cloud</strong></a></li>
+<li><a href="/dsg/13284-salesviewer.html"><strong>SalesViewer</strong></a></li>
+<li><strong><a href="/dsg/13159-sentry.html">Sentry</a></strong></li>
+<li><strong><a href="/dsg/12725-server-log-dateien.html">Server-Log-Dateien</a></strong></li>
+<li><strong><a href="/dsg/12726-shopify.html">Shopify</a></strong></li>
+<li><a href="/dsg/12968-shopify-payments.html"><strong>Shopify Payments</strong></a><a href="/dsg/12968-shopify-payments.html"></a></li>
+<li><a href="/dsg/13287-signal.html"><strong>Signal</strong></a></li>
+<li><strong><a href="/dsg/13009-site-search-360.html"><span class="TextRun BCX0 SCXW119666975" lang="DE-DE" data-contrast="auto"><span class="NormalTextRun BCX0 SCXW119666975">Site Search 360</span></span></a></strong></li>
+<li><strong><a href="/dsg/12727-skype-for-business.html">Skype for Business</a></strong></li>
+<li><strong><a href="/dsg/12728-social-media-plugins-mit-shariff.html">Social-Media-Plugins mit Shariff</a></strong></li>
+<li><strong><a href="/dsg/12729-sofortueberweisung.html">Sofortüberweisung</a></strong></li>
+<li><strong><a href="/dsg/12730-soundcloud.html">SoundCloud</a></strong></li>
+<li><strong><a href="/dsg/12731-spotify.html">Spotify</a></strong></li>
+<li><strong><a href="/dsg/12732-squarespace.html">Squarespace</a></strong></li>
+<li><a href="/dsg/12733-squarespace-analytics.html"><strong>Squarespace Analytics</strong></a></li>
+<li><a href="/dsg/12734-hosting-strato.html"><strong>Strato</strong></a></li>
+<li><strong><a href="/dsg/12735-stripe.html">Stripe</a></strong></li>
+<li><a href="/dsg/12736-ssl-verschluesselung-der-webseite.html"><strong>SSL-Verschlüsselung der Webseite</strong></a></li>
+<li><a href="/dsg/12738-tars-chatbot.html"><strong>Tars Chatbot</strong></a></li>
+<li><a href="/dsg/12739-tawk-to.html"><strong>tawk.to</strong></a></li>
+<li><strong><a href="/dsg/12740-teamviewer.html">Teamviewer</a></strong></li>
+<li><a href="/dsg/12741-tidio.html"><strong>Tidio</strong></a></li>
+<li><a href="/dsg/13207-tiktok-pixel.html"><strong>TikTok Pixel</strong></a></li>
+<li><a href="/dsg/13465-tiktok-shops.html"><strong>TikTok Shops</strong></a></li>
+<li><a href="/dsg/13240-trackboxx.html"><strong>Trackboxx</strong></a></li>
+<li><strong><a href="/dsg/13157-tucalendi.html">TuCalendi</a></strong></li>
+<li><strong><a href="/dsg/12742-tumblr-plugin.html">Tumblr</a></strong></li>
+<li><strong><a href="/dsg/12743-twitter-plugin.html">Twitter (jetzt X)</a></strong></li>
+<li><a href="/dsg/12744-unzer.html"><strong>Unzer</strong></a></li>
+<li><strong><a href="/dsg/12745-usercentrics-consent-management-platform.html">Usercentrics</a></strong></li>
+<li><a href="/dsg/12746-userlike.html"><strong>Userlike</strong></a></li>
+<li><strong><a href="/dsg/12747-verantwortliche-stelle-fuer-datenverarbeitung.html">Verantwortliche Stelle für Datenverarbeitung</a></strong></li>
+<li><strong><a href="/dsg/12749-verschluesselter-zahlungsverkehr.html">Verschlüsselter Zahlungsverkehr</a></strong></li>
+<li><strong><a href="/dsg/12967-vg-wort-zaehlpixel.html">VG Wort Zählpixel</a></strong></li>
+<li><strong><a href="/dsg/12750-vimeo.html">Vimeo</a></strong></li>
+<li><strong><a href="/dsg/12976-visa.html">Visa</a></strong></li>
+<li><strong><a href="/dsg/12751-webex.html">Webex</a></strong></li>
+<li><a href="/dsg/13005-webflow.html"><strong>Webflow</strong></a></li>
+<li><a href="/dsg/13019-webgo.html"><strong>Webgo</strong></a></li>
+<li><strong><a href="/dsg/12973-webinarjam.html"><span class="TextRun BCX0 SCXW35112717" lang="DE-DE" data-contrast="auto">WebinarJam</span></a></strong></li>
+<li><strong><a href="/dsg/12752-webinaris.html">Webinaris</a></strong></li>
+<li><strong><a href="/dsg/12753-whatsapp.html">Whatsapp</a></strong></li>
+<li><a href="/dsg/12754-whereby.html"><strong>Whereby</strong></a></li>
+<li><strong><a href="/dsg/12755-widerruf-der-einwilligung-zur-datenverarbeitung.html">Widerruf der Einwilligung zur Datenverarbeitung</a></strong></li>
+<li><strong><a href="/dsg/12756-widerspruchsrecht-gegen-datenerhebung-in-besonderen-faellen-sowie-gegen-direktwerbung.html">Widerspruchsrecht gegen die Datenerhebung in besonderen Fällen sowie gegen Direktwerbung (Art. 21 DSGVO)</a></strong></li>
+<li><strong><a href="/dsg/12757-widerspruch-gegen-werbe-e-mails.html">Widerspruch gegen Werbe-E-Mails</a></strong></li>
+<li><strong><a href="/dsg/12758-wix.html">WIX</a></strong></li>
+<li><strong><a href="/dsg/12759-wordfence.html">Wordfence</a></strong></li>
+<li><strong><a href="/dsg/12760-wordpress-stats.html">WordPress Stats</a></strong></li>
+<li><strong><a href="/dsg/12761-wp-statistics.html">WP Statistics</a></strong></li>
+<li><strong><a href="/dsg/12762-xing-plugin.html">Xing</a></strong></li>
+<li><a href="/dsg/13003-youcanbookme.html"><strong>YouCanBookMe</strong></a></li>
+<li><strong><a href="/dsg/12763-youtube.html">YouTube</a></strong></li>
+<li><a href="/dsg/12764-zapier.html"><strong>Zapier</strong></a></li>
+<li><a href="/dsg/13463-zeeg.html"><strong>Zeeg</strong></a></li>
+<li><strong><a href="/dsg/12765-zendesk.html">Zendesk</a></strong></li>
+<li><strong><a href="/dsg/12766-zoho-crm.html">Zoho CRM</a></strong></li>
+<li><a href="/dsg/12767-zoho-campaigns.html"><strong>Zoho Campaigns</strong></a></li>
+<li><a href="/dsg/13249-zoho-meeting.html"><strong>Zoho Meeting</strong></a></li>
+<li><a href="/dsg/13286-zoho-salesiq.html"><strong>Zoho SalesIQ</strong></a></li>
+<li><strong><a href="/dsg/12768-zoom.html">Zoom</a></strong></li>
+</ul>
+<p>Folgende Tools wurden eingestellt und werden vom Datenschutz-Generator nicht mehr unterstützt:</p>
+<ul>
+<li><a href="/dsg/12663-google-hangouts.html">Google Hangouts</a></li>
+<li><a href="/dsg/12662-google-doubleclick.html">Google DoubleClick</a></li>
+<li><a href="/dsg/13154-google-optimize.html">Google Optimize</a></li>
+</ul>
+<h3>16. FAQ: Datenschutzerklärung &amp; Generator</h3>
+<div class="su-accordion">
+<div class="su-spoiler su-spoiler-style-default su-spoiler-icon-plus su-spoiler-toclose su-spoiler-left" ><div class="su-spoiler-title"><h4><span class="su-spoiler-icon"></span>1. Kann ich eine Datenschutzerklärung selbst schreiben?</h4></div><div class="su-spoiler-content su-clearfix">
+<p>Ohne juristisches Fachwissen ist es schwierig, eine vollständige, verständliche und vor allem rechtlich korrekte Datenschutzerklärung zu schreiben. Wir von eRecht24 raten daher davon ab, eine Datenschutzerklärung selbst zu schreiben.</p>
+</div></div>
+<div class="su-spoiler su-spoiler-style-default su-spoiler-icon-plus su-spoiler-toclose su-spoiler-left" ><div class="su-spoiler-title"><h4><span class="su-spoiler-icon"></span>2. Ist ein Generator für Datenschutzrichtlinien seriös?</h4></div><div class="su-spoiler-content su-clearfix">
+<p>Generatoren für Datenschutzrichtlinien sollten Sie nur von vertrauenswürdigen Anbietern mit juristischer Expertise oder Anwälten nutzen. Unser Datenschutz-Generator von eRecht24 wurde in Zusammenarbeit mit unserer Partnerkanzlei Siebert Lexow erstellt und berücksichtigt die aktuelle Rechtslage. Mit dem Generator können Sie eine DSGVO-konforme Datenschutzerklärung erstellen.</p>
+</div></div>
+<div class="su-spoiler su-spoiler-style-default su-spoiler-icon-plus su-spoiler-toclose su-spoiler-left" ><div class="su-spoiler-title"><h4><span class="su-spoiler-icon"></span>3. Wie viel kostet es, eine Datenschutzerklärung erstellen zu lassen?</h4></div><div class="su-spoiler-content su-clearfix">
+<p>Der Datenschutz-Generator von eRecht24 ist kostenlos. Sie können dementsprechend in wenigen Minuten eine rechtssichere Datenschutzerklärung erstellen, für die Sie nichts bezahlen müssen. Auf eRecht24 Premium bieten wir für unsere Kunden eine umfangreichere Version des Datenschutz-Generators an. Auf Premium können Sie die erstellten Rechtstexte jederzeit anpassen, auf Veränderungen der Rechtslage reagieren und die Datenschutzerklärung auch auf Englisch erstellen.</p>
+</div></div>
+<div class="su-spoiler su-spoiler-style-default su-spoiler-icon-plus su-spoiler-toclose su-spoiler-left" ><div class="su-spoiler-title"><h4><span class="su-spoiler-icon"></span>4. Wie formuliere ich eine Datenschutzerklärung?</h4></div><div class="su-spoiler-content su-clearfix">
+<p>Die Formulierung der Datenschutzerklärung ist das A und O, wenn der Rechtstext abmahnsicher sein soll. Ohne juristisches Vorwissen ist es schwierig, eine vollständige und korrekte Datenschutzerklärung zu formulieren. Die Datenschutzerklärung muss auf Ihre konkrete Datenverarbeitung zugeschnitten sein. Pauschale Formulierungen reichen daher nicht aus. Wir von eRecht24 raten Ihnen, die Datenschutzerklärung nicht selbst zu formulieren, sondern unseren kostenlosen Datenschutz-Generator zu verwenden.</p>
+</div></div>
+<div class="su-spoiler su-spoiler-style-default su-spoiler-icon-plus su-spoiler-toclose su-spoiler-left" ><div class="su-spoiler-title"><h4><span class="su-spoiler-icon"></span>5. Wer kann mir eine Datenschutzerklärung erstellen?</h4></div><div class="su-spoiler-content su-clearfix">
+<p>Grundsätzlich können Sie einen Anwalt mit der Erstellung Ihrer Datenschutzerklärung beauftragen. Hier werden allerdings mehrere hundert Euro fällig. Kostengünstiger ist die Nutzung eines rechtssicheren Datenschutz-Generators, wie der von eRecht24. Der eRecht24 Datenschutz-Generator wurde in Zusammenarbeit mit unserer Partnerkanzlei Siebert Lexow erstellt und liefert Ihnen abmahnsichere Datenschutzerklärungen innerhalb von wenigen Minuten.</p>
+</div></div>
+<div class="su-spoiler su-spoiler-style-default su-spoiler-icon-plus su-spoiler-toclose su-spoiler-left" ><div class="su-spoiler-title"><h4><span class="su-spoiler-icon"></span>6. Kann man eine Datenschutzerklärung kopieren?</h4></div><div class="su-spoiler-content su-clearfix">
+<p>Nein. Wir von eRecht24 raten Ihnen dringend davon ab, eine fremde Datenschutzerklärung zu kopieren und diese auf Ihrer eigenen Website einzubinden. Ihre Datenschutzerklärung muss auf Ihre konkrete Datenverarbeitung auf Ihrer Website zugeschnitten sein. Die Datenschutzerklärung einer fremden Website kann für Ihre Website daher falsch und unvollständig sein. Auch rechtliche Fehler können Sie in der kopierten Datenschutzerklärung übernehmen. Außerdem verstoßen Sie gegen die Urheberrechte des Rechteinhabers der Datenschutzerklärung.&nbsp;</p>
+</div></div>
+<div class="su-spoiler su-spoiler-style-default su-spoiler-icon-plus su-spoiler-toclose su-spoiler-left" ><div class="su-spoiler-title"><h4><span class="su-spoiler-icon"></span>7. Wie muss eine Datenschutzerklärung aussehen?</h4></div><div class="su-spoiler-content su-clearfix">
+<p>Eine Datenschutzerklärung muss leicht auffindbar, verständlich und vollständig sein. Folgendes muss die Datenschutzerklärung beinhalten: den Verantwortlichen und Kontakt, ggf. den Datenschutzbeauftragten, Zwecke und Rechtsgrundlagen, Empfänger, Drittlandtransfers, Speicherdauer, Betroffenenrechte, Pflicht zur Bereitstellung sowie ggf. Profiling. Passen Sie die Inhalte an Ihre konkreten Tools und Prozesse an.</p>
+</div></div>
+</div>
+<style>
+	.ea-attention-text ul li:before {
+		color: #fff !important;
+	}
+	.checklist-bullets ul+p {
+		margin-top: 30px !important;
+	}
+</style>
+<style>
+	a.back-to-overview {
+		text-transform: uppercase;
+		text-decoration: none;
+		color: #0094D8;
+		font-weight: bold;
+	}
+	a.back-to-overview:before {
+		content: "";
+		width: 10px;
+		height: 18px;
+		background: url(https://www.e-recht24.de/mitglieder/wp-content/uploads/arrow-back.svg);
+		display: inline-block;
+		top: 2px;
+		position: relative;
+		margin-right: 10px;
+	}
+	a.back-to-overview:hover {
+		color: #056688;
+	}
+</style>				
+							</section>
+
+				
+
+				
+						<div id="author-box-1" class="author-modal-block">
+	
+	<div class="author-box-inner">
+	<span class="close"><i class="fa fa-times"></i></span>
+		<img class="author-box-avatar" src="/images/microsites/redaktion/siebert-rund.png" alt="Rechtsanwalt Sören Siebert ">
+		<div class="author-box-content">
+	<div class="author-box-name">Sören Siebert</div>
+<div class="author-box-subtitle">Rechtsanwalt und Gründer von eRecht24</div>
+<p>Rechtsanwalt Sören Siebert ist Gründer von eRecht24 und Inhaber der Kanzlei Siebert Lexow. Mit 20 Jahren Erfahrung im Internetrecht, Datenschutz und ECommerce sowie mit mehr als 10.000 veröffentlichten Beiträgen und Artikeln weist Rechtsanwalt Sören Siebert nicht nur hervorragende Fach-Expertise vor, sondern hat auch das richtige Gespür für seine Leser, Mandanten, Kunden und Partner, wenn es um rechtssichere Lösungen im Online-Marketing und B2B / B2C Dienstleistungen sowie Online-Shops geht. Neben den zahlreichen Beiträgen auf eRecht24.de hat Sören Siebert u.a. auch diverse Ebooks und Ratgeber zum Thema Internetrecht publiziert und weiß ganz genau, worauf es Unternehmern, Agenturen und Webdesignern im täglichen Business mit Kunden ankommt: Komplexe rechtliche Vorgaben leicht verständlich und mit praktischer Handlungsanleitung für rechtssichere Webseiten umsetzen.</p>	</div>
+	</div> 
+</div>
+<div id="author-box-2" class="author-modal-block author-box">
+	
+	<div class="author-box-inner">
+	<span class="close"><i class="fa fa-times"></i></span>
+		<img class="author-box-avatar" src="/images/microsites/redaktion/annika-haucke-240x240.jpeg" alt="Rechtsanw&auml;ltin Annika Haucke">
+		
+	<div class="author-box-content">
+	<div class="author-box-name">Annika Haucke</div>
+<div class="author-box-subtitle">Rechtsanwältin & Legal Writerin</div>
+<p>Annika Haucke ist Rechtsanwältin und absolvierte darüber hinaus ein Journalismus-Studium. Seit mehr als 10 Jahren ist sie als Legal Writerin und Online-Redakteurin tätig. Sie hat bereits Texte für Steuerberatungsgesellschaften, Medienrechtsanwälte sowie für den Tagesspiegel und die Stiftung Warentest geschrieben. Seit 2020 ist Annika Haucke Teil des Redaktionsteams von eRecht24. Ihre inhaltlichen Schwerpunkte liegen im Internet-, Urheber-, Steuer- und Datenschutzrecht.</p>	</div>
+	</div>
+</div>
+				
+				
+		</div>
+			</section>
+
+	<!--<section class="row article-navigation bottom">
+			</section>-->
+
+</article>
+
+
+
+<script src="/templates/ja_teline_v/local/js/hc-sticky.js"></script>
+<script src="/templates/ja_teline_v/local/js/hc-sticky.helpers.js"></script>
+<script src="/templates/ja_teline_v/local/js/table-of-contents.js"></script>
+<script>
+
+var sticky_toc;
+
+document.addEventListener('DOMContentLoaded', function() {
+	tableOfContents('[data-content]', '[data-toc]', {
+		heading: 'Inhaltsverzeichnis', // Change the headings
+		listType: 'ul', // Change the list type
+		levels: 'h3' // Change the levels used
+	});
+});
+
+// 
+function resizeTocList(params){
+	var tocspace = params.top + document.getElementById('article-toc-wrap').offsetHeight;
+	var toccontent = document.getElementById('toc-list-wrap');
+	var toctoggle = document.getElementById('toc-heading');
+	if(window.innerWidth >= 992)
+	{
+		toccontent.style.display = 'block';
+		if(window.innerHeight < tocspace){
+			var targetHeight = window.innerHeight - tocspace + toccontent.offsetHeight - 20;
+			toccontent.style.height = targetHeight+'px';
+		}
+	}
+}
+function releaseTocList(params){
+	var toccontent = document.getElementById('toc-list-wrap');
+	toccontent.style.height = 'auto';	
+	toccontent.style.display = 'block';
+}
+
+function enableDesktopToc(){
+	sticky_toc = new hcSticky('#fixed-col1', {
+		stickTo: '#fullarticle',
+		   top:100,
+		   followScroll:false,
+		   innerTop: 0,
+		   onResize: resizeTocList,
+		   onStart: resizeTocList,
+		   onStop: releaseTocList,
+		   queries: {
+			991: {
+			  disable: true
+			}
+		  }
+	  });
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+	if(window.innerWidth >= 992)
+	{
+		enableDesktopToc();
+	}
+});
+
+</script>
+						
+												</div>
+	</div>
+									<div id="theBrevoChat">
+    <div id="showconfirm">
+        <div id="brevocross"><a href="javascript:void();" id="brevocrosslink">X</a></div>
+        <div id="confirmhead">
+            Ich möchte mit eRecht24 chatten!
+        </div>
+        <div id="confirmmsg">
+            <strong>Datenschutzhinweis: </strong>Ihre Daten und Ihre Chateingaben werden in unserem Chat-Tool Brevo verarbeitet, sobald Sie zustimmen, den Chat mit uns zu beginnen. Sie können Ihre Zustimmung jederzeit zurücknehmen. Details hierzu entnehmen Sie unserer <a href="/datenschutzerklaerung.html"> Datenschutzerklärung</a>.
+        </div>
+        <div id="confirmbtns">
+            <button id="confirmyes">
+                <span>Akzeptieren</span>
+            </button>
+            <button id="confirmno">
+                <span>Ablehnen</span>
+            </button>
+        </div>
+    </div>
+</div>
+<div id="showdummychat">
+    <a href="javascript:void(0);" id="chatlink"><img src="/images/brevo-chat-bubble-grey.svg"></a>
+</div>
+
+<script type="text/javascript">
+        jQuery(document).ready(function() {
+            if(jQuery.cookie('brevochatactive')) {
+                jQuery('.brevochatdeactivate').show();
+                jQuery('#showdummychat').hide();
+                tuwas();
+            } else {
+                jQuery('#showdummychat').show();
+                jQuery('.brevochatdeactivate').hide();
+
+            }
+            
+            jQuery('#showdummychat').click(function () {
+                jQuery('#showdummychat').hide();
+                jQuery('#theBrevoChat').show();
+            });
+
+            jQuery('#confirmno,#brevocrosslink').click(function () {
+                jQuery('#theBrevoChat').hide();
+                jQuery('#showdummychat').show();
+            })
+
+            jQuery('#chatlink').click(function() {
+                jQuery('#theBrevoChat').show();
+            });
+
+            jQuery('#confirmyes').click(function () {                
+                jQuery('#theBrevoChat').hide();
+                jQuery('#showdummychat').hide();
+                jQuery.cookie("brevochatactive","true", {expires: 3650, path:'/'});
+                jQuery('.brevochatdeactivate').show();
+                tuwas();      
+                BrevoConversations('openChat', true);          
+            });
+
+            jQuery('.brevochatdeactivate').click(function() {
+                event.preventDefault();
+                document.cookie = "brevochatactive=null; expires=Thu, 01-Jan-70 00:00:01 GMT;path=/";
+                jQuery('#brevo-conversations').hide();
+                jQuery('#showdummychat').show();
+                jQuery('.brevochatdeactivate').hide();
+                localStorage.removeItem("BrevoConversations.clientId");
+                localStorage.removeItem("BrevoConversations.hostedItems");
+                localStorage.removeItem("BrevoConversations.lastPageViewAt");
+                localStorage.removeItem("BrevoConversations.referrer");
+
+                location.reload();
+            });
+
+        });
+        
+        function tuwas() {
+            (function(d, w, c) {
+                    w.BrevoConversationsID = '63a43e683733fc6b2d707b11';
+                    w[c] = w[c] || function() {
+                        (w[c].q = w[c].q || []).push(arguments);
+                    };
+                    var s = d.createElement('script');
+                    s.async = true;
+                    s.src = 'https://conversations-widget.brevo.com/brevo-conversations.js';
+                    if (d.head) d.head.appendChild(s);
+                })(document, window, 'BrevoConversations');
+        }
+    </script>
+
+							</div>
+			<!-- //MAIN CONTENT -->
+
+			
+			</div>
+
+  </div> 
+
+		<div class="wrap ">
+		<div class="container">
+			
+
+<div class="custom highlighted"  >
+	<div class="magazine-section-heading">eRecht24 - Unsere praktischen Tools und hilfreichen Tutorials</div>
+<div id="surow695ceaced6376" class="su-row su-clmms-yes">
+<div id="sucol695ceaced6393" class="su-column su-column-size-1-1 su-column-size-medium-1-3"><div class="su-column-inner"><div class="su-column-content">
+<div id="supnl695ceaced64a5" class="su-panel su-panel-clickable sup-align-left" data-url="https://www.e-recht24.de/e24link/89qtu" data-target="self"><div class="su-panel-content su-content-wrap">
+<p><img src="/images/intern/mitgliederbereich-teaser.jpg" alt="mitgliederbereich teaser" width="353" height="150"></p>
+<p class="headline">Exklusiv für unsere Mitglieder</p>
+<p>Alles was Webseitenbetreiber, Agenturen und Selbständige wirklich brauchen: Tools, Wissen, Musterverträge, Erstberatung und Live-Webinare.</p>
+<a id="subtn_695ceaced6624" href="https://www.e-recht24.de/e24link/89qtu" class="su-button su-button-style-default green" target="_self"><span> Mehr Informationen</span></a>
+</div></div>
+</div></div></div>
+<div id="sucol695ceaced6713" class="su-column su-column-size-1-1 su-column-size-medium-1-3"><div class="su-column-inner"><div class="su-column-content">
+<div id="supnl695ceaced67fe" class="su-panel su-panel-clickable sup-align-left" data-url="/mitglieder/affiliate/" data-target="self"><div class="su-panel-content su-content-wrap">
+<p><img src="/images/intern/Aff-Banner-mit-lines-light-350x150.jpg" alt="dsgvo teaser" width="350" height="150"></p>
+<p class="headline">Jetzt eRecht24 Premium Affiliate werden</p>
+<p>Als eRecht24 Premium Affiliate Partner empfehlen Sie eine Lösung, mit der bereits mehr als 370.000 Webseiten erfolgreich rechtlich abgesichert wurden und erhalten dafür eine 25% Lifetime Provision!</p>
+<a id="subtn_695ceaced6971" href="/mitglieder/affiliate/" class="su-button su-button-style-default green" target="_self"><span> Jetzt Affiliate werden</span></a>
+</div></div>
+</div></div></div>
+<div id="sucol695ceaced6a4c" class="su-column su-column-size-1-1 su-column-size-medium-1-3"><div class="su-column-inner"><div class="su-column-content">
+<div id="supnl695ceaced6b35" class="su-panel su-panel-clickable sup-align-left" data-url="https://www.e-recht24.de/e24link/34gp5" data-target="self"><div class="su-panel-content su-content-wrap">
+<p><img src="/images/intern/webinar-teaser.jpg" alt="webinar teaser" width="353" height="150"></p>
+<p class="headline">Online Schulung mit RA Siebert</p>
+<p>Die 7 häufigsten Abmahnfallen auf Webseiten und wie Sie diese einfach und ohne teuren Anwalt vermeiden. So haben Abmahner keine Chance!</p>
+<a id="subtn_695ceaced6cae" href="https://www.e-recht24.de/e24link/34gp5" class="su-button su-button-style-default green" target="_self"><span> Mehr Details</span></a>
+</div></div>
+</div></div></div>
+</div>
+</div>
+
+		</div>
+	</div>
+	
+<div id="mainbody-overlay"></div>
+</div>
+
+	
+<!-- FOOTER -->
+<footer id="t3-footer" class="wrap t3-footer t3-footer-2021">
+	<div class="container">
+
+		<section class="t3-footer-links">
+			<div class="row">
+
+				<div class="col-md-12">
+      	      	<!-- FOOT NAVIGATION -->
+      			<!-- SPOTLIGHT -->
+	<div class="t3-spotlight t3-footnav  row">
+					<div class=" col-lg-4 col-md-4 col-sm-4 col-xs-6">
+								<div class="t3-module module " id="Mod643"><div class="module-inner"><div class="module-ct">
+
+<div class="custom"  >
+	<div><img src="/images/logo-erecht24-light.svg" alt="eRecht24.de" class="logo-img" style="width: 100px; margin-bottom: 35px;" /></div>
+<div style="margin-bottom: 30px;">eRecht24 ist als eine der bekanntesten digitalen Informationsplattformen rund um die Themen Internetrecht, Datenschutz und E-Commerce am Legal Tech Markt vertreten und hilft täglich tausenden Webseitenbetreibern und Agenturen dabei ihre Webseiten rechtssicher zu gestalten.</div>
+<p><a href="https://www.facebook.com/eRecht24"><img src="/images/facebook-logo.svg" alt="Facebook Logo" class="social-img" style="width: 24px;" /></a>&nbsp;&nbsp;&nbsp;<a href="https://de.linkedin.com/company/erecht24"><img src="/images/linkedin-logo.svg" alt="LinkedIn Logo" class="social-img" style="width: 24px;" /></a>&nbsp;&nbsp;&nbsp;<a href="https://www.xing.com/pages/erecht24"><img src="/images/xing-logo.svg" alt="Xing Logo" class="social-img" style="width: 24px;" /></a></p></div>
+</div></div></div>
+							</div>
+					<div class=" col-lg-4 col-md-4 col-sm-4 col-xs-6">
+								<div class="t3-module module " id="Mod166"><div class="module-inner"><div class="module-title "><span>Unternehmen</span></div><div class="module-ct"><ul class="nav ">
+<li class="item-2621"><a href="https://www.e-recht24.de/mitglieder/affiliate/" class="" target="_blank" rel="noopener noreferrer">Affiliate werden </a></li><li class="item-114"><a href="/redaktion.html" class="">Redaktion</a></li><li class="item-1678"><a href="/jobs.html" class="">Jobs</a></li><li class="item-2707"><a href="https://www.e-recht24.de/mitglieder/wir-helfen-den-helfern/" class="">Wie wir helfen </a></li><li class="item-2869"><a href="/autor-soeren-siebert.html" class="">Autor Sören Siebert</a></li><li class="item-2868"><a href="/autor-lev-lexow.html" class="">Autor Lev Lexow</a></li></ul>
+</div></div></div>
+							</div>
+					<div class=" col-lg-4 col-md-4 col-sm-4 col-xs-12">
+								<div class="t3-module module_menu " id="Mod99"><div class="module-inner"><div class="module-title "><span>Informatives</span></div><div class="module-ct"><ul class="nav   horizontal">
+<li class="item-2479"><a href="/anwalt-arbeitsrecht.html" class="">Anwalt Arbeitsrecht </a></li><li class="item-2203"><a href="/anwalt-internetrecht.htm" class="">Anwalt Internetrecht </a></li><li class="item-2480"><a href="/anwalt-verkehrsrecht.html" class="">Anwalt Verkehrsrecht </a></li><li class="item-1567"><a href="https://www.e-recht24.de/erecht24-premium-kuendigen.html" class="">eRecht24 kündigen </a></li><li class="item-2481"><a href="/anwalt.html" class="">Rechtsberatung vom Anwalt </a></li><li class="item-2741"><a href="https://marktplatz.e-recht24.de" class="">Marktplatz </a></li><li class="item-2622"><a href="/internes/interne-seiten/13024-faq-e-recht24.html" class="">FAQ zu eRecht24</a></li><li class="item-1022"><a href="/mediathek.html" class="">Mediathek</a></li><li class="item-143"><a href="/anmeldung-newsletter.html" class="">Newsletter</a></li><li class="item-3490"><a href="https://www.e-recht24.de/mitglieder/angebote-black-friday/" class="">Black Friday E-Mail Anmeldung </a></li><li class="item-3491"><a href="https://www.e-recht24.de/mitglieder/angebote-cyber-monday/" class="">Cyber Monday E-Mail Anmeldung </a></li></ul>
+</div></div></div>
+							</div>
+			</div>
+<!-- SPOTLIGHT -->
+      	<!-- //FOOT NAVIGATION -->
+      	          
+      </div>
+
+			</div>
+		</section>
+		<section class="t3-copyright">
+			<div class="t3-bottom">
+				<div class="row">
+					<div class="col-sm-6 col-sm-push-6">
+						<ul class="nav  horizontal">
+<li class="item-813"><a href="/kontakt.html" class="">Kontakt</a></li><li class="item-167"><a href="/datenschutzerklaerung.html" class="" target="_blank">Datenschutz</a></li><li class="item-206"><a href="/impressum.htm" class="" target="_blank">Impressum</a></li><li class="item-2963"><a href="#" class="brevochatdeactivate">Zustimmung Chat entfernen </a></li></ul>
+
+					</div>
+					<div class="col-sm-6 col-sm-pull-6">
+						
+
+<div class="custom"  >
+	<p>Copyright © eRecht24 GmbH &amp; Co. KG</p></div>
+
+					</div>
+
+				</div>
+			</div>
+		</section>
+ 
+  
+  </div>
+</footer>
+<!-- //FOOTER -->
+
+</div>
+
+<!-- Start of Site Search 360 script -->
+
+<script defer type="text/javascript">
+window.ss360Config = {
+"allowCookies": false,
+	suggestions : {
+		showImages : false
+	},
+	style : {
+		themeColor : "#0971B2",
+		accentColor: "#0971B2",
+		searchBox : {
+			text : {
+				color : "#666666",
+				size : "16px"
+			},
+			background : {
+				color : "transparent"
+			},
+			padding : "10px",
+			icon : {
+				image : "magnifier",
+				color : "transparent"
+			}
+		},
+		animationSpeed : 50
+	},
+	searchBox : {
+		placeholder : "Suchen ...",
+		selector : "#mod-search-searchword"
+	},
+	results : {
+		embedConfig : {
+			contentBlock : "#erecht24-search",
+			url : "/index.php?searchphrase=all&Itemid=144&option=com_search"
+		},
+		caption : "#COUNT# Ergebnisse für \"#QUERY#\" gefunden",
+		group : false,
+		num : "10000",
+		moreResultsButton : "Weitere Ergebnisse anzeigen",
+		noResultsText : "Es tut uns leid. Wir konnten keine Ergebnisse für Ihre Suchanfrage finden.",
+		queryCorrectionText : "Meinten Sie \"#CORRECTION#\"?",
+		moreResultsPagingSize : "50",
+		infiniteScroll : true,
+		sorting : "_relevance" // the default sorting option to apply
+	},
+	tracking : {
+		providers : []
+	},
+	layout : {
+		mobile : {
+			showImages : false
+		},
+		desktop : {
+			showImages : false
+		}
+	},
+	dataPoints : {
+		exclude : [],
+		single : []
+	},
+	siteId : "www.e-recht24.de",
+	language : "de",
+	showErrors : false
+};
+
+var e = document.createElement("script");
+e.async = !0;
+e.src = "https://cdn.sitesearch360.com/v13/sitesearch360-v13.min.js";
+document.getElementsByTagName("body")[0].appendChild(e);
+</script>
+<!-- End of Site Search 360 script -->
+<div id="dsg_bottom_banner" class="cta-bottom-banner-wrap slide-down toc-influencer">
+<span class="cta-close"><i class="fa fa-caret-down"></i></span>
+<div class="cta-bottom-banner-inner">
+<a href="javascript:targetGenerator();"><span>Datenschutzerklärung kostenlos erstellen</span></a>
+<div class="row">
+<div class="col-sm-6 col-md-8">
+<div class="cta-bottom-banner-title">Erstellen Sie kostenlos eine Datenschutzerklärung für Ihre Website</div>
+<ul>
+<li><strong>Rechtssichere Datenschutzerklärung</strong> - in nur 3 Minuten</li>
+<li><strong>Kostenlos</strong> und anonym</li>
+</ul>
+</div>
+<div class="col-sm-6 col-md-4">
+<a href="javascript:activateGenerator();" class="btn btn-secondary">Datenschutzerklärung erstellen</a>
+<div class="small-text center rating"><span class="stars-bg"><span class="stars-value" style="width:86.7%;"></span></span><span class="rating-text">(<span class="votes">6934</span> Bewertungen, <span class="average">4.34</span> von 5)</span></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var ctab;
+var ctab_trigger;
+var ctab_trigger_h;
+
+function targetGenerator(){
+	if(typeof activateGenerator === 'function')
+	{
+		activateGenerator();
+	}
+	else
+	{
+		localStorage.setItem('erecht24dsg', 1);
+		location.href = 'https://www.e-recht24.de/muster-datenschutzerklaerung.html';
+	}
+}
+
+function ctabBottomPos(){
+	ctab_trigger_h = ctab_trigger.offset().top + ctab_trigger.outerHeight();
+	if(jQuery(window).scrollTop() > ctab_trigger_h )
+	{
+		if(ctab.hasClass('slide-down') && !ctab.hasClass('hide')){
+			jQuery('#dsg_bottom_banner').removeClass('slide-down');
+			ctab.animate({'bottom': '0px' }, 500);
+			jQuery('#dsg_bottom_banner').addClass('slide-up');
+		}
+	}
+	else {
+		if(ctab.hasClass('slide-up')){
+			jQuery('#dsg_bottom_banner').removeClass('slide-up');
+			ctab.animate({'bottom': '-'+ctab.outerHeight()+'px' }, 200);
+			jQuery('#dsg_bottom_banner').addClass('slide-down');
+		}
+	}
+}
+jQuery(document).ready(function($) {
+	ctab = jQuery('#dsg_bottom_banner');
+	if(typeof activateGenerator === 'function')
+	{
+		ctab_trigger = jQuery('.article-top-module').first();
+	}
+	else
+	{
+		ctab_trigger = jQuery('#dsg-info-cta');
+		if(!ctab_trigger.length)
+		{
+			ctab_trigger = jQuery('#fullarticle h2:nth-of-type(2)');
+		}
+	}
+	ctabBottomPos();
+	$('#dsg_bottom_banner .cta-close').on('click', function (event) {
+		ctab.animate({'bottom': '-'+ctab.outerHeight()+'px' }, 200);
+		$('#dsg_bottom_banner').addClass('slide-down');
+		$('#dsg_bottom_banner').addClass('hide');
+	});
+		$(window).scroll(function (event) {
+			ctabBottomPos();
+		});
+			$(window).resize(function (event) {
+				ctabBottomPos();
+			});
+});
+	
+	</script>
+<div data-id="110" 
+	class="eb-inst eb-hide eb-module eb-110  hide-on-mobile"
+	data-options='{"trigger":"onPageReady","trigger_selector":"","delay":10000,"scroll_depth":"percentage","scroll_depth_value":20,"firing_frequency":1,"reverse_scroll_close":true,"threshold":0,"close_out_viewport":false,"exit_timer":1000,"idle_time":10000,"prevent_default":true,"close_on_esc":false,"animation_open":"rstbox.slideUpIn","animation_close":"transition.slideDownOut","animation_duration":1000,"disable_page_scroll":false,"test_mode":false,"debug":false,"ga_tracking":false,"ga_tracking_id":0,"ga_tracking_event_category":"EngageBox","ga_tracking_event_label":"Box #110 - Slider-Aktion-KIDay-2026-Email ","auto_focus":false}'
+	data-type='popup'
+		>
+	<button type="button" data-ebox-cmd="close" class="eb-close placement-outside" aria-label="Close">
+	<img alt="close popup button" />
+	<span aria-hidden="true">&times;</span>
+</button>
+<div class="eb-dialog " role="dialog" aria-modal="true" id="dialog110" aria-label="dialog110">
+		<button type="button" data-ebox-cmd="close" class="eb-close placement-inside" aria-label="Close">
+	<img alt="close popup button" />
+	<span aria-hidden="true">&times;</span>
+</button>	
+<div class="eb-container">
+<div class="eb-content">
+<div id="sjslideouterwrapper">
+<div class="sjslidewrapper">
+<div class="sjslideleft"></div>
+<div class="sjslidecontent">
+<div class="sjtsubline">eRecht24 KI Day 2026 - Live. Rechtssicher. Praxisnah.</div>
+<div class="sjslideheadline">Exklusiv am 25.02.26. 1 Tag, 7 Speaker, 7 Sessions.</div>
+<form id="kiday_form" action="" method="post" accept-charset="UTF-8" novalidate>
+<div class="sjslideinputwrapper">
+<input 
+                type="email" 
+                id="kiday_email" 
+                name="email" 
+                placeholder="Ihre E-Mail-Adresse"
+                required
+              >
+<div class="sjslidebutton">
+                <button id="btn_sjslide" type="submit">
+                  <span>Jetzt anmelden</span>
+                </button>
+              </div>
+            </div>
+<div class="sjslide_error" id="kiday_error" style="display: none;">
+              Bitte eine korrekte E-Mail-Adresse angeben.
+            </div>
+<div class="sjsmail">
+                Ich möchte per E-Mail Informationen zu Aktionen, Praxistipps und Rechts-Updates von eRecht24 erhalten.
+                Einwilligung jederzeit widerrufbar. [<a href="https://www.e-recht24.de/datenschutzerklaerung.html">Datenschutzerklärung</a>]
+            </div>
+          </form>
+<div id="kiday_thanks" hidden>
+<div class="thanks_head">Vielen Dank für Ihr Interesse!</div>
+<div class="thanks_text">
+              Wir nehmen es mit dem Schutz Ihrer Daten genau und halten uns an die 
+              rechtlichen Vorgaben des Double-Opt-In. Bitte schauen Sie nun in Ihr 
+              E-Mail-Postfach und bestätigen Sie Ihre E-Mail-Adresse! Schauen Sie 
+              auch im Spam-Ordner nach.
+            </div>
+          </div>
+        </div>
+<div class="sjslideright"></div>
+      </div>
+    </div>
+    <script>
+      jQuery(document).ready(function() {
+        jQuery('#btn_sjslide').click(function(e) {
+          e.preventDefault();
+          jQuery('#kiday_error').hide();
+          var email = jQuery('#kiday_email').val();
+          var regex = /^(([^<>()\[\]\\.,;:\s@\"]+(\.[^<>()\[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+          if(!regex.test(email)) {
+            jQuery('#kiday_error').show();
+            return false;
+          }         
+          jQuery.ajax({
+            type: "POST",
+            url: 'https://tools.e-recht24.de/media/tools/register_guide.php',
+            data: { email: email, guide: 'kiday'},
+            success: function(response) {
+              var jsonData = JSON.parse(response);
+              if(jsonData.err == 1) {
+                console.error("Error "  + jsonData.errcode + ": " + jsonData.errormsg);
+              }
+              jQuery('#kiday_form').fadeOut(600);
+              jQuery('#kiday_thanks').fadeIn(1000);
+            },                
+            error: function(XMLHttpRequest, textStatus, errorThrown) { 
+              console.log("Status: " + textStatus); 
+              console.error("Error: " + errorThrown); 
+            } 
+          });
+        });
+      });
+      </script>			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>
