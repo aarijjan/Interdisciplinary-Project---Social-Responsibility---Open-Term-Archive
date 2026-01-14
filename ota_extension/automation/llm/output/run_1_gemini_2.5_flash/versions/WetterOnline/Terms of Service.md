@@ -1,0 +1,20 @@
+Allgemeine Nutzungsbedingungen dieser Anwendung
+===============================================
+
+Die Geschäftsbedingungen für die WetterOnline Mitgliedschaft finden Sie unter [diesem Link](https://wetteronline.de/agb?memberdisplay=true).
+
+1\. Haftung für Inhalte und Hyperlinks
+--------------------------------------
+
+Die WetterOnline Meteorologische Dienstleistungen GmbH ("WetterOnline") ist für die Inhalte in der Anwendung nach den Maßgaben der allgemeinen Gesetze verantwortlich. Mit Anwendung sind hier die WetterOnline Webseite oder die nativen WetterOnline Apps gleichermaßen gemeint. Alle Inhalte werden mit der gebotenen Sorgfalt und nach bestem Wissen erstellt und dienen lediglich rein informativen Zwecken. Soweit WetterOnline in der Anwendung mittels Hyperlinks (Internetverknüpfungen) auf Internetseiten Dritter verweist, kann WetterOnline für die fortwährende Aktualität, Richtigkeit und Vollständigkeit der verlinkten Inhalte keine Gewähr übernehmen, da diese Inhalte außerhalb des Verantwortungsbereichs von WetterOnline liegen und WetterOnline auf die zukünftige Gestaltung keinen Einfluss hat. WetterOnline ist nicht verpflichtet, übermittelte oder gespeicherte fremde Inhalte zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen. Verpflichtungen zur Entfernung oder Sperrung der Nutzung von Inhalten nach den allgemeinen Gesetzen bleiben unberührt. Eine Haftung in diesem Zusammenhang ist jedoch erst ab dem Zeitpunkt der Kenntnis einer konkreten Rechtsverletzung möglich. Sollte WetterOnline von fehlerhaften, unzutreffenden, irreführenden oder rechtswidrigen Inhalten Kenntnis erlangen, werden diese umgehend überprüft und ggf. entfernt. Sollten aus Ihrer Sicht Inhalte unrichtig oder gegen geltendes Recht verstoßen oder unangemessen sein, teilen Sie dies bitte WetterOnline mit.
+
+Rechtshinweis: Mit dem Urteil vom 12. Mai 1998 hat das Landgericht Hamburg entschieden, dass man durch die Veröffentlichung eines Links die Inhalte der gelinkten Seite eventuell mitzuverantworten hat. Dies kann, laut Landgericht, nur dadurch verhindert werden, indem man sich ausdrücklich von diesen Inhalten distanziert. Daher betont WetterOnline an dieser Stelle, dass für alle Hyperlinks in dieser Anwendung ausdrücklich gilt: WetterOnline hat keinen Einfluss auf Gestaltung und Inhalte von gelinkten Seiten und nimmt hiermit ausdrücklich Abstand von den Inhalten aller gelinkten Seiten in der Anwendung und macht sich deren Inhalte in keiner Weise zu eigen. Diese Erklärung gilt für jede einzelne Linkeinbindung, die nach außerhalb dieser Anwendung führt.
+
+2\. Urheberrecht
+----------------
+
+Die Inhalte der WetterOnline Anwendung sind urheberrechtlich geschützt. Jede unberechtigte Verwendung (insbesondere die Vervielfältigung, Bearbeitung, Verbreitung oder Speicherung) dieser urheberrechtsgeschützten Inhalte (insbesondere Texte, Textteile oder Bildmaterial) ist daher untersagt. Dies gilt insbesondere für die kommerzielle Nutzung solcher Inhalte. Wenn Sie beabsichtigen, diese Inhalte oder Teile davon zu verwenden, kontaktieren Sie WetterOnline bitte im Voraus (Kontaktdaten im Impressum [https://www.wetteronline.de/impressum](https://wetteronline.de/impressum)). Soweit WetterOnline nicht selbst Inhaber der benötigten urheberrechtlichen Nutzungsrechte sein sollte, bemüht sich WetterOnline, einen Kontakt zum Berechtigten zu vermitteln.
+
+Das "Homepage-Wetter" von WetterOnline kann auf Dritt-Webseiten (also bspw. Ihrer Webseite) genutzt werden. Hierzu räumt WetterOnline ein beschränktes, nicht ausschließliches, nicht übertragbares, nicht unterlizenzierbares, kostenloses, jederzeit widerrufbares Recht ein, das Wetter Widget von WetterOnline auf einer Dritt-Webseite wie angeboten zu integrieren und zu nutzen. Eine darüber hinaus gehende Nutzung oder Verwertung des "Homepage-Wetter" sind nicht gestattet.
+
+Version vom 24.02.2025
