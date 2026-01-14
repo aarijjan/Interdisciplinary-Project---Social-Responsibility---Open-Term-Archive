@@ -1,9 +1,0 @@
-{
-  "name": "t-online",
-  "terms": {
-    "Privacy Policy": {
-      "fetch": "https://t-online.de#datenschutz-manager",
-      "select": ".rounded-8"
-    }
-  }
-}

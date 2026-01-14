@@ -1,9 +1,0 @@
-{
-  "name": "TUM",
-  "terms": {
-    "Privacy Policy": {
-      "fetch": "https://tum.de/spezialseiten/datenschutz",
-      "select": "#main-content"
-    }
-  }
-}

@@ -1,9 +1,0 @@
-{
-  "name": "Aktuelle News",
-  "terms": {
-    "Privacy Policy": {
-      "fetch": "https://tagesspiegel.de/verlag-der-tagesspiegel-datenschutzerklarung-383383.html",
-      "select": "#story-elements"
-    }
-  }
-}

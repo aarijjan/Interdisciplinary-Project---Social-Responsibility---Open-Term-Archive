@@ -1,9 +1,0 @@
-{
-  "name": "hessen.de",
-  "terms": {
-    "Privacy Policy": {
-      "fetch": "https://hessen.de/datenschutz",
-      "select": "#page-content"
-    }
-  }
-}

@@ -1,9 +1,0 @@
-{
-  "name": "Bundesagentur f\u00fcr Arbeit",
-  "terms": {
-    "Privacy Policy": {
-      "fetch": "https://www.arbeitsagentur.de/datenschutz",
-      "select": "#main"
-    }
-  }
-}

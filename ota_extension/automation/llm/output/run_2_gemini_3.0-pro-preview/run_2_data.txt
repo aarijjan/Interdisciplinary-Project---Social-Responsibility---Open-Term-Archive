@@ -1,0 +1,6 @@
+run: 2
+date: Donnerstag, ‎18. ‎Dezember ‎2025, ‏‎16:19:51
+model used: gemini-3.0-pro-preview
+declarations written: 72
+time taken: 2:11:38 hours
+aborted after hanging at volkswagen.de (3rd to last url) for 15 minutes

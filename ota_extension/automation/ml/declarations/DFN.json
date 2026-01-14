@@ -1,9 +1,0 @@
-{
-  "name": "DFN",
-  "terms": {
-    "Privacy Policy": {
-      "fetch": "https://www.dfn.de/datenschutzerklaerung/",
-      "select": ".main"
-    }
-  }
-}

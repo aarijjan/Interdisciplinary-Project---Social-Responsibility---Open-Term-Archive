@@ -1,9 +1,0 @@
-{
-  "name": "Goethe",
-  "terms": {
-    "Terms of Service": {
-      "fetch": "https://goethe.de/de/nut.html",
-      "select": "#inhalt"
-    }
-  }
-}

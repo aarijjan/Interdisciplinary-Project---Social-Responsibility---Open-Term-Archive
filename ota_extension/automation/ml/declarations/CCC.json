@@ -1,9 +1,0 @@
-{
-  "name": "CCC",
-  "terms": {
-    "Privacy Policy": {
-      "fetch": "https://ccc.de/de/datenschutz",
-      "select": "#center_column"
-    }
-  }
-}

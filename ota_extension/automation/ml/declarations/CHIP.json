@@ -1,9 +1,0 @@
-{
-  "name": "CHIP",
-  "terms": {
-    "Privacy Policy": {
-      "fetch": "https://www.chip.de/intern/datenschutzerklaerung-chip_c7c1fa99-0613-448e-9dbd-6ebbeb5a0277.html",
-      "select": "#page-view"
-    }
-  }
-}

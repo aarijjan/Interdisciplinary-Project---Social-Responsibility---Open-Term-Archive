@@ -1,0 +1,13 @@
+{
+  "name": "webgo.de",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://webgo.de/agb",
+      "select": "#content"
+    },
+    "Privacy Policy": {
+      "fetch": "https://webgo.de/datenschutz",
+      "select": "main#content"
+    }
+  }
+}

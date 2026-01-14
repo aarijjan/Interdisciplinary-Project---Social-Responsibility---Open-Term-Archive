@@ -1,0 +1,15 @@
+{
+  "name": "Württemberg",
+  "terms": {
+    "Privacy Policy": {
+      "fetch": "https://www.schwaebische.de/datenschutz",
+      "select": "main#main",
+      "remove": null
+    },
+    "Terms of Service": {
+      "fetch": "https://www.schwaebische.de/agb",
+      "select": "main#main",
+      "remove": "a:has(span.__cf_email__)"
+    }
+  }
+}

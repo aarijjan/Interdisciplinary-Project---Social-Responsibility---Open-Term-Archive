@@ -1,9 +1,0 @@
-{
-  "name": "stern.de",
-  "terms": {
-    "Terms of Service": {
-      "fetch": "https://www.stern.de/agb-4541846.html",
-      "select": ".article"
-    }
-  }
-}

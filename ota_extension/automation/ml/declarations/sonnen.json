@@ -1,9 +1,0 @@
-{
-  "name": "sonnen",
-  "terms": {
-    "Terms of Service": {
-      "fetch": "https://policies.google.com/terms?hl=de",
-      "select": "#main-content"
-    }
-  }
-}
