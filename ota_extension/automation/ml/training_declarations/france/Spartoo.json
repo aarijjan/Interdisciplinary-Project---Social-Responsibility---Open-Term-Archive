@@ -1,0 +1,19 @@
+{
+  "name": "Spartoo",
+  "terms": {
+    "Privacy Policy": {
+      "fetch": "https://www.spartoo.com/cnil.php",
+      "select": [
+        "h1",
+        ".contentCentre"
+      ]
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://www.spartoo.com/cgv.php",
+      "select": [
+        "#contentTop",
+        ".contentCentre"
+      ]
+    }
+  }
+}

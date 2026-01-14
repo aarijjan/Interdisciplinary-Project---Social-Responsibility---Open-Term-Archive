@@ -1,0 +1,36 @@
+{
+  "name": "WebProNews",
+  "importedFrom": "https://github.com/tosdr/tosback2/blob/f762cd4bbb2571272985fed009201a23300ba9b2/rules/webpronews.com.xml",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://www.webpronews.com/terms-of-service/",
+      "select": "body.page",
+      "remove": [
+        ".header-top",
+        ".header",
+        ".overlay-menu",
+        ".home-nl-bar",
+        ".pop-media-kit",
+        ".chat-bubble",
+        ".footer",
+        "#mediakit",
+        "#mymodal"
+      ]
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.webpronews.com/privacy-policy/",
+      "select": "body.page",
+      "remove": [
+        ".header-top",
+        ".header",
+        ".overlay-menu",
+        ".home-nl-bar",
+        ".pop-media-kit",
+        ".chat-bubble",
+        ".footer",
+        "#mediakit",
+        "#mymodal"
+      ]
+    }
+  }
+}

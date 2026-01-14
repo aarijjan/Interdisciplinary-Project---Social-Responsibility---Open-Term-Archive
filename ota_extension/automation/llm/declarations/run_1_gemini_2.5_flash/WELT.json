@@ -1,0 +1,15 @@
+{
+  "name": "WELT",
+  "terms": {
+    "Privacy Policy": {
+      "fetch": "https://welt.de/services/article157550705/Datenschutzerklaerung-WELT-DIGITAL.html",
+      "select": "div.c-article-page__container[data-internal-id=\"article-content\"]",
+      "remove": "div.u-inline-element.is-hidden-on-desktop"
+    },
+    "Terms of Service": {
+      "fetch": "https://welt.de/services/article122129231/Nutzungsbedingungen-WELT-Digital.html",
+      "select": "[data-internal-id=\"article-content\"]",
+      "remove": "[data-internal-id=\"article-content\"] .c-social-bar"
+    }
+  }
+}

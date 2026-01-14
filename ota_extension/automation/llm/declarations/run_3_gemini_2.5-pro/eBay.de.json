@@ -1,0 +1,13 @@
+{
+  "name": "eBay.de",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://www.ebay.de/help/policies/member-behaviour-policies/user-agreement?id=4259",
+      "select": "#mainContent"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.ebay.de/help/policies/member-behaviour-policies/user-privacy-notice-privacy-policy?id=4260",
+      "select": "main#mainContent"
+    }
+  }
+}

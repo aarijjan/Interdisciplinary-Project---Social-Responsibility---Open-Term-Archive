@@ -1,0 +1,33 @@
+{
+  "name": "Outbrain",
+  "terms": {
+    "Privacy Policy": {
+      "fetch": "https://www.outbrain.com/legal/privacy#privacy-policy",
+      "select": [
+        ".summary",
+        ".sections-container"
+      ]
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.outbrain.com/legal/privacy#cookies",
+      "select": [
+        ".summary",
+        ".sections-container"
+      ]
+    },
+    "Terms of Service": {
+      "fetch": "https://www.outbrain.com/legal/#terms-of-use",
+      "select": [
+        "#contract-id-17863 h2",
+        ".js-body-5df169d257b44f228c507306"
+      ]
+    },
+    "Acceptable Use Policy": {
+      "fetch": "https://www.outbrain.com/advertisers/guidelines/",
+      "select": [
+        "#main"
+      ],
+      "remove": ".image"
+    }
+  }
+}

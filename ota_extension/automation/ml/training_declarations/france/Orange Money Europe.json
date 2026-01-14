@@ -1,0 +1,8 @@
+{
+  "name": "Orange Money Europe",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://orangemoney.fr/documents/Cgu-Orange-Money.pdf"
+    }
+  }
+}

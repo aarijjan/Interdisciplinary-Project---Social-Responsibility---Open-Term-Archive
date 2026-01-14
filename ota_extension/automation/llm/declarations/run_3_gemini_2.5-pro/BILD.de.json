@@ -1,0 +1,14 @@
+{
+  "name": "BILD.de",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://www.bild.de/corporate-site/agb/bild-de/artikel-agb-2952414.bild.html",
+      "select": ".article-body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.bild.de/corporate-site/datenschutz/datenschutz/artikel-datenschutz-54485502.bild.html",
+      "select": ".article-body",
+      "remove": ".article-content-user-report"
+    }
+  }
+}

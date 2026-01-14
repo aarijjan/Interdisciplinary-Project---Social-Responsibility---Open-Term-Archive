@@ -1,0 +1,34 @@
+{
+  "name": "taz.de",
+  "terms": {
+    "Privacy Policy": {
+      "fetch": "https://taz.de/Wir-sind-uns-sicher/!vn5957314/",
+      "select": "main#hauptinhalt article",
+      "remove": [
+        ".metadata",
+        ".content-nav-wrapper",
+        ".meta-data-container",
+        ".shariff-wrapper",
+        ".social-media-buttons-bottom-container",
+        ".webelement-wrapper",
+        ".link-area-extended",
+        "aside",
+        "button",
+        "template"
+      ]
+    },
+    "Terms of Service": {
+      "fetch": "https://taz.de/Abonnementvertraege-der-taz/!vn5957307/",
+      "select": ".module-article",
+      "remove": [
+        ".meta-data-container",
+        ".social-media-buttons-bottom-container",
+        ".link-area-extended",
+        ".metadata",
+        "aside",
+        "template",
+        "button"
+      ]
+    }
+  }
+}

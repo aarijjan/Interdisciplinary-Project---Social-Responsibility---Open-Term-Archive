@@ -1,0 +1,17 @@
+{
+  "name": "ASICS",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://www.asics.com/fr/fr-fr/customer-service/terms/terms.html",
+      "select": [
+        "#primary"
+      ]
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.asics.com/privacy/privacy/fr-fr/privacy-french.html",
+      "select": [
+        "#doc-wrapper"
+      ]
+    }
+  }
+}

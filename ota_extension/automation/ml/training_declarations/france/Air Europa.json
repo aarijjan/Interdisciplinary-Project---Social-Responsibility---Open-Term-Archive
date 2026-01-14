@@ -1,0 +1,36 @@
+{
+  "name": "Air Europa",
+  "terms": {
+    "Privacy Policy": {
+      "fetch": "https://www.aireuropa.com/fr/fr/aea/informations-pour-voler/conditions/politique-de-confidentialit%C3%A9.html",
+      "select": [
+        ".cmp-Jumbo-banner-small",
+        ".cmp-container"
+      ],
+      "remove": [
+        "#revisiones-anteriores-politica-de-privacidad"
+      ],
+      "executeClientScripts": true
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://www.aireuropa.com/fr/fr/aea/informations-pour-voler/conditions/conditions-de-reservation.html",
+      "select": [
+        ".cmp-Jumbo-banner-small",
+        ".cmp-container"
+      ],
+      "remove": [
+        "#interestBlock"
+      ]
+    },
+    "Conditions of Carriage": {
+      "fetch": "https://www.aireuropa.com/fr/fr/aea/informations-pour-voler/conditions/conditions-de-transport.html",
+      "select": [
+        ".cmp-Jumbo-banner-small",
+        ".cmp-container"
+      ],
+      "remove": [
+        "#interestBlock"
+      ]
+    }
+  }
+}

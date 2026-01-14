@@ -1,0 +1,28 @@
+{
+  "name": "ImmoScout24 \u2013 Die Nr. 1 f\u00fcr Immobilien",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://www.immobilienscout24.de/agb.html",
+      "select": [
+        "div.topmodule",
+        "main[role=\"main\"]"
+      ],
+      "remove": [
+        ".productteasers",
+        ".back-to-top"
+      ]
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.immobilienscout24.de/agb/datenschutz.html",
+      "select": [
+        ".topmodule",
+        "article"
+      ],
+      "remove": [
+        "a[href='#nachoben']",
+        ".accordion h2",
+        ".accordion .navitem"
+      ]
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "Terms of Service": [
+    {
+      "fetch": "http://my.xfinity.com/terms/web/",
+      "select": "body",
+      "validUntil": "2020-11-09T17:30:03.000Z"
+    },
+    {
+      "fetch": "http://my.xfinity.com/terms/web/",
+      "select": {
+        "startAfter": ".archivelink",
+        "endAfter": "#legal"
+      },
+      "validUntil": "2023-03-09T10:38:39Z"
+    }
+  ],
+  "Privacy Policy": [
+    {
+      "fetch": "https://www.xfinity.com/privacy/policy",
+      "select": "body",
+      "validUntil": "2020-11-09T17:30:03.000Z"
+    },
+    {
+      "fetch": "https://www.xfinity.com/privacy/policy",
+      "select": ".hero__content .x-display3, .privacy-copy__container",
+      "remove": "#pdf--language",
+      "executeClientScripts": true,
+      "validUntil": "2022-04-05T18:44:03Z"
+    }
+  ],
+  "Acceptable Use Policy": [
+    {
+      "fetch": "https://www.xfinity.com/Corporate/Customers/Policies/HighSpeedInternetAUP",
+      "select": "body",
+      "validUntil": "2020-11-09T17:30:03.000Z"
+    },
+    {
+      "fetch": "https://www.xfinity.com/Corporate/Customers/Policies/HighSpeedInternetAUP",
+      "select": ".x-section",
+      "remove": ".x-section > .x-content:first-child a",
+      "validUntil": "2023-10-18T15:13:22Z"
+    }
+  ]
+}

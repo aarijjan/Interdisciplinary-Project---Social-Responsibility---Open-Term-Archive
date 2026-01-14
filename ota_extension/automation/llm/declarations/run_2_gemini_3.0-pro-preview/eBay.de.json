@@ -1,0 +1,24 @@
+{
+  "name": "eBay.de",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://www.ebay.de/help/policies/member-behaviour-policies/user-agreement?id=4259",
+      "select": ".article_body",
+      "remove": [
+        ".article_relate",
+        ".expand_collapse_list"
+      ]
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.ebay.de/help/policies/member-behaviour-policies/user-privacy-notice-privacy-policy?id=4260",
+      "select": [
+        ".article_title",
+        ".article_body"
+      ],
+      "remove": [
+        ".g-hdn",
+        "img"
+      ]
+    }
+  }
+}

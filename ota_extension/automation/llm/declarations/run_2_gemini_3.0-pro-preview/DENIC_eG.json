@@ -1,0 +1,10 @@
+{
+  "name": "DENIC eG",
+  "terms": {
+    "Privacy Policy": {
+      "fetch": "https://nic.de/datenschutzerklaerung/",
+      "select": "main[role=\"main\"]",
+      "remove": null
+    }
+  }
+}

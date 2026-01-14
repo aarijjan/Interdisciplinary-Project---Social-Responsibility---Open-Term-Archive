@@ -1,0 +1,14 @@
+{
+  "name": "emetriq",
+  "terms": {
+    "Privacy Policy": {
+      "fetch": "https://www.emetriq.com/datenschutz/",
+      "select": "#main"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.emetriq.com/agb/",
+      "select": ".entry-content-wrapper",
+      "remove": ".hr"
+    }
+  }
+}

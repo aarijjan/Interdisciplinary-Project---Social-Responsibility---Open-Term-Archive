@@ -1,0 +1,16 @@
+{
+  "name": "tagesschau.de",
+  "terms": {
+    "Privacy Policy": {
+      "fetch": "https://tagesschau.de/datenschutz",
+      "select": "#content",
+      "remove": [
+        "#content .backlink",
+        "#content .meldungsfooter",
+        "#content .buttongroup",
+        "#content aside.container",
+        "#content div.px-6.m-p-0"
+      ]
+    }
+  }
+}

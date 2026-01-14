@@ -1,0 +1,17 @@
+{
+  "name": "Revcontent",
+  "terms": {
+    "Privacy Policy": {
+      "fetch": "https://help.revcontent.com/en/knowledge/revcontent-privacy-policy",
+      "select": [
+        ".kb-article"
+      ]
+    },
+    "Acceptable Use Policy": {
+      "fetch": "https://help.revcontent.com/knowledge/publisher-terms",
+      "select": [
+        ".kb-article"
+      ]
+    }
+  }
+}

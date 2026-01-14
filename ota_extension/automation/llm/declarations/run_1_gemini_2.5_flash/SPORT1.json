@@ -1,0 +1,15 @@
+{
+  "name": "SPORT1",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://www.sport1.de/news/unternehmen/nutzungsbedingungen",
+      "select": "#s1-main-content",
+      "remove": [
+        "span[data-speakable='article-abstract']",
+        "#article-author-area",
+        "div[data-testid='article-link']",
+        "div[data-testid='button-wrapper']"
+      ]
+    }
+  }
+}

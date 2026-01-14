@@ -1,0 +1,15 @@
+{
+  "name": "WordPress.com",
+  "importedFrom": "https://github.com/tosdr/tosback2/blob/f762cd4bbb2571272985fed009201a23300ba9b2/rules/wordpress.com.xml",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "http://en.wordpress.com/tos/",
+      "select": "div.pagebody"
+    },
+    "Privacy Policy": {
+      "fetch": "https://automattic.com/privacy/",
+      "select": "main",
+      "remove": ".toc-wrapper"
+    }
+  }
+}

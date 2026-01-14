@@ -1,0 +1,10 @@
+{
+  "name": "DFN",
+  "terms": {
+    "Privacy Policy": {
+      "fetch": "https://www.dfn.de/dfn-infobrief-recht-ist-erschienen/",
+      "select": "div.BlogSingle__content",
+      "remove": "div.Buttons"
+    }
+  }
+}

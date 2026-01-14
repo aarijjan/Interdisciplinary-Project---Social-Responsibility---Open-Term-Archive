@@ -1,0 +1,20 @@
+{
+  "name": "Streamable",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://terms.streamable.com/",
+      "select": [
+        ".jumbotron",
+        ".main",
+        "footer"
+      ]
+    },
+    "Privacy Policy": {
+      "fetch": "https://privacy.streamable.com/",
+      "select": [
+        ".jumbotron",
+        ".main"
+      ]
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "GMX",
+  "terms": {
+    "Privacy Policy": {
+      "fetch": "https://www.gmx.net/datenschutz/#.pc_page.homepage.index.footer_4.datenschutz",
+      "select": "div[data-cc=\"section\"] h2, div[data-cc=\"section\"] p.script, div[data-cc=\"section\"] div.module.content",
+      "remove": "header#header, nav.navigation, footer#footer, div.teaser.hero, div[data-cc=\"section\"] a.button, div[data-cc=\"section\"] p.btn-wrapper, div[data-cc=\"section\"] span[data-cc=\"expand\"]"
+    },
+    "Terms of Service": {
+      "fetch": "https://agb-server.gmx.net/gmxagb-de",
+      "select": "div.module[data-cc=\"text\"]",
+      "remove": "p:has(a[href^=\"https://agb-server.gmx.net/gmxagb-de#\"])"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "BR.de",
+  "terms": {
+    "Privacy Policy": {
+      "fetch": "https://br.de/unternehmen/service/datenschutz/datenschutz-br-102.html",
+      "select": [
+        "#content_wrapper #content",
+        "#content_wrapper > section.section"
+      ],
+      "remove": [
+        "#context_wrapper",
+        ".detail"
+      ]
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "IONOS",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://www.ionos.de/terms-gtc/terms",
+      "select": ".content-sheet"
+    },
+    "Privacy Policy": {
+      "fetch": "https://ionos.de/datenschutzerklaerung",
+      "select": [
+        "[component-type=\"text\"]",
+        "[component-type=\"faq\"]"
+      ]
+    }
+  }
+}

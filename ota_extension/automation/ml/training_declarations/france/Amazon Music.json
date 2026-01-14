@@ -1,0 +1,11 @@
+{
+  "name": "Amazon Music",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://www.amazon.fr/gp/help/customer/display.html?pop-up=1&nodeId=201380010&language=fr_FR",
+      "select": [
+        ".help-service-content"
+      ]
+    }
+  }
+}

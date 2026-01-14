@@ -1,0 +1,18 @@
+{
+  "name": "Startseite Fraunhofer",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://fraunhofer.de/de/agb.html",
+      "select": [
+        "div.fhg-section-separator.fhg-heading-separator h1",
+        "div.fhg-main"
+      ],
+      "remove": []
+    },
+    "Privacy Policy": {
+      "fetch": "https://fraunhofer.de/de/datenschutzerklaerung.html",
+      "select": "article .fhg-content.fhg-richtext",
+      "remove": null
+    }
+  }
+}

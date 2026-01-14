@@ -1,0 +1,35 @@
+{
+  "name": "Discord",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://discord.com/terms",
+      "select": [
+        ".section-rich"
+      ],
+      "remove": [
+        ".archived-link",
+        ".link-terms"
+      ]
+    },
+    "Privacy Policy": {
+      "fetch": "https://discord.com/privacy",
+      "select": [
+        ".section-rich"
+      ],
+      "remove": [
+        ".archived-link",
+        ".link-terms"
+      ]
+    },
+    "Community Guidelines": {
+      "fetch": "https://discord.com/guidelines",
+      "select": [
+        ".section-rich"
+      ],
+      "remove": [
+        ".archived-link",
+        ".link-terms"
+      ]
+    }
+  }
+}

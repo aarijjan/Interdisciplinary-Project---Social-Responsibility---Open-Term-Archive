@@ -1,0 +1,22 @@
+{
+  "name": "emetriq",
+  "terms": {
+    "Privacy Policy": {
+      "fetch": "https://www.emetriq.com/datenschutz/",
+      "select": "#main",
+      "remove": [
+        ".avia-image-container",
+        ".toggle_icon",
+        ".image",
+        ".blurry-bar",
+        ".accent-bar-wrapper",
+        ".accent-bar"
+      ]
+    },
+    "Terms of Service": {
+      "fetch": "https://www.emetriq.com/agb/",
+      "select": ".avia_textblock",
+      "remove": ".hr, .accent-bar-wrapper"
+    }
+  }
+}

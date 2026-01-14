@@ -1,0 +1,24 @@
+{
+  "name": "AcuityAds",
+  "terms": {
+    "Privacy Policy": {
+      "fetch": "https://illumin.com/legal/privacy/",
+      "select": [
+        ".default-banner-text",
+        ".default-content-section"
+      ]
+    },
+    "Terms of Service": {
+      "fetch": "https://www.acuityads.com/terms-and-conditions/",
+      "select": [
+        ".entry-content"
+      ]
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.acuityads.com/cookie-policy/",
+      "select": [
+        ".entry-content"
+      ]
+    }
+  }
+}

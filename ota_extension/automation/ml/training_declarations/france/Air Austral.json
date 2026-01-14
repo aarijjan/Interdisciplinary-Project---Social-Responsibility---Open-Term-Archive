@@ -1,0 +1,33 @@
+{
+  "name": "Air Austral",
+  "terms": {
+    "Conditions of Carriage": {
+      "fetch": "https://www.air-austral.com/cgt.html",
+      "select": [
+        "#content"
+      ]
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.air-austral.com/mentions-legales.html",
+      "select": {
+        "startBefore": "#content > div[itemprop=\"text\"] > h3:nth-of-type(1)",
+        "endBefore": "#content > div[itemprop=\"text\"] > h3:nth-of-type(5)"
+      }
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.air-austral.com/mentions-legales.html",
+      "select": {
+        "startBefore": "#content > div[itemprop=\"text\"] > h3:nth-of-type(5)",
+        "endBefore": "#content > div[itemprop=\"text\"] > h2:nth-of-type(6)"
+      }
+    },
+    "Imprint": {
+      "fetch": "https://www.air-austral.com/mentions-legales.html",
+      "select": "#content > div[itemprop=\"text\"]",
+      "remove": {
+        "startBefore": "#content > div[itemprop=\"text\"] > h2:nth-of-type(5)",
+        "endBefore": "#content > div[itemprop=\"text\"] > h2:nth-of-type(6)"
+      }
+    }
+  }
+}

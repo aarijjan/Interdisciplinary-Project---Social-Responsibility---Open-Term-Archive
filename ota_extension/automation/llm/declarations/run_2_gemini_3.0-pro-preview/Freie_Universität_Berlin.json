@@ -1,0 +1,14 @@
+{
+  "name": "Freie Universit\u00e4t Berlin",
+  "terms": {
+    "Privacy Policy": {
+      "fetch": "https://fu-berlin.de/redaktion/impressum/datenschutzhinweise/index.html",
+      "select": "main .fub-content",
+      "remove": [
+        ".box-accordion-toggle",
+        ".faq_link",
+        ".no-print"
+      ]
+    }
+  }
+}

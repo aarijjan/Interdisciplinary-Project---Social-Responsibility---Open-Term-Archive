@@ -1,0 +1,31 @@
+{
+  "name": "Printemps",
+  "terms": {
+    "Privacy Policy": {
+      "fetch": "https://www.printemps.com/fr/fr/protection-donnees-personnelles",
+      "select": [
+        "div[data-home-line-type=\"Standard\"]"
+      ],
+      "remove": [
+        "div[data-squelette-id=\"20013\"]",
+        "div[data-squelette-id=\"20012\"]",
+        ".header__burger",
+        ".navigation-wrapper",
+        "footer"
+      ],
+      "executeClientScripts": true
+    },
+    "General Conditions of Sale": {
+      "fetch": "https://www.printemps.com/fr/fr/conditions-generales-vente-utilisation",
+      "select": [
+        "div[data-home-line-type=\"Standard\"]"
+      ],
+      "remove": [
+        ".navigation-wrapper",
+        "footer",
+        ".pcom-media-wrapper"
+      ],
+      "executeClientScripts": true
+    }
+  }
+}

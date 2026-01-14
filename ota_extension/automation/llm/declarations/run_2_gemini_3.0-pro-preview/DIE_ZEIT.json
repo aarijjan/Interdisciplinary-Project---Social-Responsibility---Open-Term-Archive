@@ -1,0 +1,20 @@
+{
+  "name": "DIE ZEIT",
+  "terms": {
+    "Privacy Policy": {
+      "fetch": "https://datenschutz.zeit.de/zon#Newsletter",
+      "select": ".declaration-content-container",
+      "remove": [
+        ".declaration-intro-pdf-link",
+        ".back-to-anchor",
+        "#consentbutton",
+        ".declaration-intro-logo"
+      ]
+    },
+    "Terms of Service": {
+      "fetch": "https://www.zeit.de/administratives/agb-kommentare-artikel",
+      "select": ".article-body",
+      "remove": ".visually-hidden"
+    }
+  }
+}

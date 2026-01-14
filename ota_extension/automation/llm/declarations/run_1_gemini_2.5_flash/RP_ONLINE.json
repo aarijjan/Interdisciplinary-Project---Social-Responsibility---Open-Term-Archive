@@ -1,0 +1,33 @@
+{
+  "name": "RP ONLINE",
+  "terms": {
+    "Privacy Policy": {
+      "fetch": "https://rp-online.de/info/datenschutz/",
+      "select": "main#park-main section.park-section",
+      "remove": []
+    },
+    "Terms of Service": {
+      "fetch": "https://rp-online.de#",
+      "select": "main",
+      "remove": [
+        "section[data-cy=\"top-ticker\"]",
+        "aside.portal",
+        "article[data-cy=\"park-teaser-banner\"]",
+        "section[data-cy=\"module\"]:has([data-cy=\"park-media-strip-slider\"])",
+        "section[data-cy=\"module\"]:has([data-cy=\"park-slider-piano\"])",
+        "section[data-cy=\"module\"]:has(.js-glomex-videos)",
+        "section[data-cy=\"module\"]:has(.opinary-widget-embed)",
+        "section[data-cy=\"module\"]:has(.weekli-widget)",
+        "section[data-cy=\"module\"]:has([data-cy=\"park-job-portal\"])",
+        "section[data-cy=\"shortlist-grid\"]",
+        "section[data-cy=\"module\"]:has(figure[data-cy=\"park-figure\"])",
+        "div[data-vue-location-module]",
+        ".park-offer-slot",
+        "article aside[data-teaser-follow-ups]",
+        "article div[data-cy=\"park-image\"]",
+        "article a[class*=\"js-pr-template-link\"]",
+        "ul[id^=\"sublinks-\"]"
+      ]
+    }
+  }
+}

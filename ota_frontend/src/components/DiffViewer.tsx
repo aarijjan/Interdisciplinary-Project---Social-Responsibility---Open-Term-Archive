@@ -316,6 +316,7 @@ const CompactVisualDiff = ({
       (line) => line.left.type === "removed" || line.right.type === "added"
     ).length;
   }, [displayLines]);
+  const { t } = useTranslation("translation", { keyPrefix: "diff-viewer" });
 
   return (
     <Box>
@@ -329,10 +330,15 @@ const CompactVisualDiff = ({
         borderRadius="md"
       >
         <Text fontSize="xs" color="gray.600">
-          {displayLines.length} total lines • {changeCount} changed lines
+          {t("current-changes", {
+            displayLinesLength: displayLines.length,
+            changeCount: changeCount,
+          })}
         </Text>
         <Badge colorScheme={changeCount > 0 ? "orange" : "green"} fontSize="xs">
-          {changeCount > 0 ? `${changeCount} changes` : "No changes"}
+          {changeCount > 0
+            ? t("changes", { changeCount: changeCount })
+            : t("no-changes")}
         </Badge>
       </Flex>
 
@@ -360,7 +366,7 @@ const CompactVisualDiff = ({
             zIndex={1}
           >
             <Badge colorScheme="blue" size="sm">
-              Old Version
+              {t("old-title")}
             </Badge>
           </Box>
 
@@ -413,7 +419,7 @@ const CompactVisualDiff = ({
             zIndex={1}
           >
             <Badge colorScheme="green" size="sm">
-              Current Version
+              {t("current-title")}
             </Badge>
           </Box>
 
@@ -457,7 +463,10 @@ const CompactVisualDiff = ({
       {hasMoreLines && (
         <Box textAlign="center" p={2} bg="gray.50" borderRadius="md" mt={2}>
           <Text fontSize="xs" color="gray.600">
-            Showing first {displayLimit} of {displayLines.length} lines
+            {t("lines-shown", {
+              displayLimit: displayLimit,
+              displayLines: displayLines.length,
+            })}
           </Text>
         </Box>
       )}
@@ -477,6 +486,8 @@ const TextSummaryComponent = ({
     () => calculateDiff(oldContent, newContent),
     [oldContent, newContent]
   );
+
+  const { t } = useTranslation("translation", { keyPrefix: "diff-viewer" });
 
   // Filter to show only changes (added or removed)
   const changesOnly = useMemo(
@@ -504,7 +515,7 @@ const TextSummaryComponent = ({
             +{addedLines}
           </Text>
           <Text fontSize="sm" color="gray.600">
-            Lines Added
+            {t("lines-added")}
           </Text>
         </Box>
         <Box>
@@ -512,7 +523,7 @@ const TextSummaryComponent = ({
             -{removedLines}
           </Text>
           <Text fontSize="sm" color="gray.600">
-            Lines Removed
+            {t("lines-removed")}
           </Text>
         </Box>
         <Box>
@@ -520,7 +531,7 @@ const TextSummaryComponent = ({
             {totalChanges}
           </Text>
           <Text fontSize="sm" color="gray.600">
-            Total Changes
+            {t("total-changes")}
           </Text>
         </Box>
       </Flex>
@@ -529,19 +540,21 @@ const TextSummaryComponent = ({
         <Box bg="gray.50" p={6} borderRadius="md" textAlign="center">
           <Check size={32} color="#38A169" />
           <Text mt={3} color="gray.600">
-            No changes found between versions
+            {t("no-version-changes")}
           </Text>
           <Text fontSize="sm" color="gray.500" mt={1}>
-            The documents are identical
+            {t("identical")}
           </Text>
         </Box>
       ) : (
         <Box bg="gray.50" p={4} borderRadius="md" maxH="400px" overflowY="auto">
           <Flex justify="space-between" align="center" mb={2}>
             <Text fontSize="sm" fontWeight="medium">
-              Change Summary:
+              {t("change-summary")}
             </Text>
-            <Badge colorScheme="blue">{changesOnly.length} change blocks</Badge>
+            <Badge colorScheme="blue">
+              {changesOnly.length} {t("change-blocks")}
+            </Badge>
           </Flex>
 
           {changesOnly.slice(0, 100).map((part, index) => (
@@ -562,7 +575,7 @@ const TextSummaryComponent = ({
                 </Badge>
                 <Text fontSize="xs" color="gray.600">
                   {part.value.split("\n").filter((l) => l !== "").length}{" "}
-                  line(s)
+                  {t("lines")}
                 </Text>
               </Flex>
               <Text
@@ -584,7 +597,9 @@ const TextSummaryComponent = ({
           {changesOnly.length > 100 && (
             <Box textAlign="center" p={2} mt={2}>
               <Text color="gray.500" fontSize="sm">
-                ... and {changesOnly.length - 100} more change blocks
+                {t("more-change-blocks", {
+                  changesOnlyLength: changesOnly.length - 100,
+                })}
               </Text>
             </Box>
           )}
@@ -634,10 +649,14 @@ const FileInfoPanel = ({
 
       <VStack align="end" spacing={1}>
         <Text fontSize="xs" color="gray.600">
-          Old: {(oldVersion.content.length / 1024).toFixed(1)} KB
+          {t("oldSize", {
+            oldVersionSize: (oldVersion.content.length / 1024).toFixed(1),
+          })}
         </Text>
         <Text fontSize="xs" color="gray.600">
-          New: {(newVersion.content.length / 1024).toFixed(1)} KB
+          {t("newSize", {
+            newVersionSize: (newVersion.content.length / 1024).toFixed(1),
+          })}
         </Text>
       </VStack>
     </Flex>
@@ -738,7 +757,7 @@ export default function DiffViewer({
               flexDirection="column"
             >
               <Spinner size="xl" mb={4} />
-              <Text mb={2}>Calculating differences...</Text>
+              <Text mb={2}>{t("calculatingDiff")}</Text>
               {isProcessing && (
                 <>
                   <Progress
@@ -779,14 +798,14 @@ export default function DiffViewer({
                 <TabList>
                   <Tab>
                     <HStack spacing={2}>
-                      <Text>Line-by-Line Diff</Text>
-                      <Badge colorScheme="blue">Detailed</Badge>
+                      <Text>{t("lineByLineDiff")}</Text>
+                      <Badge colorScheme="blue">{t("detailed")}</Badge>
                     </HStack>
                   </Tab>
                   <Tab>
                     <HStack spacing={2}>
-                      <Text>Change Summary</Text>
-                      <Badge colorScheme="green">Overview</Badge>
+                      <Text>{t("change-summary")}</Text>
+                      <Badge colorScheme="green">{t("overview")}</Badge>
                     </HStack>
                   </Tab>
                 </TabList>
@@ -810,17 +829,23 @@ export default function DiffViewer({
               <Box mt={6} pt={4} borderTop="1px" borderColor="gray.200">
                 <Flex justify="space-between" fontSize="sm" color="gray.600">
                   <VStack align="start" spacing={1}>
-                    <Text fontWeight="medium">File Statistics</Text>
+                    <Text fontWeight="medium">{t("fileStats")}</Text>
                     <Text>
-                      Old: {oldVersion.content.length.toLocaleString()} chars
+                      {t("oldChars", {
+                        oldVersionChars:
+                          oldVersion.content.length.toLocaleString(),
+                      })}
                     </Text>
                     <Text>
-                      New: {newVersion.content.length.toLocaleString()} chars
+                      {t("newChars", {
+                        newVersionChars:
+                          newVersion.content.length.toLocaleString(),
+                      })}
                     </Text>
                   </VStack>
                   <VStack align="end" spacing={1}>
-                    <Text fontWeight="medium">Comparison</Text>
-                    <Text>Split view with side-by-side changes</Text>
+                    <Text fontWeight="medium">{t("comparison")}</Text>
+                    <Text>{t("splitView")}</Text>
                   </VStack>
                 </Flex>
               </Box>

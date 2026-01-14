@@ -1,0 +1,26 @@
+{
+  "name": "Proctorio",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://proctorio.com/policies#all&all&tos&section-termsofservice",
+      "select": [
+        "#content #section-termsofservice"
+      ],
+      "remove": [
+        ".section-summary-illustration"
+      ],
+      "executeClientScripts": true
+    },
+    "Privacy Policy": {
+      "fetch": "https://proctorio.com/privacy",
+      "select": [
+        ".hero",
+        ".pt-20",
+        "#policy-container"
+      ],
+      "remove": [
+        ".policy-toc"
+      ]
+    }
+  }
+}

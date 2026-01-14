@@ -1,0 +1,27 @@
+{
+  "name": "RP ONLINE",
+  "terms": {
+    "Privacy Policy": {
+      "fetch": "https://rp-online.de/info/datenschutz/",
+      "select": "section.park-section",
+      "remove": "[data-vue-third-party-activator]"
+    },
+    "Terms of Service": {
+      "fetch": "https://rp-online.de#",
+      "select": "main#park-main",
+      "remove": [
+        "aside",
+        "[data-cy=\"top-ticker\"]",
+        ".swiper",
+        "[data-cy=\"video-glomex\"]",
+        "[data-html-opinary]",
+        "[data-park-job-portal]",
+        "[data-cy=\"park-teaser-banner\"]",
+        "[data-cy=\"park-teaser-single-slot\"]",
+        "[data-cy=\"section-header-raw\"]",
+        ".park-divider",
+        "[data-park-portal-wrapper]"
+      ]
+    }
+  }
+}

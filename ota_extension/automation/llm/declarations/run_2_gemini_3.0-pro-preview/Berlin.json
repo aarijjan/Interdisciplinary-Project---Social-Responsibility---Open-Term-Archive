@@ -1,0 +1,13 @@
+{
+  "name": "Berlin",
+  "terms": {
+    "Privacy Policy": {
+      "fetch": "https://www.berlin.de/rbmskzl/datenschutzerklaerung.703112.php",
+      "select": [
+        "#layout-grid__area--herounit",
+        "#layout-grid__area--maincontent"
+      ],
+      "remove": ".modul-toc"
+    }
+  }
+}

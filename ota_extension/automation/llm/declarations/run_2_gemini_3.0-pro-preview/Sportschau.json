@@ -1,0 +1,14 @@
+{
+  "name": "Sportschau",
+  "terms": {
+    "Privacy Policy": {
+      "fetch": "https://sportschau.de/service/app/informationen-zum-datenschutz,datenschutz-app-100.html",
+      "select": "#content article",
+      "remove": [
+        ".meldungsfooter",
+        ".article-head__media",
+        ".backlink"
+      ]
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "ELSTER",
+  "terms": {
+    "Privacy Policy": {
+      "fetch": "https://elster.de/eportal/helpGlobal?themaGlobal=datenschutz_public",
+      "select": "main#main",
+      "remove": [
+        ".global-help__header",
+        ".global-help__nav",
+        ".global-help__overview"
+      ]
+    }
+  }
+}

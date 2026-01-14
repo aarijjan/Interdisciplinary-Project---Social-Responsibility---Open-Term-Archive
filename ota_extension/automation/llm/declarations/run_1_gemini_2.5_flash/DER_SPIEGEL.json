@@ -1,0 +1,22 @@
+{
+  "name": "DER SPIEGEL",
+  "terms": {
+    "Privacy Policy": {
+      "fetch": "https://www.spiegel.de/datenschutz-spiegel",
+      "select": "article[aria-label='Datenschutzerkl\u00e4rung: So gehen wir mit Ihren Daten um']",
+      "remove": [
+        "article > header",
+        "[data-area='feature-bar']",
+        "section[data-area='separator']",
+        "div[data-area='multibox'][data-pos='4'] .RichText > div.lg\\:py-24",
+        "div[data-area='multibox'][data-pos='4'] .RichText > div.mt-12",
+        "article > footer[data-area='article-footer']"
+      ]
+    },
+    "Terms of Service": {
+      "fetch": "https://www.spiegel.de/nutzungsbedingungen",
+      "select": "div[data-area=\"text\"]",
+      "remove": "#feature-bar"
+    }
+  }
+}

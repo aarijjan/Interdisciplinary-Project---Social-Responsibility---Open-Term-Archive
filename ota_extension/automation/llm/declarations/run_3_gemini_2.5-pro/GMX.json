@@ -1,0 +1,22 @@
+{
+  "name": "GMX",
+  "terms": {
+    "Privacy Policy": {
+      "fetch": "https://www.gmx.net/datenschutz/#.pc_page.homepage.index.footer_4.datenschutz",
+      "select": "div.grid",
+      "remove": [
+        "header#header",
+        "nav.navigation",
+        "footer#footer"
+      ]
+    },
+    "Terms of Service": {
+      "fetch": "https://agb-server.gmx.net/gmxagb-de",
+      "select": ".grid",
+      "remove": [
+        "#header",
+        "#footer"
+      ]
+    }
+  }
+}

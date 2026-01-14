@@ -1,0 +1,12 @@
+{
+  "name": "Viaplay",
+  "terms": {
+    "Privacy Policy": {
+      "fetch": "https://viaplay.com/gb-en/privacy",
+      "select": [
+        "h1",
+        "main"
+      ]
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "OpenSea",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://opensea.io/tos",
+      "select": [
+        "#main"
+      ],
+      "executeClientScripts": true
+    },
+    "Privacy Policy": {
+      "fetch": "https://opensea.io/privacy",
+      "select": [
+        "#root"
+      ],
+      "remove": [
+        "nav",
+        "#install"
+      ],
+      "executeClientScripts": true
+    }
+  }
+}

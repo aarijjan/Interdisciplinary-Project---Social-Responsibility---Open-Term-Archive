@@ -1,0 +1,15 @@
+{
+  "name": "hessen.de",
+  "terms": {
+    "Privacy Policy": {
+      "fetch": "https://hessen.de/datenschutz",
+      "select": "article.hw-article",
+      "remove": [
+        ".header__tp_article",
+        ".social-sharing-buttons",
+        ".hp-article__field-ph-readingtime",
+        ".hw-article__field-tax-a-to-z"
+      ]
+    }
+  }
+}

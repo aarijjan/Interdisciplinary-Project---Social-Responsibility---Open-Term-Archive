@@ -1,0 +1,19 @@
+{
+  "name": "Badoo",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://badoo.com/terms/",
+      "select": [
+        ".terms-view"
+      ],
+      "executeClientScripts": true
+    },
+    "Privacy Policy": {
+      "fetch": "https://badoo.com/privacy/",
+      "select": [
+        ".terms-view"
+      ],
+      "executeClientScripts": true
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "ntv.de",
+  "terms": {
+    "Privacy Policy": {
+      "fetch": "https://n-tv.de/ntvintern/Datenschutzerklaerung-article15745191.html",
+      "select": ".wrapper-article",
+      "remove": [
+        "[class*=\"article-detail-head_\"]",
+        "figure",
+        "[class*=\"social-share_\"]",
+        "[class*=\"Ada_\"]",
+        "[class*=\"article-detail-footer_\"]"
+      ]
+    }
+  }
+}

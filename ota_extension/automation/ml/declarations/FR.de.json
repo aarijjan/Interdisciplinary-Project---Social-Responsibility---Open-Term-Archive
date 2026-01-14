@@ -1,0 +1,13 @@
+{
+  "name": "FR.de",
+  "terms": {
+    "Privacy Policy": {
+      "fetch": "https://www.fr.de/ueber-uns/datenschutz/",
+      "select": ".id-Article--layoutAdRight"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.fr.de/ueber-uns/agb/",
+      "select": ".idjs-SiteMain"
+    }
+  }
+}

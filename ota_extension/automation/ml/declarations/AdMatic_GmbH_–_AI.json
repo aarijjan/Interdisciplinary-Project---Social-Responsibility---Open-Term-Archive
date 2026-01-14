@@ -1,0 +1,9 @@
+{
+  "name": "AdMatic GmbH \u2013 AI",
+  "terms": {
+    "Privacy Policy": {
+      "fetch": "https://admatic.de/privacy-policy",
+      "select": ".block-content"
+    }
+  }
+}

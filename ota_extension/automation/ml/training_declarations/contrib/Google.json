@@ -1,0 +1,34 @@
+{
+  "name": "Google",
+  "terms": {
+    "Privacy Policy": {
+      "fetch": "https://policies.google.com/privacy?hl=en-GB&gl=IE",
+      "filter": [
+        {
+          "removeQueryParams": [
+            "utm_source",
+            "utm_medium",
+            "utm_campaign"
+          ]
+        }
+      ],
+      "select": "div[role=article]",
+      "remove": ".KMMDve, .TL2alc, img[src$='.svg'], img[src^='data:image/svg+xml']"
+    },
+    "Terms of Service": {
+      "fetch": "https://policies.google.com/terms?hl=en-GB&gl=IE",
+      "filter": [
+        {
+          "removeQueryParams": [
+            "utm_source",
+            "utm_medium",
+            "utm_campaign"
+          ]
+        },
+        "removeCountryVersion"
+      ],
+      "select": "div[role=article]",
+      "remove": "img[src$='.svg'], img[src^='data:image/svg+xml']"
+    }
+  }
+}

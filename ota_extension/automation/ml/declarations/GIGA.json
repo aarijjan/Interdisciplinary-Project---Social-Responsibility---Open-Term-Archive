@@ -1,0 +1,9 @@
+{
+  "name": "GIGA",
+  "terms": {
+    "Privacy Policy": {
+      "fetch": "https://www.giga.de/#",
+      "select": ".alice-video-feed__slide--portrait"
+    }
+  }
+}

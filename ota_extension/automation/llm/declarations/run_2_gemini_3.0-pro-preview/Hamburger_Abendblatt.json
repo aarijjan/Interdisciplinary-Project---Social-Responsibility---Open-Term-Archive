@@ -1,0 +1,10 @@
+{
+  "name": "Hamburger Abendblatt",
+  "terms": {
+    "Privacy Policy": {
+      "fetch": "https://abendblatt.de/service/datenschutzerklaerung/",
+      "select": ".article-body",
+      "remove": "aside"
+    }
+  }
+}

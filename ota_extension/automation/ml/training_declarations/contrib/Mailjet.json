@@ -1,0 +1,44 @@
+{
+  "name": "Mailjet",
+  "terms": {
+    "Privacy Policy": {
+      "fetch": "https://www.mailjet.com/privacy-policy/",
+      "select": [
+        "main"
+      ]
+    },
+    "Terms of Service": {
+      "fetch": "https://www.mailjet.com/legal/terms/",
+      "select": [
+        "main"
+      ]
+    },
+    "Acceptable Use Policy": {
+      "fetch": "https://www.mailjet.com/legal/sending-policy/",
+      "select": [
+        "main"
+      ]
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.mailjet.com/legal/privacy-policy/cookies/",
+      "select": [
+        {
+          "startBefore": "h1",
+          "endAfter": "main"
+        }
+      ],
+      "remove": [
+        "button"
+      ]
+    },
+    "Data Processor Agreement": {
+      "fetch": "https://www.mailjet.com/legal/dpa/",
+      "select": [
+        {
+          "endAfter": "main",
+          "startBefore": "h1"
+        }
+      ]
+    }
+  }
+}

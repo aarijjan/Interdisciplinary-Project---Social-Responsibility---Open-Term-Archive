@@ -1,0 +1,16 @@
+{
+  "name": "Chefkoch",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://chefkoch.de/agb",
+      "select": "main.ds-container"
+    },
+    "Privacy Policy": {
+      "fetch": "https://chefkoch.de/datenschutz",
+      "select": "main.ds-container",
+      "remove": [
+        ".cms-module--rejectConsentButton"
+      ]
+    }
+  }
+}

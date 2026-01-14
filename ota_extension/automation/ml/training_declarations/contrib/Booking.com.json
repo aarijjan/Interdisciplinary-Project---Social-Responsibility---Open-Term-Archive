@@ -1,0 +1,30 @@
+{
+  "name": "Booking.com",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://www.booking.com/content/terms.en-gb.html",
+      "select": [
+        "[role=\"main\"]"
+      ],
+      "remove": [
+        "[role=\"main\"] button"
+      ],
+      "filter": [
+        "removeLabelAndSidFromUrls"
+      ]
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.booking.com/content/privacy.en-gb.html",
+      "remove": "a.print-button, .print-button + p",
+      "select": "div.static_content",
+      "filter": [
+        "removeLabelAndSidFromUrls",
+        {
+          "removeQueryParams": [
+            "sig"
+          ]
+        }
+      ]
+    }
+  }
+}

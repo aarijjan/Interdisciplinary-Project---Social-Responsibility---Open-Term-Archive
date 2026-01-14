@@ -1,0 +1,17 @@
+{
+  "name": "Morgan",
+  "terms": {
+    "General Conditions of Sale": {
+      "fetch": "https://www.morgandetoi.fr/conditions-generales-vente",
+      "select": [
+        ".wrapper-content"
+      ]
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.morgandetoi.fr/charte-confidentialite",
+      "select": [
+        ".wrapper-content"
+      ]
+    }
+  }
+}

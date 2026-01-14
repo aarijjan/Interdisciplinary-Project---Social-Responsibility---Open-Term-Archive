@@ -1,0 +1,9 @@
+{
+  "name": "STR\u00d6ER",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://www.stroeer.de/agb/",
+      "select": ".lg:pt-[110px]"
+    }
+  }
+}

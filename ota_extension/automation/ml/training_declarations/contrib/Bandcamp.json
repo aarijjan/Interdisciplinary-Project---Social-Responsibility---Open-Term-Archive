@@ -1,0 +1,31 @@
+{
+  "name": "Bandcamp",
+  "terms": {
+    "Privacy Policy": {
+      "fetch": "https://bandcamp.com/privacy",
+      "select": [
+        "main"
+      ]
+    },
+    "Terms of Service": {
+      "fetch": "https://bandcamp.com/terms_of_use",
+      "select": [
+        "#pgBd"
+      ]
+    },
+    "Copyright Claims Policy": {
+      "fetch": "https://bandcamp.com/copyright",
+      "select": [
+        "#pgBd"
+      ]
+    },
+    "Acceptable Use Policy": {
+      "fetch": "https://get.bandcamp.help/hc/en-us/articles/23005947027991-Bandcamp-s-Acceptable-Use-and-Moderation-policy",
+      "select": ".article",
+      "remove": [
+        ".article footer",
+        ".article-relatives"
+      ]
+    }
+  }
+}

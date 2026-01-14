@@ -1,0 +1,9 @@
+{
+  "name": "ADAC",
+  "terms": {
+    "Privacy Policy": {
+      "fetch": "https://adac.de/datenschutz/",
+      "select": "#content > main"
+    }
+  }
+}

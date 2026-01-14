@@ -1,0 +1,13 @@
+{
+  "name": "Telekom",
+  "terms": {
+    "Privacy Policy": {
+      "fetch": "https://telekom.de/ueber-das-unternehmen/datenschutz#fragen-und-antworten",
+      "select": "#e_553902"
+    },
+    "Terms of Service": {
+      "fetch": "https://telekom.de/agb",
+      "select": ".chf-mobile-navigation__container"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Foursquare",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://foursquare.com/legal/terms",
+      "select": "#blankPage"
+    },
+    "Privacy Policy": {
+      "fetch": "https://foursquare.com/legal/privacy",
+      "select": "#blankPage"
+    }
+  }
+}

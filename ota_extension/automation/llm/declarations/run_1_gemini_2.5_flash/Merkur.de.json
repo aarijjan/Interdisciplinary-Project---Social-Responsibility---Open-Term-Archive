@@ -1,0 +1,15 @@
+{
+  "name": "Merkur.de",
+  "terms": {
+    "Privacy Policy": {
+      "fetch": "https://www.merkur.de/ueber-uns/datenschutz/",
+      "select": "div.id-Article-body[itemprop=\"articleBody\"]",
+      "remove": null
+    },
+    "Terms of Service": {
+      "fetch": "https://www.merkur.de/ueber-uns/agb/",
+      "select": "div.id-Article-body[itemprop=\"articleBody\"]",
+      "remove": "div.id-Article-content-item:first-of-type"
+    }
+  }
+}

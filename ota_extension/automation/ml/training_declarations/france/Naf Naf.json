@@ -1,0 +1,17 @@
+{
+  "name": "Naf Naf",
+  "terms": {
+    "General Conditions of Sale": {
+      "fetch": "https://www.nafnaf.com/cgv.php",
+      "select": [
+        ".page_text"
+      ]
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.nafnaf.com/donnees-personnelles.php",
+      "select": [
+        ".page_text"
+      ]
+    }
+  }
+}

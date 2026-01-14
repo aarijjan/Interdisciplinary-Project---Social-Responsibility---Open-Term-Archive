@@ -1,0 +1,20 @@
+{
+  "Terms of Service": [
+    {
+      "fetch": "https://www.marcel.cab/cgu/",
+      "select": [
+        "#marcel-home"
+      ],
+      "validUntil": "2022-09-14T18:35:17Z"
+    }
+  ],
+  "Privacy Policy": [
+    {
+      "fetch": "https://www.marcel.cab/donnees-personnelles-clients/",
+      "select": [
+        "#aeroport-paris"
+      ],
+      "validUntil": "2022-09-14T18:35:17Z"
+    }
+  ]
+}

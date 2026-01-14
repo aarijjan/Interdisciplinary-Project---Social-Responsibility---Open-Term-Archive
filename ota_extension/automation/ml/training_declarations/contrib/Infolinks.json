@@ -1,0 +1,21 @@
+{
+  "name": "Infolinks",
+  "terms": {
+    "Privacy Policy": {
+      "fetch": "https://www.infolinks.com/privacy-policy/",
+      "select": [
+        "#legal-docs .col"
+      ],
+      "remove": [
+        ".print"
+      ]
+    },
+    "Acceptable Use Policy": {
+      "fetch": "https://www.infolinks.com/service-agreement/",
+      "select": [
+        ".section-title",
+        "ol:nth-child(4)"
+      ]
+    }
+  }
+}

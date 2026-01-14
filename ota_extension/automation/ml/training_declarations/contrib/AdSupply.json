@@ -1,0 +1,23 @@
+{
+  "name": "AdSupply",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://www.adsupply.com/advertiser-publisher-terms/",
+      "select": [
+        "main"
+      ]
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.adsupply.com/privacy-policy/",
+      "select": [
+        "main"
+      ]
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.adsupply.com/cookie-policy/",
+      "select": [
+        "main"
+      ]
+    }
+  }
+}

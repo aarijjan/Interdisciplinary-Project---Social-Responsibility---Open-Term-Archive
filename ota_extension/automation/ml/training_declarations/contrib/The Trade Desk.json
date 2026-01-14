@@ -1,0 +1,19 @@
+{
+  "name": "The Trade Desk",
+  "terms": {
+    "Privacy Policy": {
+      "fetch": "https://www.thetradedesk.com/us/website-privacy-policy",
+      "select": [
+        "main"
+      ],
+      "executeClientScripts": true
+    },
+    "Acceptable Use Policy": {
+      "fetch": "https://www.thetradedesk.com/us/inventory-supplier-agreement",
+      "select": [
+        "main"
+      ],
+      "executeClientScripts": true
+    }
+  }
+}

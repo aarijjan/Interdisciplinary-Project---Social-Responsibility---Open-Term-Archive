@@ -1,0 +1,13 @@
+{
+  "name": "W\u00fcrttemberg",
+  "terms": {
+    "Privacy Policy": {
+      "fetch": "https://www.schwaebische.de/datenschutz",
+      "select": "#main"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.schwaebische.de/agb",
+      "select": "#main"
+    }
+  }
+}

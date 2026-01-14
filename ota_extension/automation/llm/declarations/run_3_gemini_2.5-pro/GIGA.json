@@ -1,0 +1,14 @@
+{
+  "name": "GIGA",
+  "terms": {
+    "Privacy Policy": {
+      "fetch": "https://www.giga.de/#",
+      "select": "#main-content",
+      "remove": [
+        ".main-aside",
+        ".alice-adslot",
+        "[data-role='alice-nativendo']"
+      ]
+    }
+  }
+}

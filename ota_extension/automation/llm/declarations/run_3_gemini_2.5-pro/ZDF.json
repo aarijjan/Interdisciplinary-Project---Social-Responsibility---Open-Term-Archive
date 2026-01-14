@@ -1,0 +1,16 @@
+{
+  "name": "ZDF",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://zdf.de/nutzungsbedingungen",
+      "select": "main"
+    },
+    "Privacy Policy": {
+      "fetch": "https://zdf.de/datenschutz",
+      "select": "main",
+      "remove": [
+        "section:has([data-testid='teaser-tile'])"
+      ]
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Hamburger Abendblatt",
+  "terms": {
+    "Privacy Policy": {
+      "fetch": "https://abendblatt.de/service/datenschutzerklaerung/",
+      "select": "main#pageMainContent",
+      "remove": [
+        "aside[data-embed-id]",
+        "div[data-piano-custom-variables]",
+        "div[data-piano-article-data]",
+        "div[data-module-id=\"PodcastPlayerSessionModule\"]",
+        "template#podcast-player-template"
+      ]
+    }
+  }
+}

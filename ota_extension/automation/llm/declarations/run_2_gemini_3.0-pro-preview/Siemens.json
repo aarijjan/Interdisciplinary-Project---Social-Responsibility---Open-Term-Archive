@@ -1,0 +1,23 @@
+{
+  "name": "Siemens",
+  "terms": {
+    "Privacy Policy": {
+      "fetch": "https://www.siemens.com/de/de/general/datenschutz.html",
+      "select": "#main",
+      "remove": [
+        ".stage__buttonsContainer",
+        ".responsiveLayout--hideOnMedium"
+      ]
+    },
+    "Terms of Service": {
+      "fetch": "https://www.siemens.com/de/de/general/nutzungsbedingungen.html",
+      "select": "#main",
+      "remove": [
+        ".stage__buttonsContainer",
+        ".responsiveLayout--hideOnMedium",
+        ".responsiveLayout--hideOnLarge",
+        ".responsiveLayout--hideOnXlarge"
+      ]
+    }
+  }
+}

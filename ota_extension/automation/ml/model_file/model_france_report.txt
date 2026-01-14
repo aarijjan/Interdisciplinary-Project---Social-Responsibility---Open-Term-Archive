@@ -1,0 +1,18 @@
+Trainiert mit den declarations aus: https://github.com/OpenTermsArchive/france-declarations
+
+--- Trainiere RandomForest Classifier ---
+7747 Datenpunkte aus training_data.csv geladen.
+Training wird durchgeführt mit 6197 Datenpunkten. Evaluiert wird mit 1550.
+
+--- Model Evaluation ---
+Genauigkeit: 99.35%
+
+Detaillierter Bericht:
+              precision    recall  f1-score   support
+
+    Junk (0)       0.99      1.00      1.00      1541
+ Content (1)       0.33      0.11      0.17         9
+
+    accuracy                           0.99      1550
+   macro avg       0.66      0.55      0.58      1550
+weighted avg       0.99      0.99      0.99      1550

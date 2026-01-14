@@ -1,0 +1,15 @@
+{
+  "name": "FOCUS online",
+  "terms": {
+    "Privacy Policy": {
+      "fetch": "https://www.focus.de/intern/datenschutzerklaerung-datenschutzerklaerung-fuer-die-webseite-www-focus-de_id_6846331.html",
+      "select": "main #hbm-privacy",
+      "remove": ".ppolicy"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.focus.de/intern/agb-der-focus-online-group-gmbh-agb-focus-online-group-gmbh_id_10064693.html",
+      "select": "div.Grid-Container.content-wrapper .col-xs-12",
+      "remove": "#ldsR-container"
+    }
+  }
+}

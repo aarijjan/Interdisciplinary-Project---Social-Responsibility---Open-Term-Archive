@@ -1,0 +1,23 @@
+{
+  "name": "DeviantArt",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://about.deviantart.com/policy/service/",
+      "select": [
+        {
+          "startAfter": "header",
+          "endBefore": "footer"
+        }
+      ]
+    },
+    "Privacy Policy": {
+      "fetch": "https://about.deviantart.com/policy/privacy/",
+      "select": [
+        {
+          "startAfter": "header",
+          "endBefore": "footer"
+        }
+      ]
+    }
+  }
+}

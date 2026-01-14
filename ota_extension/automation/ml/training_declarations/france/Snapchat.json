@@ -1,0 +1,17 @@
+{
+  "name": "Snapchat",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://snap.com/fr-FR/terms",
+      "select": [
+        "#terms-row"
+      ]
+    },
+    "Privacy Policy": {
+      "fetch": "https://snap.com/fr-FR/privacy/privacy-policy",
+      "select": [
+        ".TermContainer-sc-1eyc2w4"
+      ]
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Cop.Copine",
+  "terms": {
+    "General Conditions of Sale": {
+      "fetch": "https://www.cop-copine.com/cgv.php",
+      "select": [
+        ".page_text"
+      ]
+    },
+    "Terms of Service": {
+      "fetch": "https://www.cop-copine.com/mentions-legales.php",
+      "select": [
+        ".page_text"
+      ]
+    }
+  }
+}

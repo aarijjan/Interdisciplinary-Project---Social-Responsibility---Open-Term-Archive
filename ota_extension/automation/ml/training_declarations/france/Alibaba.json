@@ -1,0 +1,35 @@
+{
+  "name": "Alibaba",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://rule.alibaba.com/rule/detail/4671.htm?",
+      "select": [
+        "#rule-detail-body"
+      ],
+      "remove": [
+        ".back-to-list",
+        ".evalutaion",
+        ".rule-text-indicate"
+      ],
+      "executeClientScripts": true,
+      "filter": [
+        "replaceNonBreakingSpaces"
+      ]
+    },
+    "Privacy Policy": {
+      "fetch": "https://rule.alibaba.com/rule/detail/4672.htm?",
+      "select": [
+        "#rule-detail-body"
+      ],
+      "remove": [
+        ".back-to-list",
+        ".evalutaion",
+        ".rule-text-indicate"
+      ],
+      "executeClientScripts": true,
+      "filter": [
+        "replaceNonBreakingSpaces"
+      ]
+    }
+  }
+}

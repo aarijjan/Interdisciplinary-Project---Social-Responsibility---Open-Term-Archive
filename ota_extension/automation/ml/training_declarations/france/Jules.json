@@ -1,0 +1,19 @@
+{
+  "name": "Jules",
+  "terms": {
+    "General Conditions of Sale": {
+      "fetch": "https://www.jules.com/fr-fr/static/cgv.html",
+      "select": [
+        ".tetiereCus",
+        "#accordionExample"
+      ]
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.jules.com/fr-fr/static/politique-de-confidentialite.html",
+      "select": [
+        ".tetiereCus",
+        ".container > .mb-5"
+      ]
+    }
+  }
+}

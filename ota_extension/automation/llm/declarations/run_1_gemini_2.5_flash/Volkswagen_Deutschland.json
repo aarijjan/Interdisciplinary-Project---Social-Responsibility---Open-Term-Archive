@@ -1,0 +1,10 @@
+{
+  "name": "Volkswagen Deutschland",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://volkswagen.de/de/mehr/rechtliches/nutzungsbedingungen.html",
+      "select": "main [data-layout-type=\"text\"]",
+      "remove": null
+    }
+  }
+}

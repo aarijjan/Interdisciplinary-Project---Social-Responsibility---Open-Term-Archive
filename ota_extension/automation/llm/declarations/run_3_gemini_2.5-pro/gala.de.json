@@ -1,0 +1,14 @@
+{
+  "name": "gala.de",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://www.gala.de/service/allgemeine-geschaeftsbedingungen-20103684.html",
+      "select": ".article__body",
+      "remove": [
+        ".multi-purpose-slot",
+        ".widget-element",
+        ".article__top"
+      ]
+    }
+  }
+}

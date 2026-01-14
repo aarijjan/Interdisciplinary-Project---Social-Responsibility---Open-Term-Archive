@@ -1,0 +1,16 @@
+{
+  "name": "Telef\u00f3nica Deutschland",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://telefonica.de/agb.html",
+      "select": ".col_intro_3_body"
+    },
+    "Privacy Policy": {
+      "fetch": "https://telefonica.de/datenschutz-portal",
+      "select": "#s3",
+      "remove": [
+        ".par-speech-output"
+      ]
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Qwant",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://about.qwant.com/en/legal/qwant-search/",
+      "select": [
+        ".elementor-col-66 > .elementor-widget-wrap"
+      ]
+    },
+    "Privacy Policy": {
+      "fetch": "https://about.qwant.com/en/legal/confidentialite/",
+      "select": [
+        ".elementor-col-66 > .elementor-widget-wrap"
+      ]
+    }
+  }
+}

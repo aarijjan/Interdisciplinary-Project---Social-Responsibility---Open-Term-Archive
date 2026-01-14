@@ -1,0 +1,32 @@
+{
+  "name": "SurveyMonkey",
+  "importedFrom": "https://github.com/tosdr/tosback2/blob/f762cd4bbb2571272985fed009201a23300ba9b2/rules/surveymonkey.com.xml",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://www.surveymonkey.com/mp/legal/terms-of-use/",
+      "select": [
+        ".sm-contentWrapper-0-2-1.sm-contentWrapperWithSidebar-0-2-2"
+      ],
+      "remove": [
+        {
+          "startBefore": ".asset-dropdown-versions-label",
+          "endAfter": "[class*=\"assetDropdownContainer\"]"
+        },
+        "[data-hidechapternav=\"true\"]"
+      ]
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.surveymonkey.com/mp/legal/privacy/",
+      "select": [
+        ".sm-contentWrapper-0-2-1.sm-contentWrapperWithSidebar-0-2-2"
+      ],
+      "remove": [
+        {
+          "startBefore": ".asset-dropdown-versions-label",
+          "endAfter": "[class*=\"assetDropdownContainer\"]"
+        },
+        "[data-hidechapternav=\"true\"]"
+      ]
+    }
+  }
+}

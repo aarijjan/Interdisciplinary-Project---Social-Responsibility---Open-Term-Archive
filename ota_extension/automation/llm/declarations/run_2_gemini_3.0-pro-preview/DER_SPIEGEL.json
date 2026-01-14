@@ -1,0 +1,21 @@
+{
+  "name": "DER SPIEGEL",
+  "terms": {
+    "Privacy Policy": {
+      "fetch": "https://www.spiegel.de/datenschutz-spiegel",
+      "select": "main#Inhalt",
+      "remove": [
+        "#feature-bar",
+        "footer"
+      ]
+    },
+    "Terms of Service": {
+      "fetch": "https://www.spiegel.de/nutzungsbedingungen",
+      "select": "#Inhalt",
+      "remove": [
+        "#feature-bar",
+        "[data-area=\"article-footer\"]"
+      ]
+    }
+  }
+}

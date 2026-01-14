@@ -1,0 +1,15 @@
+{
+  "name": "WetterOnline",
+  "terms": {
+    "Privacy Policy": {
+      "fetch": "https://wetteronline.de/datenschutz",
+      "select": "#dataprivacy",
+      "remove": "#show_partnerlist"
+    },
+    "Terms of Service": {
+      "fetch": "https://wetteronline.de/agb",
+      "select": "#generalterms",
+      "remove": []
+    }
+  }
+}

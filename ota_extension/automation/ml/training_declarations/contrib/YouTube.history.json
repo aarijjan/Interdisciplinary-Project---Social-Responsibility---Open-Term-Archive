@@ -1,0 +1,23 @@
+{
+  "Privacy Policy": [
+    {
+      "fetch": "https://policies.google.com/privacy",
+      "select": "body",
+      "validUntil": "2020-11-09T17:30:03.000Z"
+    }
+  ],
+  "Terms of Service": [
+    {
+      "fetch": "https://www.youtube.com/t/terms",
+      "select": "body",
+      "validUntil": "2020-11-09T17:30:03.000Z"
+    }
+  ],
+  "Copyright Claims Policy": [
+    {
+      "fetch": "https://www.youtube.com/intl/en_be/howyoutubeworks/policies/copyright/",
+      "select": ".ytr-article__content",
+      "validUntil": "2025-07-07T18:22:42Z"
+    }
+  ]
+}

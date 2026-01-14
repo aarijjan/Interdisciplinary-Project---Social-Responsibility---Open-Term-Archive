@@ -1,0 +1,19 @@
+{
+  "name": "Binance",
+  "terms": {
+    "Terms of Service": {
+      "fetch": "https://www.binance.com/en/terms",
+      "select": [
+        ".richtext-container"
+      ],
+      "executeClientScripts": true
+    },
+    "Privacy Policy": {
+      "fetch": "https://www.binance.com/en/privacy",
+      "select": [
+        ".richtext-container"
+      ],
+      "executeClientScripts": true
+    }
+  }
+}

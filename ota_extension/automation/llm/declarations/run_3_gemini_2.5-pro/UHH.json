@@ -1,0 +1,9 @@
+{
+  "name": "UHH",
+  "terms": {
+    "Privacy Policy": {
+      "fetch": "https://uni-hamburg.de/datenschutz.html",
+      "select": "#hauptinhalt"
+    }
+  }
+}

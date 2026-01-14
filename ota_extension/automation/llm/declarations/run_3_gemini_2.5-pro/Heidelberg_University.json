@@ -1,0 +1,9 @@
+{
+  "name": "Heidelberg University",
+  "terms": {
+    "Privacy Policy": {
+      "fetch": "https://uni-heidelberg.de/en/privacy-statement",
+      "select": "#app"
+    }
+  }
+}
