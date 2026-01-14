@@ -502,7 +502,7 @@ export default function ViewVersionsScreen({
           if (currentMode === "compare") {
             handleCompareDocumentSelect(documentPath);
           } else {
-            handleDocumentSelect(documentPath);
+            handleDocumentSelect(documentPath); 
           }
         }}
         isLoading={documentsLoading}
