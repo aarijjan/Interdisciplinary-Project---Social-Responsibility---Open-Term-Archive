@@ -139,6 +139,16 @@ Run the following command to install all required dependencies:
 
     pip install -r requirements.txt
 
+#### 4. Configure Gemini API Key
+
+In the folder ip-social-responsibility/ota_extension/automation/llm a ``.env`` file needs to be set up, containing the API key used to connect to the Gemini LLM Models
+
+A suitable API key can be obtained via [The Google AI Studio](https://aistudio.google.com/app/api-keys)
+
+Sample ``.env`` file:
+
+    GEMINI_API_KEY=<API_KEY>
+
 ### Dev environment
 
 The project files should now be executable by prefixing 'python' in front of the filename, e.g.:
