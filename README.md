@@ -121,7 +121,7 @@ To check if the necessary tools are installed, the following commands can be run
 
 #### 1. Clone repository
 
-* _Note:_ If the frontend was previously installed, this step can be skipped.
+> _Note:_ If the frontend was previously installed, this step can be skipped.
 
 Otherwise 
 
