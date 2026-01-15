@@ -39,8 +39,8 @@ Ensure the following are installed on your system:
 
 Verify the installations by running the following commands in terminal:
 
-- node -v
-- npm -v
+    node -v
+    npm -v
 
 Expected versions:
 
@@ -53,11 +53,11 @@ Expected versions:
 
 #### 1. Clone the Repository
 
-git clone https://gitlab.hsrw.eu/31627/ip-social-responsibility.git
+    git clone https://gitlab.hsrw.eu/31627/ip-social-responsibility.git
 
 #### 2. Navigate to the Frontend Folder
 
-cd ota_frontend
+    cd ota_frontend
 
 Make sure you are inside the ota_frontend directory before proceeding.
 
@@ -67,7 +67,7 @@ Make sure you are inside the ota_frontend directory before proceeding.
 
 Run the following command to install all required dependencies:
 
-npm install --legacy-peer-deps
+    npm install --legacy-peer-deps
 
 > _Note:_ The --legacy-peer-deps flag is required to avoid dependency resolution issues.
 
@@ -77,7 +77,7 @@ npm install --legacy-peer-deps
 
 Start the development server with:
 
-npm run dev
+    npm run dev
 
 The application will start in development mode. Open your browser and navigate to the URL shown in the terminal (commonly http://localhost:5173).
 
