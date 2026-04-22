@@ -1,26 +1,81 @@
-# IP - Social Responsibility
+# Open Terms Archive Frontend (OTA)
+**Led frontend development as Project Lead in a cross-functional team, delivering a user-focused solution for legal transparency.**
 
-<!-- Our goal is to extend the [Open Terms Archive](https://opentermsarchive.org/en/) (OTA) with a Collection of german-language Terms.
-Additionally we will be trialing and implementing a way to track compliance with new [Data Act](https://eur-lex.europa.eu/EN/legal-content/summary/rules-on-fair-access-to-and-use-of-data-data-act.html) (DA) regulations into the OTA.
+A user-focused frontend platform designed to improve **transparency in Terms of Service (ToS)** by making changes clear, accessible, and easy to understand.
 
-For ease of communication, a section on important terminology is reproduced below:
+---
 
-- *Terms:* the contractual documents published by services (such as Terms of Service, Privacy Policy, Community Guidelines…) that users agree to.
-- *Collection:* a set of tracked terms grouped by a specific scope (such as language, jurisdiction, industry…).
-- *Declaration:* a JSON file that defines which terms to track for a service and how to track them.
-- *Snapshot:* the original source document (HTML, PDF…) from which the terms will be extracted.
-- *Version:* the textual content of the terms after filtering out irrelevant content (navigation menu, advertisements…) from a snapshot.
+## Project Context
+This project was developed as part of an **Interdisciplinary Project at Hochschule Rhein-Waal**, in collaboration with the **Open Terms Archive (OTA)** initiative.
+
+**The problem**  
+Users often accept Terms of Service without understanding what has changed.
+
+**Our solution**  
+A platform that visually highlights **what changed, where it changed, and how it impacts users**.
+
+---
+
+## Key Features
+- Side-by-side comparison of document versions  
+- Color-coded highlights  
+  - Green → Added content  
+  - Red → Removed/modified content  
+- Multilingual support (EN / DE / FR)  
+- Clean, readable UI for legal documents  
+- Responsive and user-friendly design  
+
+---
+
+## My Role (Project Lead – Frontend Team)
+- Led my team through planning, execution, and delivery  
+- Managed task distribution and sprint-based workflow  
+- Coordinated with cross-functional teams (Psychology, Business, Backend)  
+- Translated research insights into practical frontend solutions  
+- Developed core functionality (document viewing system)  
+- Conducted user experience evaluation and improvements  
+
+---
+
+## Skills Demonstrated
+- Project Management (Agile / Sprint-based)
+- Cross-functional Collaboration
+- Stakeholder Communication
+- Product Thinking & Problem Solving
+- Frontend Development (React Ecosystem)
+- UX-driven Development
+
+---
+
+## Live Project
+https://opentermsarchive.org/en/
+
+## GitHub Repository
+https://github.com/aarijjan/Interdisciplinary-Project---Social-Responsibility---Open-Term-Archive
+
+---
+
+## Screenshots:
+### Homepage
+![Homepage](screenshots/homepage.png)
 
 
-## Getting started
+---
 
-To get familiar with the OTA and their methodology you can visit their documentation here:
+## Impact
+- Simplifies complex legal documents  
+- Improves user awareness of digital rights  
+- Supports transparency in digital services  
 
-https://docs.opentermsarchive.org/
+---
 
-## Future Work
+## Acknowledgment
+Developed under the supervision of **Prof. Matteo Große-Kampmann**  
+In collaboration with interdisciplinary teams across departments.
 
-After the planning phase has concluded more information will be gathered and made available here. -->
+---
+
+# Technical Documentation
 
 ## Overview
 
